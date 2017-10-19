@@ -5,7 +5,7 @@
   }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	color:#ffffff;
+	color:#fff!important;
 	background:#2E4172;
   	text-shadow:none;
 }
