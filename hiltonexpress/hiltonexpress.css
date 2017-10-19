@@ -1,8 +1,24 @@
-
-/*for the ms widget for the hilton expresss portal*/
-
-/*header colour and size*/
-.ui-header.ui-bar-inherit {
+/*ms widget hilton express portal header colour and size*/
+.ui-header.ui-bar-inherit{
 	background-color: #2E3444;
 	height: 70px;
   }
+
+/*expanadble areas on bpay and yourbooking*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
+	background-color: white;
+	color: black;
+	text-shadow: none; 
+	border-color: black;
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: rgba(86, 148, 205, 1);
+	text-shadow: none; 
+	border-color: rgba(86, 148, 205, 1);
+	border-radius: 0px; 
+	border-width: 2px;
+}
