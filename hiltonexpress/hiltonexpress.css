@@ -37,3 +37,13 @@ body{
 	text-shadow: none; 
 	border: none;	  	
 }
+
+.ui-header .ui-btn{
+    background: none!important;
+    border: none!important;
+    text-shadow: none!important;
+    box-shadow: none!important;
+    font-weight: 300;
+    color: #fff!important;
+    width: 100px!important;
+}
