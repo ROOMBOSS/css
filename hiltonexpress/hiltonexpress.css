@@ -5,8 +5,8 @@
   }
 
 .ui-header.ui-bar-inherit, div.ui-footer.ui-bar-inherit {
-    background-color: #2E4172;
-    border-color: #333333;
+    background-color: #2E4172!important;
+    border-color: #2E4172!important;
     color: #fff;
     text-shadow: none;
 }
