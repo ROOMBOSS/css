@@ -1,11 +1,12 @@
 /*ms widget hilton express portal header colour and size*/
 .ui-header.ui-bar-inherit{
-	background-color: #2E4172;
+	background-color: #3A528E;
 	height: 100px;
 }
 
+/*main bar*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #2E4172;
+	background-color: #3A528E;
 	color: white;
 	text-shadow: none; 
 	border: none;
