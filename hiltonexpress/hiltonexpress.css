@@ -20,12 +20,12 @@
 	color: white;
 	text-shadow: none; 
 	border-radius: 5px;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 /*color more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
-	background-color: #C57039!important;
+	background-color: #3D3A37!important;
 	color: white;
 	text-shadow: none; 
 	border: none;	  	
