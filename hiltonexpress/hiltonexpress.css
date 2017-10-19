@@ -6,8 +6,7 @@
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: #2E4172;
-	color: white;
+	color: #fff!important;
 	text-shadow: none; 
 	border: none;
-	border-radius: 0px;   	
 }
