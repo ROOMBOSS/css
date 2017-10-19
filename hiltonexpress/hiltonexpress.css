@@ -38,12 +38,13 @@ body{
 	border: none;	  	
 }
 
+/*top buttons*/
 .ui-header .ui-btn{
     background: none!important;
     border: none!important;
     text-shadow: none!important;
     box-shadow: none!important;
-    font-weight: 300;
+    font-weight: 600;
     color: #fff!important;
     width: 100px!important;
 }
