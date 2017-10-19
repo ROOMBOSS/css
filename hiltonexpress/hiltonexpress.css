@@ -1,2 +1,8 @@
 
 /*for the ms widget for the hilton expresss portal*/
+
+/*header colour and size*/
+.ui-header.ui-bar-inherit {
+	background-color:rgba(46, 52, 68, 1);
+	height: 70px;
+  }
