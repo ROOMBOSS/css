@@ -4,11 +4,14 @@
 		url('https://roomboss.github.io/css/hiltonexpress/hilton-express.jpg')
 		no-repeat;
 	background-position: 75% 50%;
-	background-color: #3A528E;
+	background-color: #333;
 	padding-top: 80px;
 	padding-bottom: 80px;
 	border: none;
 }
+
+.ui-header.ui-bar-inherit h1.ui-title{
+	font-size: 2em;	
 
 /*main bar*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
@@ -16,6 +19,7 @@
 	color: white;
 	text-shadow: none; 
 	border-radius: 5px;
+	font-size: 2em;
 }
 
 /*color more info button*/
