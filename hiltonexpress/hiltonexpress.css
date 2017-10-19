@@ -30,3 +30,11 @@
 	text-shadow: none; 
 	border: none;	  	
 }
+
+/*btn*
+.ui-page-theme-a .ui-btn, html .ui-body-a .ui-btn, html body .ui-group-theme-a .ui-btn, html head+body .ui-btn.ui-btn-a, .ui-page-theme-a .ui-btn:visited, html .ui-bar-a .ui-btn:visited, html .ui-body-a .ui-btn:visited, html body .ui-group-theme-a .ui-btn:visited, html head+body .ui-btn.ui-btn-a:visited {
+    background-color: #4f4d4a!important;
+    border-color: #4f4d4a!important;
+    color: #fff!important;
+    text-shadow: none!important;
+}
