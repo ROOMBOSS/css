@@ -3,3 +3,11 @@
 	background-color: #2E4172;
 	height: 100px;
 }
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #2E4172;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
