@@ -4,7 +4,7 @@
 	height: 100px;
   }
 
-.ui-collapsible-heading-toggle, .ui-panel-m-titlebar {
+.ui-collapsible-heading-toggle, .ui-panel-m-titlebar{
 	background-color: #2E4172 !important;
 	color: #ffffff !important;
 	text-shadow: none !important;
