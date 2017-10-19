@@ -4,9 +4,8 @@
 	height: 100px;
   }
 
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	color:#fff!important;
-	background:#2E4172;
-  	text-shadow:none;
+.ui-collapsible-heading-toggle, .ui-panel-m-titlebar {
+	background: #2E4172
+	color: #ffffff !important;
+	text-shadow: none !important;
 }
-
