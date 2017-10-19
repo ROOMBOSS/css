@@ -9,5 +9,13 @@
 	background-color: #3A528E;
 	color: white;
 	text-shadow: none; 
-	border: none;
+	border-radius: 5px;
+}
+
+/*color more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #3A528E!important;
+	color: white;
+	text-shadow: none; 
+	border: none;	  	
 }
