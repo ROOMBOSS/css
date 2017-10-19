@@ -1,1 +1,52 @@
 /*for the your booking page in Kyodo service account*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400');
+
+body{
+	font-family: 'Lato', sans-serif;
+	text-shadow: none!important;
+}
+
+/*ms widget hilton express portal header colour and size*/
+.ui-header.ui-bar-inherit{
+		background: #3D3A37 
+		url('https://roomboss.github.io/css/hiltonexpress/hilton-express.jpg')
+		no-repeat;
+	background-position: 75% 50%;
+	background-color: #333;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	border: none;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+	font-size: 2em;
+	font-weight: 600;
+}
+
+/*main bar*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #3D3A37;
+	color: white;
+	text-shadow: none; 
+	border-radius: 5px;
+	font-size: 1.5em;
+}
+
+/*color more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #3D3A37!important;
+	color: white;
+	text-shadow: none; 
+	border: none;	  	
+}
+
+/*top buttons*/
+.ui-header .ui-btn{
+    background: #3D3A37!important;
+    border: none!important;
+    text-shadow: none!important;
+    box-shadow: none!important;
+    font-weight: 600;
+    color: #fff!important;
+    width: 100px!important;
+}
