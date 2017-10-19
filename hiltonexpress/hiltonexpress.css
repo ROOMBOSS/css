@@ -4,9 +4,7 @@
 	height: 100px;
   }
 
-.ui-header.ui-bar-inherit, div.ui-footer.ui-bar-inherit {
-    background-color: #2E4172!important;
-    border-color: #2E4172!important;
-    color: #fff;
-    text-shadow: none;
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  background:#2E4172;
+  text-shadow:none;
 }
