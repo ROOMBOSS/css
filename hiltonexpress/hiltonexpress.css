@@ -49,3 +49,8 @@ body{
     color: #fff!important;
     width: 100px!important;
 }
+
+.rbn-vendor-grid-img{
+	border: 2px;
+	border-color: #3D3A37;
+}
