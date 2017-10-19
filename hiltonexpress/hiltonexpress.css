@@ -1,6 +1,5 @@
 /*ms widget hilton express portal header colour and size*/
 .ui-header.ui-bar-inherit{
-		background: #375d9d
 		url('https://roomboss.github.io/css/hiltonexpress/hilton-express.jpg')
 		no-repeat;
 	background-position: 75% 50%;
@@ -11,11 +10,12 @@
 }
 
 .ui-header.ui-bar-inherit h1.ui-title{
-	font-size: 2em;	
+	font-size: 2em;
+}
 
 /*main bar*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #3A528E;
+	background-color: #C57039;
 	color: white;
 	text-shadow: none; 
 	border-radius: 5px;
@@ -24,7 +24,7 @@
 
 /*color more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
-	background-color: #3A528E!important;
+	background-color: #C57039!important;
 	color: white;
 	text-shadow: none; 
 	border: none;	  	
