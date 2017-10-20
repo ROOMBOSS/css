@@ -49,3 +49,7 @@ body{
     color: #fff!important;
     width: 100px!important;
 }
+
+#base_page\:neworderform\:itmqty_input .rbn-quantity{
+    display:none;
+}
