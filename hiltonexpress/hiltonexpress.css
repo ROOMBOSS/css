@@ -51,7 +51,7 @@ body{
 }
 
 /*remove qty select*/
-#base_page\:neworderform\:itmqty_inpu{
+#base_page\:neworderform\:itmqty_input{
     display:none;
 }
 /*remove qty label*/
