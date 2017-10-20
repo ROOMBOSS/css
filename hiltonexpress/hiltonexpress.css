@@ -50,6 +50,11 @@ body{
     width: 100px!important;
 }
 
-#base_page\:neworderform\:itmqty_input .rbn-quantity{
+/*remove qty select*/
+#base_page\:neworderform\:itmqty_inpu{
+    display:none;
+}
+/*remove qty label*/
+.rbn-quantity{
     display:none;
 }
