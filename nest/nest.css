@@ -1,0 +1,74 @@
+.ui-header.ui-bar-inherit {
+    background-color: #e96656;
+    border-color: #DDD;
+    color: #fff;
+    text-shadow: none;   
+    background: url('http://www.nestatnest.com/images/nestlogo2.png'), url('http://www.nestatnest.com/images/slide1.jpg') no-repeat;
+    background-size: 100px, cover;
+    background-position: 352px, 0px;    
+    height: 200px;
+    line-height: 1.4em;    
+}
+
+.ui-content {
+	background-color: White;	
+}
+
+.ui-page.ui-page-theme-a.ui-page-active{
+	background-color: White;	
+}
+
+.ui-title{
+	font-size: 1.2em!important;
+    font-weight: 300!important;
+    text-align: left!important;
+    min-height: 75px!important;
+    width: 180px;
+    text-overflow: unset!important;
+    overflow: visible!important;
+    white-space: normal!important;   
+}
+
+.ui-page-theme-a {
+  background: white;
+  color: #666;
+}
+
+.ui-corner-all {
+  border-radius: 0;
+}
+
+.ui-select .ui-btn select {
+  border-radius: 0;
+}
+
+.rbn_ven_descr {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.ui-panel-m-titlebar.ui-bar{
+	background-color: #9B2421;
+	color: white;
+	text-shadow: none;	
+}
+
+.ui-grid-a{
+	background-color:white;
+}
+
+.ui-bar-a{
+	background-color:white;
+	color: white;
+}
+
+.ui-column-header {
+	background-color: #9B2421;
+	color: white;
+	text-shadow: none;
+    font-weight: 700;		
+}
+
+.nvav-date{	
+	color: black;
+}
