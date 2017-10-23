@@ -3,7 +3,7 @@
     border-color: #DDD;
     color: #fff;
     text-shadow: none;   
-    background: url('http://www.nestatnest.com/images/nestlogo2.png'), url('http://www.nestatnest.com/images/slide1.jpg') no-repeat;
+    background: url('http://www.nestatnest.com/images/nestlogo2.png') center no-repeat, url('http://www.nestatnest.com/images/slide1.jpg') no-repeat;
     background-size: 100px, cover;
     background-position: 352px, 0px;    
     height: 200px;
