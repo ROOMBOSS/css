@@ -4,7 +4,7 @@
     color: #fff;
     text-shadow: none;   
     background: url('http://www.nestatnest.com/images/nestlogo2.png') center no-repeat, url('https://roomboss.github.io/css/nest/slide1.jpg') no-repeat center;
-    background-size: 220px, cover;
+    background-size: 300px, cover;
     height: 300px;
     line-height: 1.4em;    
 }
