@@ -19,14 +19,7 @@
 }
 
 .ui-title{
-	font-size: 1.2em!important;
-    font-weight: 300!important;
-    text-align: left!important;
-    min-height: 75px!important;
-    width: 180px;
-    text-overflow: unset!important;
-    overflow: visible!important;
-    white-space: normal!important;   
+	visibilty:hidden;
 }
 
 .ui-page-theme-a {
@@ -48,8 +41,8 @@
 }
 
 .ui-panel-m-titlebar.ui-bar{
-	background-color: #9B2421;
-	color: white;
+	background-color: rgba(255,126,42,1.0);
+	color: #333;
 	text-shadow: none;	
 }
 
@@ -63,8 +56,8 @@
 }
 
 .ui-column-header {
-	background-color: #9B2421;
-	color: white;
+	background-color: rgba(255,126,42,1.0);
+	color: #333;
 	text-shadow: none;
     font-weight: 700;		
 }
