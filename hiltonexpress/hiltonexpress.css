@@ -59,8 +59,8 @@ body{
     display:none;
 }
 
-/*page footer*/
-.rbn-footer{
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
 	background-color: #d6d6d6!important;
 	color: white!important;
 	text-shadow: none!important;
