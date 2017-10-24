@@ -58,3 +58,11 @@ body{
 .rbn-quantity{
     display:none;
 }
+
+/*page footer*/
+.rbn-footer{
+	background-color: #3D3A37!important;
+	color: grey!important;
+	text-shadow: none!important;
+	border:none!important;
+}
