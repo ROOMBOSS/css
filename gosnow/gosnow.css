@@ -62,5 +62,5 @@ input#base_page\:neworderform\:checkin_input {
 }
 
 .bg-red{
-	background-color: #ffda82;
+	background-color: #ffda82!important;
 }
