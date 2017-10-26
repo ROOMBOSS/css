@@ -65,3 +65,7 @@ input#base_page\:neworderform\:checkin_input {
 .bg-red{
 	background-color: #ffda82!important;
 }
+
+.ui-outputlabel.ui-widget.bg-red{
+	display:none;
+}
