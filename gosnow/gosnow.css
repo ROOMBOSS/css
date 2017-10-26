@@ -66,12 +66,23 @@ input#base_page\:neworderform\:checkin_input {
 	background-color: #ffda82!important;
 }
 
+
+body\:div.rb-body-content\:div\:br:nth-child(6){
+	display:none;
+}
+/*
+
+
+/html/body/div[2]/div/br[2]
 #j_idt45{
 	display:none;
 }
 
-/*html body div.rb-body-content div label#j_idt45.ui-outputlabel.ui-widget*/
+
+
+/*html body div.rb-body-content div label#j_idt45.ui-outputlabel.ui-widget
 
 .ui-outputlabel.ui-widget.bg-red{
 	display:none;
 }
+*/
