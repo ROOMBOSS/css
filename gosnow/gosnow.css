@@ -60,3 +60,7 @@ input#base_page\:neworderform\:checkin_input {
 	border: #72d54a 5px solid;
 	font-size: 1.3em;
 }
+
+.bg-red{
+	background-color: #ffda82;
+}
