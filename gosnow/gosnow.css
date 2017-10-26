@@ -66,6 +66,12 @@ input#base_page\:neworderform\:checkin_input {
 	background-color: #ffda82!important;
 }
 
+/html/body/div[2]/div/label[6]{
+	display:none;
+}
+
+/*html body div.rb-body-content div label#j_idt45.ui-outputlabel.ui-widget*/
+
 .ui-outputlabel.ui-widget.bg-red{
 	display:none;
 }
