@@ -67,11 +67,12 @@ input#base_page\:neworderform\:checkin_input {
 }
 
 
-body\:div.rb-body-content\:div\:br:nth-child(6){
+body > div.rb-body-content > div > br:nth-child(6){
 	display:none;
 }
 /*
 
+body\:div.rb-body-content\:div\:br:nth-child(6)
 
 /html/body/div[2]/div/br[2]
 #j_idt45{
