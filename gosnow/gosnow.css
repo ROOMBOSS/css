@@ -61,6 +61,7 @@ input#base_page\:neworderform\:checkin_input {
 	font-size: 1.3em;
 }
 
+/*fix to prevent showing red on availability page for agents this may cause problems if accessing other areas via the gosnow subdomain*/
 .bg-red{
 	background-color: #ffda82!important;
 }
