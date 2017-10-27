@@ -85,6 +85,47 @@
     border: none;
 }
 
+/*Select Window*/
+.ui-select .ui-btn SELECT {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 1.5em;
+    min-height: 100%;
+    height: 3em;
+    max-height: 100%;
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    filter: Alpha(Opacity=0);
+    opacity: 0;
+    z-index: 2;
+    background-color: #EAC67A;
+}
+
+.ui-select .ui-btn SELECT:active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 1.5em;
+    min-height: 100%;
+    height: 3em;
+    max-height: 100%;
+    -webkit-border-radius: inherit;
+    border-radius: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    filter: Alpha(Opacity=0);
+    opacity: 0;
+    z-index: 2;
+    background-color: #EEBF5D;
+}
+
 /*Header buttons*/
 .ui-header .ui-btn, .ui-footer .ui-btn {
     background-color: #EEBF5D !important;
