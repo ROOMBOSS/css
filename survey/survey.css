@@ -1,5 +1,5 @@
 #main\:surveyForm\:messages {
-    background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) 10% / 100% no-repeat;
+    background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) 10% no-repeat;
     height: 250px;
 }
 
@@ -70,60 +70,6 @@
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: #333333;
-}
-
-/*Country select*/
-.ui-select .ui-btn {
-    background-color: #EEBF5D;
-    text-shadow: none;
-    border: none;
-}
-
-.ui-select .ui-btn:hover {
-    background-color: #EAC67A;
-    text-shadow: none;
-    border: none;
-}
-
-/*Select Window*/
-.ui-select .ui-btn SELECT {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 1.5em;
-    min-height: 100%;
-    height: 3em;
-    max-height: 100%;
-    -webkit-border-radius: inherit;
-    border-radius: inherit;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-    filter: Alpha(Opacity=0);
-    opacity: 0;
-    z-index: 2;
-    background-color: #EAC67A;
-}
-
-.ui-select .ui-btn SELECT:active {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 1.5em;
-    min-height: 100%;
-    height: 3em;
-    max-height: 100%;
-    -webkit-border-radius: inherit;
-    border-radius: inherit;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
-    filter: Alpha(Opacity=0);
-    opacity: 0;
-    z-index: 2;
-    background-color: #EEBF5D;
 }
 
 /*Header buttons*/
