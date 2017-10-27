@@ -4,8 +4,8 @@
     color: #fff;
     text-shadow: none;   
     background: url('https://roomboss.github.io/css/hvchalets/HVCLOGO.svg') center no-repeat, url('https://roomboss.github.io/css/hvchalets/momiji.jpg') no-repeat center;
-    background-size: 350px, cover;
-    height: 300px;
+    background-size: 300px, cover;
+    height: 320px;
     line-height: 1.4em;    
 }
 
