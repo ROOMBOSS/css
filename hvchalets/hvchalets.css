@@ -1,0 +1,119 @@
+/*css for Hakuba valley chalets http://valleychalets.bookfast.jp/ */
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*hide vendor description and image bpay*/
+#base_page\:descPanel{
+	display: none;
+	visibility: hidden;
+}
+
+/*hide vendor name and contact yourbooking*/
+#base_page\:postab{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo, blue and green bars*/
+.ui-header.ui-bar-inherit {
+	background: url(http://stokednisekohostel.com/wp-content/uploads/2017/06/Stoked-Niseko-Clean-Outline-White_transparent.png) 20% 12% no-repeat, url(http://stokednisekohostel.com/wp-content/uploads/2017/07/Website-image.jpg) repeat center;
+    	height: 325px;
+    	background-size: 300px, cover;
+    	border-bottom-width: 0px;
+}
+/*page color*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+ 	background: #e0dfd7!important;
+}
+
+/*color and square search button*/
+#base_page\:bpayForm\:tabview\:searchButton{
+	background-color: #1abc9c!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*square date select and drop downs*/
+#base_page\:bpayForm\:tabview\:guests_input-button, #base_page\:bpayForm\:tabview\:nnights_input-button{
+	background-color: #e5e5e5!important;
+	/*color: #1abc9c;*/
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #1abc9c;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+
+/*Available Accommodation Options*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: #002e52;
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: #1abc9c;    
+    	border-bottom-style: inset;  	
+}
+
+
+/*bpay green line*/
+#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
+	border-top-width: 2px;
+    	border-top-color: #1abc9c;
+}
+
+/*expanadble areas on bpay and yourbooking*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
+	background-color: white;
+	color: #002e52;
+	text-shadow: none; 
+	border-color: #002e52;
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: #1abc9c;
+	text-shadow: none; 
+	border-color: #39bb9d;
+	border-radius: 0px; 
+	border-width: 2px;
+}
+
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
+	background-color: #1abc9c!important;
+	color: white!important;
+	text-shadow: none!important;
+	border:none!important;
+}
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #1abc9c;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*Your Booking non conf Red*/
+.rb-notconfbook {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
