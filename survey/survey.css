@@ -1,21 +1,91 @@
 #main\:surveyForm\:messages {
-	background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) no-repeat 100%;
-    	height: 250px;    	
+    background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) 10% / 175% no-repeat;
+    height: 250px;
 }
-
 
 #main\:surveyForm\:submitButton {
-	  background-color: #febb02!important;
-    color: #002e52;
+    background-color: #3388CC !important;
+    color: white;
     text-shadow: none;
     border: none;
-    border-radius: 0px; 	
+    border-radius: 5px;
+    /*+box-shadow: #6A6A6A;*/
+    -moz-box-shadow: #6A6A6A;
+    -webkit-box-shadow: #6A6A6A;
+    box-shadow:#6A6A6A;
+    font-weight: bold;
 }
 
-.ui-radio-on{
-	  background-color: #febb02!important;
-    color: #002e52;
+.ui-radio-on {
+    background-color: #CD5360 !important;
+    color: white !important;
+    text-shadow: none !important;
+    border: none;
+    border-radius: 0px;
+}
+
+.ui-radio-hover {
+}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn {
+    background-color: #EEBF5D;
+    border: none;
+    text-shadow: none;
+}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn:hover {
+    background-color: #EAC67A;
+    border: none;
+    text-shadow: none;
+}
+
+.ui-radio .ui-btn.ui-radio-on:after {
+    background-color: #3388CC !important;
+}
+
+.ui-header, .ui-footer4 {
+    background-color: #3D89C4 !important;
+    border: none;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    color: #FFFFFF;
+    text-shadow: none;
+    font-family: Open Sans;
+    text-transform: uppercase;
+}
+
+.ui-bar, .ui-body {
+    font-weight: normal;
+    color: #333333 !important;
+    text-shadow: none !important;
+    font-family: Open Sans;
+    text-align: left;
+    font-size: 1em;
+}
+
+.ui-field-contain {
+    font-weight: normal;
+    font-family: Open sans;
+    color: #3388CC;
+}
+
+/*Header buttons*/
+.ui-header .ui-btn, .ui-footer .ui-btn {
+    background-color: #EEBF5D !important;
     text-shadow: none;
     border: none;
-    border-radius: 0px; 	
+    color:666666;
+    font-weight: bold;
+    font-family: Open sans;
+}
+
+.ui-header .ui-btn, .ui-footer .ui-btn:hover {
+    background-color: #EAC67A;
+    text-shadow: none !important;
+}
+
+/*Type*/
+P {
+    font-family: Open Sans;
 }
