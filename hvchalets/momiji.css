@@ -1,0 +1,65 @@
+.ui-header.ui-bar-inherit {
+    background-color: #e96656;
+    border-color: #DDD;
+    color: #fff;
+    text-shadow: none;   
+    background: url('http://www.nestatnest.com/images/nestlogo2.png') center no-repeat, url('https://roomboss.github.io/css/hvchalets/19082b_MDP-Valley-Chalet-D2_19-09-2017(1).jpg') no-repeat center;
+    background-size: 280px, cover;
+    height: 300px;
+    line-height: 1.4em;    
+}
+
+.ui-content {
+	background-color: White;	
+}
+
+.ui-page.ui-page-theme-a.ui-page-active{
+	background-color: White;	
+}
+
+.ui-title{
+	visibility:hidden;
+}
+
+.ui-page-theme-a {
+  background: white;
+  color: #666;
+}
+
+.ui-corner-all {
+  border-radius: 0;
+}
+
+.ui-select .ui-btn select {
+  border-radius: 0;
+}
+
+#base_page\:descPanel {
+display:none;
+}
+
+.ui-panel-m-titlebar.ui-bar{
+	background-color: rgba(255,126,42,1.0);
+	color: #333;
+	text-shadow: none;	
+}
+
+.ui-grid-a{
+	background-color:white;
+}
+
+.ui-bar-a{
+	background-color:white;
+	color: white;
+}
+
+.ui-column-header {
+	background-color: rgba(255,126,42,1.0);
+	color: #333;
+	text-shadow: none;
+    font-weight: 700;		
+}
+
+.nvav-date{	
+	color: black;
+}
