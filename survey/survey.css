@@ -1,5 +1,5 @@
 #main\:surveyForm\:messages {
-    background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) 10% / 175% no-repeat;
+    background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) 10% / 100% no-repeat;
     height: 250px;
 }
 
@@ -57,17 +57,32 @@
 
 .ui-bar, .ui-body {
     font-weight: normal;
-    color: #333333 !important;
+    color: #E43535;
     text-shadow: none !important;
-    font-family: Open Sans;
     text-align: left;
+    font-family: open sans;
     font-size: 1em;
+    font-style: normal;
+    border: none !important;
 }
 
 .ui-field-contain {
-    font-weight: normal;
+    font-weight: 600;
     font-family: Open sans;
-    color: #3388CC;
+    color: #333333;
+}
+
+/*Country select*/
+.ui-select .ui-btn {
+    background-color: #EEBF5D;
+    text-shadow: none;
+    border: none;
+}
+
+.ui-select .ui-btn:hover {
+    background-color: #EAC67A;
+    text-shadow: none;
+    border: none;
 }
 
 /*Header buttons*/
