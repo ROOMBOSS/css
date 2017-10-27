@@ -51,7 +51,7 @@
 .ui-header .ui-title, .ui-footer .ui-title {
     color: #FFFFFF;
     text-shadow: none;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
 }
 
@@ -60,7 +60,7 @@
     color: #E43535;
     text-shadow: none !important;
     text-align: left;
-    font-family: open sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     font-style: normal;
     border: none !important;
@@ -68,7 +68,7 @@
 
 .ui-field-contain {
     font-weight: 600;
-    font-family: Open sans;
+    font-family: 'Open Sans', sans-serif;
     color: #333333;
 }
 
@@ -92,7 +92,7 @@
     border: none;
     color:666666;
     font-weight: bold;
-    font-family: Open sans;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .ui-header .ui-btn, .ui-footer .ui-btn:hover {
@@ -102,5 +102,5 @@
 
 /*Type*/
 P {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 }
