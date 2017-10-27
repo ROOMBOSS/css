@@ -32,7 +32,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square search button*/
 #base_page\:bpayForm\:tabview\:searchButton{
-	background-color: #1abc9c!important;
+	background-color: #63b962!important;
 	color: white;
 	text-shadow: none; 
 	border: none;
@@ -41,7 +41,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*square date select and drop downs*/
 #base_page\:bpayForm\:tabview\:guests_input-button, #base_page\:bpayForm\:tabview\:nnights_input-button{
-	background-color: #e5e5e5!important;
+	background-color: #63b962!important;
 	/*color: #1abc9c;*/
 	text-shadow: none; 
 	border: none;
@@ -50,8 +50,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #1abc9c;
-	color: white;
+	background-color: #63b962;
+	color: #0f9bbc;
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
@@ -61,42 +61,37 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*Available Accommodation Options*/
 .ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: white!important;
-    	color: #002e52;
+    	color: #63b962;
    	text-shadow: none;
    	border-bottom-width: 2px;
-    	border-color: #1abc9c;    
+    	border-color: #0f9bbc;    
     	border-bottom-style: inset;  	
 }
 
 
-/*bpay green line*/
-#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
-	border-top-width: 2px;
-    	border-top-color: #1abc9c;
-}
 
 /*expanadble areas on bpay and yourbooking*/
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
 	background-color: white;
-	color: #002e52;
+	color: #63b962;
 	text-shadow: none; 
-	border-color: #002e52;
+	border-color: #0f9bbc;
 	border-radius: 0px;
 	border-width: 2px;
 }
 
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
 	background-color: white;
-	color: #1abc9c;
+	color: #63b962;
 	text-shadow: none; 
-	border-color: #39bb9d;
+	border-color: #0f9bbc;
 	border-radius: 0px; 
 	border-width: 2px;
 }
 
 /*your booking page footer*/
 .ui-footer.ui-bar-inherit{
-	background-color: #1abc9c!important;
+	background-color: #63b962!important;
 	color: white!important;
 	text-shadow: none!important;
 	border:none!important;
@@ -104,7 +99,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background-color: #1abc9c;
+	background-color: #63b962;
 	color: white;
 	text-shadow: none; 
 	border: none;
