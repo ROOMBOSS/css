@@ -25,9 +25,6 @@
 }
 
 
-.ui-radio-hover {
-}
-
 .ui-checkbox .ui-btn, .ui-radio .ui-btn {
     background-color: #EEBF5D;
     border: none;
@@ -40,9 +37,12 @@
     text-shadow: none;
 }
 
-.ui-radio .ui-btn.ui-radio-on:after {
-    background-color: #FFFFFF !important;
+.ui-radio .ui-btn.ui-radio-on:after
+{
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	border-color: rgba(0, 0, 0, 0.0) !important;
 }
+
 
 .ui-header, .ui-footer4 {
     background-color: #3D89C4 !important;
