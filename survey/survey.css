@@ -17,12 +17,13 @@
 }
 
 .ui-radio-on {
-    background-color: #CD5360 !important;
-    color: white !important;
-    text-shadow: none !important;
-    border: none;
-    border-radius: 0px;
+	background-color: #3D89C4 !important;
+	color: white !important;
+	text-shadow: none !important;
+	border: none !important;
+	border-radius: 0px;
 }
+
 
 .ui-radio-hover {
 }
