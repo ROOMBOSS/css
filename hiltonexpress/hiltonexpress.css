@@ -66,3 +66,9 @@ body{
 	text-shadow: none!important;
 	border:none!important;
 }
+
+/*your booking page hide hello...*/
+.ui-outputpanel.ui-widget.rbn-yb-h1{
+	display:none;
+}
+
