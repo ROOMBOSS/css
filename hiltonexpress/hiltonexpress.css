@@ -7,11 +7,10 @@ body{
 
 /*ms widget hilton express portal header colour and size*/
 .ui-header.ui-bar-inherit{
-		background: #3D3A37 
-		url('https://roomboss.github.io/css/hiltonexpress/hilton-express.jpg')
-		no-repeat;
-	background-position: 75% 50%;
-	background-color: #333;
+	background: #3D3A37 url('https://roomboss.github.io/css/hiltonexpress/car-banner.jpg') no-repeat;
+		background-position: 50% 50%;
+		background-color: #333;
+		background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 80px;
 	border: none;
