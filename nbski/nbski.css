@@ -28,7 +28,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: #333;
-	color: #333;
+	color: rgba(255,255,255,.7);
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px; 
