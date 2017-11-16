@@ -46,9 +46,9 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
 	background-color: white;
-	color: #39bb9d;
+	color: #333;
 	text-shadow: none; 
-	border-color: #39bb9d;
+	border-color: #333
 	border-radius: 0px; 
 	border-width: 2px;
 }
