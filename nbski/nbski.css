@@ -8,7 +8,7 @@
 .ui-header.ui-bar-inherit {
 	background: url(http://nisekoblack.com/wp-content/uploads/2016/10/niseko-black-logo-web80.png) 1600px -20px  no-repeat,
 		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-		url(http://nisekoblack.com/wp-content/uploads/2016/11/snow-concierge-header.jpg) no-repeat center;
+		url(http://nisekoblack.com/wp-content/uploads/2016/11/snow-concierge-header.jpg) no-repeat center -50px;
     	height: 320px;
     	background-size: 180px, 1999px, 1999px;
     	border-top-width: 60px;
