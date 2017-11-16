@@ -72,8 +72,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background-color: #39bb9d;
-	color: white;
+	background-color: #333;
+	color: grey;
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
