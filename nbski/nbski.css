@@ -6,9 +6,9 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(http://nisekoblack.com/wp-content/uploads/2016/10/niseko-black-logo-web80.png) 1500px -20px  no-repeat, url(http://nisekoblack.com/wp-content/uploads/2016/11/snow-concierge-header.jpg) no-repeat center bottom;
+	background: url(http://nisekoblack.com/wp-content/uploads/2016/10/niseko-black-logo-web80.png) 1600px -20px  no-repeat, url(http://nisekoblack.com/wp-content/uploads/2016/11/snow-concierge-header.jpg) no-repeat center bottom;
     	height: 300px;
-    	background-size: 160px, 1999px;
+    	background-size: 200px, 1999px;
     	border-top-width: 60px;
     	border-top-color: black;
     	border-bottom-width: 0px;
@@ -55,7 +55,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-color: white;
 	color: #333;
 	text-shadow: none; 
-	border-color: #333
+	border-color: #333;
 	border-radius: 0px; 
 	border-width: 2px;
 	text-transform: uppercase;
