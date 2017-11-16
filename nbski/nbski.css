@@ -27,10 +27,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: #333;
-	color: grey;
+	color: rgba(255,255,255,.7);
 	text-shadow: none; 
 	border: none;
-	border-radius: 0px;   	
+	border-radius: 0px; 
+	text-transform: uppercase;
 }
 
 
@@ -41,7 +42,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none; 
 	border-color: #333;
 	border-radius: 0px;
-	border-width: 2px;
+	border-width: 2px;	
 }
 
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
@@ -51,14 +52,15 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-color: #333
 	border-radius: 0px; 
 	border-width: 2px;
+	text-transform: uppercase;
 }
 
 /*your booking page footer*/
 .ui-footer.ui-bar-inherit{
 	background-color: #333!important;
-	color: grey!important;
+	color: rgba(255,255,255,.7)!important;
 	text-shadow: none!important;
-	border:none!important;
+	border:none!important;	
 }
 
 /*your booking logos*/
@@ -73,10 +75,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
 	background-color: #333;
-	color: grey;
+	color: rgba(255,255,255,.7);
 	text-shadow: none; 
 	border: none;
-	border-radius: 0px;   	
+	border-radius: 0px;
+	text-transform: uppercase;
 }
 
 /*Your Booking non conf Red*/
