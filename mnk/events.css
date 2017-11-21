@@ -11,12 +11,11 @@
 	display: none;	
 }
 
-#base_page\:neworderform\:pricing{
-	background: url(https://roomboss.github.io/css/mnk/mnknote.png);	
-}
+
 
 .pricing-div{
-	background: url(https://roomboss.github.io/css/mnk/mnknote.png);	
+	height: 50px;
+	background: url(https://roomboss.github.io/css/mnk/mnknote.png) right, no-repeat;	
 }
 
 /*add logo, blue and green bars*/
