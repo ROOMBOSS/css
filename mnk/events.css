@@ -4,7 +4,10 @@
 	visibility: hidden;
 }
 
-#base_page\:neworderform\:cbgrid\:1\:productTitleId{
+#base_page\:neworderform\:cbgrid\:1\:productTitleId,
+#base_page\:neworderform\:cbgrid\:1\:cbval,
+#base_page\:neworderform\:cbgrid\:2\:productTitleId,
+#base_page\:neworderform\:cbgrid\:2\:cbval{
 	display: none;	
 }
 
