@@ -6,13 +6,13 @@
 }
 
 .ui-header.ui-bar-inherit {
-	background: url(http://thenisekocompany.com/_/img/new-logo-421-40.png) 10% 20% no-repeat, url(http://thenisekocompany.com/_/img/granite.jpg) repeat;
+	background: url(https://thenisekocompany.com/_/img/new-logo-421-40.png) 10% 20% no-repeat, url(https://thenisekocompany.com/_/img/granite.jpg) repeat;
     height: 140px;    
    	/*background-color: Black;*/     
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background: url(http://thenisekocompany.com/_/img/granite.jpg) repeat;
+	background: url(https://thenisekocompany.com/_/img/granite.jpg) repeat;
 	color: white;
 	text-shadow: none; 
 	border: none;
@@ -21,7 +21,7 @@
 
 /*page footer*/
 .rbn-footer{
-	background: url(http://thenisekocompany.com/_/img/granite.jpg) repeat;
+	background: url(https://thenisekocompany.com/_/img/granite.jpg) repeat;
 	color: grey!important;
 	text-shadow: none!important;
 	border:none!important;
