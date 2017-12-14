@@ -7,7 +7,7 @@
 
 /*add image*/
 .ui-header.ui-bar-inherit {
-	background: url(http://www.niseko-backpacker.com/image/header.jpg) no-repeat center /*, url(http://powderhounds.com/site/DefaultSite/skins/powderhounds/images/content_Header.jpg) no-repeat center bottom*/;
+	background: url(https://roomboss.github.io/css/nisekobackpacker/header.jpg) no-repeat center /*, url(http://powderhounds.com/site/DefaultSite/skins/powderhounds/images/content_Header.jpg) no-repeat center bottom*/;
     	height: 220px;
     	background-size: 800px;
     	/*border-top-width: 0px; /*32px;
