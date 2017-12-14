@@ -18,7 +18,7 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/stoked/Stoked-Niseko-Clean-Outline-White_transparent.png) 20% 12% no-repeat, url(https://roomboss.github.io/css/stoked/Website-image.jpg) repeat center;
+	background: url(https://roomboss.github.io/css/stoked/Stoked-Niseko-Clean-Outline-White_transparent.png) 20% 12% no-repeat, url(https://roomboss.github.io/css/stoked/websiteimage.jpg) repeat center;
     	height: 325px;
     	background-size: 300px, cover;
     	border-bottom-width: 0px;
