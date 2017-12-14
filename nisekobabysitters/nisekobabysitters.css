@@ -7,7 +7,7 @@
 }
 
 .ui-header.ui-bar-inherit{
-	background:url("http://nisekobabysitters.com/wp-content//uploads/2017/04/NB-logo.jpg") no-repeat left, url("http://nisekobabysitters.com/wp-content/uploads/2013/07/site_background2.jpg");
+	background:url("https://nisekobabysitters.com/wp-content//uploads/2017/04/NB-logo.jpg") no-repeat left, url("https://nisekobabysitters.com/wp-content/uploads/2013/07/site_background2.jpg");
 	background-position: center top, center top; 
 	background-size: 11%, auto; 
 	background-repeat: no-repeat, repeat; 
@@ -24,7 +24,7 @@
 /*background white*/
 .ui-page.ui-page-theme-a.ui-page-active{
 	/*background-color: White;*/
-	background-image: url("http://nisekobabysitters.com/wp-content/uploads/2013/07/site_background2.jpg"); 
+	background-image: url("https://nisekobabysitters.com/wp-content/uploads/2013/07/site_background2.jpg"); 
 	background-position: center top; background-size: auto; 
 	background-repeat: repeat; 
 	background-attachment: fixed;
