@@ -12,7 +12,7 @@
 }
 
 .ui-header.ui-bar-inherit{
-	background:url("http://ww2.kyoto-saya.com/wp-content/uploads/2017/06/Saya-logo.png") no-repeat left, url("http://ww2.kyoto-saya.com/wp-content/uploads/2016/04/tower.jpg") no-repeat left;
+	background:url("https://roomboss.github.io/css/kyotosaya/Saya-logo.png") no-repeat left, url("https://roomboss.github.io/css/kyotosaya/tower.jpg") no-repeat left;
 	background-position: 20% ;
 	border:none;
 	height:100px;	
