@@ -1,10 +1,11 @@
+/*
 #base_page {
 	background: #ffffff
 		url('http://www.nisekotourism.com/images/uploads/homepage/wine-dine-masthead.jpg')
 		repeat-x;
 	background-position: 0 130px;
 }
-/*
+*/
 .ui-header.ui-bar-inherit {
 	background: #1974b0 url("http://www.nisekotourism.com/_/img/logo.png")
 		no-repeat;
@@ -14,7 +15,7 @@
 	border-top: 12px solid #1e2426;
 	border-bottom: 1px solid #5a5a5b;
 }
-*/
+
 .ui-title {
 	visibility: hidden;
 }
