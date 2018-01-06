@@ -9,7 +9,8 @@
 }
 
 .ui-title {
-	visibility: hidden;
+	background: #1974b0 url("http://www.sekkalodge.com/assets/img/logo.png")
+		no-repeat;
 }
 
 .ui-panel-m-titlebar {
