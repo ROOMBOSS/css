@@ -1,7 +1,7 @@
 /* for http://lodgeannupuri.com/ */
 
 /*remove title*/
-.ui-title{
+.ui-title, .ui-panel-m-titlebar ui-bar ui-bar-inherit{
 	display: none;
 	visibility: hidden;
 }
@@ -9,8 +9,11 @@
 /*add logo*/
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 250px no-repeat;
+	background-width=448px;
     	/*height: 115px;*/
-    	background-size: 300px;    	
+    	background-size: 300px; 
+	border-top-width: 0px;    	
+    	border-bottom-width: 0px;
 }
 /*, url(https://roomboss.github.io/css/tomten/bg-header.jpg) no-repeat center bottom*/
 
@@ -59,7 +62,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	height: 100px;
 }
 
-
+/*ms header*/
+#base_page:selectvendorform{
+	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
+	height: 100px;
+}
 
 /*expanadble areas on bpay and yourbooking*/
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
