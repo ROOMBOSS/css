@@ -1,7 +1,7 @@
 /* for http://lodgeannupuri.com/ */
 
 /*remove title*/
-.ui-title, .ui-panel-m-titlebar ui-bar ui-bar-inherit{
+.ui-title, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	display: none;
 	visibility: hidden;
 }
@@ -63,7 +63,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 /*ms header*/
-#base_page:selectvendorform{
+#base_page\:selectvendorform{
 	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
 	height: 100px;
 }
