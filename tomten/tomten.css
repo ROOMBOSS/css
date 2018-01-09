@@ -8,9 +8,9 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 500px no-repeat;
-    	height: 115px;
-    	background-size: 300px, 1999px;    	
+	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 250px no-repeat;
+    	/*height: 115px;*/
+    	background-size: 300px;    	
 }
 /*, url(https://roomboss.github.io/css/tomten/bg-header.jpg) no-repeat center bottom*/
 
