@@ -6,17 +6,15 @@
 	visibility: hidden;
 }
 
-/*add logo, blue and green bars*/
+/*add logo*/
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 500px no-repeat;
     	height: 115px;
-    	background-size: 300px, 1999px;
-    	border-top-width: 32px;
-    	border-top-color: #002e52;
-    	border-bottom-width: 0px;
+    	background-size: 300px, 1999px;    	
 }
-
 /*, url(https://roomboss.github.io/css/tomten/bg-header.jpg) no-repeat center bottom*/
+
+
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
@@ -62,12 +60,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 
-
-/*bpay green line*/
-#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
-	border-top-width: 2px;
-    	border-top-color: #45484a;
-}
 
 /*expanadble areas on bpay and yourbooking*/
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
