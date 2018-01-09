@@ -1,17 +1,15 @@
 /* for http://lodgeannupuri.com/ */
 
 /*remove title*/
-.ui-title, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+.ui-title{
 	display: none;
 	visibility: hidden;
 }
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 250px no-repeat;
-	background-width=448px;
-    	/*height: 115px;*/
-    	background-size: 300px; 
+	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 350px no-repeat;
+	background-size: 500px; 
 	border-top-width: 0px;    	
     	border-bottom-width: 0px;
 }
