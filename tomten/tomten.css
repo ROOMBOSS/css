@@ -6,10 +6,6 @@
 	visibility: hidden;
 }
 
-#base_page:descPanel.ui-panel-m.ui-corner-all.rbn-vendor-panel div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3{
-	display: none;
-	visibility: hidden;
-}
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
