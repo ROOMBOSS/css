@@ -62,11 +62,9 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 /*ms header*/
-/*#base_page\:selectvendorform*/
-
-.ui-content.rb-content{
+#base_page\:selectvendorform{
 	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
-	height: 100px;
+	/*height: 100px;*/
 }
 
 /*expanadble areas on bpay and yourbooking*/
