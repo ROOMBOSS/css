@@ -62,7 +62,9 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 /*ms header*/
-#base_page\:selectvendorform{
+/*#base_page\:selectvendorform*/
+
+.ui-content.rb-content{
 	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
 	height: 100px;
 }
