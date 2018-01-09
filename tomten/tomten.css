@@ -26,7 +26,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
-	background-color: #39bb9d!important;
+	background-color: #45484a!important;
 	color: white;
 	text-shadow: none; 
 	border: none;
@@ -35,17 +35,13 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #39bb9d;
+	background-color: #45484a;
 	color: white;
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
 }
 
-/*remove page selector ma.jsf not will need this on ms.jsf so will have to add seperate web config*/
-.ui-controlgroup.ui-controlgroup-horizontal.ui-corner-all{
-	display:none;
-}
 
 /*Available Accommodation Options*/
 .ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
@@ -64,16 +60,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	height: 100px;
 }
 
-/*bpay emphasise unit 1st screen*/
-.ui-table-row.rb-selected-rt-sd {	
-	border: 3px solid green;
-	background-color: #edfeeb;
-}
-/*bpay emphasise unit 2nd screen*/
-.ui-table-row.rb-selected-rt-sr{	
-	border: 3px solid green;
-	background-color: #edfeeb;
-}
 
 
 /*bpay green line*/
@@ -87,7 +73,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-color: white;
 	color: #002e52;
 	text-shadow: none; 
-	border-color: #002e52;
+	border-color: #45484a;
 	border-radius: 0px;
 	border-width: 2px;
 }
@@ -103,7 +89,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking page footer*/
 .ui-footer.ui-bar-inherit{
-	background-color: #39bb9d!important;
+	background-color: #45484a!important;
 	color: white!important;
 	text-shadow: none!important;
 	border:none!important;
@@ -111,10 +97,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking logos*/
 #base_page\3a messages {
-	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat,
-	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/5614c8682f5f81153fba2507_theorchards_logo.jpg') no-repeat,
-	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
-	background-position: 5%, 50%, 93%;
+	background: url('https://roomboss.github.io/css/tomten/tomten-logo-new.png') no-repeat;
 	height: 123px;
 }
 
@@ -127,9 +110,3 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
-/*Your Booking non conf Red*/
-.rb-notconfbook {
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
-}
