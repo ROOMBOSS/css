@@ -8,13 +8,15 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 500px no-repeat, url(https://roomboss.github.io/css/tomten/bg-header.jpg) no-repeat center bottom;
+	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 500px no-repeat;
     	height: 115px;
     	background-size: 300px, 1999px;
     	border-top-width: 32px;
     	border-top-color: #002e52;
     	border-bottom-width: 0px;
 }
+
+/*, url(https://roomboss.github.io/css/tomten/bg-header.jpg) no-repeat center bottom*/
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
@@ -49,14 +51,13 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     	color: #002e52;
    	text-shadow: none;
    	border-bottom-width: 2px;
-    	border-color: #39bb9d;    
+    	border-color: #45484a;    
     	border-bottom-style: inset;  	
 }
 
 /*bpay header*/
 #base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/5614c8682f5f81153fba2507_theorchards_logo.jpg') no-repeat;
-	background-position: 50%;
+	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
 	height: 100px;
 }
 
@@ -65,7 +66,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*bpay green line*/
 #base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
 	border-top-width: 2px;
-    	border-top-color: #39bb9d;
+    	border-top-color: #45484a;
 }
 
 /*expanadble areas on bpay and yourbooking*/
@@ -80,9 +81,9 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
 	background-color: white;
-	color: #39bb9d;
+	color: #45484a
 	text-shadow: none; 
-	border-color: #39bb9d;
+	border-color: #45484a;
 	border-radius: 0px; 
 	border-width: 2px;
 }
@@ -97,13 +98,13 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking logos*/
 #base_page\3a messages {
-	background: url('https://roomboss.github.io/css/tomten/tomten-logo-new.png') no-repeat;
+	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
 	height: 123px;
 }
 
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background-color: #39bb9d;
+	background-color: #45484a;
 	color: white;
 	text-shadow: none; 
 	border: none;
