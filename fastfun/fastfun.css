@@ -6,11 +6,11 @@
 	visibility: hidden;
 }
 
-
 /*add logo*/
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/fastfun/fastfun_rebrand_basic11.png) 350px top no-repeat;
-	border-top-color: white!important;  
+	border-top-color: white!important; 
+	background-size: 300px;
  	border-bottom-width: 0px;
 	height: 150px;
 }
