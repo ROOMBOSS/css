@@ -14,9 +14,9 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/fastfun/fastfun_rebrand_basic11.png) 350px top no-repeat;
+	background: url(https://roomboss.github.io/css/fastfun/fastfun_rebrand_basic11.png) 380px top no-repeat;
 	border-top-color: white!important; 
-	background-height: 100%;
+	background-height: 95px;
  	border-bottom-width: 0px;
 	height: 100px;
 }
