@@ -1,0 +1,92 @@
+/* for http://www.fastfun.jp/book-now/ */
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+
+/*add logo*/
+.ui-header.ui-bar-inherit {
+	background: url(http://www.fastfun.jp/wp-content/uploads/2014/04/fastfun_rebrand_basic11.png) 350px top no-repeat;
+	border-top-color: white!important;  
+  border-bottom-width: 0px;
+	height: 150px;
+}
+
+
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #45484a!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #45484a;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+
+/*Available Accommodation Options*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: #002e52;
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: #45484a;    
+    	border-bottom-style: inset;  	
+}
+
+
+/*expanadble areas on bpay and yourbooking*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
+	background-color: white;
+	color: #002e52;
+	text-shadow: none; 
+	border-color: #45484a;
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: #45484a
+	text-shadow: none; 
+	border-color: #45484a;
+	border-radius: 0px; 
+	border-width: 2px;
+}
+
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
+	background-color: #45484a!important;
+	color: white!important;
+	text-shadow: none!important;
+	border:none!important;
+}
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #45484a;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
