@@ -9,9 +9,9 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(http://www.fastfun.jp/wp-content/uploads/2014/04/fastfun_rebrand_basic11.png) 350px top no-repeat;
+	background: url(https://roomboss.github.io/css/fastfun/fastfun_rebrand_basic11.png) 350px top no-repeat;
 	border-top-color: white!important;  
-  border-bottom-width: 0px;
+ 	border-bottom-width: 0px;
 	height: 150px;
 }
 
