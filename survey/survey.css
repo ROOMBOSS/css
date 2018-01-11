@@ -8,3 +8,65 @@
     background: url(https://roomboss.github.io/css/survey/peak_banner_2000.jpg) 10% no-repeat;
     height: 250px;
 }
+
+#main\:surveyForm\:submitButton {
+    background-color: #3388CC !important;
+    color: white;
+    text-shadow: none;
+}
+
+.ui-radio-on {
+	background-color: #3D89C4 !important;
+	color: white !important;
+	text-shadow: none !important;
+	border-radius: 0px;
+}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn {
+    background-color: #EEBF5D;
+    text-shadow: none;
+}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn:hover {
+    background-color: #EAC67A;
+    text-shadow: none;
+}
+
+.ui-header, .ui-footer4 {
+    background-color: #3D89C4 !important;
+    border: none;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    color: #FFFFFF;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.ui-bar, .ui-body {
+    font-weight: normal;
+    color: #E43535;
+    text-shadow: none !important;
+    text-align: left;
+    font-size: 1em;
+    font-style: normal;
+    border: none !important;
+}
+
+.ui-field-contain {
+    font-weight: 600;
+}
+
+/*Header buttons*/
+.ui-header .ui-btn, .ui-footer .ui-btn {
+    background-color: #EEBF5D !important;
+    text-shadow: none;
+    border: none;
+    color:666666;
+    font-weight: bold;
+}
+
+.ui-header .ui-btn, .ui-footer .ui-btn:hover {
+    background-color: #EAC67A;
+    text-shadow: none !important;
+}
