@@ -16,14 +16,13 @@
 }
 
 .ui-radio-on {
-	background-color: #3D89C4 !important;
+	background-color: #EEBF5D !important;
 	color: white !important;
 	text-shadow: none !important;
 	border-radius: 0px;
 }
 
 .ui-checkbox .ui-btn, .ui-radio .ui-btn {
-    background-color: #EEBF5D;
     text-shadow: none;
 }
 
