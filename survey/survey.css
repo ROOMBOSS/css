@@ -13,33 +13,22 @@
     background-color: #3388CC !important;
     color: white;
     text-shadow: none;
-    border: none;
-    border-radius: 5px;
-    /*+box-shadow: #6A6A6A;*/
-    -moz-box-shadow: #6A6A6A;
-    -webkit-box-shadow: #6A6A6A;
-    box-shadow:#6A6A6A;
-    font-weight: bold;
 }
 
 .ui-radio-on {
 	background-color: #3D89C4 !important;
 	color: white !important;
 	text-shadow: none !important;
-	border: none !important;
 	border-radius: 0px;
 }
 
-
 .ui-checkbox .ui-btn, .ui-radio .ui-btn {
     background-color: #EEBF5D;
-    border: none;
     text-shadow: none;
 }
 
 .ui-checkbox .ui-btn, .ui-radio .ui-btn:hover {
     background-color: #EAC67A;
-    border: none;
     text-shadow: none;
 }
 
