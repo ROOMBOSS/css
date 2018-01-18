@@ -16,10 +16,10 @@
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/amuse/hdr_logo.jpg) 20% top no-repeat;
 	border-top-color: white!important;
-	border-top-width: 10px;
+	/*border-top-width: 10px;*/
 	/*background-size: 200px;*/
  	border-bottom-width: 0px;
-	height: 100px;
+	height: 150px;
 }
 
 
