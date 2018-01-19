@@ -1,11 +1,11 @@
 .ui-header.ui-bar-inherit {
-	background: #1974b0 url("http://annupurilodge.com/wp-content/uploads/fp-logo-full1.png")
+	background: #1e2426 url("http://annupurilodge.com/wp-content/uploads/fp-logo-full1.png")
 		no-repeat;
 	background-position: center;
-	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 50px;
 	border-top: 12px solid #1e2426;
-	border-bottom: 1px solid #5a5a5b;
+	border-bottom: 1px solid #1e2426;
 }
 
 .ui-title {
