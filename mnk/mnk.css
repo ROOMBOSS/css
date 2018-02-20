@@ -40,10 +40,10 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
-/*remove page selector ma.jsf not will need this on ms.jsf so will have to add seperate web config*/
+/*remove page selector ma.jsf not will need this on ms.jsf so will have to add seperate web config
 .ui-controlgroup.ui-controlgroup-horizontal.ui-corner-all{
 	display:none;
-}
+}*/
 
 /*Available Accommodation Options*/
 .ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
