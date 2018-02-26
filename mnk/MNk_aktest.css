@@ -69,8 +69,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 
 /*Vendor Info*/
-#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
-  display: none;
+.ui-panel-m-content.ui-body.ui-body-inherit{
+	 display: none;
 }
 
 /*bpay emphasise unit 1st screen*/
