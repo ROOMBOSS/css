@@ -60,11 +60,10 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
 	background-position: 50%;
 	height: 100px;
-  display: none;
 }
 
-/*bpay header*/
-#ui-responsive.ui-table.table-stripe{
+/*room availability area*/
+#base_page\3a bpayForm\3a tabview\3a pdttble > div > table{
   display: none;
 }
 
