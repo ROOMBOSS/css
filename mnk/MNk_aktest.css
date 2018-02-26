@@ -67,6 +67,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   display: none;
 }
 
+
+/*Vendor Info*/
+#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
+  display: none;
+}
+
 /*bpay emphasise unit 1st screen*/
 .ui-table-row.rb-selected-rt-sd {	
 	border: 3px solid green;
