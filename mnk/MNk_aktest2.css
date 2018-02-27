@@ -31,13 +31,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*Hide accordion*/
 .ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container{
-	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
-	background-position: 50%;
-	height: 100px;
-}
-
-
-.ui-collapsible ui-collapsible-inset ui-corner-all ui-collapsible-themed-content{
 	display: none;	
 }
 
