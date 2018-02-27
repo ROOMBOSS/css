@@ -22,11 +22,23 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
+/*property logo header*/
+#base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
+	background-position: 50%;
+	height: 100px;
+}
 
 /*Hide accordion*/
 .ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container{
-	/*display: none;*/
-	visibility: hidden;
+	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
+	background-position: 50%;
+	height: 100px;
+}
+
+
+.ui-collapsible ui-collapsible-inset ui-corner-all ui-collapsible-themed-content{
+	display: none;	
 }
 
 /*hide availability*/
@@ -34,14 +46,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	display: none;	
 }
 
-/*color and square more info button*/
-.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
-	background-color: #39bb9d!important;
-	color: white;
-	text-shadow: none; 
-	border: none;
-	border-radius: 0px;   	
-}
 
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
@@ -63,12 +67,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     	border-bottom-style: inset;  	
 }
 
-/*bpay header*/
-#base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
-	background-position: 50%;
-	height: 100px;
-}
+
 
 
 
