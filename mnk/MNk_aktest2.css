@@ -24,18 +24,13 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 
 /*Hide accordion*/
-#base_page\3a j_idt29
-[@id="base_page:j_idt29"]
-#base_page\:j_idt29
-html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#base_page.rb-page.ui-page.ui-page-theme-a.ui-page-active div.ui-content.rb-content div#base_page:j_idt29.ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container
-*/
 .ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container{
 	/*display: none;*/
 	visibility: hidden;
 }
 
 /*hide availability*/
-#base_page:pdttble{
+#base_page\:pdttble{
 	display: none;	
 }
 
