@@ -84,39 +84,5 @@ html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#base_page.rb-page.ui-pag
 	height: 100px;
 }
 
-/*room availability area*/
-#base_page\3a bpayForm\3a tabview\3a pdttble > div > table{
-  display: none;
-}
 
 
-/*Vendor Info*/
-.ui-panel-m-content.ui-body.ui-body-inherit{
-	 display: none;
-}
-
-
-/*bpay green line*/
-#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
-	border-top-width: 2px;
-    	border-top-color: #39bb9d;
-}
-
-/*expanadble areas on bpay and yourbooking*/
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
-	background-color: white;
-	color: #002e52;
-	text-shadow: none; 
-	border-color: #002e52;
-	border-radius: 0px;
-	border-width: 2px;
-}
-
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
-	background-color: white;
-	color: #39bb9d;
-	text-shadow: none; 
-	border-color: #39bb9d;
-	border-radius: 0px; 
-	border-width: 2px;
-}
