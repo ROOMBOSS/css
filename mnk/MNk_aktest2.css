@@ -22,7 +22,14 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
-#ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container{
+
+/*Hide accordion*/
+#base_page\3a j_idt29
+[@id="base_page:j_idt29"]
+#base_page\:j_idt29
+html.ui-mobile body.ui-mobile-viewport.ui-overlay-a div#base_page.rb-page.ui-page.ui-page-theme-a.ui-page-active div.ui-content.rb-content div#base_page:j_idt29.ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container
+*/
+.ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container{
 	/*display: none;*/
 	visibility: hidden;
 }
@@ -86,17 +93,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*Vendor Info*/
 .ui-panel-m-content.ui-body.ui-body-inherit{
 	 display: none;
-}
-
-/*bpay emphasise unit 1st screen*/
-.ui-table-row.rb-selected-rt-sd {	
-	border: 3px solid green;
-	background-color: #edfeeb;
-}
-/*bpay emphasise unit 2nd screen*/
-.ui-table-row.rb-selected-rt-sr{	
-	border: 3px solid green;
-	background-color: #edfeeb;
 }
 
 
