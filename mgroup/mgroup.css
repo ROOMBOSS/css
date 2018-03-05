@@ -28,7 +28,7 @@ input,select,textarea,button,.ui-btn{
 	background-color:#991b1e;
 }
 
-/*think this puts shaddow around box that is clicked*/
+/*puts shadow around box that is clicked*/
 .ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
 	box-shadow:0 0 12px #991b1e;
 }
