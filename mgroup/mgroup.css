@@ -1,4 +1,4 @@
-/*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic);*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic);
 
 body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
 	font-family:Lato, sans-serif;
@@ -10,14 +10,14 @@ input,select,textarea,button,.ui-btn{
 	font-family:Lato, sans-serif;
 }
 
-/*.ui-header.ui-bar-inherit{
+.ui-header.ui-bar-inherit{
 	background:url("https://s3-ap-northeast-1.amazonaws.com/mgroup-niseko/general/m-group-header-logo.png") no-repeat center;
 	background-color:white;
 	background-size:300px;
 	border:none;
 	height:101px;
 	padding:20px 0
-}*/
+}
 
 .ui-header.ui-bar-inherit h1.ui-title{
 	display:none
