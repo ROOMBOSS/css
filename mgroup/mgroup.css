@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic);
 
-.ui-btn{
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
 	font-family:Lato, sans-serif;
 	background-color:white;
 	text-shadow:none;
