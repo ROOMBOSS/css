@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,400italic);
 
-body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading 
-
 .ui-btn{
 	font-family:Lato, sans-serif;
 	background-color:white;
@@ -13,17 +11,17 @@ input,select,textarea,button,.ui-btn{
 }
 
 .ui-header.ui-bar-inherit{
-	background:url("https://d2fizaih1d2lcl.cloudfront.net/general/m-group-header-logo.png") no-repeat center;
+	background:url("https://s3-ap-northeast-1.amazonaws.com/mgroup-niseko/general/m-group-header-logo.png") no-repeat center;
 	background-color:white;
 	background-size:300px;
 	border:none;
 	height:101px;
-	padding:20px 0;
-}
+	padding:20px 0}
 
 .ui-header.ui-bar-inherit h1.ui-title{
 	display:none
 }
+
 
 .rbn-filter-panel.ui-hidden-container>div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color:#991b1e;
