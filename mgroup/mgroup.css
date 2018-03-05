@@ -10,13 +10,14 @@ input,select,textarea,button,.ui-btn{
 	font-family:Lato, sans-serif;
 }
 
-.ui-header.ui-bar-inherit{
+/*.ui-header.ui-bar-inherit{
 	background:url("https://s3-ap-northeast-1.amazonaws.com/mgroup-niseko/general/m-group-header-logo.png") no-repeat center;
 	background-color:white;
 	background-size:300px;
 	border:none;
 	height:101px;
-	padding:20px 0}
+	padding:20px 0
+}*/
 
 .ui-header.ui-bar-inherit h1.ui-title{
 	display:none
