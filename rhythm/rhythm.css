@@ -23,7 +23,7 @@
 
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
-  	font-family: Yu 'Open Sans',sans-serif;
+  	font-family: 'Oxygen', sans-serif;
 	font-weight: 100;
  	background: white!important;
 	color: black;
