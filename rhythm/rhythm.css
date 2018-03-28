@@ -15,10 +15,8 @@
 /*add logo*/
 .ui-header.ui-bar-inherit {
 	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) 380px top no-repeat;
-	border-top-color: black!important;
-	border-top-width: 10px;
-	background-size: 200px;
- 	border-bottom-width: 0px;
+	background-color: black!important;	
+	background-size: 200px; 	
 	height: 100px;
 }
 
