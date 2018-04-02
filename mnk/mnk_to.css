@@ -31,6 +31,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
+/*hide vendor description and image bpay*/
+#base_page\:descPanel{
+	display: none;
+	visibility: hidden;
+}
+
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: #39bb9d;
