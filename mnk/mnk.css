@@ -22,11 +22,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
-/*hide vendor description and image bpay*/
-#base_page\:descPanel{
-	display: none;
-	visibility: hidden;
-}
 
 /*color and square more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
@@ -67,6 +62,13 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-position: 50%;
 	height: 100px;
 }
+
+/*hide vendor description and image bpay*/
+#base_page\:descPanel{
+	display: none;
+	visibility: hidden;
+}
+
 
 /*bpay emphasise unit 1st screen*/
 .ui-table-row.rb-selected-rt-sd {	
