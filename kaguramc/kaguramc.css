@@ -1,10 +1,8 @@
 
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
-  	font-family: 'Droid Serif', serif!important;
-	font-weight: 100;
+  	font-weight: 100;
  	background: white!important;
-	color: grey;
 	text-shadow: none;
 }
 
@@ -36,59 +34,4 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 #base_page\:postab{
 	display: none;
 	visibility: hidden;
-}
-
-/*color and square search button*/
-#base_page\:bpayForm\:tabview\:searchButton{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;
-}
-
-/*square date select and drop downs*/
-#base_page\:bpayForm\:tabview\:guests_input-button, #base_page\:bpayForm\:tabview\:nnights_input-button{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;	
-}
-
-/*color and square titlebars*/
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;
-}
-
-
-/*Available Accommodation Options*/
-.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;	
-}
-
-
-
-/*expanadble areas on bpay and yourbooking*/
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;
-}
-
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;
-}
-
-
-/*your booking bars*/
-#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	color: grey;
-	font-family: 'Droid Serif', serif!important;
-	text-shadow: none; 
-	border: none;
-	border-radius: 0px;   	
-}
-
-/*Your Booking non conf Red*/
-.rb-notconfbook {
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
 }
