@@ -63,8 +63,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	height: 100px;
 }
 
+
 /*hide vendor description and image bpay*/
-.ui-grid-row.rbn-vendor-grid-row{
+/*.ui-grid-row.rbn-vendor-grid-row*/
+
+.ui-panel-m-content.ui-body.ui-body-inherit{
 	display: none;
 	visibility: hidden;
 }
