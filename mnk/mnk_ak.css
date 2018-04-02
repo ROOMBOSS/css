@@ -22,12 +22,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
-/*hide vendor description and image bpay*/
-#base_page\:descPanel{
-	display: none;
-	visibility: hidden;
-}
-
 /*color and square more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
 	background-color: #39bb9d!important;
