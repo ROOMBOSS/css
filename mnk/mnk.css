@@ -63,12 +63,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	height: 100px;
 }
 
-/*hide vendor description and image bpay*/
-#base_page\:descPanel{
-	display: none;
-	visibility: hidden;
-}
-
 
 /*bpay emphasise unit 1st screen*/
 .ui-table-row.rb-selected-rt-sd {	
