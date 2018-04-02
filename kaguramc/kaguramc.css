@@ -19,3 +19,21 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     height: 320px;
     line-height: 1.4em;    
 }
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*hide vendor description and image bpay*/
+#base_page\:descPanel{
+	display: none;
+	visibility: hidden;
+}
+
+/*hide vendor name and contact yourbooking*/
+#base_page\:postab{
+	display: none;
+	visibility: hidden;
+}
