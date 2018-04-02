@@ -1,0 +1,21 @@
+
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: 'Droid Serif', serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+
+.ui-header.ui-bar-inherit {
+    background-color: #e96656;
+    border-color: #DDD;
+    color: #fff;
+    text-shadow: none;   
+    background: url('https://roomboss.github.io/css/hvchalets/HVCLOGO.svg') center no-repeat, url('https://roomboss.github.io/css/hvchalets/momiji.jpg') no-repeat center;
+    background-size: 300px, cover;
+    height: 320px;
+    line-height: 1.4em;    
+}
