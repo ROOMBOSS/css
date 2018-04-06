@@ -1,1 +1,33 @@
+/*.ui-header.ui-bar-inherit h1.ui-title,div[id*=base_page][id$=map_widget],div[id*=base_page][id$='_idt69']{
+display:none
+}*/
 
+@font-face{
+  font-family:DIN_Condensed_Bold;src:url(../webfonts/converted/DINCondensed-Bold.woff);
+  font-weight:400;font-style:normal}@font-face{font-family:DIN_Light;src:url(../webfonts/converted/DIN-Light.woff);
+  font-weight:400;font-style:normal}@font-face{font-family:DIN_Regular_Alternate;src:url(../webfonts/converted/DIN-RegularAlternate.woff);
+  font-weight:400;font-style:normal}body{font-family:DIN_Regular_Alternate;font-size:18px;line-height:24px
+}
+
+.ui-header.ui-bar-inherit{
+  background:url(../img/logo.png) center no-repeat #f4643a;
+  background-size:220px;border:none;height:145px
+}
+
+.ui-panel-m .ui-panel-m-titlebar{
+  background-color:#f4643a;text-shadow:none
+}
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,body{
+  background:#f4643a;text-shadow:none
+}
+
+.ui-page-theme-a .ui-btn:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-btn:focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-btn:focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-btn:focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-body-a.ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-btn.ui-btn-a:focus{
+  box-shadow:0 0 12px #f4643a
+}
+
+@media only screen and (max-width:400px){
+  .ui-grid-solo>.ui-block-a:last-child .rb-avail-table{position:absolute;max-width:70%}.ui-grid-solo>.ui-block-a:last-child{
+    margin-bottom:90px
+  }
+}
