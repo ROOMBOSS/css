@@ -6,8 +6,8 @@ display:none
 	display: none;
 	visibility: hidden;
 }
-/*hide 3 sections at top*/
-.ui-collapsible-content.ui-body-inherit{
+/*hide 3 collapasible sections at top*/
+.ui-accordion ui-collapsible-set ui-corner-all ui-hidden-container{
 	display: none;
 	visibility: hidden;
 }
