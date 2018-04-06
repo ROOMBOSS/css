@@ -6,6 +6,12 @@ display:none
 	display: none;
 	visibility: hidden;
 }
+/*hide 3 sections at top*/
+.ui-collapsible-content.ui-body-inherit{
+	display: none;
+	visibility: hidden;
+}
+
 
 @font-face{
   font-family:DIN_Condensed_Bold;src:url(../webfonts/converted/DINCondensed-Bold.woff);
