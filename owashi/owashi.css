@@ -7,7 +7,7 @@ display:none
 	visibility: hidden;
 }
 /*hide 3 collapasible sections at top*/
-.ui-accordion ui-collapsible-set ui-corner-all ui-hidden-container{
+.ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container{
 	display: none;
 	visibility: hidden;
 }
