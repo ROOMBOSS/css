@@ -11,7 +11,7 @@
     	height: 200px;
     	background-size: 200px;    	
     	border-bottom-color: #777;
-    	border-bottom-width: 10px;
+    	border-bottom-width: 6px;
 }
 
 /*page white and font*/
@@ -76,7 +76,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*expanadble areas on bpay and yourbooking*/
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
 	background-color: white;
-	color: #002e52;
+	color: #cba062;
 	text-shadow: none; 
 	border-color: #39bb9d;
 	border-radius: 0px;
