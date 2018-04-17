@@ -8,10 +8,10 @@
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
 	background: url(http://tropicanapoolvilla.com/images/Tropicana/frontpage/tlogo.png) 25% no-repeat;
-    	height: 200px;
-    	background-size: 200px;    	
+    	height: 180px;
+    	background-size: 220px;    	
     	border-bottom-color: #777;
-    	border-bottom-width: 6px;
+    	border-bottom-width: 4px;
 }
 
 /*page white and font*/
@@ -76,16 +76,16 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 /*expanadble areas on bpay and yourbooking*/
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
 	background-color: white;
-	color: #cba062;
+	color: #777;
 	text-shadow: none; 
-	border-color: #39bb9d;
+	border-color: #777;
 	border-radius: 0px;
 	border-width: 2px;
 }
 
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
 	background-color: white;
-	color: #39bb9d;
+	color: #cba062;
 	text-shadow: none; 
 	border-color: #cba062;
 	border-radius: 0px; 
