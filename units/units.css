@@ -1,0 +1,136 @@
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo, blue and green bars*/
+.ui-header.ui-bar-inherit {
+	background: url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55b194dc5a06c8fa390e5c5d_Mnklogo.png) 500px no-repeat, url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55e79bcce0f5856916553949_navborder.jpg) no-repeat center bottom;
+    	height: 115px;
+    	background-size: 160px, 1999px;
+    	border-top-width: 32px;
+    	border-top-color: #002e52;
+    	border-bottom-width: 0px;
+}
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #39bb9d!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #39bb9d;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*remove page selector ma.jsf not will need this on ms.jsf so will have to add seperate web config*/
+.ui-controlgroup.ui-controlgroup-horizontal.ui-corner-all{
+	display:none;
+}
+
+/*Available Accommodation Options*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: #002e52;
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: #39bb9d;    
+    	border-bottom-style: inset;  	
+}
+
+/*bpay header*/
+#base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat;
+	background-position: 50%;
+	height: 100px;
+}
+
+
+/*bpay emphasise unit 1st screen*/
+.ui-table-row.rb-selected-rt-sd {	
+	border: 3px solid green;
+	background-color: #edfeeb;
+}
+/*bpay emphasise unit 2nd screen*/
+.ui-table-row.rb-selected-rt-sr{	
+	border: 3px solid green;
+	background-color: #edfeeb;
+}
+
+
+/*bpay green line*/
+#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
+	border-top-width: 2px;
+    	border-top-color: #39bb9d;
+}
+
+/*expanadble areas on bpay and yourbooking*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
+	background-color: white;
+	color: #002e52;
+	text-shadow: none; 
+	border-color: #002e52;
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: #39bb9d;
+	text-shadow: none; 
+	border-color: #39bb9d;
+	border-radius: 0px; 
+	border-width: 2px;
+}
+
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
+	background-color: #39bb9d!important;
+	color: white!important;
+	text-shadow: none!important;
+	border:none!important;
+}
+
+/*your booking logos*/
+#base_page\3a messages {
+	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat,
+	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/5614c8682f5f81153fba2507_theorchards_logo.jpg') no-repeat,
+	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
+	background-position: 5%, 50%, 93%;
+	height: 123px;
+}
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #39bb9d;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*Your Booking non conf Red*/
+.rb-notconfbook {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
