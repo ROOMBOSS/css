@@ -7,11 +7,11 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(http://tropicanapoolvilla.com/images/Tropicana/frontpage/tlogo.png) 500px no-repeat, url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55e79bcce0f5856916553949_navborder.jpg) no-repeat center bottom;
-    	height: 115px;
-    	background-size: 160px, 1999px;
+	background: url(http://tropicanapoolvilla.com/images/Tropicana/frontpage/tlogo.png) 500px no-repeat;
+    	height: 250px;
+    	background-size: 250px;
     	border-top-width: 32px;
-    	border-top-color: #002e52;
+    	border-top-color: #cba062;
     	border-bottom-width: 0px;
 }
 /*page white and font*/
@@ -26,7 +26,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
-	background-color: #39bb9d!important;
+	background-color: #cba062!important;
 	color: white;
 	text-shadow: none; 
 	border: none;
@@ -35,7 +35,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #39bb9d;
+	background-color: #cba062;
 	color: white;
 	text-shadow: none; 
 	border: none;
@@ -65,22 +65,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 
-/*bpay emphasise unit 1st screen*/
-.ui-table-row.rb-selected-rt-sd {	
-	border: 3px solid green;
-	background-color: #edfeeb;
-}
-/*bpay emphasise unit 2nd screen*/
-.ui-table-row.rb-selected-rt-sr{	
-	border: 3px solid green;
-	background-color: #edfeeb;
-}
 
 
 /*bpay green line*/
 #base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
 	border-top-width: 2px;
-    	border-top-color: #39bb9d;
+    	border-top-color: #cba062;
 }
 
 /*expanadble areas on bpay and yourbooking*/
@@ -88,7 +78,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-color: white;
 	color: #002e52;
 	text-shadow: none; 
-	border-color: #002e52;
+	border-color: #cba062;
 	border-radius: 0px;
 	border-width: 2px;
 }
@@ -112,21 +102,19 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking logos*/
 #base_page\3a messages {
-	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat,
-	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/5614c8682f5f81153fba2507_theorchards_logo.jpg') no-repeat,
-	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
-	background-position: 5%, 50%, 93%;
+	background: url('http://tropicanapoolvilla.com/images/Tropicana/frontpage/tlogo.png') no-repeat;
+	background-position: 50%;
 	height: 123px;
 }
 
-/*your booking bars*/
+/*your booking bars
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background-color: #39bb9d;
+	background-color: #cba062;
 	color: white;
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
-}
+}*/
 
 /*Your Booking non conf Red*/
 .rb-notconfbook {
