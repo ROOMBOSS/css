@@ -164,3 +164,7 @@ h4 span {
 [contains(., 'Hotel / Lodge')] {
      display: none;
   }
+
+.base_page:offerstable_data{
+     display: none;
+  }
