@@ -7,13 +7,13 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(http://tropicanapoolvilla.com/images/Tropicana/frontpage/tlogo.png) 500px no-repeat;
+	background: url(http://tropicanapoolvilla.com/images/Tropicana/frontpage/tlogo.png) 50% no-repeat;
     	height: 250px;
-    	background-size: 250px;
-    	border-top-width: 32px;
-    	border-top-color: #cba062;
-    	border-bottom-width: 0px;
+    	background-size: 250px;    	
+    	border-bottom-color: #cba062;
+    	border-bottom-width: 10px;
 }
+
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
@@ -78,7 +78,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-color: white;
 	color: #002e52;
 	text-shadow: none; 
-	border-color: #cba062;
+	border-color: #39bb9d;
 	border-radius: 0px;
 	border-width: 2px;
 }
@@ -87,7 +87,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-color: white;
 	color: #39bb9d;
 	text-shadow: none; 
-	border-color: #39bb9d;
+	border-color: #cba062;
 	border-radius: 0px; 
 	border-width: 2px;
 }
