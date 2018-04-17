@@ -156,7 +156,11 @@ h4 span {
  
 }
 
-/*contains(@class, 'rbn-cat-panel') and*/
-[contains(., 'Hotel / Lodge')] {
+.rbn-cat-panel {
      display: none;
   }
+
+/*contains(@class, 'rbn-cat-panel') and
+[contains(., 'Hotel / Lodge')] {
+     display: none;
+  }*/
