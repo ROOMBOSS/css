@@ -29,9 +29,12 @@
 /*Available Accommodation Options ma*/
 .ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: white!important;
-    	color: black;
+    	color: #333!important;
    	text-shadow: none;
    	border-bottom-width: 2px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
     	border-color: #625956;    
     	border-bottom-style: inset;  	
 }
