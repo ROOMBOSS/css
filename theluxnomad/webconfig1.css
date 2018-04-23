@@ -26,6 +26,16 @@
 	font-size: 24px !important;
 }
 
+/*Available Accommodation Options ma*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: black;
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: #625956;    
+    	border-bottom-style: inset;  	
+}
+
 #base_page\:gform, #base_page\:messages {
 	display: none;
 }
