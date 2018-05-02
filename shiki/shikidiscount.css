@@ -177,6 +177,8 @@ h4 span {
   display: none;
 }
 
+
+
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(2),
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(3),
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(4),
@@ -188,6 +190,6 @@ h4 span {
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(10),
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(11),
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(12),
-#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(13),{
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(13){
   display: none;
 }
