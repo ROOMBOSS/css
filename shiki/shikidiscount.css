@@ -176,33 +176,19 @@ h4 span {
 #base_page\3a bpayForm\3a tabview\3a pdttble_data > tr:nth-child(13){
   display: none;
 }
-/*
-#base_page\:bpayForm\:tabview\:pdttble\:1\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:2\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:3\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:4\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:5\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:6\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:7\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:8\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:9\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:10\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:11\:sgrd,
-#base_page\:bpayForm\:tabview\:pdttble\:12\:sgrd{
-  display: none;
-}*/
 
-#base_page\:bpayForm\:tabview\:quickbookingtable\:1\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:2\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:3\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:4\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:5\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:6\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:7\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:8\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:9\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:10\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:11\:sgrd,
-#base_page\:bpayForm\:tabview\:quickbookingtable\:12\:sgrd{
+
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(2),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(3),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(4),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(5),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(6),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(7),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(8),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(9),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(10),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(11),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(12),
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_data > tr:nth-child(13),{
   display: none;
 }
