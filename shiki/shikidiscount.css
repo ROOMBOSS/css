@@ -160,3 +160,19 @@ h4 span {
 #base_page\:bpayForm\:tabview\:nnights_input{
   display: none;
 }
+
+#base_page\:bpayForm\:tabview\:pdttble\:1\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:2\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:3\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:4\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:5\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:6\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:7\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:8\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:9\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:10\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:11\:sgrd,
+#base_page\:bpayForm\:tabview\:pdttble\:12\:sgrd{
+  display: none;
+}
+
