@@ -12,3 +12,8 @@
 .ui-header.ui-bar-inherit h1.ui-title{
 	display:none;
 }
+
+input#base_page\:neworderform\:checkin_input {
+	border: #999 5px solid;
+	font-size: 1.3em;
+}
