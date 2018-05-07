@@ -1,7 +1,3 @@
-#base_page {
-	border: 20px solid #fafafa !important;
-}
-
 .ui-header.ui-bar-inherit{
 	background:url("https://roomboss.github.io/css/iwanairesort/iwanai01.jpg") no-repeat;
 	/*background-color: #03283b;*/
@@ -12,8 +8,7 @@
 	border: none;
 }
 
-/*remove title
+/*remove title */
 .ui-header.ui-bar-inherit h1.ui-title{
 	display:none;
 }
-*/
