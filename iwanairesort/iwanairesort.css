@@ -1,5 +1,5 @@
 #base_page {
-	border: 20px solid #fafafa;
+	border: 20px solid #fafafa !important;
 }
 
 .ui-header.ui-bar-inherit{
@@ -12,7 +12,8 @@
 	border: none;
 }
 
-/*remove title*/
+/*remove title
 .ui-header.ui-bar-inherit h1.ui-title{
 	display:none;
 }
+*/
