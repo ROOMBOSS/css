@@ -32,3 +32,33 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 	font-weight: bold !important;
 	text-shadow: none !important;
 }
+
+.ui-btn:hover {
+	border: 1px solid #4cabcf !important;
+    background: #4cc0eb !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	text-shadow: none !important;
+}
+
+.ui-state-default.ui-btn {
+	border: 1px solid #b7cede !important;
+    background: #b7cede !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	text-shadow: none !important;
+}
+
+.ui-state-active.ui-btn, .ui-state-hover.ui-btn {
+	border: 1px solid #08b !important;
+    background: #00a5e3 !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	text-shadow: none !important;
+}
+
+.ui-page-theme-a .ui-btn:focus {
+	box-shadow: 0 0 12px #b2e4f6 !important;
+	-webkit-box-shadow: 0 0 12px #b2e4f6 !important;
+	-moz-box-shadow: 0 0 12px #b2e4f6 !important;
+ }
