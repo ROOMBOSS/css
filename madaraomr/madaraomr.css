@@ -1,4 +1,4 @@
 
-p::after { 
+#base_page\:selectvendorform\:welcomeTxtTitle::after { 
     content: " - Remember this";
 }
