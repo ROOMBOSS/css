@@ -39,6 +39,7 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 	color: #ffffff !important;
 	font-weight: bold !important;
 	text-shadow: none !important;
+	transition: ease 0.2s !important;
 }
 
 .ui-state-default.ui-btn {
@@ -55,10 +56,12 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 	color: #ffffff !important;
 	font-weight: bold !important;
 	text-shadow: none !important;
+
 }
 
 .ui-page-theme-a .ui-btn:focus {
 	box-shadow: 0 0 12px #b2e4f6 !important;
 	-webkit-box-shadow: 0 0 12px #b2e4f6 !important;
 	-moz-box-shadow: 0 0 12px #b2e4f6 !important;
+	transition: ease 0.1s !important;
  }
