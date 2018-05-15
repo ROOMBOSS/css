@@ -2,3 +2,12 @@
 #base_page\:selectvendorform\:welcomeTxtTitle::after { 
     content: " - Remember this";
 }
+
+#base_page\3a bpayForm\3a tabview\3a pdttble\3a 0\3a pdtname {
+	visibility: Hidden !important;
+}
+
+#base_page\3a bpayForm\3a tabview\3a pdttble\3a 0\3a pdtname:before {
+	content: "Hi" ;
+	visibility: visible;
+}
