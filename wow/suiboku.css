@@ -1,1 +1,103 @@
+* { text-shadow: none; !important;}
 
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+  font-family:'Raleway', sans-serif !important;
+}
+
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn:active{
+  background: #fe5000 !important;
+  border: 1px solid #fe9000 !important;
+}
+
+#base_page\3a bpayForm\3a tabview\3a pdttble\3a 0\3a description {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.ui-header.ui-bar-inherit{
+  background:#111 url('http://suibokuhirafu.com/wp-content/uploads/2017/02/suiboku-logo.png') no-repeat center;
+  height:100px;
+  border:none;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+display:none !important;
+}
+
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+  box-shadow:none !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  border: 1px solid #666 !important;
+  border-bottom: none !important;
+  background: #333333 !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+  text-shadow:none !important;
+}
+
+.ui-body-inherit {
+  border: 1px solid #666666 !important;
+	background: #000 !important;
+	color: #ffffff !important;
+	text-shadow: none !important;
+}
+
+.ui-block-a .ui-body-inherit {
+  border: 1px solid #666 !important;
+	background: #333!important;
+	color: #ffffff !important;
+	text-shadow: none !important;
+}
+
+.ui-btn {
+	border: 1px solid #333333 !important;
+	background: #333333 !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	text-shadow: none !important;
+}
+
+.ui-btn:hover, ui-collapsible-heading-toggle:active {
+  border: 1px solid #fe9000 !important;
+	background: #fe5000 !important;
+	font-weight: bold !important;
+	color: #ffffff !important;
+}
+
+.ui-collapsible-heading, .ui-bar-a {
+	border: 1px solid #666 !important;
+}
+
+.ui-table:nth-child(1) tr {
+  background: #666 !important;
+}
+
+ .table-stripe tbody tr:nth-child(odd) th {
+  background: #333 !important;
+}
+
+
+ .table-stripe tbody tr:nth-child(odd) tr {
+  background: #777 !important;
+}
+
+.rb-page {
+  background: #222;
+}
+
+* {
+	text-shadow: none !important;
+}
+
+.ui-grid-row {
+	color: #ffffff !important;
+}
+
+.ui-collapsible-content {
+	background-color: #666666bd !important;
+}
+
+.ui-column-title {
+	color: #fff !important;
+}
