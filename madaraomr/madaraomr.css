@@ -3,11 +3,11 @@
     content: " - Remember this";
 }
 
-#base_page\3a bpayForm\3a tabview\3a pdttble\3a 0\3a pdtname {
-	visibility: Hidden !important;
+#base_page\:neworderform\:cbgrid\:1\:productTitleId {
+    visibility: hidden;
 }
 
-#base_page\3a bpayForm\3a tabview\3a pdttble\3a 0\3a pdtname:before {
-	content: "Hi" ;
-	visibility: visible;
+#base_page\:neworderform\:cbgrid\:1\:productTitleId::before {
+    visibility: visible;
+    content: "Modified Field";
 }
