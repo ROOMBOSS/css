@@ -1,13 +1,34 @@
-
-#base_page\:selectvendorform\:welcomeTxtTitle::after { 
-    content: " - Remember this";
+.ui-header.ui-bar-inherit{
+  background:#fff url('http://www.madarao.jp/system/wp-content/themes/madarao/assets/svg/logo.svg') no-repeat center !important;
+  background-size: 275px !important;
+  height:200px !important;
+  border-bottom: 1px solid #eee !important;
+  border-top: none !important;
 }
 
-#base_page\:neworderform\:cbgrid\:1\:productTitleId {
-    visibility: hidden;
+.ui-header.ui-bar-inherit h1.ui-title{
+display:none !important;
 }
 
-#base_page\:neworderform\:cbgrid\:1\:productTitleId::before {
-    visibility: visible;
-    content: "Modified Field";
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+  background: #00a5e3 !important;
+}
+
+.ui-overlay-a {
+  background: #fff !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  background: #00a5e3 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-shadow:none !important;
+}
+
+.ui-btn {
+	border: 1px solid #08b !important;
+    background: #00a5e3 !important;
+	color: #ffffff !important;
+	font-weight: bold !important;
+	text-shadow: none !important;
 }
