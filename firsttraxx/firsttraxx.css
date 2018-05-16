@@ -34,11 +34,10 @@
 	visibility: hidden;
 }
 
-
-.rbn-quantity::after { 
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span ::after { 
     content: "Number of people";
 }
 
-/*.rbn-quantity{
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span {
 	visibility: hidden;
-}*/
+}
