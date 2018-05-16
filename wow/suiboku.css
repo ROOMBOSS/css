@@ -58,7 +58,7 @@ display:none !important;
 	text-shadow: none !important;
 }
 
-.ui-btn:hover, ui-collapsible-heading-toggle:active {
+.ui-btn:hover, ui-collapsible-heading-toggle:active, .ui-state-active.ui-btn {
   border: 1px solid #fe9000 !important;
 	background: #fe5000 !important;
 	font-weight: bold !important;
@@ -100,4 +100,8 @@ display:none !important;
 
 .ui-column-title {
 	color: #fff !important;
+}
+
+.ui-overlay-a {
+	background-color: #222 !important;
 }
