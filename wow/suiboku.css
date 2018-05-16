@@ -63,6 +63,7 @@ display:none !important;
 	background: #fe5000 !important;
 	font-weight: bold !important;
 	color: #ffffff !important;
+	transition: ease 0.1s !important;
 }
 
 .ui-collapsible-heading, .ui-bar-a {
