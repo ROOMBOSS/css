@@ -34,10 +34,7 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span ::after { 
-    content: "Number of people";
-}
+/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span ::after { 
+    content: " of people";
+}*/
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span {
-	visibility: hidden;
-}
