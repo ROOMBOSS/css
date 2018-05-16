@@ -1,0 +1,29 @@
+/* this is for order01 and yourbooking*/
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*vendor name and image*/
+#base_page > div.ui-content.rb-content > table{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo*/
+.ui-header.ui-bar-inherit {
+	background: url(http://firsttraxx.com/wp-content/uploads/2017/09/logo-firsttraxx.png) 380px top no-repeat;
+	border-top-color: white!important;
+	border-top-width: 10px;
+	background-size: 200px;
+ 	border-bottom-width: 0px;
+	height: 100px;
+}
+
+/*remove product display*/
+#base_page\:neworderform\:cbgrid_data{
+	display: none;
+	visibility: hidden;
+}
