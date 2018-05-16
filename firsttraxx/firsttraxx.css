@@ -27,3 +27,13 @@
 	display: none;
 	visibility: hidden;
 }
+
+
+.rbn-quantity::after { 
+    content: "Number of people";
+}
+
+.rbn-quantity{
+	display: none;
+	visibility: hidden;
+}
