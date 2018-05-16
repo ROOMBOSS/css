@@ -6,6 +6,12 @@
 	visibility: hidden;
 }
 
+/*remove Language selector*/
+#base_page\:locform\:languageSelect_input{
+	display: none;
+	visibility: hidden;
+}
+
 /*vendor name and image*/
 #base_page > div.ui-content.rb-content > table{
 	display: none;
