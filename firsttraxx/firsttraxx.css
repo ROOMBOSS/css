@@ -29,7 +29,7 @@
 	visibility: hidden;	
 }
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::after{
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::before{
 	content: "Number of Persons";	
 }
 
@@ -62,7 +62,7 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::before { 
+#base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::after { 
     content: " - Choose Single Session or Package for each guest";
 }
 
