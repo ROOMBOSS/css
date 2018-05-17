@@ -26,9 +26,9 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
+/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
 	display: none;	
-}
+}*/
 
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::after{
 	content: "Number of Persons";	
@@ -64,10 +64,13 @@
     content: " - Choose Single Session or Package for each guest";
 }
 
-/*
-#base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId::after { 
-    content: <a href="http://firsttraxx.com/sessions/" target="_blank">Ability Level Guide</a>;
-}*/
+
+#base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:1\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:2\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:3\:cbgrid\:4\:productTitleId::after{ 
+    content: " - On Infinity Slope";
+}
 
 /*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span::after { 
     content: " of people";
