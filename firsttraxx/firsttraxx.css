@@ -27,6 +27,14 @@
  	border-bottom-width: 0px;
 	height: 100px;
 }
+/*hide items in Add to Order*/
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6),
+.rbn-cost,
+#base_page\:neworderform\:categorymenu{
+	display: none;
+	visibility: hidden;
+}
+
 
 /*remove product display*/
 #base_page\:neworderform\:cbgrid_data{
