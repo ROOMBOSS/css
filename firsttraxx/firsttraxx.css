@@ -7,8 +7,7 @@
 }
 
 /*remove Language selector*/
-#base_page:locform:languageSelect_input-button,
-#base_page\:locform\:languageSelect_input{
+#base_page\3a locform > table{
 	display: none;
 	visibility: hidden;
 }
