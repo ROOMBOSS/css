@@ -48,9 +48,10 @@
     content: " - Choose Single Session or Package for each guest";
 }
 
+/*
 #base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId::after { 
     content: <a href="http://firsttraxx.com/sessions/" target="_blank">Ability Level Guide</a>;
-}
+}*/
 
 /*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span::after { 
     content: " of people";
