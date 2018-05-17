@@ -62,7 +62,7 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::after { 
+#base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::before { 
     content: " - Choose Single Session or Package for each guest";
 }
 
