@@ -25,12 +25,12 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
-	visibility: hidden;	
-}
-
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::before{
 	content: "Number of Persons";	
+}
+
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
+	visibility: hidden;	
 }
 
 /*add logo*/
