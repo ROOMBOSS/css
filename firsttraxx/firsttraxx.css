@@ -26,9 +26,9 @@
 	visibility: hidden;
 }
 
-/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
-	display: none;	
-}*/
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
+	visibility: hidden;	
+}
 
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::after{
 	content: "Number of Persons";	
@@ -48,7 +48,10 @@
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
 .rbn-cost,
-#base_page\:neworderform\:categorymenu{
+#base_page\:neworderform\:categorymenu,
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
+#base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1){
 	display: none;
 	visibility: hidden;
 }
@@ -68,7 +71,16 @@
 #base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId::after,
 #base_page\:neworderform\:orderItemTable\:1\:cbgrid\:4\:productTitleId::after,
 #base_page\:neworderform\:orderItemTable\:2\:cbgrid\:4\:productTitleId::after,
-#base_page\:neworderform\:orderItemTable\:3\:cbgrid\:4\:productTitleId::after{ 
+#base_page\:neworderform\:orderItemTable\:3\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:4\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:5\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:6\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:7\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:8\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:9\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:10\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:11\:cbgrid\:4\:productTitleId::after,
+#base_page\:neworderform\:orderItemTable\:12\:cbgrid\:4\:productTitleId::after{ 
     content: " - On Infinity Slope";
 }
 
