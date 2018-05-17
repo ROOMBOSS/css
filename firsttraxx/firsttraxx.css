@@ -48,11 +48,11 @@
     content: " - Choose Single Session or Package for each guest";
 }
 
-/*#base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId{ 
-    content: url("http://www.example.com/test.png");
-}*/
+#base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId::after { 
+    content: <a href="http://firsttraxx.com/sessions/" target="_blank">price list</a>;
+}
 
-/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span ::after { 
+/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span::after { 
     content: " of people";
 }*/
 
