@@ -88,6 +88,7 @@
 }*/
 
 /*remove residency*/
+#base_page\3a neworderform\3a customerTable\3a j_idt98,
 #base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(5){
 	display: none;
 	visibility: hidden;
