@@ -29,6 +29,8 @@
 }
 /*hide items in Add to Order*/
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
 .rbn-cost,
 #base_page\:neworderform\:categorymenu{
 	display: none;
