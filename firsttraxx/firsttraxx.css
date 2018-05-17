@@ -44,13 +44,14 @@
 	visibility: hidden;
 }
 
+/*
 .ui-panel-m-titlebar ui-bar ui-bar-inherit ::after { 
     content: "- Choose Single Session or Package for each guest";
-}
-/*
-#base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 ::after { 
-    content: "- Choose Single Session or Package for each guest";
 }*/
+
+#base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::after { 
+    content: "- Choose Single Session or Package for each guest";
+}
 
 /*#base_page\:neworderform\:orderItemTable\:0\:cbgrid\:4\:productTitleId{ 
     content: url("http://www.example.com/test.png");
