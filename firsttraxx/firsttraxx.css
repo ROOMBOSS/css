@@ -12,15 +12,30 @@
 	visibility: hidden;
 }
 
+/*remove date selector*/
+#base_page\:neworderform\:checkin,
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1){
+	display: none;
+	visibility: hidden;
+}
+
 /*vendor name and image*/
 #base_page > div.ui-content.rb-content > table{
 	display: none;
 	visibility: hidden;
 }
 
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
+	display: none;	
+}
+
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::after{
+	content: "Number of Persons";	
+}
+
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(http://firsttraxx.com/wp-content/uploads/2017/09/logo-firsttraxx.png) 380px top no-repeat;
+	background: url(http://firsttraxx.com/wp-content/uploads/2017/09/logo-firsttraxx.png) 15% top no-repeat;
 	border-top-color: white!important;
 	border-top-width: 10px;
 	background-size: 400px;
