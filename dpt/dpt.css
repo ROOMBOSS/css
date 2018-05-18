@@ -2,10 +2,16 @@
 
 .ui-header.ui-bar-inherit{
   background:#fff url('//roomboss.github.io/css/dpt/dpt-logo.png') no-repeat center !important;
-  background-size: 310px !important;
+  background-size: 310px;
   height:200px !important;
   border-bottom: 1px solid #eee !important;
   border-top: none !important;
+}
+
+@media(min-width: 768px) {
+	.ui-header.ui-bar-inherit {
+	background-size: 400px !important
+	}
 }
 
 .ui-header.ui-bar-inherit h1.ui-title{
@@ -67,17 +73,34 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 	transition: ease-out 0.1s !important;
  }
 
+ .ui-page-theme-a {
+ 	background-color: #fff !important;
+ }
+
+/* Hide filter */
 #base_page\3a resultsform\3a filterPanel > .ui-bar-inherit {
-	background-color: white !important;
-	color: #d54b0a !important;
+	display: none !important;
+	visibility: hidden !important;
+}
+
+/* Hide pagination */
+#base_page\3a resultsform\3a vendorGrid_paginator_top, #base_page\3a resultsform\3a vendorGrid_paginator_bottom {
+	display: none !important;
+	visibility: hidden !important;
 }
 
 #base_page\3a searchform\3a nights_input-button, #base_page\3a searchform\3a guests_input-button, .ui-select .ui-btn {
 	background-color: white !important;
 	color: #d54b0a !important;
-	border: #ddd !important;
+	border: 1px solid #ddd !important;
 }
 
 #base_page\3a searchform\3a nights_input-button:after, #base_page\3a searchform\3a guests_input-button:after, .ui-select .ui-btn:after {
 	background-color: #d54b0a !important;
+}
+
+.rbn-offers-panel > .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	background-color: #fff !important;
+	color: #d54b0a !important;
+	border: 1px solid #ddd !important;
 }
