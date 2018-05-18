@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 
 .ui-header.ui-bar-inherit{
-  background:#fff url('//roomboss.github.io/css/deeppowdertours/dpt-logo.png') no-repeat center !important;
-  background-size: 275px !important;
+  background:#fff url('//roomboss.github.io/css/dpt/dpt-logo.png') no-repeat center !important;
+  background-size: 310px !important;
   height:200px !important;
   border-bottom: 1px solid #eee !important;
   border-top: none !important;
