@@ -25,7 +25,7 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::before{
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::after{
 	content: " of Persons";	
 }
 
