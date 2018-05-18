@@ -1,14 +1,14 @@
 @import url(https://fast.fonts.net/cssapi/aaf65650-9663-4d95-8ef1-5108d077a9a5.css);body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
-  font-family:'Avenir Next W01',sans-serif;
-  background:#d5b476;
-  text-shadow:none;
+font-family:'Avenir Next W01',sans-serif;
+background:#d5b476;
+text-shadow:none;
 }
 
 .ui-header.ui-bar-inherit{
-  background:#1E252B url('https://www.ayaniseko.com/assets/img/logo.png') no-repeat center;
-  background-size:220px;
-  border:none;
-  height:145px;
+background:#1E252B url('https://www.ayaniseko.com/assets/img/logo.png') no-repeat center;
+background-size:220px;
+border:none;
+height:145px;
 }
 
 .ui-header.ui-bar-inherit h1.ui-title{
@@ -20,24 +20,37 @@ box-shadow:0 0 12px #916e2c;
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-  font-family:'Avenir Next W01',sans-serif;
-  background:#d5b476;
-  text-shadow:none;
+font-family:'Avenir Next W01',sans-serif;
+background:#d5b476;
+text-shadow:none;
 }
 
 /*css to remove prices for restaurant widget*/
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7) > span{
-	display: none;	
+display: none;	
 }
 
 #base_page\3a neworderform\3a pricing > div > span{
-	display: none;	
+display: none;	
 }
 
 #base_page\3a neworderform\3a orderItemTable\3a totalsTxt{
-	display: none;	
+display: none;	
+}
+dis
+#base_page\3a neworderform\3a orderItemTable\3a totamts{
+display: none;	
 }
 
-#base_page\3a neworderform\3a orderItemTable\3a totamts{
-	display: none;	
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(-n+10) {
+	display:none;
+}
+
+#base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	display: none;
+}
+
+/* hide tel/residence */
+#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(n+4), #base_page\3a neworderform\3a customerTable\3a j_idt99, #base_page\3a neworderform\3a customerTable\3a j_idt100 {
+	display: none;
 }
