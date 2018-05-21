@@ -18,7 +18,7 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 }
 
 .ui-header.ui-bar-inherit{
-  background:#111 url('http://suibokuhirafu.com/wp-content/uploads/2017/02/suiboku-logo.png') no-repeat center;
+  background:#111 url('//roomboss.github.io/css/wow/suiboku-logo.png') no-repeat center;
   height:100px;
   border:none;
 }
