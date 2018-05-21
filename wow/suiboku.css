@@ -1,5 +1,9 @@
 * { text-shadow: none; !important;}
 
+.ui-page {
+	border: none !important;
+}
+
 body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
   font-family:'Raleway', sans-serif !important;
 }
