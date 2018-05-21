@@ -106,3 +106,7 @@ display:none !important;
 .ui-overlay-a {
 	background-color: #222 !important;
 }
+
+.ui-header.ui-bar-inherit h1.ui-title, #base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
+  display:none !important;
+}
