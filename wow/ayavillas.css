@@ -27,11 +27,15 @@ div.ui-collapsible-heading > a {
 }
 
 .ui-btn {
-  border: 1px solid #fff !important;
+  border: 1px solid #666 !important;
   background: #898888 !important;
   color: #ffffff !important;
   font-weight: bold !important;
   text-shadow: none !important;
+}
+
+#base_page\3a locform\3a currencySelect .ui-btn, #base_page\3a locform\3a languageSelect .ui-btn {
+  border: 1px solid #fff !important;
 }
 
 .ui-btn:not(.ui-datepicker-next):not( .ui-datepicker-prev) {
