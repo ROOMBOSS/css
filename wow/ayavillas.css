@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, .ui-btn, .ui-column-title {
 }
 
 .ui-column-title {
-  font-weight: 500 !important
+  font-weight: 500 !important;
 }
 
 #base_page\3a datesPanel > div > div > h4 > span {
