@@ -57,7 +57,10 @@
 
 
 
-/*#base_page\:neworderform\:cbgrid\:1\:productTitleId,
+
+/*remove product display
+#base_page\:neworderform\:cbgrid_data*/
+#base_page\:neworderform\:cbgrid\:1\:productTitleId,
 #base_page\:neworderform\:cbgrid\:1\:cbval,
 #base_page\:neworderform\:cbgrid\:2\:productTitleId,
 #base_page\:neworderform\:cbgrid\:2\:cbval,
@@ -76,20 +79,17 @@
 #base_page\:neworderform\:cbgrid\:9\:productTitleId,
 #base_page\:neworderform\:cbgrid\:9\:cbval,
 #base_page\:neworderform\:cbgrid\:10\:productTitleId,
-#base_page\:neworderform\:cbgrid\:10\:cbval,*/
-
-/*remove product display*/
-#base_page\:neworderform\:cbgrid_data{
+#base_page\:neworderform\:cbgrid\:10\:cbval,{
 	display: none;
 	visibility: hidden;
 }
 
-/*unhide items in prodcut display*/
+/*unhide items in prodcut display
 #base_page\:neworderform\:cbgrid\:0\:productTitleId,
 #base_page\:neworderform\:cbgrid\:0\:cbval{
     	display: block;	
 	visibility: visible;
-}
+}*/
 
 #base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::after { 
     content: " - Choose Single Session or Package for each guest";
