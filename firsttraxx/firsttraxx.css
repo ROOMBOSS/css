@@ -47,7 +47,27 @@
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
 .rbn-cost,
-#base_page\:neworderform\:categorymenu,
+/*#base_page\:neworderform\:categorymenu,*/
+#base_page\:neworderform\:cbgrid\:1\:productTitleId,
+#base_page\:neworderform\:cbgrid\:1\:cbval,
+#base_page\:neworderform\:cbgrid\:2\:productTitleId,
+#base_page\:neworderform\:cbgrid\:2\:cbval,
+#base_page\:neworderform\:cbgrid\:3\:productTitleId,
+#base_page\:neworderform\:cbgrid\:3\:cbval,
+#base_page\:neworderform\:cbgrid\:4\:productTitleId,
+#base_page\:neworderform\:cbgrid\:4\:cbval,
+#base_page\:neworderform\:cbgrid\:5\:productTitleId,
+#base_page\:neworderform\:cbgrid\:5\:cbval,
+#base_page\:neworderform\:cbgrid\:6\:productTitleId,
+#base_page\:neworderform\:cbgrid\:6\:cbval,
+#base_page\:neworderform\:cbgrid\:7\:productTitleId,
+#base_page\:neworderform\:cbgrid\:7\:cbval,
+#base_page\:neworderform\:cbgrid\:8\:productTitleId,
+#base_page\:neworderform\:cbgrid\:8\:cbval,
+#base_page\:neworderform\:cbgrid\:9\:productTitleId,
+#base_page\:neworderform\:cbgrid\:9\:cbval,
+#base_page\:neworderform\:cbgrid\:10\:productTitleId,
+#base_page\:neworderform\:cbgrid\:10\:cbval,
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
 #base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1){
@@ -55,12 +75,12 @@
 	visibility: hidden;
 }
 
-/*unhide items in Add to Order*/
+/*unhide items in Add to Order
 #base_page\:neworderform\:cbgrid\:0\:productTitleId,
 #base_page\:neworderform\:cbgrid\:0\:cbval{
     	display: block;	
 	visibility: visible;
-}
+}*/
 
 
 /*remove product display*/
