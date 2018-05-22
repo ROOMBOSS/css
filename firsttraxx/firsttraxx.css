@@ -56,8 +56,8 @@
 }
 
 /*unhide items in Add to Order*/
-#base_page:neworderform:cbgrid:0:productTitleId,
-#base_page:neworderform:cbgrid:0:cbval{
+#base_page\:neworderform\:cbgrid\:0\:productTitleId,
+#base_page\:neworderform\:cbgrid\:0\:cbval{
     	display: block;	
 	visibility: visible;
 }
