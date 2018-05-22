@@ -53,8 +53,7 @@
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8){
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7){
 	display: none;
 	visibility: hidden;
 }
