@@ -78,11 +78,11 @@
 	display: none;
 	visibility: hidden;
 }
-
+/*
 #base_page\3a neworderform\3a orderItemTable\3a 1\3a cbgrid_data > tr:nth-child(1){
 	display: none;
 	visibility: hidden;
-}
+}*/
 
 /*unhide items in prodcut display
 #base_page\:neworderform\:cbgrid\:0\:productTitleId,
