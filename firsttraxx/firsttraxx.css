@@ -25,13 +25,10 @@
 	visibility: hidden;
 }
 
+/*add text to quantity selector*/
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span::after{
 	content: " of Persons";	
 }
-
-/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(11) > span{
-	visibility: hidden;
-}*/
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
@@ -50,12 +47,10 @@
 #base_page\:neworderform\:categorymenu,
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
-/*#base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1)*/{
+#base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1){
 	display: none;
 	visibility: hidden;
 }
-
-
 
 
 /*remove from product display
