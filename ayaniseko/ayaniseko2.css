@@ -124,13 +124,13 @@ content: 'Terms & Conditions / ご質問・ご要望 '
 }
 
 /* Hide 2nd form buttons */
-#base_page\:neworderform\:orderItemTable\:0\:productSelection,
-#base_page\:neworderform\:orderItemTable\:0\:remlnk {
-display: none;
+
+[id*="productSelection"] {
+	display: none;
 }
 
 /* Date selector padding */
-#base_page\:neworderform\:orderItemTable\:0\:checkin {
+[id*="checkin"] {
 padding-top: 0.4em;
 }
 
