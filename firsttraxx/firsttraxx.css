@@ -58,7 +58,7 @@
 
 
 
-/*remove product display
+/*remove from product display
 #base_page\:neworderform\:cbgrid_data*/
 #base_page\:neworderform\:cbgrid\:1\:productTitleId,
 #base_page\:neworderform\:cbgrid\:1\:cbval,
@@ -80,6 +80,11 @@
 #base_page\:neworderform\:cbgrid\:9\:cbval,
 #base_page\:neworderform\:cbgrid\:10\:productTitleId,
 #base_page\:neworderform\:cbgrid\:10\:cbval{
+	display: none;
+	visibility: hidden;
+}
+
+#base_page\3a neworderform\3a orderItemTable\3a 1\3a cbgrid_data > tr:nth-child(1){
 	display: none;
 	visibility: hidden;
 }
