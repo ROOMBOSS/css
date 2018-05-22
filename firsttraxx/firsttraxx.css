@@ -48,7 +48,16 @@
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
 .rbn-cost,
 #base_page\:neworderform\:categorymenu,
-#base_page\:neworderform\:cbgrid\:1\:productTitleId,
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
+#base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1){
+	display: none;
+	visibility: hidden;
+}
+
+
+
+/*#base_page\:neworderform\:cbgrid\:1\:productTitleId,
 #base_page\:neworderform\:cbgrid\:1\:cbval,
 #base_page\:neworderform\:cbgrid\:2\:productTitleId,
 #base_page\:neworderform\:cbgrid\:2\:cbval,
@@ -67,26 +76,19 @@
 #base_page\:neworderform\:cbgrid\:9\:productTitleId,
 #base_page\:neworderform\:cbgrid\:9\:cbval,
 #base_page\:neworderform\:cbgrid\:10\:productTitleId,
-#base_page\:neworderform\:cbgrid\:10\:cbval,
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
-#base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1){
-	display: none;
-	visibility: hidden;
-}
-
-/*unhide items in Add to Order
-#base_page\:neworderform\:cbgrid\:0\:productTitleId,
-#base_page\:neworderform\:cbgrid\:0\:cbval{
-    	display: block;	
-	visibility: visible;
-}*/
-
+#base_page\:neworderform\:cbgrid\:10\:cbval,*/
 
 /*remove product display*/
 #base_page\:neworderform\:cbgrid_data{
 	display: none;
 	visibility: hidden;
+}
+
+/*unhide items in prodcut display*/
+#base_page\:neworderform\:cbgrid\:0\:productTitleId,
+#base_page\:neworderform\:cbgrid\:0\:cbval{
+    	display: block;	
+	visibility: visible;
 }
 
 #base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::after { 
