@@ -88,11 +88,7 @@ content: 'Restaurant Booking Enquiry / レストラン予約のお問い合わ�
 
 /* Children */
 
-#base_page\:neworderform\:orderItemTable\:0\:cbgrid\:6\:productTitleId:after {
-	content: ' *'
-}
-
-#base_page\:neworderform\:orderItemTable_data > tr:nth-child(1) > td:nth-child(2):after{
+#base_page\:neworderform\:orderItemTable_data > .ui-table-row > td:nth-child(2):after{
 	content: '* Ages 12 years and under / 12歳以下となります';
 	display: block;
 	padding-top: 1em;
