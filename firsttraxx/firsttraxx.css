@@ -40,11 +40,18 @@
 	height: 100px;
 }
 /*hide items in Add to Order*/
-/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),*/
 .rbn-cost,
 #base_page\:neworderform\:categorymenu,
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(2),
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(3),
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(4),
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(5),
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(6),
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(7),
+#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(8)
+/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6),
 /*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
 #base_page\3a neworderform\3a addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1)*/{
@@ -54,7 +61,7 @@
 
 
 /*remove from product display
-#base_page\:neworderform\:cbgrid_data*/
+#base_page\:neworderform\:cbgrid_data
 #base_page\:neworderform\:cbgrid\:1\:productTitleId,
 #base_page\:neworderform\:cbgrid\:1\:cbval,
 #base_page\:neworderform\:cbgrid\:2\:productTitleId,
@@ -77,7 +84,8 @@
 #base_page\:neworderform\:cbgrid\:10\:cbval{
 	display: none;
 	visibility: hidden;
-}
+}*/
+
 /*
 #base_page\3a neworderform\3a orderItemTable\3a 1\3a cbgrid_data > tr:nth-child(1){
 	display: none;
