@@ -12,12 +12,12 @@
 	visibility: hidden;
 }
 
-/*remove date selector*/
+/*remove date selector
 #base_page\:neworderform\:checkin,
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1){
 	display: none;
 	visibility: hidden;
-}
+}*/
 
 /*vendor name and image*/
 #base_page > div.ui-content.rb-content > table{
@@ -45,7 +45,7 @@
 /*hide items in Add to Order*/
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6),
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
+/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),*/
 .rbn-cost,
 #base_page\:neworderform\:categorymenu,
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
