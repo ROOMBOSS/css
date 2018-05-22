@@ -79,7 +79,7 @@
 #base_page\:neworderform\:cbgrid\:9\:productTitleId,
 #base_page\:neworderform\:cbgrid\:9\:cbval,
 #base_page\:neworderform\:cbgrid\:10\:productTitleId,
-#base_page\:neworderform\:cbgrid\:10\:cbval,{
+#base_page\:neworderform\:cbgrid\:10\:cbval{
 	display: none;
 	visibility: hidden;
 }
