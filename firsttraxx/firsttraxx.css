@@ -58,11 +58,30 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a cbgrid_data > tr:nth-child(1){
-	background-color: white;
+/*hide date and time from my order*/
+#base_page\:neworderform\:orderItemTable\:0\:checkin,
+#base_page\:neworderform\:orderItemTable\:1\:checkin,
+#base_page\:neworderform\:orderItemTable\:2\:checkin,
+#base_page\:neworderform\:orderItemTable\:3\:checkin,
+#base_page\:neworderform\:orderItemTable\:4\:checkin,
+#base_page\:neworderform\:orderItemTable\:5\:checkin,
+#base_page\:neworderform\:orderItemTable\:6\:checkin,
+#base_page\:neworderform\:orderItemTable\:7\:checkin,
+#base_page\:neworderform\:orderItemTable\:8\:checkin,
+#base_page\:neworderform\:orderItemTable\:9\:checkin,
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(1),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(2),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(3),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(4),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(5),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(6),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(7),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(8),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(9),
+#base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(10){
+	display: none;
+	visibility: hidden;
 }
-
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(6)
 
 /*
 #base_page\3a neworderform\3a orderItemTable\3a 1\3a cbgrid_data > tr:nth-child(1){
