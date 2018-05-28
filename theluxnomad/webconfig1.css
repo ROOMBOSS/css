@@ -16,7 +16,8 @@
 	background: #625956
 		url("https://roomboss.github.io/css/theluxnomad/TLNLogo.jpg")
 		no-repeat;
-	background-position: 20px 30px;
+	background-position: 25%;
+	background-size: 310px;
 }
 
 .ui-title {
