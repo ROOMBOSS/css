@@ -14,13 +14,14 @@
     	min-height: 116px;
     	padding-top: 1em;
 	background: #625956
-		url("https://roomboss.github.io/css/theluxenomad/TLNLogo.jpg")
+		url("https://roomboss.github.io/css/theluxnomad/TLNLogo.jpg")
 		no-repeat;
 	background-position: 20px 30px;
 }
 
 .ui-title {
 	display: none;
+	visibility: hidden;
 	/*
 	color: #fff;
 	text-shadow: none;
