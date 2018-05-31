@@ -155,8 +155,8 @@ content: 'お問い合わせの送信だけでは、ご予約の保証または�
 	display: none;
 }
 
-/* Booking id request*/
-#base_page\3a neworderform\3a customIdTable\3a j_idt101 > span{
+/*request Booking id */
+#base_page\3a neworderform\3a customIdTable_head > tr{
 display: none;
 }
 
