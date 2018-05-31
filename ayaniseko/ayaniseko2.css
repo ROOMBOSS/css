@@ -37,8 +37,8 @@ text-shadow:none;
 }
 
 /* hide country */
-#base_page\3a neworderform\3a customerTable\3a j_idt100,
-#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(5) {
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(5),
+#base_page\:neworderform\:customerTable_head > tr:nth-child(1) > th:nth-child(5) {
 display: none;
 }
 
@@ -75,8 +75,8 @@ display: none;
 #base_page\:neworderform\:orderDetailsPanel > div:nth-child(1) > h3:nth-child(1),
 #base_page\:neworderform\:aboutMePanel > div:nth-child(1) > h3:nth-child(1),
 #base_page\:neworderform\:questionsPanel > div:nth-child(1) > h3:nth-child(1),
-#base_page\:neworderform\:customIdTable\:j_idt103 > span:nth-child(1),
-#base_page\:neworderform\:customIdTable\:j_idt103 > span:nth-child(1) {
+#base_page\:neworderform\:orderDetailsPanel > div:nth-child(1) > h3:nth-child(1),
+.rb-content > table:nth-child(2) {
 display: none;
 }
 
@@ -101,22 +101,6 @@ content: 'Restaurant Booking Enquiry / レストラン予約のお問い合わ�
 content: 'Lead Guest Details / ご宿泊代表者詳細 ';
 }
 
-/* Ref */
-#base_page\:neworderform\:customIdTable\:j_idt103:before {
-content: 'Booking Reference Number (6-digit) / 予約番号（6桁）';
-font-size: 1em !important;
-}
-
-/* Ref Mobile */
-#base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1) {
-	display: none;
-}
-
-@media(max-width: 559px) { #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
-	content: 'Booking Reference Number (6-digit) / 予約番号（6桁）';
-	font-weight: bold;
-	}
-}
 
 /* Terms */
 #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
@@ -151,16 +135,22 @@ padding-top: 1em;
 content: 'お問い合わせの送信だけでは、ご予約の保証または正式なご予約の確定とはなりませんのでご注意くださいませ。また、ご予約を完了するために追加の情報が必要となることがございます。予めご了承いただけますようお願い申し上げます。お問い合わせの送信にあたっては、各レストランのご利用規約や個人情報の取り扱いなどについて、全ての内容に同意したものとみなします。';
 }
 
-#base_page\:j_idt25, [id*="currencySelect"], #base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(2) > h3 {
+#base_page\:neworderform\:totaltb_data > tr:nth-child(1), [id*="currencySelect"], #base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(2) > h3 {
 	display: none;
 }
 
-/*request Booking id */
+/* Request booking ID */
 #base_page\3a neworderform\3a customIdTable_head > tr{
 display: none;
 }
 
-#base_page\3a neworderform\3a customIdTable_data:before{
-font-size: 0.9em;
-content: 'Please enter your 6-digit booking reference number.';
+#base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	display: block;
+	content: 'Please enter your booking reference number (6-digit) / 予約番号（6桁）';
+	font-weight: bold;
+}
+
+/* Ref Mobile */
+#base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1) {
+	display: none;
 }
