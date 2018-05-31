@@ -50,7 +50,8 @@ visibility: hidden;
 .rbn-quantity:before {
 visibility: visible;
 	font-size: 0.9em;
-content: 'To submit a restaurant booking enquiry, please enter the details of your request below. Please note that this service is for AYA Niseko guests only, and that our team may require additional information for finalisation of your reservation.';
+content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this for is for request only and submission of this form does not guarantee or confirm any reservation.
+';
 }
 
 .rbn-quantity:after {
@@ -141,7 +142,8 @@ display: none;
 
 #base_page\:neworderform\:questionsPanel > div:nth-child(2) > p:nth-child(1):before {
 font-size: 0.9em;
-content: 'Please note that the submission of this booking request does not guarantee or confirm a booking, and may require additional information for finalisation of your reservation. By submitting this request, you acknowledge that you have understood and agreed to all policies, terms and conditions relating to your reservation.';
+content: 'Please be informed that AYA NISEKO must abide by the restaurants’ booking and cancellation policy and cannot exercise any flexibility to modify their rules. Once your reservation is confirmed, any changes or cancellation within 7 days of booking date may be subject to penalty due to time needed for re-confirmation per restaurants’ requests.
+';
 }
 
 #base_page\:neworderform\:questionsPanel > div:nth-child(2) > p:nth-child(1):after {
@@ -153,4 +155,14 @@ content: 'お問い合わせの送信だけでは、ご予約の保証または�
 
 #base_page\:j_idt25, [id*="currencySelect"], #base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(2) > h3 {
 	display: none;
+}
+
+/* Booking id request*/
+#base_page\3a neworderform\3a customIdTable\3a j_idt101 > span{
+display: none;
+}
+
+#base_page\3a neworderform\3a customIdTable_data:before{
+font-size: 0.9em;
+content: 'Please enter your 6-digit booking reference number.';
 }
