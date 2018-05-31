@@ -50,8 +50,7 @@ visibility: hidden;
 .rbn-quantity:before {
 visibility: visible;
 	font-size: 0.9em;
-content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this for is for request only and submission of this form does not guarantee or confirm any reservation.
-';
+content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this for is for request only and submission of this form does not guarantee or confirm any reservation.';
 }
 
 .rbn-quantity:after {
@@ -142,8 +141,7 @@ display: none;
 
 #base_page\:neworderform\:questionsPanel > div:nth-child(2) > p:nth-child(1):before {
 font-size: 0.9em;
-content: 'Please be informed that AYA NISEKO must abide by the restaurants’ booking and cancellation policy and cannot exercise any flexibility to modify their rules. Once your reservation is confirmed, any changes or cancellation within 7 days of booking date may be subject to penalty due to time needed for re-confirmation per restaurants’ requests.
-';
+content: 'Please be informed that AYA NISEKO must abide by the restaurants’ booking and cancellation policy and cannot exercise any flexibility to modify their rules. Once your reservation is confirmed, any changes or cancellation within 7 days of booking date may be subject to penalty due to time needed for re-confirmation per restaurants’ requests.';
 }
 
 #base_page\:neworderform\:questionsPanel > div:nth-child(2) > p:nth-child(1):after {
