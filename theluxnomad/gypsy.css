@@ -110,8 +110,7 @@ div .hasDatepicker:active {
 }
 
 /* Lang select */
-[id*="languageSelect_"] {
-  margin-top: 5px !important;
+[id*="languageSelect_"], [id*="currencySelect_"] {
   border: 1px solid #ff9a00 !important;
   color: #ff9a00 !important;
   background: #625956 !important;
