@@ -98,6 +98,10 @@
 	visibility: hidden;
 }
 
+#base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(2) > span:before{
+	content: "Item";
+}
+
 /*unhide items in prodcut display
 #base_page\:neworderform\:cbgrid\:0\:productTitleId,
 #base_page\:neworderform\:cbgrid\:0\:cbval{
