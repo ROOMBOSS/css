@@ -27,8 +27,7 @@ body,
 	background: #3e6bb3;
 }
 
-/*change text on single property report*/
-
+/*change text on single property report - removes <p> 2 steps in from bottom*/*/
 #base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-last-child(2){
 	display: none;
 }
@@ -40,7 +39,7 @@ body,
 
 }
 
-/*change text on multi property report*/
+/*change text on multi property report - removes <p> 2 steps in from bottom*/
 #base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-last-child(2){
 	display: none;
 }
