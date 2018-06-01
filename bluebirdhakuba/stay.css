@@ -31,12 +31,12 @@ body,
 	background: #919eab;
 }stay.css
 
-#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(6):after{
+#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(8):before{
 content: 'Best Regards,';
 
 }
 
-#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(8):before{
+#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(8):after{
 content: 'The Hakuba Collection Owner Services';
 
 }
