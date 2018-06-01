@@ -93,7 +93,7 @@
 	visibility: hidden;
 }*/
 
-#base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(1){
+#base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(1) > span{
 	/*display: none;*/
 	visibility: hidden;
 }
