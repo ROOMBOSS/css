@@ -29,7 +29,7 @@ body,
 
 /*change text on single property report - removes <p> 2 steps in from bottom*/*/
 #base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-last-child(2){
-	display: none;
+	display: none!important;
 }
 
 #base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit:after{
