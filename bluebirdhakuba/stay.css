@@ -31,6 +31,13 @@ body,
 	background: #919eab;
 }stay.css
 
+
+/*change text on single property report*/
+
+#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(7){
+	display: none;
+}
+
 #base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(8):before{
 content: 'Best Regards,';
 
@@ -41,6 +48,18 @@ content: 'The Hakuba Collection Owner Services';
 
 }
 
-#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(7){
+/*change text on multi property report*/
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(15){
 	display: none;
 }
+
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(16):before{
+content: 'Best Regards,';
+
+}
+
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(16):after{
+content: 'The Hakuba Collection Owner Services';
+
+}
+
