@@ -72,7 +72,7 @@
 #base_page\:neworderform\:orderItemTable\:6\:checkin,
 #base_page\:neworderform\:orderItemTable\:7\:checkin,
 #base_page\:neworderform\:orderItemTable\:8\:checkin,
-#base_page\:neworderform\:orderItemTable\:9\:checkin,
+#base_page\:neworderform\:orderItemTable\:9\:checkin/*,
 #base_page\3a neworderform\3a orderItemTable\3a 0\3a cbgrid_data > tr:nth-child(1),
 #base_page\3a neworderform\3a orderItemTable\3a 1\3a cbgrid_data > tr:nth-child(1),
 #base_page\3a neworderform\3a orderItemTable\3a 2\3a cbgrid_data > tr:nth-child(1),
@@ -82,7 +82,7 @@
 #base_page\3a neworderform\3a orderItemTable\3a 6\3a cbgrid_data > tr:nth-child(1),
 #base_page\3a neworderform\3a orderItemTable\3a 7\3a cbgrid_data > tr:nth-child(1),
 #base_page\3a neworderform\3a orderItemTable\3a 8\3a cbgrid_data > tr:nth-child(1),
-#base_page\3a neworderform\3a orderItemTable\3a 9\3a cbgrid_data > tr:nth-child(1){
+#base_page\3a neworderform\3a orderItemTable\3a 9\3a cbgrid_data > tr:nth-child(1)*/{
 	display: none;
 	visibility: hidden;
 }
