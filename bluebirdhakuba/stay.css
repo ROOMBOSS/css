@@ -29,15 +29,14 @@ body,
 
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background: #919eab;
-}stay.css
+}/*stay.css*/
 
 
 /*change text on single property report
 #base_page\:messagePanel > div:nth-child(2) > p:nth-child(7)
-#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(7)*/
-
+#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(7)
 #base_page\:messagePanel > div:nth-child(2) > p:nth-child(7)
-
+*/
 
 #base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(7){
 	display: none!important;
