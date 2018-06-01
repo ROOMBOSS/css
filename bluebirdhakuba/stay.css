@@ -59,6 +59,7 @@ content: 'The Hakuba Collection Owner Services';
 
 #base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit:after{
 	display: block;
+	white-space: pre;
 	content: 'Best regards, \A The Hakuba Collection Owner Services';
 
 }
