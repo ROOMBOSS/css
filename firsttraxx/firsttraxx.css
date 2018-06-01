@@ -98,7 +98,9 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(2):before{
+/*#base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(2):before*/
+
+#base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(1):before{
 	content: "Item";
 }
 
