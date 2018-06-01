@@ -1,1 +1,118 @@
 /*for theluxenomad.bookfast.jp/cw/gen/ins/bpay2.jsf?vid=2c98902a62dfce4f0162e16741db3393*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+
+* {
+  text-shadow: none !important
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif !important;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title {
+  display:none !important;
+}
+
+/* Header */
+.ui-header.ui-bar-inherit{
+  background: #625956 url('//roomboss.github.io/css/theluxnomad/luxe-logo.jpg') no-repeat center;
+  background-size: 500px;
+  height:200px;
+  border:none;
+}
+
+@media(max-width:578px) {
+  .ui-header.ui-bar-inherit{
+    background-size: 400px;
+  }
+}
+
+/* Orange Buttons */
+#base_page\:vform\:searchButton, .rbn-sendenquiry-button {
+  color: #fff !important;
+  background-color: #ff9a00 !important;
+  border: 1px solid #fff !important;
+  text-transform: uppercase !important;
+  border-radius: 0px !important;
+}
+#base_page\:vform\:searchButton:hover, .rbn-sendenquiry-button:hover {
+  border-color: #204d74 !important;
+  background-color: #cc7b00 !important;
+  transition: ease-out 0.2s !important;
+}
+
+/* Normal Buttons + Date Picker */
+.ui-btn:not([id*="searchButton"]):not(.rbn-sendenquiry-button), div .hasDatepicker {
+  background-color: #fff;
+  border-radius: 0px;
+  outline: 0 !important;
+}
+
+/* Date Picker */
+div .hasDatepicker:hover {
+  background-color: #d4d4d4;
+  outline: 0 !important;
+  transition: ease-in-out 0.05s !important;
+}
+div .hasDatepicker:focus {
+  border: 1px solid #ff9a00;
+  background-color: #e6e6e6;
+}
+div .hasDatepicker:active {
+  border: 1px solid #ff9a00 !important;
+}
+.ui-state-default {
+  border: 1px !important;
+}
+.ui-state-active.ui-btn {
+	border: 1px solid #fff !important;
+  background: #ff9a00 !important;
+	color: #ffffff !important;
+}
+.ui-state-hover.ui-btn:not(.ui-state-active) {
+  background: #e6e6e6 !important;
+}
+
+/* No active */
+.ui-btn-active {
+  color: #666 !important;
+  border: 1px solid #e6e6e6 !important;
+  transition: ease-out 0.2s !important;
+}
+
+/* Datepicker Buttons */
+.ui-btn.ui-datepicker-prev, .ui-btn.ui-datepicker-next {
+  border-radius: 100px !important;
+  background: #ff9a00 !important;
+}
+.ui-btn.ui-datepicker-prev:hover, .ui-btn.ui-datepicker-next:hover {
+  background-color: #cc7b00 !important;
+  transition: ease-out 0.2s !important;
+}
+
+/* No Focus */
+.ui-page-theme-a .ui-focus, .ui-page-theme-a .ui-btn:focus {
+	-webkit-box-shadow: 0 0 0 0 !important;
+	-moz-box-shadow: 0 0 0 0 !important;
+  transition: ease-out 0.2s !important;
+ }
+
+/* Titlebars */
+.ui-panel-m-titlebar, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+  background: #625956 !important;
+  color: #fff !important;
+
+}
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover{
+  color: #ff9a00 !important;
+  transition: ease-out 0.2s !important;
+}
+
+/* Lang select */
+[id*="languageSelect_"] {
+  margin-top: 5px !important;
+  border: 1px solid #ff9a00 !important;
+  color: #ff9a00 !important;
+  background: #625956 !important;
+}
