@@ -93,6 +93,11 @@
 	visibility: hidden;
 }*/
 
+#base_page\3a neworderform\3a orderItemTable_head > tr > td{
+	/*display: none;*/
+	visibility: hidden;
+}
+
 /*unhide items in prodcut display
 #base_page\:neworderform\:cbgrid\:0\:productTitleId,
 #base_page\:neworderform\:cbgrid\:0\:cbval{
