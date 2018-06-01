@@ -41,7 +41,7 @@ body,
 }
 
 #base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(8):before{
-content: 'Best Regards,';
+content: 'Best regards,';
 
 }
 
@@ -56,7 +56,7 @@ content: 'The Hakuba Collection Owner Services';
 }
 
 #base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(16):before{
-content: 'Best Regards,';
+content: 'Best regards,';
 
 }
 
