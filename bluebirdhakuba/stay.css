@@ -57,18 +57,19 @@ content: 'The Hakuba Collection Owner Services';
 	display: none;
 }
 
-#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(16):before{
-content: 'Best regards, \A The Hakuba Collection Owner Services';
-
-}
-
 #base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit:after{
-content: 'Best regards, \A The Hakuba Collection Owner Services';
+	display: block;
+	content: 'Best regards, \A The Hakuba Collection Owner Services';
 
 }
 
 /*#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(16):after{
 content: 'The Hakuba Collection Owner Services';
+
+}
+
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(16):before{
+content: 'Best regards, \A The Hakuba Collection Owner Services';
 
 }*/
 
