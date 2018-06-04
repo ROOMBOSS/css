@@ -24,7 +24,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
-/*color and square more info button
+/*color and square more info button*/
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
 	background-color: rgb(228,30,38)!important;
 	color: white;
@@ -33,7 +33,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
-/*color and square titlebars*/
+/*color and square titlebars
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: rgb(228,30,38);
 	color: white;
