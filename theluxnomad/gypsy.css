@@ -1,6 +1,6 @@
 /*for theluxenomad.bookfast.jp/cw/gen/ins/bpay2.jsf?vid=2c98902a62dfce4f0162e16741db3393*/
 
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800');
 
 * {
   text-shadow: none !important;
@@ -16,9 +16,10 @@ body {
 
 /* Header */
 .ui-header.ui-bar-inherit{
-  background: #625956 url('//roomboss.github.io/css/theluxnomad/luxe-logo.jpg') no-repeat center;
-  background-size: 500px;
-  height:200px;
+  background: #625956 url('//roomboss.github.io/css/theluxnomad/eco-houses.jpg') no-repeat center;
+  background-size: cover !important;
+  background-position: 0 25%;
+  height: 350px;
   border:none;
 }
 
@@ -32,7 +33,7 @@ body {
 #base_page\:vform\:searchButton, .rbn-sendenquiry-button {
   color: #fff !important;
   background-color: #ff9a00 !important;
-  border: 1px solid #fff !important;
+  border: 1px solid #ff9a00 !important;
   text-transform: uppercase !important;
   border-radius: 0px !important;
 }
@@ -62,9 +63,11 @@ div .hasDatepicker:focus {
 div .hasDatepicker:active {
   border: 1px solid #ff9a00 !important;
 }
+
 .ui-state-default {
   border: 1px !important;
 }
+
 .ui-state-active.ui-btn {
 	border: 1px solid #fff !important;
   background: #ff9a00 !important;
@@ -92,16 +95,18 @@ div .hasDatepicker:active {
 }
 
 /* No Focus */
-.ui-page-theme-a .ui-focus, .ui-page-theme-a .ui-btn:focus {
+.ui-page-theme-a .ui-focus, .ui-page-theme-a .ui-btn,
+.ui-input-text {
 	-webkit-box-shadow: 0 0 0 0 !important;
 	-moz-box-shadow: 0 0 0 0 !important;
   transition: ease-out 0.2s !important;
+  border-radius: 0;
  }
 
 /* Titlebars */
 .ui-panel-m-titlebar, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
-  background: #625956 !important;
-  color: #fff !important;
+  background: #fff !important;
+  color: #333 !important;
 
 }
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover{
@@ -111,7 +116,21 @@ div .hasDatepicker:active {
 
 /* Lang select */
 [id*="languageSelect_"], [id*="currencySelect_"] {
-  border: 1px solid #ff9a00 !important;
-  color: #ff9a00 !important;
-  background: #625956 !important;
+  border: 1px solid #e6e6e6 !important;
+  color: #333 !important;
+  background: #fff !important;
+  margin-top: 8px !important;
+}
+
+/* Increase header size */
+.ui-page-theme-a .ui-bar-inherit, 
+.ui-collapsible-heading-toggle,
+.ui-collapsible-heading-collapsed {
+  font-weight: 700px !important;
+  font-size: 1.2rem;
+}
+
+/* Image padding */
+.ui-grid-row img {
+  padding: 1em;
 }
