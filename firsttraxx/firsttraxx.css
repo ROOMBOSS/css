@@ -42,7 +42,7 @@
 /*hide items in Add to Order*/
 .rbn-cost,
 #base_page\:neworderform\:categorymenu,
-#base_page:neworderform:cbgrid_data,
+#base_page\:neworderform\:cbgrid_data,
 #base_page\3a neworderform\3a cbgrid_data > tr:nth-child(2),
 #base_page\3a neworderform\3a cbgrid_data > tr:nth-child(3),
 #base_page\3a neworderform\3a cbgrid_data > tr:nth-child(4),
