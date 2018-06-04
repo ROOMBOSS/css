@@ -47,11 +47,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     	border-bottom-style: inset;  	
 }
 
-/*color and square titlebars
+/*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: rgb(228,30,38);
 	color: white;
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
-}*/
+}
