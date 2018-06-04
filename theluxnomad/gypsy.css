@@ -119,7 +119,10 @@ div .hasDatepicker:active {
   border: 1px solid #e6e6e6 !important;
   color: #333 !important;
   background: #fff !important;
-  margin-top: 8px !important;
+}
+
+[id*="currencySelect_"] {
+  display: none !important;
 }
 
 /* Increase header size */
