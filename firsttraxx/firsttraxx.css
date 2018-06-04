@@ -42,6 +42,7 @@
 /*hide items in Add to Order*/
 .rbn-cost,
 #base_page\:neworderform\:categorymenu,
+#base_page:neworderform:cbgrid_data,
 #base_page\3a neworderform\3a cbgrid_data > tr:nth-child(2),
 #base_page\3a neworderform\3a cbgrid_data > tr:nth-child(3),
 #base_page\3a neworderform\3a cbgrid_data > tr:nth-child(4),
@@ -83,6 +84,13 @@
 #base_page\3a neworderform\3a orderItemTable\3a 7\3a cbgrid_data > tr:nth-child(1),
 #base_page\3a neworderform\3a orderItemTable\3a 8\3a cbgrid_data > tr:nth-child(1),
 #base_page\3a neworderform\3a orderItemTable\3a 9\3a cbgrid_data > tr:nth-child(1)*/{
+	display: none;
+	visibility: hidden;
+}
+
+/* hide country ofresidence*/
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(5),
+#base_page\3a neworderform\3a customerTable\3a 0\3a country{
 	display: none;
 	visibility: hidden;
 }
