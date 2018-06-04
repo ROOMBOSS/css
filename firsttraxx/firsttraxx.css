@@ -89,8 +89,9 @@
 }
 
 /* hide country ofresidence*/
-#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(5),
-#base_page\3a neworderform\3a customerTable\3a 0\3a country{
+
+#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(5),
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(5){
 	display: none;
 	visibility: hidden;
 }
