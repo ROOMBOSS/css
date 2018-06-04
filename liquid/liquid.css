@@ -8,8 +8,8 @@
 
 /*add logo color*/
 .ui-header.ui-bar-inherit {
-	background: url(https://hakuba.com/wp-content/uploads/2017/12/cropped-logo.png) 20% no-repeat;
-    	height: 85px;
+	background: url(https://hakuba.com/wp-content/uploads/2017/12/cropped-logo.png) 5% no-repeat;
+    	height: 100px;
     	background-size: 250px;
     	background-color: rgb(199,208,217);
     	border-bottom-width: 0px;
