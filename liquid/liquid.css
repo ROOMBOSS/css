@@ -34,6 +34,16 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
+/*Available Accommodation Options*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: rgb(228,30,38);
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: rgb(228,30,38);    
+    	border-bottom-style: inset;  	
+}
+
 /*color and square titlebars
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: rgb(228,30,38);
