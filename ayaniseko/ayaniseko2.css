@@ -36,11 +36,11 @@ text-shadow:none;
   display: none;
 }
 
-/* hide country */
+/* hide country
 #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(5),
 #base_page\:neworderform\:customerTable_head > tr:nth-child(1) > th:nth-child(5) {
 display: none;
-}
+}*/
 
 div.ui-block-b:nth-child(10) > span:nth-child(1) {
 visibility: hidden;
