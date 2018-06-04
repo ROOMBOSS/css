@@ -6,12 +6,12 @@
 	visibility: hidden;
 }
 
-/*add logo, blue and green bars*/
+/*add logo color*/
 .ui-header.ui-bar-inherit {
 	background: url(https://hakuba.com/wp-content/uploads/2017/12/cropped-logo.png) 20% no-repeat;
-    	height: 115px;
-    	background-size: 160px;
-      background-color: rgb(199,208,217);
+    	height: 85px;
+    	background-size: 250px;
+    	background-color: rgb(199,208,217);
     	border-bottom-width: 0px;
 }
 
@@ -24,7 +24,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
-/*color and square more info button*/
+/*color and square more info button
 .rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
 	background-color: rgb(228,30,38)!important;
 	color: white;
@@ -40,4 +40,4 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
-}
+}*/
