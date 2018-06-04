@@ -1,1 +1,43 @@
 /*for demo based on https://hakuba.com/*/
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo, blue and green bars*/
+.ui-header.ui-bar-inherit {
+	background: url(https://hakuba.com/wp-content/uploads/2017/12/cropped-logo.png) 20% no-repeat;
+    	height: 115px;
+    	background-size: 160px;
+      background-color: rgb(199,208,217);
+    	border-bottom-width: 0px;
+}
+
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: rgb(228,30,38)!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: rgb(228,30,38);
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
