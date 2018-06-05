@@ -30,7 +30,7 @@ body {
 }
 
 /* Orange Buttons */
-#base_page\:vform\:searchButton, .rbn-sendenquiry-button {
+#base_page\:vform\:booknpay, #base_page\:vform\:searchButton, .rbn-sendenquiry-button {
   color: #fff !important;
   background-color: #ff9a00 !important;
   border: 1px solid #ff9a00 !important;
