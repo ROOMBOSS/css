@@ -108,10 +108,21 @@
 	visibility: hidden;
 }
 
-/*add Item text moblie and desktop*/
-#base_page\3a neworderform\3a orderItemTable_data > tr > td:nth-child(1):before,
+/*add Item text moblie and desktop
 #base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(1):before{
 	content: "Item";
+}*/
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(1) > td:nth-child(1):before{
+	content: "Item 1";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(2) > td:nth-child(1):before{
+	content: "Item 2";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(3) > td:nth-child(1):before{
+	content: "Item 3";
 }
 
 /*unhide items in prodcut display
