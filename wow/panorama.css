@@ -1,5 +1,3 @@
-/*Css for book now on http://panoramaniseko.com/*/
-
 @import url('https://fonts.googleapis.com/css?family=Roboto|Lato:300,400,500,700');
 
 /* Header */
@@ -8,7 +6,7 @@
   height:300px;
   border: none !important;
 }
-.ui-header.ui-bar-inherit h1.ui-title, 
+.ui-header.ui-bar-inherit h1.ui-title,
 #base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
   display: none !important;
 }
@@ -22,7 +20,7 @@
 }
 
 /*Main Background*/
-.ui-content, body {
+.ui-content, body, .rb-page {
   background: #8e8e8e !important;
 }
 
@@ -74,7 +72,7 @@ th {
 }
 
 /* Dropdowns and buttons */
-.ui-btn:not(a), 
+.ui-btn:not(a),
 #base_page\3a locform\3a currencySelect .ui-btn,
 #base_page\3a locform\3a languageSelect .ui-btn {
   border: 1px solid #fff !important;
@@ -167,7 +165,7 @@ html head+body .ui-body-a.ui-focus{
   background: #b4b3b5 !important;
 }
 
-.ui-state-hover.ui-btn, 
+.ui-state-hover.ui-btn,
 .ui-page-theme-a .ui-btn:focus,
 html .ui-bar-a .ui-btn:focus,
 html .ui-body-a .ui-btn:focus,
