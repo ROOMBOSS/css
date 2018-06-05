@@ -88,8 +88,7 @@
 	visibility: hidden;
 }
 
-/* hide country ofresidence*/
-
+/* hide country of residence*/
 #base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(5),
 #base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(5){
 	display: none;
@@ -110,7 +109,7 @@
 }
 
 /*add Item text moblie and desktop*/
-#base_page\3a neworderform\3a orderItemTable_data > tr > td:nth-child(1):before,
+#base_page\3a neworderform\3a orderItemTable_data > tr > td:nth-child(1) > b:before,
 #base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(1):before{
 	content: "Item";
 }
