@@ -1,1 +1,182 @@
 /*Css for book now on http://panoramaniseko.com/*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Lato:300,400,500,700');
+
+/* Header */
+.ui-header.ui-bar-inherit{
+  background: #414042 url('//roomboss.github.io/css/wow/panorama-logo.png') no-repeat center;
+  height:300px;
+  border: none !important;
+}
+.ui-header.ui-bar-inherit h1.ui-title, 
+#base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
+  display: none !important;
+}
+/* Remove Text Shadow */
+* {
+  text-shadow: none !important;
+}
+/* Retain shadow on FA icon */
+.fa.fa-times.rbn-no-offer {
+  text-shadow: 0 1px 0 black !important;
+}
+
+/*Main Background*/
+.ui-content, body {
+  background: #8e8e8e !important;
+}
+
+/* All Body */
+.ui-body-inherit {
+  text-shadow: none !important;
+  border-color: #fff !important;
+}
+
+/* M Panel */
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  border: 1px solid #666 !important;
+  border-bottom: none !important;
+  background: #777 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-shadow:none !important;
+}
+.ui-panel-m-content, .ui-panel-m-titlebar {
+  background-color: #414042 !important;
+  color: #fff !important;
+}
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #414042 !important;
+  border: 1px solid #fff !important;
+}
+
+/* Main Body */
+.ui-collapsible-content {
+  background-color: #777 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+/* Main Tab Headings */
+div.ui-collapsible-heading > a {
+  color: #fff !important;
+  background: #414042 !important;
+  text-shadow: none !important;
+}
+
+/* Table header background */
+th {
+  background-color: #414042 !important;
+  color: #fff !important;
+}
+.ui-block-a:nth-child(3) td {
+  background-color: transparent !important;
+}
+
+/* Dropdowns and buttons */
+.ui-btn:not(a), 
+#base_page\3a locform\3a currencySelect .ui-btn,
+#base_page\3a locform\3a languageSelect .ui-btn {
+  border: 1px solid #fff !important;
+  background-color: #f5f4f4 !important
+  color: #ffffff !important;
+  font-weight: 400 !important;
+  text-shadow: none !important;
+}
+/* Button hover, not tab headings */
+.ui-btn:not(a):hover,
+#base_page\3a locform\3a currencySelect .ui-btn:hover,
+#base_page\3a locform\3a languageSelect .ui-btn:hover{
+  background-color: #f5f4f4 !important
+}
+/* No border radius */
+.ui-btn:not(.ui-datepicker-next):not( .ui-datepicker-prev) {
+  border-radius: 0 !important;
+}
+/* On active */
+.ui-btn-active {
+  background-color: #ededed !important;
+  color: black !important;
+}
+
+/* Search Button */
+[id*=searchButton].ui-shadow {
+  background-color: #414042 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+[id*=searchButton].ui-shadow:hover {
+  background-color: #95928f !important;
+  transition: ease-in-out 0.3s !important;
+}
+.ui-page-theme-a .ui-btn {
+  border: 1px solid #fff !important;
+}
+
+/* Fonts */
+h1, h2, h3, h4, h5, .ui-btn, .ui-column-title {
+  text-transform: uppercase !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+  letter-spacing: 0.2em;
+}
+.ui-column-title {
+  font-weight: 500 !important;
+}
+.rb-avail-roomtype {
+  font-family: "Roboto", sans-serif !important;
+}
+
+body{
+  font-family: "Lato", sans-serif !important;
+}
+
+#base_page\3a datesPanel > div > div > h4 > span {
+  color: #fff !important;
+}
+
+/* Box Shadow */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,
+html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,
+html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,
+html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,
+html body .ui-group-theme-a .ui-focus,
+html head+body .ui-btn-a.ui-focus,
+html head+body .ui-body-a.ui-focus{
+  box-shadow: none !important;
+}
+
+.ui-datepicker-next, .ui-datepicker-prev {
+  border: 1px solid #c5c5c5 !important;
+  background: #f6f6f6 !important;
+  color: #454545 !important;
+  text-shadow: none !important;
+}
+
+.ui-page-theme-a, th .ui-bar-a {
+  color: #333333 !important;
+  border-color: #fff !important;
+}
+
+/* Calendar  */
+.ui-state-active.ui-btn {
+  background: #414042 !important;
+  color: #fff !important;
+}
+.ui-state-hover.ui-btn:not(.ui-state-active) {
+  background: #b4b3b5 !important;
+}
+
+.ui-state-hover.ui-btn, 
+.ui-page-theme-a .ui-btn:focus,
+html .ui-bar-a .ui-btn:focus,
+html .ui-body-a .ui-btn:focus,
+html body .ui-group-theme-a .ui-btn:focus,
+html head+body .ui-btn.ui-btn-a:focus,
+.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,
+html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,
+html head+body .ui-btn-a.ui-focus,
+html head+body .ui-body-a.ui-focus,
+.ui-btn {
+  transition: ease-in-out 0.3s !important;
+}
