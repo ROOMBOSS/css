@@ -39,6 +39,10 @@
   font-weight: bold !important;
   text-shadow:none !important;
 }
+.ui-panel-m-content, .ui-panel-m-titlebar {
+  background-color: #414042 !important;
+  color: #fff !important;
+}
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   background-color: #414042 !important;
   border: 1px solid #fff !important;
