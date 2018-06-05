@@ -108,22 +108,61 @@
 	visibility: hidden;
 }
 
-/*add Item text moblie and desktop
+/*add Item text moblie and desktop*/
 #base_page\3a neworderform\3a orderItemTable_head > tr > th:nth-child(1):before{
-	content: "Item";
-}*/
+	content: "Items";
+}
 
 #base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(1) > td:nth-child(1):before{
+	font-weight: bold; 
 	content: "Item 1";
 }
 
 #base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(2) > td:nth-child(1):before{
+	font-weight: bold; 
 	content: "Item 2";
 }
 
 #base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(3) > td:nth-child(1):before{
+	font-weight: bold; 
 	content: "Item 3";
 }
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(4) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 4";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(5) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 5";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(6) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 6";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(7) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 7";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(8) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 8";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(9) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 9";
+}
+
+#base_page\3a neworderform\3a orderItemTable_data > tr:nth-child(10) > td:nth-child(1):before{
+	font-weight: bold; 
+	content: "Item 10";
+}
+
 
 /*unhide items in prodcut display
 #base_page\:neworderform\:cbgrid\:0\:productTitleId,
