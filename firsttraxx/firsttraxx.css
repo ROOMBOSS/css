@@ -173,7 +173,7 @@
 
 /*add text*/
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1)::before { 
-    content: "Preffered Booking ";
+    content: "Preferred Booking ";
 }
 
 /*add text*/
