@@ -199,8 +199,7 @@
 }
 
 #base_page\3a neworderform\3a customerTable_head{
-          display:flex;
-          flex-flow: column;
+          display:flex;          
 }
         
 #base_page\3a neworderform\3a customerTable\3a > th:nth-child(1){order:2;}
