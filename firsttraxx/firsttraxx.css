@@ -201,7 +201,10 @@
 #base_page\3a neworderform\3a customerTable_head{
           display:flex;          
 }
-        
-#base_page\3a neworderform\3a customerTable\3a > th:nth-child(1){order:2;}
+
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(1){
+	width:25%;
+	order:2;
+}
       
-#base_page\3a neworderform\3a customerTable\3a > th:nth-child(2){order:1;}        
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(2){order:1;}        
