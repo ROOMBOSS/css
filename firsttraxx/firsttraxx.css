@@ -171,6 +171,12 @@
 	visibility: visible;
 }*/
 
+/*add text*/
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1)::before { 
+    content: "Preffered Booking ";
+}
+
+/*add text*/
 #base_page\3a neworderform\3a orderDetailsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3::after { 
     content: " - Choose Single Session or Package for each guest";
 }
