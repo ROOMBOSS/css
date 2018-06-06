@@ -82,7 +82,7 @@ th {
   text-shadow: none !important;
 }
 /* Button hover, not tab headings */
-.ui-btn:not(a):hover,
+.ui-btn:not(a):not(.rbn-sendenquiry-button):not(.ui-btn.ui-shadow):hover,
 #base_page\3a locform\3a currencySelect .ui-btn:hover,
 #base_page\3a locform\3a languageSelect .ui-btn:hover{
   background-color: #f5f4f4 !important
