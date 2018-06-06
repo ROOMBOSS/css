@@ -197,7 +197,7 @@
 #base_page\:neworderform\:orderItemTable\:12\:cbgrid\:4\:productTitleId::after{ 
     content: " - On Infinity Slope";
 }
-
+/* reverse order of first and last names
 #base_page\3a neworderform\3a customerTable_head > tr{
           display:flex;          
 }
@@ -221,3 +221,4 @@
 #base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(4){
 	order:4;
 }  
+*/
