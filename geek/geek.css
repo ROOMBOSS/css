@@ -1,11 +1,12 @@
+/* This CSS was created for a demo / POC for Geekout. */
 .ui-header.ui-bar-inherit {
 	background: #375d9d
-		url('https://roomboss.github.io/css/gosnow/jenny-yuka-1.jpg')
+		url('http://www.hakubavalley.com/files/4614/8414/1198/ph_slide_02.png')
 		no-repeat;
 	background-position: 50% 12%;
 	padding-top: 80px;
 	padding-bottom: 70px;
-	border-top: 5px solid #72d54a;
+	border-top: 5px solid #004AA3;
 	border-bottom: none;
 }
 
@@ -37,17 +38,6 @@ div.ui-footer.ui-bar-inherit {
 	display: none;	
 }
 
-.rb-header {
-background: #375d9d
-		url('https://roomboss.github.io/css/gosnow/jenny-yuka-1.jpg')
-		no-repeat;
-	background-position: 50% 12%;
-	padding-top: 80px;
-	padding-bottom: 160px !important;
-	border-top: 5px solid #72d54a;
-	border-bottom: none;	
-}
-
 .rb-body-content {
 	background: #fbfbfb;
 	border:4px;
@@ -57,33 +47,10 @@ background: #375d9d
 }
 
 input#base_page\:neworderform\:checkin_input {
-	border: #72d54a 5px solid;
+	border: #004AA3 5px solid;
 	font-size: 1.3em;
-}
-
-/*fix to prevent showing red on availability page for agents this may cause problems if accessing other areas via the gosnow subdomain*/
-.bg-red{
-	background-color: #ffda82!important;
-}
-
-#j_idt45{
-	display:none;
 }
 
 .ui-outputlabel.ui-widget.bg-red{
 	display:none;
 }
-/*
-body > div.rb-body-content > div > br:nth-child(6){
-	display:none;
-}
-
-body\:div.rb-body-content\:div\:br:nth-child(6)
-
-/html/body/div[2]/div/br[2]
-
-
-/*html body div.rb-body-content div label#j_idt45.ui-outputlabel.ui-widget
-
-
-*/
