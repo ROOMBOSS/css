@@ -198,7 +198,7 @@
     content: " - On Infinity Slope";
 }
 
-#base_page\3a neworderform\3a customerTable_head{
+#base_page\3a neworderform\3a customerTable_head > tr{
           display:flex;          
 }
 
