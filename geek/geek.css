@@ -50,7 +50,3 @@ input#base_page\:neworderform\:checkin_input {
 .ui-outputlabel.ui-widget.bg-red{
 	display:none;
 }
-
-div#base_page.rb-page.ui-page.ui-page-theme-a.ui-page-active div.ui-content.rb-content table {
-	visibility: hidden;
-}
