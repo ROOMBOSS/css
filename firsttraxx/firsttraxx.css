@@ -202,9 +202,23 @@
           display:flex;          
 }
 
+#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(1),
 #base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(1){
 	width:25%;
 	order:2;
 }
-      
-#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(2){order:1;}        
+
+#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(2),
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(2){
+	order:1;
+}        
+
+#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(3),
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(3){
+	order:3;
+}  
+
+#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(4),
+#base_page\3a neworderform\3a customerTable_head > tr > th:nth-child(4){
+	order:4;
+}  
