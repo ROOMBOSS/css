@@ -50,3 +50,7 @@ input#base_page\:neworderform\:checkin_input {
 .ui-outputlabel.ui-widget.bg-red{
 	display:none;
 }
+
+#base_page\:neworderform\:productPanel {
+	padding-bottom: 0.5em;
+}
