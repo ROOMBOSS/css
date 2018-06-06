@@ -1,0 +1,82 @@
+*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo, blue and green bars*/
+.ui-header.ui-bar-inherit {
+	background: url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55b194dc5a06c8fa390e5c5d_Mnklogo.png) 500px no-repeat, url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55e79bcce0f5856916553949_navborder.jpg) no-repeat center bottom;
+    	height: 115px;
+    	background-size: 160px, 1999px;
+    	border-top-width: 32px;
+    	border-top-color: #002e52;
+    	border-bottom-width: 0px;
+}
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #39bb9d!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #39bb9d;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+
+/*Available Accommodation Options*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: #002e52;
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: #39bb9d;    
+    	border-bottom-style: inset;  	
+}
+
+/*bpay header*/
+#base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat;
+	background-position: 50%;
+	height: 100px;
+}
+
+
+/*bpay emphasise unit 1st screen*/
+.ui-table-row.rb-selected-rt-sd {	
+	border: 3px solid green;
+	background-color: #edfeeb;
+}
+/*bpay emphasise unit 2nd screen*/
+.ui-table-row.rb-selected-rt-sr{	
+	border: 3px solid green;
+	background-color: #edfeeb;
+}
+
+
+/*bpay green line*/
+#base_page\3a descPanel > div.ui-panel-m-content.ui-body.ui-body-inherit{
+	border-top-width: 2px;
+    	border-top-color: #39bb9d;
+}
+
+
+
