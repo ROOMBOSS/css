@@ -43,7 +43,7 @@ div.ui-footer.ui-bar-inherit {
 }
 
 input#base_page\:neworderform\:checkin_input {
-	border: #004AA3 5px solid;
+	border: #004AA3 4px solid;
 	font-size: 1.3em;
 }
 
@@ -52,5 +52,5 @@ input#base_page\:neworderform\:checkin_input {
 }
 
 #base_page\:neworderform\:productPanel {
-	padding-bottom: 0.5em;
+	padding-bottom: 0.9em;
 }
