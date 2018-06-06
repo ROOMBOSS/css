@@ -198,13 +198,11 @@
     content: " - On Infinity Slope";
 }
 
-/*#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9) > span::after { 
-    content: " of people";
-}*/
-
-/*remove residency cant do with Jid
-#base_page\3a neworderform\3a customerTable\3a j_idt98,
-#base_page\3a neworderform\3a customerTable_data > tr > td:nth-child(5){
-	display: none;
-	visibility: hidden;
-}*/
+@media screen and (max-width:300px){
+        #base_page:neworderform:customerTable_head{
+          display:flex;
+          flex-flow: column;
+        }
+        #base_page\3a neworderform\3a customerTable\3a j_idt94{order:2;}
+        #base_page\3a neworderform\3a customerTable\3a j_idt95{order:1;}        
+      }
