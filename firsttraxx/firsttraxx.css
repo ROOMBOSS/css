@@ -198,11 +198,11 @@
     content: " - On Infinity Slope";
 }
 
-@media screen and (max-width:300px){
-        #base_page:neworderform:customerTable_head{
+@media screen /*and (max-width:300px)*/{
+        #base_page\3a neworderform\3a customerTable_head{
           display:flex;
           flex-flow: column;
         }
-        #base_page\3a neworderform\3a customerTable\3a j_idt94{order:2;}
-        #base_page\3a neworderform\3a customerTable\3a j_idt95{order:1;}        
+        #base_page\3a neworderform\3a customerTable\3a > th:nth-child(1){order:2;}
+        #base_page\3a neworderform\3a customerTable\3a > th:nth-child(2){order:1;}        
       }
