@@ -6,10 +6,6 @@
 	visibility: hidden;
 }
 
-#base_page\3a neworderform::before{
-	content: attr(href) "Return to Site http://firsttraxx.com"</a>;	
-}
-
 /*remove Language selector*/
 #base_page\3a locform > table{
 	display: none;
