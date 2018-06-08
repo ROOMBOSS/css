@@ -7,7 +7,7 @@
 }
 
 #base_page\3a neworderform::before{
-	content: <a href="http://firsttraxx.com/">Return to Site</a>;	
+	content: attr(href) "Return to Site http://firsttraxx.com"</a>;	
 }
 
 /*remove Language selector*/
