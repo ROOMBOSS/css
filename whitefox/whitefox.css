@@ -1,0 +1,25 @@
+/*css for bpay, owner report, yourbooking and for http://www.hakubawhitefox.com/*/
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logos*/
+.ui-header.ui-bar-inherit {
+	background: url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55b194dc5a06c8fa390e5c5d_Mnklogo.png) 500px no-repeat, url(https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/55e79bcce0f5856916553949_navborder.jpg) no-repeat center bottom;
+    	height: 115px;
+    	background-size: 160px, 1999px;
+    	border-top-width: 32px;
+    	border-top-color: #002e52;
+    	border-bottom-width: 0px;
+}
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
