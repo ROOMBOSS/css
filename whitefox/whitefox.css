@@ -28,7 +28,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*bpay2 hide logo and title for 1st section*/
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus,
-.vendorImageThumb.rbn-vendor-grid-img{
+.ui-grid-col-3{
 	display: none;
 	visibility: hidden;
 }
