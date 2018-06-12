@@ -26,7 +26,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*Fix selected buttons*/
 .ui-state-disabled{
-  	 	background: inherit!important;	
+  	 	background:#fff!important;	
 }
 
 /*bpay2*/
