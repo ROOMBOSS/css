@@ -25,7 +25,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 /*Fix selected buttons*/
-.ui-state-disabled{
+.ui-state-disabled.rbn-gotobutt{
   	 	background:#38c!important;	
 }
 
