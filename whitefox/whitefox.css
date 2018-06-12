@@ -8,7 +8,7 @@
 
 /*add logos*/
 .ui-header.ui-bar-inherit {
-	background: url(white_logo_transparent_background_axo58u.png) 5% no-repeat top, url(0cf3ddb3-0950-42d0-97e4-a780155f913b_am1vfb.jpg) no-repeat center;
+	background: url(white_logo_transparent_background_axo58u.png) 5% 5% no-repeat, url(0cf3ddb3-0950-42d0-97e4-a780155f913b_am1vfb.jpg) no-repeat center;
     	height: 350px;
     	background-size: 160px, 1999px;
     	/*border-top-width: 32px;
