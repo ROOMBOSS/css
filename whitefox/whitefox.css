@@ -1,4 +1,4 @@
-/*css for bpay, owner report, yourbooking and for http://www.hakubawhitefox.com/*/
+/*css for bpay2, owner report, yourbooking and for http://www.hakubawhitefox.com/*/
 
 /*remove title*/
 .ui-title{
@@ -8,8 +8,8 @@
 
 /*add logos*/
 .ui-header.ui-bar-inherit {
-	background: url(white_logo_transparent_background_axo58u.png) 10% no-repeat, url(0cf3ddb3-0950-42d0-97e4-a780155f913b_am1vfb.jpg) no-repeat center bottom;
-    	height: 200px;
+	background: url(white_logo_transparent_background_axo58u.png) 5% no-repeat, url(0cf3ddb3-0950-42d0-97e4-a780155f913b_am1vfb.jpg) no-repeat center;
+    	height: 250px;
     	background-size: 160px, 1999px;
     	/*border-top-width: 32px;
     	border-top-color: #002e52;
@@ -22,4 +22,13 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
  	background: white!important;
 	color: black;
 	text-shadow: none;
+}
+
+/*bpay2*/
+
+/*bpay2 hide logo and title for 1st section*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus,
+.vendorImageThumb.rbn-vendor-grid-img{
+	display: none;
+	visibility: hidden;
 }
