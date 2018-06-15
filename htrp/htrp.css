@@ -1,0 +1,36 @@
+/*for https://hokkaidotracks.bookfast.jp/cw/gen/ins/bpay1.jsf?vid=2c98902a57f37ae70157ff50de81451a
+https://hokkaidotracks.bookfast.jp/public/yourbooking.jsf?id=415120&em=john%40test.com
+https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
+*/
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logos*/
+.ui-header.ui-bar-inherit {
+	background: url() 5% 5% no-repeat;
+    	height: 350px;
+      bacjground-color: #002e52;
+    	background-size: 160px;
+    	/*border-top-width: 32px;
+    	border-top-color: #002e52;
+    	border-bottom-width: 0px;*/
+}
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+/*Fix selected buttons*/
+.ui-state-disabled.rbn-gotobutt{
+  	 	background:#38c!important;	
+}
+
+
