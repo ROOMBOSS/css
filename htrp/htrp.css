@@ -11,10 +11,10 @@ https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
 
 /*add logos*/
 .ui-header.ui-bar-inherit {
-	background: url(htrp-logo-sm.png) 5% 5% no-repeat;
+	background: url(htrp-logo-sm.png) 10% 10% no-repeat;
     	height: 200px;
       	background-color: #white;
-    	background-size: 180px;
+    	background-size: 250px;
     	border-top-width: 0px;
     	border-bottom-width: 0px;
 }
