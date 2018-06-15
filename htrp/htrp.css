@@ -23,9 +23,13 @@ https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
 	font-weight: 100;
- 	background: url(bg-new.jpg);
-	color: black;
+ 	color: black;
 	text-shadow: none;
+}
+
+body{
+  	background: url(bg-new.jpg);
+	
 }
 
 /*Fix selected buttons*/
