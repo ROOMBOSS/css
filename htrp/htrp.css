@@ -33,6 +33,10 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-size: cover;
 }
 
+#base_page:txtab_data{
+  	background-color: white;
+}
+
 /*Fix selected buttons*/
 .ui-state-disabled.rbn-gotobutt{
   	 	background:#38c!important;	
