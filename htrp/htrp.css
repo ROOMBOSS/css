@@ -28,7 +28,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none;
 }
 
-body{
+#base_page{
   	background: url(bg-new.jpg) cover;
 	
 }
