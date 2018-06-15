@@ -29,7 +29,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 body{
-  	background: url(bg-new.jpg);
+  	background: url(bg-new.jpg) cover;
 	
 }
 
