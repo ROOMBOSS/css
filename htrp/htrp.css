@@ -29,8 +29,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 #base_page{
-  	background: url(bg-new.jpg) cover;
-	
+  	background: url(bg-new.jpg);
+	background-size: cover;
 }
 
 /*Fix selected buttons*/
