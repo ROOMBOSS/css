@@ -20,18 +20,21 @@ https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
     	border-bottom-width: 2px;
 }
 
+#base_page{
+  	background: url(bg-new.jpg);
+	background-size: cover;
+}
+
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
 	font-weight: 100;
  	color: black;
 	text-shadow: none;
+	background-color: white;
 }
 
-#base_page{
-  	background: url(bg-new.jpg);
-	background-size: cover;
-}
+
 
 #base_page:txtab_data{
   	background-color: white;
