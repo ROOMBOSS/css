@@ -11,9 +11,9 @@ https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
 
 /*add logos*/
 .ui-header.ui-bar-inherit {
-	background: url() 5% 5% no-repeat;
-    	height: 350px;
-      bacjground-color: #002e52;
+	background: url(htrp-logo-sm.png) 5% 5% no-repeat;
+    	height: 250px;
+      	background-color: #white;
     	background-size: 160px;
     	/*border-top-width: 32px;
     	border-top-color: #002e52;
@@ -23,7 +23,7 @@ https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
 	font-weight: 100;
- 	background: white!important;
+ 	background: url(bg-new.jpg);
 	color: black;
 	text-shadow: none;
 }
