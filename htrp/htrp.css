@@ -44,4 +44,107 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	 	background:#38c!important;	
 }
 
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Merriweather:400,700');
 
+* {
+  text-shadow: none !important;
+}
+
+.ui-page-theme-a .ui-btn:not(.ui-btn-icon-notext) {
+  background-color: #fff;
+  border-radius: 0;
+  font-weight: 400;
+}
+/* Button Uppercase */
+.ui-btn .ui-btn-shadow .ui-corner-all	{
+	text-transform: uppercase;
+}
+[id*="sortSuitable"],[id*="sortName"],[id*="sortPrice"],[id*="mapViewTab"],
+[id*="searchButton"],[id*="listViewTab"],
+.ui-link.ui-btn, [id*=":gbutt"] {
+	text-transform: uppercase !important;
+	font-family: "Merriweather" !important;
+}
+
+/* Input border radius*/
+.ui-input-text {
+	border-radius: 0 !important;
+}
+
+/* Active filters / paginator */
+.ui-btn.ui-btn-active, 
+.ui-paginator-page .ui-btn.ui-btn-active,
+.ui-state-disabled.rbn-gotobutt{
+  background-color: #b2b2b2 !important;
+  border-color: #b2b2b2 !important;
+}
+
+/* Main Tab Headings */
+.ui-corner-all .ui-panel-m-titlebar:first-child,
+.ui-collapsible-heading .ui-btn, .rbn-yb-h1 {
+  color: #444 !important;
+  background-color: #fff !important;
+  font-family: "Libre Baskerville" !important;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	font-style: italic;
+}
+.ui-corner-all .ui-panel-m-titlebar h3 {
+	font-size: 1.25em;
+}
+/* Headings background */
+.ui-block-a > [id*="vendorGrid"] > .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="messagePanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="vendorPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="descPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="statementExtentMenu"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	background-color: #dddddd !important;
+}
+
+/* Secondary Headings */
+.rbn-offers-panel h3,
+[id*="vendorMessagePanel"] h3,
+.rbn-accom-opt-panel h3 {
+  color: #999;
+  font-weight: 400;
+}
+
+/* Enquire buttons */
+.rbn-more-info-button {
+  color: #fff !important;
+  background-color: #000 !important;
+  text-transform: uppercase !important;
+  font-weight: 400;
+	font-family: "Merriweather" !important;
+}
+.rbn-more-info-button:hover {
+  color: #d1d1d1 !important;
+}
+
+/* Black buttons*/
+#base_page\3a locform\3a currencySelect .ui-btn,
+#base_page\3a locform\3a languageSelect .ui-btn, .ui-btn-inline {
+	background-color: #000 !important;
+	color: #fff !important;
+  text-transform: uppercase !important;
+	font-family: "Merriweather" !important;
+}
+#base_page\3a locform\3a currencySelect .ui-btn:hover,
+#base_page\3a locform\3a languageSelect .ui-btn:hover, .ui-btn-inline:hover {
+  color: #d1d1d1 !important;
+}
+
+/* Box Shadow Removal */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,
+html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,
+html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,
+html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,
+html body .ui-group-theme-a .ui-focus,
+html head+body .ui-btn-a.ui-focus,
+html head+body .ui-body-a.ui-focus{
+  box-shadow: none !important;
+}
+
+.rbn-gotobutt {
+	font-family: "Merriweather" !important;
+}
