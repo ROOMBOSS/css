@@ -26,8 +26,8 @@ box-shadow:0 0 12px #916e2c;
 }
 
 [id*="requestPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #d5b476 !important;
-  color: #000 !important;
+  background-color: #ededed !important;
+  color: #666 !important;
 }
 
 /* Enquiry button colour */
