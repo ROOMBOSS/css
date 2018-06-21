@@ -41,5 +41,5 @@ background-color: #ededed !important;
 
 /* Vendor padding */
 .ui-grid.ui-grid-responsive.rbn-vendor-box {
-  padding: 1em !important;
+  padding: 0.5em !important;
 }
