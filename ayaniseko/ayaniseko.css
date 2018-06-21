@@ -24,3 +24,22 @@ box-shadow:0 0 12px #916e2c;
   background:#d5b476;
   text-shadow:none;
 }
+
+[id*="requestPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #d5b476 !important;
+  color: #000 !important;
+}
+
+/* Enquiry button colour */
+.rbn-sendenquiry-button {
+  background-color: #f6f6f6 !important;
+  color: #000 !important;
+}
+.rbn-sendenquiry-button:hover {
+background-color: #ededed !important;
+}
+
+/* Vendor padding */
+.ui-grid.ui-grid-responsive.rbn-vendor-box {
+  padding: 1em !important;
+}
