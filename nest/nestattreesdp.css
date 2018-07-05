@@ -37,7 +37,7 @@ body, input, select, textarea, button, .ui-btn {
   padding: 20px 0;
 }
 
-.ui-header.ui-bar-inherit::after{
+#base_page\:base_header::after{
   content: "15% off for Friends of NEST - Book a minimum of 3 nights to enjoy this exclusive deal on all Apartments";
 }
 
