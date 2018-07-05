@@ -16,11 +16,6 @@ body, input, select, textarea, button, .ui-btn {
   border-radius: 0;
 }
 
-#base_page:vform:before{
-  content: "15% off for Friends of NEST"\n
-"Book a minimum of 3 nights to enjoy this exclusive deal on all Apartments";
-}
-
 .ui-select .ui-btn select {
   border-radius: 0;
 }
@@ -40,6 +35,10 @@ body, input, select, textarea, button, .ui-btn {
   border: none;
   height: 159px;
   padding: 20px 0;
+}
+
+.ui-header.ui-bar-inherit::after{
+  content: "15% off for Friends of NEST - Book a minimum of 3 nights to enjoy this exclusive deal on all Apartments";
 }
 
 .ui-header.ui-bar-inherit h1.ui-title {
