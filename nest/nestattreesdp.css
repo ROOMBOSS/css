@@ -41,6 +41,10 @@ body, input, select, textarea, button, .ui-btn {
   content: "15% off for Friends of NEST - Book a minimum of 3 nights to enjoy this exclusive deal on all Apartments";
 }
 
+.ui-content.rb-content::before{
+  content: "15% off for Friends of NEST - Book a minimum of 3 nights to enjoy this exclusive deal on all Apartments";
+}
+
 .ui-header.ui-bar-inherit h1.ui-title {
   display: none;
 }
