@@ -1,0 +1,179 @@
+@import url(https://use.typekit.net/zhm2fjq.css);
+
+body, input, select, textarea, button, .ui-btn {
+  font-family: 'proxima-nova',sans-serif;
+  font-weight: 300;
+  text-align: left;
+  background: white;
+}
+
+.ui-page-theme-a {
+  background: white;
+  color: #666;
+}
+
+.ui-corner-all {
+  border-radius: 0;
+}
+
+#base_page:vform:before{
+  content: "15% off for Friends of NEST"\n
+"Book a minimum of 3 nights to enjoy this exclusive deal on all Apartments";
+}
+
+.ui-select .ui-btn select {
+  border-radius: 0;
+}
+
+/*
+.ui-select,
+.ui-input-text,
+.ui-btn {
+  width: 90%;
+}
+*/
+
+.ui-header.ui-bar-inherit {
+  background: url('https://assets.nestatthetrees.com/logos/nest-at-the-trees-logo.png?mtime=20180106132424') no-repeat center;
+  background-color: #222;
+  background-size: 190px;
+  border: none;
+  height: 159px;
+  padding: 20px 0;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title {
+  display: none;
+}
+
+.rbn_ven_descr {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.ui-collapsible-heading-toggle {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  padding-left: 40px;
+}
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+  font-weight: 300;
+}
+
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus {
+  -webkit-box-shadow: 0 0 12px #ccc;
+  box-shadow: 0 0 12px #ccc;
+}
+
+.rbn-vendor-panel {
+  border: none;
+}
+
+.ui-grid-col-9.rbn-ven-grid-txt-col {
+  width: 100%;
+}
+
+.ui-panel-m .ui-panel-m-content {
+  border: none;
+  padding: 0;
+}
+
+.rbn-vendor-panel .ui-panel-m-titlebar {
+  display: none;
+}
+
+.rbn-vendor-grid-img-col {
+  display: none;
+}
+
+.rbn-ven-grid-txt-col {
+  text-align: center;
+  padding: 0 100px;
+}
+
+h4 {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  line-height: 26px;
+  text-shadow: none;
+}
+
+h4 span {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.ui-block-a,
+.ui-block-b,
+.ui-block-c,
+.ui-block-d {
+  font-size: 14px;
+  color: #666;
+  text-shadow: none;
+  line-height: 22px;
+}
+
+.rb-avail-roomtype {
+  font-size: 16px;
+}
+
+.ui-block-a #base_page:bpayForm:tabview:checkInTxt {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ui-table td {
+  padding: 15px;
+}
+
+.ui-column-header {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.ui-shadow {
+  box-shadow: none;
+  border: 1px solid #efefef;
+}
+
+.ui-header.ui-bar-inherit, div.ui-footer.ui-bar-inherit {
+  background-color: #222;
+  border: none;
+  color: #666;
+  text-shadow: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .rbn-ven-grid-txt-col {
+    padding: 0 20px;
+  }
+ 
+}
+
+.rbn-cat-panel {
+     display: none;
+  }
+
+/*contains(@class, 'rbn-cat-panel') and
+[contains(., 'Hotel / Lodge')] {
+     display: none;
+  }*/
+
+#base_page\:accomOptionsPanel{
+     display: none;
+  }
+
+#base_page\:map{
+     display: none;
+  }
