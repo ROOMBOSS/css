@@ -20,4 +20,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-widget:0px;
 }
 
-#b1a374;
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+background-color: #b1a374;
+}
+
