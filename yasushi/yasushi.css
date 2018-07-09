@@ -21,5 +21,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 #base_page\3a vform\3a > div > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 #base_page\3a vform\3a rqpnl > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: #b1a374;
+	text-shadow: none; 
 }
 
