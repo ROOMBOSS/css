@@ -13,7 +13,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*add logo color*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/yasushi/download.png) 15% no-repeat;
+	background: url(https://roomboss.github.io/css/yasushi/download.png) 5% no-repeat;
     	height: 100px;
     	background-size: 500px;    	
 	border-width:0px;
