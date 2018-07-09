@@ -2,7 +2,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
 	font-weight: 100;
  	background: rgb(239, 239, 239)!important;
-	color: black;
+	color: #b1a374;
 	text-shadow: none;
 }
 /*remove title*/
