@@ -12,6 +12,7 @@
     	border-top-width: 32px;
     	border-top-color: #002e52;
     	border-bottom-width: 0px;
+	text-shadow: none;
 }
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
