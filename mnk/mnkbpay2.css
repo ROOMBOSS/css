@@ -1,5 +1,5 @@
 *remove title*/
-.ui-title{
+.h1.ui-title{
 	display: none!important;
 	visibility: hidden;
 }
