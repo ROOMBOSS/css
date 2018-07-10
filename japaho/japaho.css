@@ -1,1 +1,50 @@
+* {
+	text-shadow: none;
+}
 
+.rb-content > table:nth-child(2) {
+  display: none;
+}
+
+/* Remove top title */
+.ui-header.ui-bar-inherit h1.ui-title {
+  display:none !important;
+}
+/* Heading */
+.ui-header.ui-bar-inherit {
+  background-image: url('//roomboss.github.io/css/japaho/Yukibancho_Rentals.svg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px;
+	height: 100px;
+}
+
+/* Top Buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/* Border prod */
+.prod-opt-table {
+	border-right: 1px solid #ddd !important;
+	border-left: 1px solid #ddd !important;
+}
+
+/* Cal fix */
+.hasDatepicker {;
+	border: 1px solid #ddd;
+}
+
+@media(max-width:561px) {
+#base_page\:neworderform\:newOrderItemTable *{
+	width: 100%;
+	box-sizing: border-box !important;
+	overflow: hidden;
+}
+div.ui-block-a:nth-child(7), #base_page\:neworderform\:j_idt71 {
+	display: none;
+}
+.ui-header.ui-bar-inherit {
+	height: 150px;
+	background-position: 50% 45%
+}
