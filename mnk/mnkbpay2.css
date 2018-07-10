@@ -1,5 +1,5 @@
 *remove title*/
-.h1.ui-title{
+#base_page\:base_header > h1{
 	display: none!important;
 	visibility: hidden;
 }
