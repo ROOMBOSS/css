@@ -1,6 +1,6 @@
 *remove title*/
 .ui-title{
-	display: none;
+	display: none!important;
 	visibility: hidden;
 }
 
@@ -52,6 +52,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     	border-bottom-style: inset;  	
 }
 
+/*remove top*/
+.ui-accordion.ui-collapsible-set.ui-corner-all.ui-hidden-container.rbn-margin-top{
+	display: none!important;
+	visibility: hidden;
+}
+
 /*bpay header*/
 #base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat;
@@ -78,5 +84,10 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     	border-top-color: #39bb9d;
 }
 
+#base_page\3a vform\3a rqpnl > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	color: white;
+	background-color: #39bb9d;
+	text-shadow: none; 
+}
 
 
