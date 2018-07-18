@@ -85,10 +85,17 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   color: #444 !important;
   background-color: #fff !important;
   font-family: "Libre Baskerville" !important;
-	font-weight: bold;
-	letter-spacing: 0.05em;
-	font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  font-style: italic;
 }
+
+.ui-collapsible-themed-content > .ui-collapsible-heading .ui-btn {
+	font-style: normal;
+	letter-spacing: 0.01em;
+	font-family: "Open Sans";
+}
+
 .ui-corner-all .ui-panel-m-titlebar h3 {
 	font-size: 1.25em;
 }
