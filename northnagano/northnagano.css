@@ -1,1 +1,67 @@
+* {
+text-shadow: none;
+}
 
+.rb-content > table:nth-child(2) {
+display: none;
+}
+
+/* Remove top title */
+.ui-header.ui-bar-inherit h1.ui-title {
+display:none !important;
+}
+/* Heading */
+.ui-header.ui-bar-inherit {
+background-image: url('//roomboss.github.io/css/northnagano/naga-logo.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 150px;
+height: 100px;
+background-color: #45aafa;
+border-color: #45aafa;
+}
+
+.prod-opt-table {
+border-right: 1px solid #ddd !important;
+border-left: 1px solid #ddd !important;
+}
+
+.hasDatepicker {;
+border: 1px solid #ddd;
+}
+
+@media(max-width:561px) {
+#base_page\:neworderform\:newOrderItemTable *{
+width: 100%;
+box-sizing: border-box;
+}
+div.ui-block-a:nth-child(7), #base_page\:neworderform\:j_idt71 {
+display: none;
+}
+.ui-header.ui-bar-inherit {
+	height: 150px;
+	}
+}
+
+[id*="neworderform"] .ui-panel-m-content {
+margin-bottom: 0.5em;
+}
+
+/* Panel Bars */
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background: #45aafa !important;
+  border: 3px solid #45aafa;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* Icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #45aafa;
+}
+
+/* Icon border */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+}
