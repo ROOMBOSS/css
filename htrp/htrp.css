@@ -28,7 +28,7 @@ https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
 
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
-  	font-family: Yu 'Open Sans',sans-serif;
+  	font-family: 'Open Sans',sans-serif;
 	font-weight: 100;
  	color: black;
 	text-shadow: none;
@@ -48,6 +48,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 * {
   text-shadow: none !important;
+  font-family: "Open Sans"
 }
 
 .ui-page-theme-a .ui-btn:not(.ui-btn-icon-notext) {
@@ -91,13 +92,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 .ui-collapsible-themed-content > .ui-collapsible-heading .ui-btn {
-	font-style: normal;
 	letter-spacing: 0.01em;
-	font-family: "Open Sans";
 }
 
 .ui-corner-all .ui-panel-m-titlebar h3 {
 	font-size: 1.25em;
+	font-family: "Merriweather"
 }
 /* Headings background */
 .ui-block-a > [id*="vendorGrid"] > .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
