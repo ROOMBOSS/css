@@ -1,10 +1,6 @@
 /* Clean up text-shadow */
 * {
 	text-shadow: none !important;
-	-webkit-transition: all 0.1s ease-out;
-	-moz-transition: all 0.1s ease-out;
-	-o-transition: all 0.1s ease-out;
-	transition: all 0.1s ease-out;
 }
 
 /* Main background color */
@@ -47,6 +43,15 @@
 	background-color: #071f4e !important;
 	color: #fff !important;
 }
+
+.ui-btn[id*="booknpay"],
+.ui-btn[id*="saveorderbutt"] {
+	-webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+}
+
 .ui-btn[id*="booknpay"]:hover,
 .ui-btn[id*="saveorderbutt"]:hover {
 	opacity: 0.90;
