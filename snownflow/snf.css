@@ -90,10 +90,6 @@ div.ui-block-b:nth-child(2) {
 	border: 3px solid #06214e;
 	font-weight: bold;
 }
-tr.ui-table-row:nth-child(7) > td:nth-child(2) {
-	text-align:center;
-	padding-right: 2em;
-}
 
 /* Default datepicker tweaks (see My Order section) */
 .hasDatepicker {
