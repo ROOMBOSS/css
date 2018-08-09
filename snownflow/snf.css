@@ -16,18 +16,18 @@
 
 /* Custom banner */
 .ui-header.ui-bar-inherit {
-  background-image: url('https://roomboss.github.io/css/snownflow/snf_banner_2.jpg');
+  background-image: url('https://roomboss.github.io/css/snownflow/snf_banner_3.jpg');
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 85%;
 	background-size: contain;
 	background-color: #06214e !important;
 	border: none;
-  height:377px;
+	height: 227px;
 }
 @media(max-width:926px) {
 	.ui-header.ui-bar-inherit {
 		background-size: cover;
-		height: 300px;
+		height: 150px;
 	}
 }
 
