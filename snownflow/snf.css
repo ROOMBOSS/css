@@ -22,7 +22,13 @@
 	background-size: contain;
 	background-color: #06214e !important;
 	border: none;
-  height:350px;
+  height:377px;
+}
+@media(max-width:926px) {
+	.ui-header.ui-bar-inherit {
+		background-size: cover;
+		height: 300px;
+	}
 }
 
 /* Remove vendor headers */
