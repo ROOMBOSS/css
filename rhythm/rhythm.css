@@ -95,3 +95,9 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border: none;
 	border-radius: 0px;   	
 }
+
+/*hide enter your booking id box*/
+#base_page:neworderform:customIdTable{
+	display: none;
+	visibility: hidden;
+}
