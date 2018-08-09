@@ -97,7 +97,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 /*hide enter your booking id box*/
-#base_page:neworderform:customIdTable{
+#base_page\:neworderform\:customIdTable{
 	display: none;
 	visibility: hidden;
 }
