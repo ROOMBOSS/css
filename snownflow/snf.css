@@ -16,11 +16,11 @@
 
 /* Custom banner */
 .ui-header.ui-bar-inherit {
-  background-image: url('https://roomboss.github.io/css/snownflow/snf_banner.jpg');
+  background-image: url('https://roomboss.github.io/css/snownflow/snf_banner_2.jpg');
   background-repeat: no-repeat;
-  background-position: 50% 85%;
-	background-size: cover;
-	background-color: #eeee !important;
+  background-position: 50% 50%;
+	background-size: contain;
+	background-color: #06214e !important;
 	border: none;
   height:350px;
 }
@@ -40,7 +40,7 @@
 	color: #fff !important;
 }
 .ui-btn[id*="booknpay"] {
-	background-color: #071f4e !important;
+	background-color: #06214e !important;
 	color: #fff !important;
 }
 
@@ -81,7 +81,7 @@ div.ui-block-b:nth-child(2) {
 #base_page\:neworderform\:checkin_input {
 	border-radius: 5px;
 	text-align: center;
-	border: 3px solid #071f4e;
+	border: 3px solid #06214e;
 	font-weight: bold;
 }
 tr.ui-table-row:nth-child(7) > td:nth-child(2) {
@@ -106,8 +106,8 @@ div.ui-block-b:nth-child(2), #base_page\:neworderform\:orderItemTable\:0\:checki
 
 /* ------ Panel Bars ------ */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #071f4e;
-  border: #071f4e;
+  background-color: #06214e;
+  border: #06214e;
 	color: #fff
 }
 /* Panel spacing */
@@ -118,7 +118,7 @@ div.ui-block-b:nth-child(2), #base_page\:neworderform\:orderItemTable\:0\:checki
 /* ------ Icons ------ */
 /* General icon colour */
 .ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
-  background-color: #071f4e;
+  background-color: #06214e;
 }
 /* Panel icon hide border and background */
 .ui-panel-m-titlebar-icon {
@@ -252,17 +252,18 @@ div.ui-block-a:nth-child(9) {
 #base_page\:neworderform\:questionsPanel > div:nth-child(1) > h3:nth-child(1) {
 	display: none;
 }
+/* ---- EN ---- */
 /* Tel */
 #base_page\:neworderform\:customerTable\:j_idt98:after {
-	content: "Contact ID / # / Method";
+	content: "Contact ID or Mobile";
 }
 /* Ref */
 #base_page\:neworderform\:customIdTable\:j_idt102:after {
-	content: "Where did you hear about Snow and Flow Snowsports School?";
+	content: "How did you hear about us?";
 }
 /* Req */
 #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
-	content: "What are your ski / snowboard experience and lesson goals?";
+	content: "Please tell SnF your ski/board experience and your goals or areas of interests.";
 }
 /* -- Mobile -- */
 @media(max-width:561px) {
@@ -271,11 +272,64 @@ div.ui-block-a:nth-child(9) {
 	display: none;
 }
 #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
-	content: "Contact ID / # / Method";
+	content: "Contact ID or Mobile";
 	font-weight: bold;
 }
 #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
-	content: "Where did you hear about Snow and Flow Snowsports School?";
+	content: "How did you hear about us?";
+	font-weight: bold;
+}
+}
+
+/* ---- Trad CN ---- */
+/* Tel */
+[lang="zh"] #base_page\:neworderform\:customerTable\:j_idt98:after {
+	content: "即時聯絡ID 或 手提號碼";
+}
+/* Ref */
+[lang="zh"] #base_page\:neworderform\:customIdTable\:j_idt102:after {
+	content: "請問您是從那裡找到我們的？";
+}
+/* Req */
+[lang="zh"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
+	content: "請告訴雪浪您的滑雪經驗，目標或興趣範圍，例如黑線／鬆雪等。另外對旅程有問題也歡迎提出。";
+}
+/* -- Mobile -- */
+@media(max-width:561px) {
+/* Tel */
+	[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
+	content: "即時聯絡ID 或 手提號碼";
+	font-weight: bold;
+}
+/* Ref */
+	[lang="zh"] #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "	請問您是從那裡找到我們的？";
+	font-weight: bold;
+}
+}
+
+/* ---- Simp CN ---- */
+[lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt98:after {
+	content: "即时联络ID 或 手提号码";
+}
+/* Ref */
+[lang="zh_cn"] #base_page\:neworderform\:customIdTable\:j_idt102:after {
+	content: "请问您是从那里找到我们的？";
+}
+/* Req */
+[lang="zh_cn"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
+	content: "请告诉雪浪您的滑雪经验，目标或兴趣範围，例如黑线／松雪等。另外对旅程有问题也欢迎提出。";
+}
+/* -- Mobile -- */
+@media(max-width:561px) {
+/* Tel */
+	[lang="zh_cn"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
+	content: "即时联络ID 或 手提号码";
+	font-weight: bold;
+}
+/* Ref */
+[lang="zh_cn"] #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "请问您是从那里找到我们的？";
 	font-weight: bold;
 }
 }
