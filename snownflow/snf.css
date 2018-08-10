@@ -166,8 +166,7 @@ display: none;
   }
 .pricing-div {
 	padding-right: 24px;
-  text-align: center !important;
-  font-size: 1.5em
+  	text-align: center !important;
   }
  	/* Hide spacer */
   div.ui-block-a:nth-child(13) {
@@ -312,7 +311,7 @@ div.ui-block-a:nth-child(9) {
 
 /* ---- Simp CN ---- */
 [lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt98:after {
-	content: "即时联络ID 或 手提号码";
+	content: "即时联络帐号 或 手提号码";
 }
 /* Ref */
 [lang="zh_cn"] #base_page\:neworderform\:customIdTable\:j_idt102:after {
