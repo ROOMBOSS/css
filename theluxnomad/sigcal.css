@@ -13,6 +13,7 @@
 
 /*unavailable red*/
 .rbn-not-avail{
-  /*background-color: #F89494;*/
-  color: #F89494;
+  box-shadow: none;
+  background-color: #F89494;
+  /*color: #F89494;*/
 }
