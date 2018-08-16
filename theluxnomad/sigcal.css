@@ -1,6 +1,59 @@
 /*for formatting on eg https://theluxenomad.bookfast.jp/cw/insert/sigcal.jsf?cid=2c98902a5c607e01015c6685f4e42658&pid=2c98902a62dfce4f0162e162c1f1332d*/
 
-/*unavailable red*/
+/*unavailable red
 .rbn-not-avail{ 
   background-color: #F89494;  
+}*/
+
+p {  text-align: center;   color: red;}
+
+
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-2.ui-datepicker-multi {
+padding: 0; }
+.ui-datepicker-group.ui-datepicker-group-first .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-left, .ui-datepicker-group.ui-datepicker-group-last .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-right { background: #414f5a;opacity: 1;color: #fff;padding: 10px;}
+.ui-datepicker-group.ui-datepicker-group-first table.ui-datepicker-calendar, .ui-datepicker-group.ui-datepicker-group-last table.ui-datepicker-calendar { margin: 0;width: 100%; }
+.ui-datepicker-group.ui-datepicker-group-first table.ui-datepicker-calendar thead, .ui-datepicker-group.ui-datepicker-group-last table.ui-datepicker-calendar thead {background: #414f5a;color: #97a5b0;border-right: 1px solid #414f5a;}
+.ui-datepicker-group.ui-datepicker-group-first table.ui-datepicker-calendar tbody tr td, .ui-datepicker-group.ui-datepicker-group-last table.ui-datepicker-calendar tbody tr td {border: 1px solid #a8a8a8;padding: 5px;height: 22px;}
+.ui-datepicker .ui-datepicker-calendar tbody .ui-state-default {color: #69686d;font-size: 14px;text-align: center;box-shadow: none;}
+.ui-datepicker-header .ui-datepicker-prev, .ui-datepicker-header .ui-datepicker-next {visibility: visible;height: 20px;width: 20px;top: 13px; display: none;}
+
+.ui-datepicker-multi-2 .ui-datepicker-group {width: 49.5% !important;}
+.ui-datepicker-group.ui-datepicker-group-first{margin-right: 1% !important;}
+.ui-widget-content {border: none !important;}
+.rb-month-select-wrap td.centered div {display: none;}
+
+.rb-month-select-wrap select.ui-widget{background-color: #405059;color:#fff;font-size: 14px;padding: 6px 10px !important;border-color: #405059;-webkit-appearance: none;-webkit-border-radius: 0px;}
+
+.rb-month-select-wrap button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {background: #9ba8b2;color: #fff;font-size: 14px;padding: 6px 10px !important;box-shadow: none;text-shadow: none;border-radius: 0 !important; margin-left: 10px;border-color: #9ba8b2;}
+.ui-datepicker .ui-datepicker-calendar tbody .ui-datepicker-current-day .ui-state-default {background: transparent;text-align: center;}
+.rbn-checkout-date {background: none repeat scroll 0 0 #fcaf01 !important;}
+.rbn-selected{background: none repeat scroll 0 0 #fcaf01 !important;}
+.ui-growl.ui-widget{display: none;}
+.rbn-not-avail {
+text-decoration: none;
+background: url('../images/cross_image_new.jpg') !important;
+background-position: center center;
+background-size: cover;
+}
+.rb-month-select-wrap td.right:after {
+    content: url('../images/downarrow.png');
+    position: relative;
+    z-index: 1;
+    right: 21px;
+}
+.ui-panel.ui-widget.ui-widget-content.ui-corner-all.offerpan.centered {
+width: 545px;
+margin: 0;
+}
+
+@media (max-width: 580px) {
+
+.rb-month-select-wrap  td.centered{display: none;}
+.rb-month-select-wrap td.right select.ui-widget{padding: 6px 2px !important;text-align: left !important;font-size: 12px !important;width: 110px !important;height: 35px !important;}
+.rb-month-select-wrap  td.right{text-align: left; width:110px;}
+.rb-month-select-wrap  td.left{vertical-align: top !important;}
+.rb-month-select-wrap td.left button.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {font-size: 12px !important;padding: 6px 0px !important;height: 35px !important;}
+.ui-datepicker-group.ui-datepicker-group-first table.ui-datepicker-calendar tbody tr td, .ui-datepicker-group.ui-datepicker-group-last table.ui-datepicker-calendar tbody tr td{border-bottom: none;}
+.rb-month-select-wrap td.right::after { float: right; right: 5px; top: -25px;}
+
 }
