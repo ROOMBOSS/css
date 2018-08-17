@@ -110,7 +110,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	content: "Please check all details are correct above before you submit your booking. You may alter your order up to 48 hours in advance of your fitting date. You will be contacted by one of our specialists to confirm your booking and fitting time.";
 }
 
-#base_page\3a neworderform\3a saveorderbutt::before{
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-content.ui-body.ui-body-inherit::after{
 	content: "Should you require any assistance, please contact us on +81 (0)136 23 0164 or email: info@rhythmjapan.com";
 }
 
