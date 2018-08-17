@@ -96,6 +96,17 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
+/*hide text Questions & Instructions*/
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3{
+	display: none;
+	visibility: hidden;
+}
+
+#base_page\3a neworderform\3a questionsPanel::before{
+	content: "Comments *feel free to enter any additional special requests that you may have.";
+}
+
+
 /*hide enter your booking id box*/
 #base_page\:neworderform\:customIdTable{
 	display: none;
