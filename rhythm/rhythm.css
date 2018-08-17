@@ -102,7 +102,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	visibility: hidden;
 }
 
-#base_page\3a neworderform\3a questionsPanel::before{
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit::before{
 	content: "Comments *feel free to enter any additional special requests that you may have.";
 }
 
