@@ -111,7 +111,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 #base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-content.ui-body.ui-body-inherit::after{
-	content: "Should you require any assistance, please contact us on +81 (0)136 23 0164 or email: info@rhythmjapan.com";
+	content: "If you require any assistance, please contact us on +81 (0)136 23 0164 or email: info@rhythmjapan.com";
 }
 
 /*hide enter your booking id box*/
