@@ -2,7 +2,8 @@
 
 /*unavailable red*/
 .rbn-not-avail{ 
-  background-color: #F89494;  
+  background-color: #F89494;
+  border-radius:30px
 }
 
 
