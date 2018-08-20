@@ -119,3 +119,37 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	display: none;
 	visibility: hidden;
 }
+
+/*hide post-order messages*/
+#base_page\:orderedpan > h3 {
+display: none;
+}
+#base_page\:orderedpan > p {
+	display: none
+}
+
+/* Post order heading */
+#base_page\:orderedpan:before {
+	content: 'Thank you for your booking inquiry.';
+	display: block;
+	margin: 1rem 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/* Post order message */
+#base_page\:orderedpan:after {
+	content: 'We have received your inquiry for Rhythm Japan – Platinum Service. Please note that this is not a confirmed reservation. An automated email with your booking ID has been sent to you, and you will be contacted by one of our specialists within 48 hours to confirm your booking.';
+	display: block;
+	margin: 1rem 0;
+	font-weight: normal;
+	font-size: 1em;
+}
+/* Post order message 2 */
+.rb-content:after {
+	content: 'If you have any shopping needs for snow accessories, please don’t hesitate to inform our specialists – we will try our best to accommodate your needs. Our Platinum Service fitting service is available from 12pm – 9pm. For any inquiries, please contact info@rhythmjapan.com.';
+	display: block;
+	margin: 1rem 0;
+	font-weight: normal;
+	font-size: 1em;
+}
