@@ -15,8 +15,9 @@
 display:none;
 }
 
+/* Input highlights */
 .ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
-box-shadow:0 0 12px #916e2c;
+box-shadow: inset 0 0 4px #aaa !important;
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
@@ -42,4 +43,21 @@ background-color: #ededed !important;
 /* Vendor padding */
 .ui-grid.ui-grid-responsive.rbn-vendor-box {
   padding: 0.5em !important;
+}
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  padding: .5em 0.25em;
+	outline: none !important;
+	text-shadow: none !important;
+  box-shadow: none !important;
+}
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding: 0 .25em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-b  {
+	padding: 0 .25em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding: 0 .25em;
 }
