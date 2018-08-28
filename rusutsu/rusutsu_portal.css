@@ -1,0 +1,24 @@
+@import url("https://roomboss.github.io/css/rusutsu/rusutsu.css");
+
+/* Font Sizing */
+.ui-block-a, .cur {
+	font-size: 1em !important;
+}
+
+/* Table Colors */
+tbody .ui-table-row {
+	background-color: #fff;
+}
+
+/* Input Border */
+.ui-input-text {
+	border: 1px solid #bbb !important;
+}
+
+/* Footer */
+.ui-footer {
+	border-top: 0.5px solid #ccc !important;
+}
+.rbn-footer-text {
+	color: #666;
+}
