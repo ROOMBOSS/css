@@ -248,18 +248,18 @@ div.ui-block-a:nth-child(9) {
 }
 
 /* ------ Custom ------ */
-#base_page\:neworderform\:customerTable\:j_idt96 > span:nth-child(1),
-#base_page\:neworderform\:customIdTable\:j_idt100 > span:nth-child(1),
+#base_page\:neworderform\:customerTable\:gphl > span:nth-child(1),
+#base_page\:neworderform\:customIdTable\:customIdl > span:nth-child(1),
 #base_page\:neworderform\:questionsPanel > div:nth-child(1) > h3:nth-child(1) {
 	display: none;
 }
 /* ---- EN ---- */
 /* Tel */
-#base_page\:neworderform\:customerTable\:j_idt96:after {
+#base_page\:neworderform\:customerTable\:gphl:after {
 	content: "Contact ID or Mobile";
 }
 /* Ref */
-#base_page\:neworderform\:customIdTable\:j_idt100:after {
+#base_page\:neworderform\:customIdTable\:customIdl:after {
 	content: "How did you hear about us?";
 }
 /* Req */
@@ -283,10 +283,10 @@ div.ui-block-a:nth-child(9) {
 }
 
 /* CN Only Hide */
-[lang="zh"]	#base_page\:neworderform\:customerTable\:j_idt93 > span:nth-child(1),
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt93 > span:nth-child(1),
-[lang="zh"]	#base_page\:neworderform\:customerTable\:j_idt94 > span:nth-child(1),
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt94 > span:nth-child(1){
+[lang="zh"]	#base_page\:neworderform\:customerTable\:gfnl > span:nth-child(1),
+[lang="zh_cn"] #base_page\:neworderform\:customerTable\:gfnl > span:nth-child(1),
+[lang="zh"]	#base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
+[lang="zh_cn"] #base_page\:neworderform\:customerTable\:glnl > span:nth-child(1){
 	display: none;
 }
 @media(max-width:561px) {
@@ -299,19 +299,19 @@ div.ui-block-a:nth-child(9) {
 }
 /* ---- Trad CN ---- */
 /* Fname */
-[lang="zh"] #base_page\:neworderform\:customerTable\:j_idt93:after {
+[lang="zh"] #base_page\:neworderform\:customerTable\:gfnl:after {
 	content: "名字";
 }
 /* Sname */
-[lang="zh"] #base_page\:neworderform\:customerTable\:j_idt94:after {
+[lang="zh"] #base_page\:neworderform\:customerTable\:glnl:after {
 	content: "姓氏";
 }
 /* Tel */
-[lang="zh"] #base_page\:neworderform\:customerTable\:j_idt96:after {
+[lang="zh"] #base_page\:neworderform\:customerTable\:gphl:after {
 	content: "即時聯絡ID 或 手提號碼";
 }
 /* Ref */
-[lang="zh"] #base_page\:neworderform\:customIdTable\:j_idt100:after {
+[lang="zh"] #base_page\:neworderform\:customIdTable\:customIdl:after {
 	content: "請問您是從那裡找到我們的？";
 }
 /* Req */
@@ -344,19 +344,19 @@ div.ui-block-a:nth-child(9) {
 
 /* ---- Simp CN ---- */
 /* Fname */
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt93:after {
+[lang="zh_cn"] #base_page\:neworderform\:customerTable\:gfnl:after {
 	content: "名字";
 }
 /* Sname */
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt94:after {
+[lang="zh_cn"] #base_page\:neworderform\:customerTable\:glnl:after {
 	content: "姓氏";
 }
 /* Tel */
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:j_idt96:after {
+[lang="zh_cn"] #base_page\:neworderform\:customerTable\:gphl:after {
 	content: "即时联络帐号 或 手提号码";
 }
 /* Ref */
-[lang="zh_cn"] #base_page\:neworderform\:customIdTable\:j_idt100:after {
+[lang="zh_cn"] #base_page\:neworderform\:customIdTable\:customIdl:after {
 	content: "请问您是从那里找到我们的？";
 }
 /* Req */
