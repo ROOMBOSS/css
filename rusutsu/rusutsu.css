@@ -209,13 +209,21 @@ div.ui-block-b:nth-child(2) {
 tr.ui-table-row:nth-child(3) > td:nth-child(2) {
   text-align: center;
   vertical-align: middle;
-  padding-right: 2.5em;
-  padding-left: 1em;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   font-weight: 700;
   font-size: 16px;
 }
+
+tr.ui-table-row:nth-child(4) > td:nth-child(2) {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-weight: 700;
+  font-size: 16px;
+}
+
 tr.ui-table-row:nth-child(3) > td:nth-child(1), div.ui-block-b:nth-child(10), div.ui-block-a:nth-child(9) {
   padding-top: 0.7em;
   padding-bottom: 0.7em;
@@ -294,7 +302,7 @@ padding: 0.4em;
 }
 
 #base_page\:neworderform\:orderItemTable_data > tr:nth-child(1) > td:nth-child(1) {
-  padding-top: 0.4em;
+  padding-top: 0.7em;
 }
 
 #base_page\:neworderform\:totaltb {
@@ -346,4 +354,9 @@ display: none;
 }
 [id*="totalsTxt"] {
 	font-weight: bold;
+}
+
+/* Overflow Tweak */
+.ui-datatable-tablewrapper {
+  overflow: hidden;
 }
