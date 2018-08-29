@@ -364,10 +364,6 @@ display: none;
 
 .ui-datatable {
 	-webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-
-tr .ui-datatable {
-	border-top: 0.5px solid #ddd;
+   	-moz-box-shadow: none;
+    	box-shadow: none;
 }
