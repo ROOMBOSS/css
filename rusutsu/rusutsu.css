@@ -357,6 +357,17 @@ display: none;
 }
 
 /* Overflow Tweak */
-.ui-datatable-tablewrapper {
-  overflow: hidden;
+.prod-opt-table .ui-datatable-tablewrapper {
+	overflow: visible;
+	width: calc(100% - 1px);	
+}
+
+.ui-datatable {
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+tr .ui-datatable {
+	border-top: 0.5px solid #ddd;
 }
