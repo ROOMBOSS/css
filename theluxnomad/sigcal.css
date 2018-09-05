@@ -8,11 +8,11 @@
 }
 
 /*unavailable grey*/
-.ui-datepicker .ui-datepicker-calendar .rbn-not-avail{ 
+.rbn-not-avail{ 
   background-color: #D1CFCF !important;   
 }
 
 /*no check in green to grey*/
-.ui-datepicker .ui-datepicker-calendar .rbn-not-avail-clickable{
+.rbn-not-avail-clickable{
   background-image: linear-gradient(to bottom right, #98E65F, #D1CFCF) !important;
 }
