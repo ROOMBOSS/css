@@ -2,20 +2,21 @@
 
 /*can check in or out green  background-color: #98E65F; */
 
-.ui-state-default{ 
+.ui-state-default{
+  background-color: #98E65F;
   color:black;
   border-radius:45px
 }
 
 /*unavailable grey*/
-.rbn-not-avail{ 
+.rbn-not-avail.ui-state-default{ 
   background-color: #D1CFCF !important;
   color:black;
   border-radius:45px
 }
 
 /*no check in green to grey*/
-.rbn-not-avail-clickable{
+.rbn-not-avail-clickable.ui-state-default{
   background-image: linear-gradient(to bottom right, #98E65F, #D1CFCF) !important;
   color:black;
   border-radius:45px
