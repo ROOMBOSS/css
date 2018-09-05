@@ -9,14 +9,14 @@
 }
 
 /*unavailable grey*/
-.rbn-not-avail.ui-state-default{ 
+.rbn-not-avail > span{ 
   background-color: #D1CFCF !important;
   color:black;
   border-radius:45px
 }
 
 /*no check in green to grey*/
-.rbn-not-avail-clickable.ui-state-default{
+.rbn-not-avail-clickable > span{
   background-image: linear-gradient(to bottom right, #98E65F, #D1CFCF) !important;
   color:black;
   border-radius:45px
