@@ -1,24 +1,20 @@
 /*for formatting on eg https://theluxenomad.bookfast.jp/cw/insert/sigcal.jsf?cid=2c98902a5c607e01015c6685f4e42658&pid=2c98902a62dfce4f0162e162c1f1332d*/
 
-/*can check in or out green
+/*can check in or out green  background-color: #98E65F; */
+
 .ui-datepicker.ui-datepicker-calendar.ui-state-default{ 
- background-color: #98E65F;
   color:black;
   border-radius:45px
-}*/
+}
 
 /*unavailable grey*/
 .rbn-not-avail{ 
   background-color: #D1CFCF !important;
- color:black;
-  border-radius:45px
 }
 
 /*no check in green to grey*/
 .rbn-not-avail-clickable{
   background-image: linear-gradient(to bottom right, #98E65F, black /*#D1CFCF*/) !important;
- color:black;
-  border-radius:45px
 }
 
 
