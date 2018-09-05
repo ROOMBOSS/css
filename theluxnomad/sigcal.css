@@ -7,15 +7,16 @@
 }
 
 /*can check in or out*/
-.ui-datepicker.ui-state-default{ 
+.ui-state-default{ 
   background-color: green; /*#F89494;*/
   color:black;
   border-radius:45px
 }
 
 /*no check in greenish*/
-.rbn-not-avail-clickable{ 
-  background-color: blue; /*#F89494;*/
+.rbn-not-avail-clickable{
+  background-image: linear-gradient(to right, green, #E0E0E0);
+  /*background-color: blue; #F89494;*/
   color:black;
   border-radius:45px
 }
