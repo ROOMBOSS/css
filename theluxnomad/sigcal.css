@@ -10,11 +10,15 @@
 /*unavailable grey*/
 .rbn-not-avail{ 
   background-color: #D1CFCF !important;
+  color:black;
+  border-radius:45px
 }
 
 /*no check in green to grey*/
 .rbn-not-avail-clickable{
-  background-image: linear-gradient(to bottom right, #98E65F, black /*#D1CFCF*/) !important;
+  background-image: linear-gradient(to bottom right, #98E65F, #D1CFCF) !important;
+  color:black;
+  border-radius:45px
 }
 
 
