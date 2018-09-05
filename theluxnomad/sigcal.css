@@ -8,14 +8,14 @@
 }*/
 
 /*unavailable grey*/
-.ui-datepicker .ui-datepicker-calendar .ui-state-default .rbn-not-avail{ 
+.rbn-not-avail{ 
   background-color: #D1CFCF !important;
  color:black;
   border-radius:45px
 }
 
 /*no check in green to grey*/
-.ui-datepicker .ui-datepicker-calendar .ui-state-default .rbn-not-avail-clickable{
+.rbn-not-avail-clickable{
   background-image: linear-gradient(to bottom right, #98E65F, black /*#D1CFCF*/) !important;
  color:black;
   border-radius:45px
