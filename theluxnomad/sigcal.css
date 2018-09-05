@@ -2,7 +2,7 @@
 
 /*can check in or out green  background-color: #98E65F; */
 
-.ui-datepicker.ui-datepicker-calendar.ui-state-default{ 
+.ui-state-default{ 
   color:black;
   border-radius:45px
 }
