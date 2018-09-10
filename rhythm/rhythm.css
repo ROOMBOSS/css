@@ -137,6 +137,14 @@ display: none;
 	font-size: 1.2em;
 }
 
+#base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
+	display: none;	
+}
+
+#base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:After{
+	content: 'Group Leader information';	
+}
+
 /* Post order message */
 #base_page\:orderedpan:after {
 	content: 'We have received your inquiry for Rhythm Japan – Platinum Service. Please note that this is not a confirmed reservation. An automated email with your booking ID has been sent to you, and you will be contacted by one of our specialists within 48 hours to confirm your booking.';
