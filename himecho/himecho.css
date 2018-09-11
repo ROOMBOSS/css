@@ -11,19 +11,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	visibility: hidden;
 }
 
-/*background
-.ui-content.rb-content*/
-
-/*background*/
-.rb-page.ui-page.ui-page-theme-a.ui-page-active{
-	background: url(http://himechonozawa.com.web5010.luxsci.net/assets/images/006-1-1634x1471.jpg)!important;    	
-}
-
 /*add logo color*/
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/himecho/himechologo.gif) 5% no-repeat;
-    	height: 100px;
-    	background-size: 100px;    	
+    	height: 120px;
+    	background-size: 120px;    	
 	border-width:0px;
 	background-color: #343a40;
 }
