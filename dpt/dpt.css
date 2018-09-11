@@ -18,38 +18,46 @@
 display:none !important;
 }
 
-body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
-  background: #d54b0a !important;
-}
-
 .ui-overlay-a {
   background: #fff !important;
 }
 
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-  background: #d54b0a !important;
+.ui-datagrid-content .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.rbn-margin-top .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.rb-content .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+#base_page\:resultsform\:listViewTab.ui-btn,
+#base_page\:resultsform\:mapViewTab.ui-btn{
+  border: 1px solid #d54b0a;
+	background: #d54b0a !important;
   color: #ffffff !important;
   font-weight: bold !important;
   text-shadow:none !important;
 }
 
-.ui-btn {
-	border:none;
-    background: #d54b0a !important;
+.ui-btn[type*="submit"],
+.ui-btn[id*="searchButton"],
+.rbn-more-info-button {
+	border: 1px solid #d54b0a;
+  background: #d54b0a !important;
 	color: #ffffff !important;
 	font-weight: bold !important;
 	text-shadow: none !important;
 }
 
-.ui-btn:hover {
-	border:none;
-    background: #f88429 !important;
+.ui-btn:hover, .ui-controlgroup .ui-btn:hover,
+#base_page\:resultsform\:listViewTab.ui-btn-active,
+#base_page\:resultsform\:mapViewTab.ui-btn-active,
+#base_page\:resultsform\:listViewTab.ui-btn:hover,
+#base_page\:resultsform\:mapViewTab.ui-btn:hover{
+	border: 1px solid #f88429;
+  background: #f88429 !important;
 	color: #ffffff !important;
 	font-weight: bold !important;
 	text-shadow: none !important;
 	transition: ease-out 0.2s !important;
 }
 
+/* Blue Calendar */
 .ui-state-default.ui-btn, .ui-datepicker-next, .ui-datepicker-prev {
 	border: 1px solid #2cafcb  !important;
     background: #67c9de !important;
@@ -57,16 +65,15 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 	font-weight: bold !important;
 	text-shadow: none !important;
 }
-
 .ui-state-active.ui-btn, .ui-state-hover.ui-btn {
 	border: 1px solid #67c9de !important;
-    background: #2cafcb !important;
+  background-color: #2cafcb !important;
 	color: #ffffff !important;
 	font-weight: bold !important;
 	text-shadow: none !important;
-
 }
 
+/* Effects */
 .ui-page-theme-a .ui-focus, .ui-page-theme-a .ui-btn:focus {
 	-webkit-box-shadow: 0 0 0 0 !important;
 	-moz-box-shadow: 0 0 0 0 !important;
@@ -77,32 +84,101 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
  	background-color: #fff !important;
  }
 
-/* Hide filter
-#base_page\3a resultsform\3a filterPanel > .ui-bar-inherit {
-	display: none !important;
-	visibility: hidden !important;
-}
-*/
-
-/* Hide pagination 
-#base_page\3a resultsform\3a vendorGrid_paginator_top, #base_page\3a resultsform\3a vendorGrid_paginator_bottom {
-	display: none !important;
-	visibility: hidden !important;
-}
-*/
-
-#base_page\3a searchform\3a nights_input-button, #base_page\3a searchform\3a guests_input-button, .ui-select .ui-btn {
-	background-color: white !important;
+/* White Buttons */
+#base_page\3a searchform\3a nights_input-button,
+#base_page\3a searchform\3a guests_input-button,
+.ui-select .ui-btn,
+.ui-checkbox .ui-btn,
+[id*="base_page:back"],
+[id*="sortPanelGrid"] .ui-btn
+{
+	background-color: #fff !important;
 	color: #d54b0a !important;
 	border: 1px solid #ddd !important;
+	text-shadow: none;
 }
 
-#base_page\3a searchform\3a nights_input-button:after, #base_page\3a searchform\3a guests_input-button:after, .ui-select .ui-btn:after {
+/* Filter Panel */
+.rbn-filter-panel > .ui-panel-m-titlebar {
 	background-color: #d54b0a !important;
 }
+
+#base_page\3a searchform\3a nights_input-button:after,
+#base_page\3a searchform\3a guests_input-button:after,
+.ui-select .ui-btn:after,
+[id*="base_page:back"]:after,
+.ui-panel-m-titlebar-icon
+{
+	background-color: #d54b0a !important;
+}
+
+/* Blue Active Hover */
+.rbn-offers-panel .ui-panel-m-titlebar .ui-icon-plus:hover,
+.rbn-offers-panel .ui-panel-m-titlebar .ui-icon-minus:hover,
+.ui-paginator .ui-controlgroup .ui-btn{
+	border: 1px solid #67c9de !important;
+  background-color: #2cafcb !important;
+	color: #fff !important;
+  text-shadow: none !important;
+}
+
+/*Blue Hover */
+.ui-controlgroup .ui-btn:hover,
+.ui-controlgroup .ui-btn-active:hover,
+[id*="sliderUpdateButton"].ui-btn:hover {
+	background-color: #67c9de !important;
+}
+
+/* Blue Highlights */
+.ui-checkbox .ui-btn:after {
+	background-color: #2cafcb;
+}
+
+/* Blue Active */
+.rbn-offers-panel .ui-panel-m-titlebar .ui-icon-plus,
+.rbn-offers-panel .ui-panel-m-titlebar .ui-icon-minus,
+.ui-paginator .ui-controlgroup .ui-btn-active
+{
+	background-color: #67c9de !important;
+}
+
+/* Blue Headings */
+[id*="filterPanelCategory"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="filterPanelPrice"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="sliderUpdateButton"].ui-btn {
+	background-color: #2cafcb !important;
+  border: 1px solid #2cafcb !important;
+	color: #fff;
+	text-shadow: none;
+}
+
 
 .rbn-offers-panel > .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
 	background-color: #fff !important;
 	color: #d54b0a !important;
 	border: 1px solid #ddd !important;
+}
+
+.ui-panel-m-titlebar-icon, .ui-panel-m-titlebar-icon:hover  {
+	border: none;
+}
+
+[id*="quickbookingtable_head"] {
+  display: none;
+}
+
+.rbn-margin-top table {
+	border: 1px solid #ddd;
+}
+
+.ui-bar-a.ui-paginator {
+  border: none;
+  background-color: #fff;
+}
+
+[id*="customertable"] .ui-column-header {
+  background-color: #2cafcb;
+	border: 1px solid #2cafcb;
+	color: #fff;
+	text-shadow: none;
 }
