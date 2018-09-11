@@ -1,0 +1,26 @@
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: rgb(239, 239, 239)!important;
+	color: b1ack;
+	text-shadow: none;
+}
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo color*/
+.ui-header.ui-bar-inherit {
+	background: url(https://roomboss.github.io/css/himecho/himechologo.gif) 5% no-repeat;
+    	height: 100px;
+    	background-size: 500px;    	
+	border-width:0px;
+}
+#base_page\3a vform\div > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+#base_page\3a vform\3a rqpnl > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	color: white;
+	background-color: #b1a374;
+	text-shadow: none; 
+}
