@@ -13,7 +13,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*background*/
 .ui-content.rb-content{
-	background: url(http://himechonozawa.com.web5010.luxsci.net/assets/images/006-1-1634x1471.jpg);    	
+	background: url(http://himechonozawa.com.web5010.luxsci.net/assets/images/006-1-1634x1471.jpg)!important;    	
 }
 
 /*add logo color*/
