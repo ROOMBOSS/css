@@ -16,7 +16,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background: url(https://roomboss.github.io/css/himecho/himechologo.gif) 5% no-repeat, 
 		url(https://roomboss.github.io/css/himecho/exteriorfront-1-2000x1580.jpg) no-repeat;
     	height: 150px;
-    	background-size: 150px, 150px, cover;    	
+    	background-size: 150px, cover;    	
 	border-width:0px;
 	/*background-color: #343a40;*/
 }
