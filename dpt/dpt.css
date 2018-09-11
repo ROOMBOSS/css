@@ -176,7 +176,8 @@ display:none !important;
   background-color: #fff;
 }
 
-[id*="customertable"] .ui-column-header {
+[id*="customertable"] .ui-column-header, [id*="customerTable_head"] .ui-column-header,
+[id*="customIdTable_head"] .ui-column-header, [id*="orderItemTable_head"] .ui-column-header {
   background-color: #2cafcb;
 	border: 1px solid #2cafcb;
 	color: #fff;
