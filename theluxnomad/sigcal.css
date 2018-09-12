@@ -17,7 +17,7 @@
 
 /*no check in green to grey*/
 .rbn-not-avail-clickable{
-  background-image: linear-gradient(to bottom right, #98E65F, #D1CFCF) !important;
+  background-image: linear-gradient(to bottom right, #98E65F, #A9A9A9) !important;
   color:black;
   border-radius:45px
 }
