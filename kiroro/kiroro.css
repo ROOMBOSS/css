@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Set default fonts and clean up text-shadow */
+* {
+  font-family: "Roboto" !important;
+  text-shadow: none !important;
+}
+
+/*  Table outlines */
+.ui-table {
+  border: 1px solid #ddd;
+}
+
+/* Main background color */
+.ui-page {
+  background-color: #eeeeee;
+  border: none !important;
+}
+
+/* Remove vendor banner title */
+.ui-header.ui-bar-inherit h1.ui-title, #base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
+  display:none !important;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("https://www.kiroro.co.jp/wp-content/themes/kiroro/images/logo_kiroro@2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: contain;
+  background-color: #fff !important;
+  border-color: #fff;
+  height:150px;
+}
+
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+  display: none;
+}
+
+/* Header h3 defaults */
+h3 {
+  font-size: 1.5em !important;
+  color: #fff !important;
+}
+
+
+/* ------ Panel Bars ------ */
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #494d50;
+  border: #717071;
+}
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em;
+}
+/* Add to Order panel */
+#base_page\:neworderform\:addOrderPanel > div:nth-child(1) > h3:nth-child(1) {
+  color: #fff !important;
+}
+/* My Order panel */
+#base_page\:neworderform\:orderDetailsPanel > div:nth-child(1) > h3:nth-child(1) {
+  color: #fff;
+}
+
+
+/* ------ Icons ------ */
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #f16421;
+}
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+	background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+  background-color: transparent !important;
+}
+
+
+/* ------ Buttons ------ */
+/* Submit buttons */
+[id*="languageSelect"], [id*="currencySelect"]{
+  color: #fff !important;
+  background-color: #f16421 !important;
+  border: none;
+  border-radius: 20px;
+}
+/*Main buttons*/
+[id*="booknpay"],
+[id*="addItemsLink"] {
+  color: #fff !important;
+  background-color: #f16421 !important;
+  border: none;
+}
+[id*="booknpay"]:hover,
+[id*="addItemsLink"]:hover,
+[id*="languageSelect"]:hover,
+[id*="currencySelect"]:hover {
+  background-color: #F27337 !important;
+}
+
+[id*="remlnk"],
+[id*="saveorderbutt"] {
+  background-color: #c1c6c9 !important;
+  color: #fff !important;
+  border: none;
+}
+[id*="remlnk"]:hover,
+[id*="saveorderbutt"]:hover {
+  background-color: #c7cbce !important;
+}
+
+/* language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+/* Hover over dropdowns */
+.ui-state-default.ui-state-active.ui-btn.ui-btn-active {
+  background-color: #ef8200;
+}
+
+/* Remove Item button icon colour */
+#base_page\:neworderform\:orderItemTable\:0\:remlnk::after {
+  background-color: transparent;
+}
+/* Remove Item button sizing tweaks */
+#base_page\:neworderform\:orderItemTable\:0\:remlnk {
+  width: 100%;
+  margin-top: 0;
+}
+
+
+/* ------ Datepicker ------ */
+/* Datepicker month buttons */
+.ui-datepicker-prev {
+  margin-left: -0.4em;
+  margin-top: -0.1em !important;
+}
+.ui-datepicker-next {
+  margin-right: 0.1em;
+  margin-top: -0.1em !important;
+}
+/* Default datepicker tweaks (see My Order section) */
+.hasDatepicker {
+  border: 1px solid #ddd;
+  padding-left: 0.25em;
+}
+/* Date picker align */
+#base_page\:neworderform\:checkin_input, #base_page\:neworderform\:orderItemTable\:0\:checkin_input {
+  text-align: center;
+}
+/* Emphasised Datepicker top + datepicker sizing */
+div.ui-block-b:nth-child(2), #base_page\:neworderform\:orderItemTable\:0\:checkin {
+  width: 150px !important;
+  vertical-align: middle !important;
+  border-radius: 5px !important;
+}
+#base_page\:neworderform\:checkin_input, #base_page\:neworderform\:orderItemTable\:0\:checkin_input {
+  padding: 0.4em;
+  border-radius: 5px !important;
+}
+/* Datepicker padding fix */
+div.ui-block-b:nth-child(2) {
+  padding-top: 0;
+  padding-bottom: 0.5em;
+}
+/* Date emphasis */
+#base_page\:neworderform\:checkin_input {;
+	border-radius: 5px;
+	text-align: center;
+	border: 3px solid #f16421;
+	font-weight: bold;
+}
+
+
+/* ------ Vendor specific product tweaks ------ */
+
+/* Ability level */
+tr.ui-table-row:nth-child(3) > td:nth-child(2) {
+  text-align: center;
+  vertical-align: middle;
+  padding-right: 2.5em;
+  padding-left: 1em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-weight: 700;
+  font-size: 16px;
+}
+tr.ui-table-row:nth-child(3) > td:nth-child(1), div.ui-block-b:nth-child(10), div.ui-block-a:nth-child(9) {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+}
+/* Top spacing */
+#base_page\:neworderform\:totaltb {
+  margin-top: 0.5em !important;
+}
+
+
+/* ------ Alignment Tweaks ------*/
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(3),
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(5),
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(11)
+{
+	margin-top: 0.5em;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+}
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(1) {
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+}
+/* Description spacing */
+#base_page\:neworderform\:productPanel {
+	padding-bottom: 0.5em;
+}
+/* Pricing */
+.pricing-div {
+  margin-top: 0;
+}
+/* Add to Order product title */
+#base_page\:neworderform\:cbgrid_data > tr:nth-child(n) > td:nth-child(1) {
+  vertical-align: middle;
+	padding-left: 1em;
+}
+/* My Order product title */
+#base_page\:neworderform\:orderItemTable\:0\:cbgrid_data > tr:nth-child(n) > td:nth-child(1) {
+	vertical-align: middle;
+	padding-left: 1em;
+}
+/* My Order */
+#base_page\:neworderform\:orderItemTable_data > tr:nth-child(1) > td:nth-child(1) {
+  vertical-align: top;
+	padding-top: 0.5em !important;
+	padding-bottom: 0.5em !important;
+}
+/* Product Details padding */
+#base_page\:neworderform\:orderItemTable_data > tr:nth-child(1) > td:nth-child(2) {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+/* Country of Residence size */
+#base_page\:neworderform\:customerTable\:0\:country_input-button {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* Overflow Tweak */
+.ui-datatable-tablewrapper {
+	overflow: hidden;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+box-shadow: inset 0 0 4px #aaa !important;
+}
