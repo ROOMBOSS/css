@@ -50,7 +50,7 @@ visibility: hidden;
 .rbn-quantity:before {
 visibility: visible;
 	font-size: 0.9em;
-content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this for is for request only and submission of this form does not guarantee or confirm any reservation.';
+content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this for is for request only and submission of this form does not guarantee or confirm any reservation. Please be informed that some the restaurants have strict cancellation policies, which will need you to provide your contact details in order to secure the reservation on your behalf.';
 }
 
 .rbn-quantity:after {
@@ -132,7 +132,7 @@ content: 'Please be informed that AYA NISEKO must abide by the restaurants’ bo
 display: block;
 font-size: 0.9em;
 padding-top: 1em;
-content: 'お問い合わせの送信だけでは、ご予約の保証または正式なご予約の確定とはなりませんのでご注意くださいませ。また、ご予約を完了するために追加の情報が必要となることがございます。予めご了承いただけますようお願い申し上げます。お問い合わせの送信にあたっては、各レストランのご利用規約や個人情報の取り扱いなどについて、全ての内容に同意したものとみなします。';
+content: 'お問い合わせの送信だけでは、ご予約の保証または正式なご予約の確定とはなりませんのでご注意くださいませ。また、ご予約を完了するために追加の情報が必要となることがございます。予めご了承いただけますようお願い申し上げます。お問い合わせの送信にあたっては、各レストランのご利用規約や個人情報の取り扱いなどについて、全ての内容に同意したものとみなします。一部のレストランではキャンセル規定を設けており、お客様のメールアドレス、当日連絡のつく番号を、綾ニセコからレストランに提供する場合がございます。あらかじめご了承頂きますよう、お願い申し上げます。';
 }
 
 #base_page\:neworderform\:totaltb_data > tr:nth-child(1), [id*="currencySelect"], #base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(2) > h3 {
