@@ -6,7 +6,7 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	/*background: url(https://roomboss.github.io/css/powderhounds/Header.jpg) no-repeat 100%*/ /*, url(https://powderhounds.com/site/DefaultSite/skins/powderhounds/images/content_Header.jpg) no-repeat center bottom*/;
+	background: url(https://roomboss.github.io/css/powderhounds/Header.jpg) no-repeat 100% /*, url(https://powderhounds.com/site/DefaultSite/skins/powderhounds/images/content_Header.jpg) no-repeat center bottom*/;
     	height: 250px;
     	/*background-size: 160px, 1999px;*/
     	border-top-width: 0px; /*32px;
