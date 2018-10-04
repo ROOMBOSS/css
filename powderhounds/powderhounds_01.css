@@ -117,3 +117,10 @@
 [id*="addItemsLink"]:hover{
   background-color: #00ace6 !important;
 }
+
+/* Datepicker */
+.hasDatepicker {
+  border: 1px solid #ddd;
+  padding-left: 0.25em;
+	text-align: center;
+}
