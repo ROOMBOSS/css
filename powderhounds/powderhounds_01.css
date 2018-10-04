@@ -66,11 +66,21 @@
 	transition: all 300ms ease 0s;
 }
 
+.ui-panel-m-titlebar,
+.ui-panel-m-content {
+	border: none !important;
+}
+
+/* Panel Spacing */
+.ui-panel-m-content {
+	margin-bottom: 0.5em;
+}
+
+/* Icons */
 .ui-btn-icon-notext:after,
 .ui-icon-carat-d:after {
 	background-color: #0099CC;
 }
-
 .ui-panel-m-titlebar-icon {
 	border: none;
 }
