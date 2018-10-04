@@ -1,0 +1,70 @@
+#base_page {
+	background: rgba(0, 0, 0, 0)
+		url("http://www.powderhounds.com/Site/DefaultSite/Skins/powderhounds/images/background_manage.jpg")
+		scroll 0px 0px;
+	background-size: 100%;
+	font-family: "Lato", sans-serif;
+	text-shadow: none;
+}
+
+.ui-body-inherit {
+	background: #fff;
+}
+
+.ui-header.ui-bar-inherit {
+	color: #fff;
+	text-shadow: none;
+	text-transform: uppercase;
+	background: #ffffff
+		url('http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg');
+	background-position: 0 1300px;
+	padding-top: 80px;
+	padding-bottom: 70px;
+	border-color: #AAA;
+}
+
+.ui-collapsible-heading-toggle, .ui-panel-m-titlebar {
+	background-color: #f60 !important;
+	color: #ffffff !important;
+	text-shadow: none !important;
+}
+
+.rbn-filter-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit
+	{
+	background: #c21e1d !important;
+	color: #FFF !important;
+}
+
+.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit
+	{
+	background: #c21e1d !important;
+}
+
+.rbn-vendor-panel div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	
+}
+
+.rbn-more-info-button.ui-btn-inline {
+	color: #fff;
+	background-color: #c21e1d;
+	border-radius: 3px;
+	margin-left: 25px;
+	transition: all 300ms ease 0s;
+}
+
+.ui-btn-icon-notext:after,
+.ui-icon-carat-d:after {
+	background-color: #0099CC;
+}
+
+.ui-panel-m-titlebar-icon {
+	border: none;
+}
+
+[id*="languageSelect"], [id*="currencySelect"]{
+  color: #fff !important;
+  background-color: #0099CC !important;
+  border: none;
+  border-radius: 20px;
+	text-shadow: none !important;
+}
