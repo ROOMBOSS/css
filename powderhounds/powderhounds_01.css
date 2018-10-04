@@ -86,3 +86,24 @@
 [id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
   margin-top: 1em;
 }
+
+/* Borders */
+.ui-table {
+  border: 1px solid #ddd;
+}
+
+/*Main buttons*/
+.ui-btn {
+	text-shadow: none !important;
+}
+
+[id*="addItems"],
+[id*="reservationCon"] {
+  color: #fff !important;
+  background-color: #0099CC !important;
+  border: none;
+}
+[id*="reservationCon"]:hover,
+[id*="addItemsLink"]:hover{
+  background-color: #00ace6 !important;
+}
