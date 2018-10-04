@@ -11,16 +11,30 @@
 	background: #fff;
 }
 
+.ui-header.ui-bar-inherit h1.ui-title {
+	display: none;
+}
+
+/* Header */
 .ui-header.ui-bar-inherit {
 	color: #fff;
 	text-shadow: none;
 	text-transform: uppercase;
-	background: #ffffff
-		url('http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg');
-	background-position: 0 1300px;
-	padding-top: 80px;
-	padding-bottom: 70px;
-	border-color: #AAA;
+	background-image: url("//roomboss.github.io/css/powderhounds/logo-tagline.png"),url("http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, 90% 40%;
+	background-size: auto, cover;
+	height: 200px;
+	border: none;
+}
+@media (max-width:800px) {
+  .ui-header.ui-bar-inherit {
+	background-image: url("//roomboss.github.io/css/powderhounds/logo-tagline.png"),url("http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, 90% 40%;
+		background-size: 300px, cover;
+  height:200px;
+}
 }
 
 .ui-collapsible-heading-toggle, .ui-panel-m-titlebar {
@@ -61,10 +75,14 @@
 	border: none;
 }
 
+/* Selector Buttons */
 [id*="languageSelect"], [id*="currencySelect"]{
   color: #fff !important;
   background-color: #0099CC !important;
   border: none;
   border-radius: 20px;
 	text-shadow: none !important;
+}
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
 }
