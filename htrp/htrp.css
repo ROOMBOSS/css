@@ -155,3 +155,22 @@ html head+body .ui-body-a.ui-focus{
 .rbn-gotobutt {
 	font-family: "Merriweather" !important;
 }
+
+/* single owner report Hide property*/
+#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(3) > i{
+	display: none;
+}
+
+/* multi owner report Hide property*/
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(1) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(2) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(3) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(4) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(5) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(6) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(7) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(8) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(9) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(10) > i{
+	display: none;
+}
