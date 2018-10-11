@@ -181,7 +181,7 @@ div.ui-block-b:nth-child(2) {
 /* ------ Vendor specific product tweaks ------ */
 
 /* Ability level */
-tr.ui-table-row:nth-child(3) > td:nth-child(2) {
+/* tr.ui-table-row:nth-child(3) > td:nth-child(2) {
   text-align: center;
   vertical-align: middle;
   padding-right: 2.5em;
@@ -190,7 +190,7 @@ tr.ui-table-row:nth-child(3) > td:nth-child(2) {
   padding-bottom: 0.7em;
   font-weight: 700;
   font-size: 16px;
-}
+}*/
 tr.ui-table-row:nth-child(3) > td:nth-child(1), div.ui-block-b:nth-child(10), div.ui-block-a:nth-child(9) {
   padding-top: 0.7em;
   padding-bottom: 0.7em;
@@ -249,7 +249,7 @@ tr.ui-table-row:nth-child(3) > td:nth-child(1), div.ui-block-b:nth-child(10), di
   padding-bottom: 0.5em;
 }
 
-/* Overflow Tweak */
+/* Overflow */
 .ui-datatable-tablewrapper {
 	overflow: hidden;
 }
