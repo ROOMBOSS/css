@@ -1,0 +1,146 @@
+/*for rhythm widgets need order01 and yourbooking*/
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*vendor name and image*/
+#base_page > div.ui-content.rb-content > table{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo*/
+.ui-header.ui-bar-inherit {
+	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) 25% no-repeat;
+	background-color: black!important;	
+	background-size: 200px; 	
+	height: 100px;
+}
+
+
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #428bca!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #535353;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+
+/*Available Accommodation Options*/
+.ui-panel-m.ui-corner-all.rbn-offers-panel.ui-hidden-container div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: white!important;
+    	color: #002e52;
+   	text-shadow: none;
+   	border-bottom-width: 2px;
+    	border-color: #428bca;    
+    	border-bottom-style: inset;  	
+}
+
+
+/*expanadble areas on bpay and yourbooking*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
+	background-color: white;
+	color: #002e52;
+	text-shadow: none; 
+	border-color: #428bca;
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: #45484a
+	text-shadow: none; 
+	border-color: #45484a;
+	border-radius: 0px; 
+	border-width: 2px;
+}
+
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
+	background-color: #535353!important;
+	color: white!important;
+	text-shadow: none!important;
+	border:none!important;
+}
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #535353;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*hide text Questions & Instructions and replace text*/
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3{
+	display: none;
+	visibility: hidden;
+}
+
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit::before{
+	content: "Comments *feel free to enter any additional special requests that you may have.";
+}
+
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p::after{
+	content: "Please check all details are correct above before you submit your booking.";
+}
+
+#base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-content.ui-body.ui-body-inherit::after{
+	content: "If you require any assistance, please contact us on +81 (0) 136 22 4199 or email: summit@rhythmjapan.com";
+}
+
+/*hide enter your booking id box*/
+#base_page\:neworderform\:customIdTable{
+	display: none;
+	visibility: hidden;
+}
+
+/*hide post-order messages*/
+#base_page\:orderedpan > h3 {
+display: none;
+}
+#base_page\:orderedpan > p {
+	display: none
+}
+
+/* Post order heading */
+#base_page\:orderedpan:before {
+	content: 'Thank you for your booking inquiry.';
+	display: block;
+	margin: 1rem 0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
+	display: none;	
+}
+
+#base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:After{
+	content: 'Group Leader information';	
+}
