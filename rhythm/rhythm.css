@@ -14,10 +14,22 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) 25% no-repeat;
-	background-color: black!important;	
-	background-size: 200px; 	
-	height: 100px;
+	background: url(https://roomboss.github.io/css/rhythm/rhythm-platinum.jpg) no-repeat;
+	background-color: black !important;	
+	background-size:cover;
+	background-position: center;
+	height:200px;
+}
+@media(max-width:1000px) {
+	.ui-header.ui-bar-inherit {
+	background-size: 1000px;
+	height:150px;
+	}
+}
+@media(max-width:475px) {
+	.ui-header.ui-bar-inherit {
+	background-size: 725px;
+	}
 }
 
 
@@ -71,7 +83,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 .ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
-	background-color: white;
+	
+	-color: white;
 	color: #45484a
 	text-shadow: none; 
 	border-color: #45484a;
