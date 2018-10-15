@@ -174,3 +174,8 @@ display: none;
 	font-weight: normal;
 	font-size: 1em;
 }
+	
+/* Hide Category */
+#base_page\:neworderform\:categorymenu_input > option:nth-child(1) {
+	display: none;
+}
