@@ -14,12 +14,25 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) 25% no-repeat;
-	background-color: black!important;	
-	background-size: 200px; 	
-	height: 100px;
+	background: url(https://roomboss.github.io/css/rhythm/summit-banner.png) no-repeat;
+	background-color: black !important;	
+	background-size:cover;
+	background-position: center;
+	border: none;
+	height:150px;
 }
-
+@media(max-width:1200px) {
+	.ui-header.ui-bar-inherit {
+	background-size: cover;
+	height:90px;
+	}
+}
+@media(max-width:475px) {
+	.ui-header.ui-bar-inherit {
+	background-size: 800px;
+	background-position: 6% 50%;
+	}
+}
 
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
