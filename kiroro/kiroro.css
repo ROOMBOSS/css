@@ -258,3 +258,24 @@ tr.ui-table-row:nth-child(3) > td:nth-child(1), div.ui-block-b:nth-child(10), di
 .ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
 box-shadow: inset 0 0 4px #aaa !important;
 }
+
+/* ------ Req EN / JA ------ */
+
+/* Hide Req */
+#base_page\:neworderform\:questionsPanel > div:nth-child(1) > h3:nth-child(1) {
+	display: none;
+}
+/* Req EN */ 
+#base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
+	content: "Name, Nickname, and Date of Birth (DD/MM/YYYY) of Participants";
+	color: #fff;
+}
+/* Req Ja */
+[lang="ja"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
+	content: "受講者全員分の氏名、ニックネーム、生年月日（年/月/日）";
+	color: #fff;	
+}
+
+[id*="languageSelect"] {
+display: none;
+}
