@@ -48,3 +48,16 @@ display: none;
 [id*="neworderform"] .ui-panel-m-content {
 margin-bottom: 0.5em;
 }
+
+
+/* Booking Message */
+[lang="en"] #base_page\:orderedpan > p:nth-child(2):after {
+	content: "If you do not receive an automated email address within 24 hours, it is possible that there was an error with the email entered — please confirm the email address and inquire again.";
+	display: block;
+	margin-top: 1em;
+}
+[lang="ja"] #base_page\:orderedpan > p:nth-child(2):after {
+	content: "自動返信メールが1日経っても届かない場合は、メールアドレスが間違いなど何らかのトラブルがあるかもしれませんので、その際は再度メールアドレスをご確認いただき、お問い合わせをお願いいたします。";
+	display: block;
+	margin-top: 1em;
+}
