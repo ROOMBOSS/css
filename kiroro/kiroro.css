@@ -270,7 +270,7 @@ box-shadow: inset 0 0 4px #aaa !important;
 	content: "Name, Nickname, and Date of Birth (DD/MM/YYYY) of Participants";
 	color: #fff;
 }
-/* Req Ja */
+/* Req JA */
 [lang="ja"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
 	content: "受講者全員分の氏名、ニックネーム、生年月日（年/月/日）";
 	color: #fff;	
@@ -278,4 +278,18 @@ box-shadow: inset 0 0 4px #aaa !important;
 
 [id*="languageSelect"] {
 display: none;
+}
+
+/* ------ Booking Message ------ */
+/* Booking EN */
+[lang="en"] #base_page\:orderedpan > p:nth-child(2):after {
+	content: "If you do not receive an automated email address within 24 hours, it is possible that there was an error with the email entered — please confirm the email address and inquire again.";
+	display: block;
+	margin-top: 1em;
+}
+/* Booking JA */
+[lang="ja"] #base_page\:orderedpan > p:nth-child(2):after {
+	content: "自動返信メールが1日経っても届かない場合は、メールアドレスが間違いなど何らかのトラブルがあるかもしれませんので、その際は再度メールアドレスをご確認いただき、お問い合わせをお願いいたします。";
+	display: block;
+	margin-top: 1em;
 }
