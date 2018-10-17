@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+body, a, .ui-btn {
+	font-family: "Quicksand", Sans-serif !important;
+}
+
+/* Remove vendor banner title */
+.ui-header.ui-bar-inherit h1.ui-title, #base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
+  display:none !important;
+}
+
+/* Custom Banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("https://static.wixstatic.com/media/e98e4d_8c52544e6333301a719c97754498c502.png"), url("https://static.wixstatic.com/media/e98e4d_d2b880b06d3691f6c761f54293f318aa.jpg");
+  background-repeat: no-repeat;
+  background-position: center, center 20%;
+	background-size: contain cover;
+  border-color: #666;
+  height:150px;
+}
+
+/* language and currency buttons */
+[id*="languageSelect"] .ui-select,
+[id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
