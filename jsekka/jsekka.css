@@ -14,7 +14,7 @@ body, a, .ui-btn {
   background-image: url("https://static.wixstatic.com/media/e98e4d_8c52544e6333301a719c97754498c502.png"), url("https://static.wixstatic.com/media/e98e4d_d2b880b06d3691f6c761f54293f318aa.jpg");
   background-repeat: no-repeat;
   background-position: center, center 20%;
-	background-size: contain cover;
+	background-size: 300px, cover;
   border-color: none;
 	border-bottom-color: #666;
   height:150px;
