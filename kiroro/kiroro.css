@@ -283,13 +283,13 @@ display: none;
 /* ------ Booking Message ------ */
 /* Booking EN */
 [lang="en"] #base_page\:orderedpan > p:nth-child(2):after {
-	content: "If you do not receive an automated email address within 24 hours, it is possible that there was an error with the email entered — please confirm the email address and inquire again.";
+	content: "We will send you an automated email notifying you of your recent inquiry/reservation to the listed email address. If you have not received an email, please allow emails from '@roomboss' in your email client, and contact us at academy@kiroro.co.jp with your booking ID and name.";
 	display: block;
 	margin-top: 1em;
 }
 /* Booking JA */
 [lang="ja"] #base_page\:orderedpan > p:nth-child(2):after {
-	content: "自動返信メールが1日経っても届かない場合は、メールアドレスが間違いなど何らかのトラブルがあるかもしれませんので、その際は再度メールアドレスをご確認いただき、お問い合わせをお願いいたします。";
+	content: "お問い合わせ完了メールをご登録頂いているメールアドレス宛に自動送信しております。万が一　メールが届かない場合は「＠roomboss.」を受信出来るように設定し、下記までご連絡下さい。academy@kiroro.co.jp 尚、お問い合わせID、お名前を記した上ご連絡頂けますとスムーズにご案内頂けます。";
 	display: block;
 	margin-top: 1em;
 }
