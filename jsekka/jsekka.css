@@ -16,7 +16,7 @@ body, a, .ui-btn {
   background-position: center, center 20%;
 	background-size: 300px, cover;
   border-color: none;
-	border-bottom-color: #666;
+	border-bottom-color: #ddd;
   height:150px;
 }
 
