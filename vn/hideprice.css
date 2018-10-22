@@ -1,8 +1,8 @@
 /*based on patricks css here https://www.vacationniseko.com/support/css/roomboss.css but also hides prices on order01 widget*/
 
 /*hide prices on order01 widget*/
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(10),
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(9),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(7),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(8),
 #base_page\3a neworderform\3a totaltb_data{
     display:none;
 }
