@@ -26,19 +26,38 @@ body, a, .ui-btn {
   margin-top: 1em;
 }
 
+#base_page\:selectvendorform\:textGrid,
+#base_page\:selectvendorform\:controlsGrid {
+	background-color: #fff;
+	border: none;
+	text-shadow: none;
+	text-align: center;
+}
+/* Top Portion */
+#base_page\:selectvendorform\:textGrid {
+	padding: 1em 1em 0 1em;
+}
+/* Bottom Portion Message */
+#base_page\:selectvendorform\:controlsGrid {
+	padding: 1em;
+	font-weight: 700;
+}
+
+/* Title Bars */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
 	background-color: #a60000;
 	text-shadow: none;
 	color: #fff;
 	border: none;
 }
-
+/* Icon Fix */
 .ui-panel-m-titlebar-icon.ui-btn.ui-shadow.ui-corner-all.ui-icon-minus.ui-btn-icon-notext.ui-btn-right {
 	background-color: #a60000;
 	text-shadow: none;
 	border: none;
 }
-
+ 
+/* BG */
 .rb-page {
 	background-color: #666666;
 }
