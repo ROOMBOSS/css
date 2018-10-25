@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500,700');
 
+body, a, .ui-btn {
+	font-family: "Lato", Sans-serif !important;
+}
+
+/* Remove vendor banner title */
+.ui-header.ui-bar-inherit h1.ui-title, #base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
+  display:none !important;
+}
+
+/* Custom Banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("//roomboss.github.io/css/redskihouse/red-logo.png"), url("//roomboss.github.io/css/redskihouse/redwood.jpeg");
+  background-repeat: no-repeat;
+  background-position: center, center 20%;
+	background-size: 300px, cover;
+  border-color: transparent !important;
+	border-bottom-color: #ddd;
+  height:150px;
+}
+
+/* language and currency buttons */
+[id*="languageSelect"] .ui-select,
+[id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	background-color: #a60000;
+	text-shadow: none;
+	color: #fff;
+	border: none;
+}
+
+.ui-panel-m-titlebar-icon.ui-btn.ui-shadow.ui-corner-all.ui-icon-minus.ui-btn-icon-notext.ui-btn-right {
+	background-color: #a60000;
+	text-shadow: none;
+	border: none;
+}
+
+.rb-page {
+	background-color: #666666;
+}
