@@ -1,0 +1,1 @@
+ alert("XBL script executed.");
