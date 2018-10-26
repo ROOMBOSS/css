@@ -1,1 +1,4 @@
- alert("XBL script executed.");
+<script>
+window.alert(5 + 6);
+</script>
+
