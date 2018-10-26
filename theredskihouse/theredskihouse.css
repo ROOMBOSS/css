@@ -66,3 +66,45 @@ body, a, .ui-btn {
 .ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
 box-shadow: inset 0 0 4px #aaa !important;
 }
+
+/* Date Emphasis */
+#base_page\:selectvendorform\:selectionDate_input,
+#base_page\:neworderform\:checkin_input {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+/* Date Border */
+#base_page\:selectvendorform\:selectionDate .ui-input-text,
+#base_page\:neworderform\:checkin_input {
+	border: 0.2em solid #a60000;
+}
+/* Spacing */
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-a,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-b,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-c{
+	padding: 0 5px 0 5px !important;
+}
+#base_page\:neworderform\:checkin {
+	margin: 0.5em 0;
+}
+
+/* ------ Buttons ------ */
+
+.ui-btn {
+	text-shadow: none !important;
+}
+
+/*Main buttons*/
+[id*="saveorderbutt"],[id*="booknpay"],[id*="addItemsLink"]{ background-color: #a60000 !important; border: none; color: #fff !important; }
+[id*="saveorderbutt"]:hover,[id*="booknpay"]:hover,[id*="addItemsLink"]:hover { background-color: #d90000 !important;}
+
+/* Send Inquiry button */
+[id*="saveorderbutt"] { background-color: #f37900 !important; color: #fff !important; }
+[id*="saveorderbutt"]:hover { background-color: #ff860e !important; }
+
+/* Remove Item button sizing tweaks */
+#base_page\:neworderform\:orderItemTable\:0\:remlnk {
+  width: 100%;
+  margin-top: 0;
+}
