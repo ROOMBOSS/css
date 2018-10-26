@@ -96,12 +96,14 @@ box-shadow: inset 0 0 4px #aaa !important;
 }
 
 /*Main buttons*/
-[id*="saveorderbutt"],[id*="booknpay"],[id*="addItemsLink"]{ background-color: #a60000 !important; border: none; color: #fff !important; }
-[id*="saveorderbutt"]:hover,[id*="booknpay"]:hover,[id*="addItemsLink"]:hover { background-color: #d90000 !important;}
+[id*="saveorderbutt"],[id*="booknpay"],[id*="addItemsLink"]
+{ background-color: #ffaa00 !important; border: none; color: #fff !important; }
+[id*="saveorderbutt"]:hover,[id*="booknpay"]:hover,[id*="addItemsLink"]:hover 
+{ background-color: #ffb219 !important;}
 
 /* Send Inquiry button */
 [id*="saveorderbutt"] { background-color: #f37900 !important; color: #fff !important; }
-[id*="saveorderbutt"]:hover { background-color: #ff860e !important; }
+[id*="saveorderbutt"]:hover { background-color: #f48619 !important; }
 
 /* Remove Item button sizing tweaks */
 #base_page\:neworderform\:orderItemTable\:0\:remlnk {
