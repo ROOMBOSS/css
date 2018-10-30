@@ -44,7 +44,6 @@ h3 {
   color: #fff !important;
 }
 
-
 /* ------ Panel Bars ------ */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   background-color: #494d50;
@@ -58,6 +57,7 @@ h3 {
 #base_page\:neworderform\:addOrderPanel > div:nth-child(1) > h3:nth-child(1) {
   color: #fff !important;
 }
+
 /* My Order panel */
 #base_page\:neworderform\:orderDetailsPanel > div:nth-child(1) > h3:nth-child(1) {
   color: #fff;
@@ -92,7 +92,8 @@ h3 {
 }
 /*Main buttons*/
 [id*="booknpay"],
-[id*="addItemsLink"] {
+[id*="addItemsLink"],
+[id*="reservationConditionButt"] {
   color: #fff !important;
   background-color: #f16421 !important;
   border: none;
@@ -100,7 +101,8 @@ h3 {
 [id*="booknpay"]:hover,
 [id*="addItemsLink"]:hover,
 [id*="languageSelect"]:hover,
-[id*="currencySelect"]:hover {
+[id*="currencySelect"]:hover,
+[id*="reservationConditionButt"]:hover {
   background-color: #F27337 !important;
 }
 
@@ -176,7 +178,19 @@ div.ui-block-b:nth-child(2) {
 	border: 3px solid #f16421;
 	font-weight: bold;
 }
-
+[id*="checkin"] {
+	cursor: pointer;
+}
+[id*="base_page:neworderform:checkin"]:before {	
+content: "\f133" !important;
+	font-family: "FontAwesome" !important;
+	color: #f16421;
+	position: absolute;
+	margin: 10px 10px;
+	pointer-events: none;
+	z-index: 99 !important;
+	opacity: 0.5;
+}
 
 /* ------ Vendor specific product tweaks ------ */
 
@@ -272,12 +286,55 @@ box-shadow: inset 0 0 4px #aaa !important;
 }
 /* Req JA */
 [lang="ja"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
-	content: "受講者全員分の氏名、ニックネーム、生年月日（年/月/日）";
+	content: "キロカをお持ちの方はIDを入力して下さい";
 	color: #fff;	
+}
+
+/* Add to Order title JP */
+[lang="ja"] #base_page\:neworderform\:addOrderPanel > div:nth-child(1) > h3 {
+  display: none;
+}
+[lang="ja"] #base_page\:neworderform\:addOrderPanel > div:nth-child(1):after {
+  content: "ご注文フォーム";
+  font-size: 1.5em;
+  color: #fff;
+}
+
+/* Date Title */
+[lang="ja"] #base_page\:neworderform\:newOrderItemTable > div:nth-child(1):after {
+	content: "レッスン日";
+ 	font-size: 16px !important;
+  vertical-align: middle;
+}
+[lang="ja"] #base_page\:neworderform\:newOrderItemTable > div:nth-child(1) {
+  padding: 9.6px 0;
+  line-height: 20.8px;
+}
+[lang="ja"] #base_page\:neworderform\:newOrderItemTable > div:nth-child(1) {
+  font-size:0;
 }
 
 [id*="languageSelect"] {
 display: none;
+}
+
+/* Add to Order Button Text */
+[lang="ja"] #base_page\:neworderform\:addItemsLink:after {
+    content: "　※下欄にて変更出来ます";
+}
+
+/* Hide Quantity */
+[lang="ja"] div.ui-block-a:nth-child(11),
+[lang="ja"] div.ui-block-b:nth-child(12) {
+  display: none;
+}
+
+/* Change Tel Title */
+[lang*="ja"] #base_page\:neworderform\:customerTable\:gphl > span:nth-child(1){
+  display: none;
+}
+[lang*="ja"] #base_page\:neworderform\:customerTable\:gphl:after {
+  content: "携帯電話番号";
 }
 
 /* ------ Booking Message ------ */
