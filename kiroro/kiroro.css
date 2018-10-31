@@ -286,7 +286,7 @@ box-shadow: inset 0 0 4px #aaa !important;
 }
 /* Req JA */
 [lang="ja"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
-	content: "キロカをお持ちの方はIDを入力して下さい";
+	content: "受講者全員の氏名、ニックネーム、生年月日 (YY/MM/DD) をご記入下さい。（プライベートレッスン受講者のみ）";
 	color: #fff;	
 }
 
@@ -350,3 +350,12 @@ display: none;
 	display: block;
 	margin-top: 1em;
 }
+
+/* Additional Requests */
+[lang="ja"] #base_page\:neworderform\:customIdTable\:customIdl > span:nth-child(1) {
+  display: none;
+}
+[lang="ja"] #base_page\:neworderform\:customIdTable\:customIdl:after {
+  content: "キロカをお持ちの方はIDを入力して下さい";
+}
+
