@@ -1,44 +1,46 @@
 
 /*remove title*/
-.ui-title{
-	display: none;
-	visibility: hidden;
+.ui-title {
+	text-shadow: none;
+	color: #fff;
+	font-size: 40px !important;
+	padding-top: 70px !important;
+	text-transform: capitalize !important;
+}
+
+@media(max-width:650px) {
+	.ui-title {
+		font-size: 22px !important;
+		padding-top: 80px !important;
+		text-overflow: clip !important;
+	}
 }
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) no-repeat 100%;
-    	height: 250px;
-    	/*background-size: 160px, 1999px;*/
-    	border-top-width: 0px; /*32px;
-    	border-top-color: #002e52;*/
-    	border-bottom-width: 0px;
+	background: linear-gradient(0deg,rgb(27, 124, 191),rgba(27, 124, 191,0.3)),
+		url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) no-repeat;
+    	height: 150px;
+			background-size: cover;
+	background-position: 50% 25%;
+    	border-top-width: 0px;
+    	border-bottom-width: 2px;
 }
 /*page white and font*/
-body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+.ui-page-theme-a{
   	font-family: Yu 'Open Sans',sans-serif;
 	font-weight: 100;
- 	background: white!important;
+ 	background: #ddd !important;
 	color: black;
 	text-shadow: none;
 }
 
-/*color and square more info button*/
-.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
-	background-color: #febb02!important;
-	color: #002e52;
-	text-shadow: none; 
-	border: none;
-	border-radius: 0px;   	
-}
-
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #002e52;
+	background-color: #1B7CBF;
 	color: white;
-	text-shadow: none; 
+	text-shadow: none;
 	border: none;
-	border-radius: 0px;   	
 }
 
 
@@ -48,25 +50,165 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     	color: #002e52;
    	text-shadow: none;
    	border-bottom-width: 2px;
-    	border-color: #002e52;    
-    	border-bottom-style: inset;  	
+    	border-color: #002e52;
+    	border-bottom-style: inset;
 }
 
-/*expanadble areas on bpay and yourbooking*/
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
-	background-color: white;
-	color: #febb02;
-	text-shadow: none; 
-	border-color: #febb02;
-	border-radius: 0px;
-	border-width: 2px;
+/* ------ Search ------ */
+
+#base_page\:selectvendorform\:textGrid,
+#base_page\:selectvendorform\:controlsGrid {
+	background-color: #fff;
+	border: none;
+	text-shadow: none;
+	text-align: center;
+}
+/* Top Portion */
+#base_page\:selectvendorform\:textGrid {
+	padding: 1em 1em 0 1em;
+}
+/* Bottom Portion Message */
+#base_page\:selectvendorform\:controlsGrid {
+	padding: 1em;
+	font-weight: 700;
+	/*! display: table-cell; */
+	/*! width: 100%; */
+	/*! margin: 0 auto !important; */
 }
 
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
-	background-color: white;
-	color: #002e52
-	text-shadow: none; 
-	border-color: #002e52;
-	border-radius: 0px; 
-	border-width: 2px;
+/* Date Emphasis */
+#base_page\:selectvendorform\:selectionDate_input,
+#base_page\:neworderform\:checkin_input {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-radius: 5px;
+}
+/* Date Border */
+#base_page\:selectvendorform\:selectionDate .ui-input-text,
+#base_page\:neworderform\:checkin_input {
+	border: 0.2em solid #1B7CBF;
+}
+/* Date Spacing */
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-a,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-b,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-c{
+	padding: 0 5px 0 5px !important;
+}
+#base_page\:neworderform\:checkin {
+	margin: 0.5em 0;
+}
+
+[id*="checkin"] {
+	cursor: pointer;
+}
+
+/* Datepicker Icon */
+[id*="base_page:neworderform:checkin"]:before {
+content: "\f133" !important;
+	font-family: "FontAwesome" !important;
+	color: #1B7CBF;
+	position: absolute;
+	margin: 10px 10px;
+	pointer-events: none;
+	z-index: 99 !important;
+	opacity: 0.5;
+}
+
+/* ------ Icons ------ */
+
+.ui-btn-icon-right:after {
+	background-color: #1B7CBF;
+}
+
+/* Circle item */
+
+.ui-panel-m-titlebar-icon.ui-btn.ui-shadow.ui-corner-all.ui-icon-minus.ui-btn-icon-notext.ui-btn-right {
+	background-color: #1B7CBF;
+	text-shadow: none;
+	border: none;
+}
+
+/* ------ Buttons ------ */
+
+.ui-btn {
+	text-shadow: none !important;
+}
+
+/* language and currency buttons */
+[id*="languageSelect"] .ui-select,
+[id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/*Main buttons*/
+[id*="saveorderbutt"],[id*="addItemsLink"], [id*="currencySelect"], [id*="requestlnk"]
+{ background-color:background: rgb(30,87,153);
+background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1)));
+background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 );
+border: none; color: #fff !important; }
+
+[id*="saveorderbutt"]:hover,[id*="booknpay"]:hover,[id*="addItemsLink"]:hover, [id*="currencySelect"]:hover, [id*="requestlnk"]:hover
+{ background: rgb(66,115,177);
+background: -moz-linear-gradient(-45deg, rgba(66,115,177,1) 0%, rgba(65,148,221,1) 50%, rgba(39,137,221,1) 51%, rgba(147,197,236,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(66,115,177,1)), color-stop(50%,rgba(65,148,221,1)), color-stop(51%,rgba(39,137,221,1)), color-stop(100%,rgba(147,197,236,1)));
+background: -webkit-linear-gradient(-45deg, rgba(66,115,177,1) 0%,rgba(65,148,221,1) 50%,rgba(39,137,221,1) 51%,rgba(147,197,236,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(66,115,177,1) 0%,rgba(65,148,221,1) 50%,rgba(39,137,221,1) 51%,rgba(147,197,236,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(66,115,177,1) 0%,rgba(65,148,221,1) 50%,rgba(39,137,221,1) 51%,rgba(147,197,236,1) 100%);
+background: linear-gradient(135deg, rgba(66,115,177,1) 0%,rgba(65,148,221,1) 50%,rgba(39,137,221,1) 51%,rgba(147,197,236,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4273b1', endColorstr='#93c5ec',GradientType=1 );
+}
+
+/* Send Inquiry button */
+[id*="booknpay"], [id*="languageSelect"], [id*="backButton"]
+{ background: rgb(242,246,248);
+background: -moz-linear-gradient(-45deg, rgba(242,246,248,1) 0%, rgba(232,237,241,1) 50%, rgba(212,222,228,1) 51%, rgba(224,239,249,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(242,246,248,1)), color-stop(50%,rgba(232,237,241,1)), color-stop(51%,rgba(212,222,228,1)), color-stop(100%,rgba(224,239,249,1)));
+background: -webkit-linear-gradient(-45deg, rgba(242,246,248,1) 0%,rgba(232,237,241,1) 50%,rgba(212,222,228,1) 51%,rgba(224,239,249,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(242,246,248,1) 0%,rgba(232,237,241,1) 50%,rgba(212,222,228,1) 51%,rgba(224,239,249,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(242,246,248,1) 0%,rgba(232,237,241,1) 50%,rgba(212,222,228,1) 51%,rgba(224,239,249,1) 100%);
+background: linear-gradient(135deg, rgba(242,246,248,1) 0%,rgba(232,237,241,1) 50%,rgba(212,222,228,1) 51%,rgba(224,239,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 );
+color: #666 !important; border: none; }
+
+[id*="booknpay"]:hover, [id*="languageSelect"]:hover, [id*="backButton"]:hover
+{ background: rgb(246,248,249);
+background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%);
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(50%,rgba(229,235,238,1)), color-stop(51%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1)));
+background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 );
+}
+
+/* Remove Item button sizing tweaks */
+#base_page\:neworderform\:orderItemTable\:0\:remlnk {
+  width: 100%;
+  margin-top: 0;
+}
+
+/* Panel Shadows */
+.ui-panel-m {
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,.15);
+box-shadow: 0 1px 3px rgba(0,0,0,.15);
+}
+
+/* Remove Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+box-shadow: inset 0 0 4px #aaa !important;
+}
+
+[id*="pkgMsg"] div {
+	background-color: #fff !important;
+	padding: 0 1em 0 0.5em
+}
+[id*="pkgMsg"] div:first-of-type {
+	padding-top: 1em;
 }
