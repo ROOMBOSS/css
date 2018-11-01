@@ -21,16 +21,17 @@
 	border: none;
 	height:150px;
 }
-@media(max-width:1200px) {
+@media(max-width:1000px) {
 	.ui-header.ui-bar-inherit {
-	background-size: cover;
-	height:90px;
+	background-size: 1000px;
+	background-position: left;
+	height:150px;
 	}
 }
 @media(max-width:475px) {
 	.ui-header.ui-bar-inherit {
 	background-size: 800px;
-	background-position: 6% 50%;
+	background-position: 5% 50%;
 	}
 }
 
