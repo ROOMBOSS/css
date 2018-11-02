@@ -16,22 +16,21 @@
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/rhythm/summit-banner.png) no-repeat;
 	background-color: black !important;	
-	background-size:cover;
-	background-position: center;
+	background-size: auto;
+	background-position: 0% center;
+	height: 150px;
 	border: none;
-	height:150px;
 }
-@media(max-width:1000px) {
+@media(min-width:1699px) {
 	.ui-header.ui-bar-inherit {
-	background-size: 1000px;
-	background-position: left;
-	height:150px;
+	background-size: cover;
 	}
 }
-@media(max-width:475px) {
+
+@media(max-width:769px) {
 	.ui-header.ui-bar-inherit {
-	background-size: 800px;
-	background-position: 5% 50%;
+	background-position: -15px center;
+	background-size: 1200px;
 	}
 }
 
