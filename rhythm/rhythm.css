@@ -16,14 +16,13 @@
 .ui-header.ui-bar-inherit {
 	background: url(https://roomboss.github.io/css/rhythm/rhythm-platinum.jpg) no-repeat;
 	background-color: black !important;	
-	background-size: cover;
+	background-size:cover;
 	background-position: center;
 	height:200px;
 }
 @media(max-width:1000px) {
 	.ui-header.ui-bar-inherit {
 	background-size: 1000px;
-	background-position: 0 center;
 	height:150px;
 	}
 }
