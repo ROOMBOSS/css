@@ -17,7 +17,7 @@
 	background: url(https://roomboss.github.io/css/rhythm/summit-banner-2.png) no-repeat;
 	background-color: black !important;	
 	background-size:cover;
-	background-position: center;
+	background-position: 0 center;
 	height:200px;
 	border: none;
 }
