@@ -150,6 +150,13 @@ display: none;
 	font-size: 1.2em;
 }
 
+#base_page\:orderedpan:after {
+	content: 'Our backcountry specialist will contact you shortly to confirm your booking. If you need any further assistance, please contact us on +81 (0) 136 22 4199 or email: summit@rhythmjapan.com';
+	display: block;
+	margin: 1rem 0;
+	font-size: 1.2em;
+}
+
 #base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
 	display: none;	
 }
