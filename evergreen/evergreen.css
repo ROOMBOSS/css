@@ -1,29 +1,22 @@
-/* CSS for https://evergreen-skischool.bookfast.jp/cw/gen/ins/order01.jsf?vid=2c98902a66d136190166d2a5a30f5b5f */
-
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700');
 
-* { text-shadow: none;}
-
-
-/*  Table outlines */
-.ui-table {
-  border: 1px solid #ddd;
-  width: 99%;
+* {
+	text-shadow: none;
+	font-family: "Open Sans", sans-serif;
 }
 
 /* Main background color */
 .ui-page {
-  height: 150px;
-	vertical-align: bottom;
-  background: -webkit-repeating-linear-gradient(#fff, #fff 150px, #00a65c 150px, #00a65c 100%);
-  border: none !important;
+  vertical-align: bottom;
+  background: #00a65c;
+	border: none !important;
 }
 
 .ui-title {
-	font-family: Lato, sans-serif;	
+	font-family: "Lato", sans-serif;	
 	vertical-align: middle;
 	position: relative;
-	top: 60px;
+	top:60px;
 	text-shadow: none;
 	color: #01a65c;
 	font-size: 24px !important;
@@ -33,12 +26,11 @@
 .ui-header.ui-bar-inherit {
   background-image: url("https://www.evergreen-hakuba.com/wp-content/uploads/2016/11/EOC_Logo-top.jpg");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: 0px 10px;
 	background-size: 157.5px;
   background-color: #fff !important;
-  border: none;
-  height:80px;
-	color: black;
+  border: none !important;
+  height:120px;
 }
 
 /* hide image */
@@ -57,13 +49,17 @@ background-color: #d2d41e;
 }
 
 .rb-content > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > h3:nth-child(1):before {
-content: "";
+	content: "";
 	height: 120px;
 	background-image: url('https://www.evergreen-hakuba.com/wp-content/uploads/2017/11/EISS_Logo-700x250.jpg');
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
 	text-align: center;
+}
+
+.ui-content.rb-content {
+	padding-top: 0;
 }
 
 .rb-content > table:nth-child(2) {
@@ -73,16 +69,48 @@ content: "";
 /* ------ Buttons ------ */
 
 /* Submit buttons */
-[id*="languageSelect"], [id*="currencySelect"]{
+[id*="languageSelect"], [id*="currencySelect"],
+[id*="addItemsLink"] {
   color: #fff !important;
   background-color: #00a65c !important;
   border: none;
   border-radius: 20px;
+	text-shadow: none !important;
+}
+[id*="addItemsLink"]:hover,
+[id*="languageSelect"]:hover,
+[id*="currencySelect"]:hover {
+  background-color: #32b77c!important;
 }
 
 /* language and currency buttons */
 [id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
   margin-top: 1em;
+}
+
+/*Main buttons*/
+[id*="booknpay"],
+[id*="reservationConditionButt"] {
+  color: #fff !important;
+  background-color: #3e6fb4 !important;
+  border: none;
+	text-shadow: none !important;
+}
+
+[id*="booknpay"]:hover,
+[id*="reservationConditionButt"]:hover {
+	background-color: #648bc3;
+}
+
+
+[id*="saveorderbutt"] {
+  background-color: #d2d41e !important;
+  color: #333 !important;
+  border: none;
+	text-shadow: none !important;
+}
+[id*="saveorderbutt"]:hover {
+  background-color: #dbdc4a !important;
 }
 
 /* ------ Panels ------*/ 
@@ -96,6 +124,7 @@ content: "";
   background-color: #3e6fb4;
   border: none;
 	color: #fff;
+	font-family: "Lato", sans-serif;
 }
 
 /* ------ Icons ------ */
@@ -122,13 +151,4 @@ content: "";
 [id*="checkin"] {
 	cursor: pointer;
 }
-[id*="base_page:neworderform:checkin"]:before {	
-content: "\f133" !important;
-	font-family: "FontAwesome" !important;
-	color: #00a65c;
-	position: absolute;
-	margin: 10px 10px;
-	pointer-events: none;
-	z-index: 99 !important;
-	opacity: 0.5;
-}
+
