@@ -104,13 +104,13 @@ background-color: #d2d41e;
 
 
 [id*="saveorderbutt"] {
-  background-color: #d2d41e !important;
-  color: #333 !important;
+  background-color: #3e6fb4 !important;
+  color: #fff !important;
   border: none;
 	text-shadow: none !important;
 }
 [id*="saveorderbutt"]:hover {
-  background-color: #dbdc4a !important;
+  background-color: #648BC3 !important;
 }
 
 /* ------ Panels ------*/ 
@@ -151,4 +151,3 @@ background-color: #d2d41e;
 [id*="checkin"] {
 	cursor: pointer;
 }
-
