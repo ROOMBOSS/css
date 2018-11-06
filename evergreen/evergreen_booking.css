@@ -5,13 +5,6 @@
 	font-family: "Open Sans", sans-serif;
 }
 
-/* Main background color */
-.ui-page {
-  vertical-align: bottom;
-  background: #00a65c;
-	border: none !important;
-}
-
 .ui-title {
 	font-family: "Lato", sans-serif;	
 	vertical-align: middle;
@@ -29,8 +22,10 @@
   background-position: 0px 10px;
 	background-size: 157.5px;
   background-color: #fff !important;
-  border: none !important;
+	border: none;
+  border-bottom: 3px solid #00a65c !important;
   height:120px;
+	margin-bottom: 1em;
 }
 
 /* hide image */
@@ -151,3 +146,4 @@ background-color: #d2d41e;
 [id*="checkin"] {
 	cursor: pointer;
 }
+
