@@ -151,3 +151,14 @@ background-color: #d2d41e;
 [id*="checkin"] {
 	cursor: pointer;
 }
+
+.ui-outputpanel.ui-widget {
+	margin-top: 30px;
+}
+
+#base_page\:postab_data,
+#base_page\:ttab_data,
+#base_page\:txtab_data > tr:nth-child(1) {
+	background-color: white;
+}
+
