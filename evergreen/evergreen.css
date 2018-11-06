@@ -58,6 +58,12 @@ background-color: #d2d41e;
 	text-align: center;
 }
 
+@media(max-width:340px) {
+.rb-content > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > h3:nth-child(1):before {
+	display: none;
+	}
+}
+
 .ui-content.rb-content {
 	padding-top: 0;
 }
