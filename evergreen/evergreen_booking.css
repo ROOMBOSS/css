@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700');
+
+* {
+	text-shadow: none;
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Main background color */
+.ui-page {
+  vertical-align: bottom;
+  background: #00a65c;
+	border: none !important;
+}
+
+.ui-title {
+	font-family: "Lato", sans-serif;	
+	vertical-align: middle;
+	position: relative;
+	top:60px;
+	text-shadow: none;
+	color: #01a65c;
+	font-size: 24px !important;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("https://www.evergreen-hakuba.com/wp-content/uploads/2016/11/EOC_Logo-top.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px 10px;
+	background-size: 157.5px;
+  background-color: #fff !important;
+  border: none !important;
+  height:120px;
+}
+
+/* hide image */
+#base_page\:j_idt24 {
+	display: none;
+}
+
+.rb-content > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > h3:nth-child(1) {
+background-color: #d2d41e;
+	text-shadow: none;
+	color: #fff;
+	padding: 10px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+	text-align: center;
+	max-width: 330px;
+}
+
+.rb-content > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > h3:nth-child(1):before {
+	content: "";
+	height: 120px;
+	background-image: url('https://www.evergreen-hakuba.com/wp-content/uploads/2017/11/EISS_Logo-700x250.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+	text-align: center;
+}
+
+.ui-content.rb-content {
+	padding-top: 0;
+}
+
+.rb-content > table:nth-child(2) {
+	margin: auto;
+}
+
+/* ------ Buttons ------ */
+
+/* Submit buttons */
+[id*="languageSelect"], [id*="currencySelect"],
+[id*="addItemsLink"] {
+  color: #fff !important;
+  background-color: #00a65c !important;
+  border: none;
+  border-radius: 20px;
+	text-shadow: none !important;
+}
+[id*="addItemsLink"]:hover,
+[id*="languageSelect"]:hover,
+[id*="currencySelect"]:hover {
+  background-color: #32b77c!important;
+}
+
+/* language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/*Main buttons*/
+[id*="booknpay"],
+[id*="reservationConditionButt"] {
+  color: #fff !important;
+  background-color: #3e6fb4 !important;
+  border: none;
+	text-shadow: none !important;
+}
+
+[id*="booknpay"]:hover,
+[id*="reservationConditionButt"]:hover {
+	background-color: #648bc3;
+}
+
+
+[id*="saveorderbutt"] {
+  background-color: #d2d41e !important;
+  color: #333 !important;
+  border: none;
+	text-shadow: none !important;
+}
+[id*="saveorderbutt"]:hover {
+  background-color: #dbdc4a !important;
+}
+
+/* ------ Panels ------*/ 
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #3e6fb4;
+  border: none;
+	color: #fff;
+	font-family: "Lato", sans-serif;
+}
+
+/* ------ Icons ------ */
+/* General icon colour */
+.ui-panel-m-content .ui-btn-icon-right:after{
+  background-color: #00a65c;
+}
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+	background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Date emphasis */
+#base_page\:neworderform\:checkin_input {;
+	border-radius: 5px;
+	text-align: center;
+	border: 3px solid #00a65c;
+	font-weight: bold;
+	padding-right: 24px;
+}
+[id*="checkin"] {
+	cursor: pointer;
+}
