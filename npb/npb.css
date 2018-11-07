@@ -43,11 +43,13 @@ div.ui-footer.ui-bar-inherit {
 
 /* Spacing */
 @media(min-width: 560px) {
-#base_page\:selectvendorform\:controlsGrid > div.ui-block-a,
-#base_page\:selectvendorform\:controlsGrid > div.ui-block-b {
-	padding: 0 10px 0 0 !important;
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-a {
+	padding: 0 5px 0 0 !important;
 	width: 50%;
 	}
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-b {
+	padding: 0 0 0 5px !important;
+	width: 50%;
 }
 
 #base_page\:selectvendorform\:selectionDate_input {
