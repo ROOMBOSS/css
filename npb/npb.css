@@ -32,3 +32,25 @@ div.ui-footer.ui-bar-inherit {
 	color: #ddd;
 	text-shadow: none;
 }
+
+/* Date Emphasis */
+#base_page\:selectvendorform\:selectionDate_input,
+#base_page\:neworderform\:checkin_input {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+/* Spacing */
+@media(min-width: 560px) {
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-a,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-b {
+	padding: 0 10px 0 0 !important;
+	width: 50%;
+	}
+}
+
+#base_page\:selectvendorform\:selectionDate_input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
