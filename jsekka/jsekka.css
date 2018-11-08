@@ -68,18 +68,14 @@ body, a, .ui-btn {
 
 /* Primary button colours (Add item / Send Inquiry) */
 button#base_page\:neworderform\:addItemsLink,
-button#base_page\:neworderform\:saveorderbutt,
-#base_page\:locform\:languageSelect_input-button,
-#base_page\:locform\:currencySelect_input-button{
+button#base_page\:neworderform\:saveorderbutt{
     background-color: #969696 !important;
     color: #fff !important;
     text-shadow: none !important;
     border-color: #ddd;
 }
 button#base_page\:neworderform\:addItemsLink:hover,
-button#base_page\:neworderform\:saveorderbutt:hover,
-#base_page\:locform\:languageSelect .ui-select:hover,
-#base_page\:locform\:currencySelect .ui-select:hover{
+button#base_page\:neworderform\:saveorderbutt:hover{
     background-color: #a2a2a2 !important;
 }
 
