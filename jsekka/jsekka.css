@@ -31,7 +31,7 @@ body, a, .ui-btn {
     background-repeat: no-repeat;
     background-position: center, center 20%;
     background-size: 300px, cover;
-    border-color: none;
+    border-color: #999;
     border-bottom-color: #999;
     height:150px;
     box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
@@ -50,6 +50,14 @@ body, a, .ui-btn {
     border: #717071;
     text-shadow: none;
 }
+/* Datepicker spacing */
+#base_page\:neworderform\:checkin_input {;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 2em ;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
 /* --- Icon Settings --- */
 
 /* Panel icon hide border and background */
@@ -61,7 +69,7 @@ body, a, .ui-btn {
 }
 
 /* Does not inherit general icon colour */
-.ui-panel-m-titlebar-icon::after {
+.ui-panel-m-titlebar-icon:after {
     background-color: transparent !important;
 }
 /* --- Button Settings --- */
