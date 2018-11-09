@@ -34,7 +34,7 @@
 }
 
 /*page white and font*/
-body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+body, select, textarea, button, .ui-content, .ui-page-theme-a{
   	font-family: 'Oxygen', sans-serif;
 	font-weight: 100;
  	background: white!important;
@@ -177,5 +177,10 @@ display: none;
 	
 /* Hide Category */
 #base_page\:neworderform\:categorymenu_input > option:nth-child(1) {
+	display: none;
+}
+	
+/* Hide Quantity */
+.rbn-quantity {
 	display: none;
 }
