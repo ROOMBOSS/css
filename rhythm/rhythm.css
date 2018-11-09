@@ -175,6 +175,12 @@ display: none;
 	font-size: 1em;
 }
 	
+/* Post total message */
+#base_page\:neworderform\:totaltb\:0\:totamts:after {
+	content: "(Please note the equipment rental fee is not yet added to this total.)";
+	font-size: 90%;
+}
+	
 /* Hide Category */
 #base_page\:neworderform\:categorymenu_input > option:nth-child(1) {
 	display: none;
@@ -183,4 +189,4 @@ display: none;
 /* Hide Quantity */
 .rbn-quantity {
 	display: none;
-}
+}	
