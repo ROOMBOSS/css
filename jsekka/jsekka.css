@@ -43,7 +43,8 @@ body, a {
     padding-bottom: 1em;
 }
 
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.rbn-notoggle div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
     background-color: #494d50;
     font-size: 110%;
     color: #fff;
@@ -76,14 +77,16 @@ body, a {
 
 /* Primary button colours (Add item / Send Inquiry) */
 button#base_page\:neworderform\:addItemsLink,
-button#base_page\:neworderform\:saveorderbutt{
+button#base_page\:neworderform\:saveorderbutt,
+.rbn-sendenquiry-button{
     background-color: #969696 !important;
     color: #fff !important;
     text-shadow: none !important;
     border-color: #ddd;
 }
 button#base_page\:neworderform\:addItemsLink:hover,
-button#base_page\:neworderform\:saveorderbutt:hover{
+button#base_page\:neworderform\:saveorderbutt:hover,
+.rbn-sendenquiry-button:hover{
     background-color: #a2a2a2 !important;
 }
 
