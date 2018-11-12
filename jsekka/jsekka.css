@@ -111,3 +111,32 @@ button#base_page\:neworderform\:reservationConditionButt:hover {
 .remove-item-control.ui-btn-inline:after {
     background-color: #888;
 }
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  	padding: 0.5em !important;
+	outline: none !important;
+	text-shadow: none !important;
+  	box-shadow: none !important;
+}
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding-right: .5em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding-left: .5em;
+}
+/* Select Dates Mobile */
+@media(max-width: 400px) {
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding: 0.25em;
+  	width: 100%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-b  {
+	padding: .25em;
+  	width: 60%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding: .25em;
+	width: 40%;
+}
+}
