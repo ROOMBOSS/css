@@ -112,7 +112,7 @@ th {
 }
 
 /* Fonts */
-h1, h2, h3, h4, h5, .ui-btn, .ui-column-title {
+h1, h2, h3, h4, h5, .ui-column-title {
   text-transform: uppercase !important;
   font-family: "Roboto", sans-serif;
   font-weight: 400 !important;
