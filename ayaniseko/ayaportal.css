@@ -1,7 +1,7 @@
 .ui-header.ui-bar-inherit{
     background-size:220px;
     border:none;
-    height:80px;
+    height:90px;
 }
 @media(max-width:386px) {
     .ui-header.ui-bar-inherit {
