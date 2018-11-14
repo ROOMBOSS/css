@@ -80,3 +80,52 @@
 #base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(1) {
     padding-right: 1em;
 }
+
+/* ------ Search ------ */
+
+#base_page\:selectvendorform\:textGrid,
+#base_page\:selectvendorform\:controlsGrid {
+	background-color: #fff;
+	border: none;
+	text-shadow: none;
+	text-align: center;
+}
+/* Top Portion */
+#base_page\:selectvendorform\:textGrid {
+	padding: 1em 1em 0 1em;
+}
+/* Bottom Portion Message */
+#base_page\:selectvendorform\:controlsGrid {
+	padding: 1em;
+	font-weight: 700;
+	/*! display: table-cell; */
+	/*! width: 100%; */
+	/*! margin: 0 auto !important; */
+}
+
+/* Date Emphasis */
+#base_page\:selectvendorform\:selectionDate_input,
+#base_page\:neworderform\:checkin_input {
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-radius: 5px;
+}
+/* Date Border */
+#base_page\:selectvendorform\:selectionDate .ui-input-text,
+#base_page\:neworderform\:checkin_input {
+	border: 0.2em solid #1B7CBF;
+}
+/* Date Spacing */
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-a,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-b,
+#base_page\:selectvendorform\:controlsGrid > div.ui-block-c{
+	padding: 0 5px 0 5px !important;
+}
+#base_page\:neworderform\:checkin {
+	margin: 0.5em 0;
+}
+
+[id*="checkin"] {
+	cursor: pointer;
+}
