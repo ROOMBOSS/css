@@ -76,3 +76,7 @@
     padding-top: 0;
 }
 }
+
+#base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(1) {
+    padding-right: 1em;
+}
