@@ -1,1 +1,78 @@
-@import url('//roomboss.github.io/css/ayaniseko/ayaniseko.css');
+.ui-header.ui-bar-inherit{
+    background-size:220px;
+    border:none;
+    height:80px;
+}
+@media(max-width:386px) {
+    .ui-header.ui-bar-inherit {
+        height:120px;
+    }
+}
+@media(max-width:230px) {
+    .ui-header.ui-bar-inherit {
+        height:160px;
+    }
+}
+
+.ui-header.ui-bar-inherit:after {
+    content: "Niseko Guest Services";
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 28px
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+    display:none;
+}
+
+#base_page\3a selectvendorform\3a textGrid > div:nth-child(2):before,
+#base_page\3a j_idt42 > div.ui-panel-m-content.ui-body.ui-body-inherit > div > div > div.ui-grid-col-9.rbn-ven-grid-txt-col > span:before {
+    content: "Book directly with world-class Niseko service providers. For requests and enquiries regarding your order, please contact the supplier directly.";
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#base_page\3a j_idt42 > div.ui-panel-m-content.ui-body.ui-body-inherit > div > div > div.ui-grid-col-9.rbn-ven-grid-txt-col > span:before {
+    margin-bottom: 1em;
+}
+
+#base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(2) > h3:after {
+    content: "Book directly with world-class Niseko service providers. For requests and enquiries regarding your order, please contact the supplier directly.";
+    display: block;
+    font-weight: normal;
+    margin-top: 1em;
+    font-size: 16px;
+}
+
+[lang="ja"] #base_page\3a selectvendorform\3a textGrid > div:nth-child(2):before,
+[lang="ja"] #base_page\3a j_idt42 > div.ui-panel-m-content.ui-body.ui-body-inherit > div > div > div.ui-grid-col-9.rbn-ven-grid-txt-col > span:before {
+    content: "ワールドクラスのニセコサービスプロバイダーとの直接予約です。リクエストや質問に関しましては直接プロバイダー様にご連絡ください。";
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+[lang="ja"] #base_page\3a j_idt42 > div.ui-panel-m-content.ui-body.ui-body-inherit > div > div > div.ui-grid-col-9.rbn-ven-grid-txt-col > span:before {
+    margin-bottom: 1em;
+}
+
+[lang="ja"] #base_page > div.ui-content.rb-content > table > tbody > tr > td:nth-child(2) > h3:after {
+    content: "ワールドクラスのニセコサービスプロバイダーとの直接予約です。リクエストや質問に関しましては直接プロバイダー様にご連絡ください。";
+    display: block;
+    font-weight: normal;
+    margin-top: 1em;
+    font-size: 16px;
+}
+
+#base_page\3a selectvendorform\3a welcomeTxtTitle {
+    display: none;
+}
+
+@media(min-width:600px){
+#base_page\3a j_idt42 > div.ui-panel-m-content.ui-body.ui-body-inherit > div > div > div.ui-grid-col-9.rbn-ven-grid-txt-col {
+    padding-top: 0;
+}
+}
