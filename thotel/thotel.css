@@ -1,10 +1,12 @@
 /* --- Global Settings--- */
 body, a, select, input, button, span, .ui-input-btn {
     font-family: "Open Sans", sans-serif !important;
+	text-shadow: none !important;
 }
 
 h1, h2, h3, h4, .ui-collapsible-heading-toggle, .rbn_ven_descr, [id*="description"] {
     font-family: "Raleway", sans-serif !important;
+	text-shadow: none !important;
 }
 
 /* Change input highlight colours */
@@ -107,7 +109,6 @@ h1, h2, h3, h4, .ui-collapsible-heading-toggle, .rbn_ven_descr, [id*="descriptio
 .ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content {
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
-
 
 /* --- Icon Settings --- */
 
