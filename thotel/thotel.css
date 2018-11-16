@@ -218,6 +218,7 @@ button#base_page\:neworderform\:addItemsLink, button#base_page\:neworderform\:sa
 
 .rbn-ven-grid-txt-col {
 	padding: 1em 2em;
+	margin: auto;
 }
 .rbn-vendor-grid-img-col {
 	display: none;
