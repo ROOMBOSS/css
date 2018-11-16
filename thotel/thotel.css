@@ -215,3 +215,10 @@ button#base_page\:neworderform\:addItemsLink, button#base_page\:neworderform\:sa
 #base_page\:vform\:customertable .ui-block-b{
   padding: 0.25em;
 }
+
+.rbn-ven-grid-txt-col {
+	padding: 1em 2em;
+}
+.rbn-vendor-grid-img-col {
+	display: none;
+}
