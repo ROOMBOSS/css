@@ -1,1 +1,217 @@
-/* CSS for https://thotel.bookfast.jp */
+/* --- Global Settings--- */
+body, a, select, input, button, span, .ui-input-btn {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+h1, h2, h3, h4, .ui-collapsible-heading-toggle, .rbn_ven_descr, [id*="description"] {
+    font-family: "Raleway", sans-serif !important;
+}
+
+/* Change input highlight colours */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+    box-shadow: inset 0 0 4px #aaa !important;
+}
+/* --- Header & Banner Settings --- */
+
+/* Top language and currency button margin */
+#base_page\:locform\:languageSelect .ui-select, #base_page\:locform\:currencySelect .ui-select {
+    margin-top: 1em;
+}
+
+/* Remove Header */
+.ui-title {
+    display: none !important;
+}
+
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+    display: none;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+    background-image: url("//roomboss.github.io/css/thotel/thotel.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: #042543;
+    border-color: #fff;
+    height:150px;
+    box-shadow: 2px 2px 4px #aaa !important;
+    border: none;
+}
+/* --- Panel & Content Settings --- */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+    margin-bottom: 1em;
+}
+
+/* Header Panel */
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+    background-color: #042543 !important;
+		color: #fff;
+		text-shadow: none !important;;
+}
+.ui-collapsible-heading-toggle {
+  background-color: #b99f76 !important;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+.ui-collapsible-heading-toggle:hover {
+  background-color: #a78755 !important;
+}
+
+
+/* Main panels */
+.ui-panel-m-content.ui-body.ui-body-inherit {
+}
+
+.ui-panel-m {
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  	padding: 0.5em !important;
+	outline: none !important;
+	text-shadow: none !important;
+  	box-shadow: none !important;
+}
+
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding-right: .5em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding-left: .5em;
+}
+/* Select Dates Mobile */
+@media(max-width: 400px) {
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding: 0.25em;
+  	width: 100%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-b  {
+	padding: .25em;
+  	width: 60%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding: .25em;
+	width: 40%;
+}
+}
+
+/* Collapsible */
+
+.ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content {
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* --- Icon Settings --- */
+
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #b99f76;
+}
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+    border: none !important;
+    text-shadow: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon:after {
+    background-color: transparent !important;
+}
+
+/* --- Button Settings --- */
+
+/* Primary button colours (Send Inquiry) */
+button#base_page\:neworderform\:saveorderbutt,
+.rbn-sendenquiry-button,
+[id*="languageSelect_input"], [id*="currencySelect_input"] {
+  	background-color: #b99f76 !important;  
+  	color: #fff !important;
+    text-shadow: none !important;
+    border: none;
+}
+button#base_page\:neworderform\:saveorderbutt:hover,
+.rbn-sendenquiry-button:hover,
+[id*="languageSelect_input"]:hover, [id*="currencySelect_input"]:hover{
+    background-color: #a78755 !important;
+    color: #fff;
+}
+
+/* Secondary button colours (Book and Pay) */
+button#base_page\:neworderform\:booknpay,
+button#base_page\:neworderform\:reservationConditionButt {
+    background-color: #042543;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+button#base_page\:neworderform\:booknpay:hover,
+button#base_page\:neworderform\:reservationConditionButt:hover {
+    background-color: #365068;
+}
+
+/* Tertiary button colours ( Send Inquiry) */
+button#base_page\:neworderform\:saveorderbutt {
+    background-color: #b99f76;
+    color: #fff;
+    text-shadow: none !important;
+}
+button#base_page\:neworderform\:saveorderbutt:hover {
+    background-color: #c7b291 !important;
+    color: #fff;
+}
+
+/* Transitions */ 
+button#base_page\:neworderform\:booknpay, button#base_page\:neworderform\:reservationConditionButt,
+button#base_page\:neworderform\:addItemsLink, button#base_page\:neworderform\:saveorderbutt, .rbn-sendenquiry-button, select,
+[id*="languageSelect_input"], [id*="currencySelect_input"] {
+    transition: 0.2s ease-in-out !important;
+}
+
+/* Fix remove item button */
+.remove-item-control.ui-btn-inline {
+    color: #888;
+    margin-top: 0.5em;
+    width: 100%
+}
+.remove-item-control.ui-btn-inline:after {
+    background-color: #888;
+}
+
+/* Datepicker buttons*/
+.fa {
+  font-family: "FontAwesome" !important;
+}
+.rbn-datecontrol-button {
+  	font-family: "Raleway", sans-serif !important;
+    font-weight: bold;
+  padding-right: 1em !important;
+}
+.rbn-datecontrol-button:before{
+  	font-family: "FontAwesome" !important;
+    margin-right: 0.5em;
+    font-size: 80%;
+    color: #b99f76;
+}
+
+/* Datepicker Spacing */
+#base_page\:vform\:avgridpan\:j_idt96 > div {
+  padding: 0 0.25em
+}
+#base_page\:vform\:avgridpan\:j_idt96.ui-grid-c {
+  padding: 0 0.25em;
+}
+/* About You spacing */
+#base_page\:vform\:customertable .ui-block-a,
+#base_page\:vform\:customertable .ui-block-b{
+  padding: 0.25em;
+}
