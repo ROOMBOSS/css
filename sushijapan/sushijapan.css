@@ -86,3 +86,8 @@ button[id*="saveorderbutt"]:hover{
 .remove-item-control.ui-btn-inline:after {
 	background-color: #888;
 }
+
+/* Hide Quantity */
+.rbn-quantity {
+	display: none;
+}
