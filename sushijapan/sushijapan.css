@@ -91,3 +91,18 @@ button[id*="saveorderbutt"]:hover{
 .rbn-quantity {
 	display: none;
 }
+
+/* Additional requests message */
+#base_page\:neworderform\:questionsPanel > div:nth-child(1) > h3:nth-child(1) {
+  display: none;
+}
+#base_page\:neworderform\:questionsPanel > div:nth-child(1):after {
+  content: "Please list any dietary restrictions below:";
+  font-size: 1.1em;
+  color: #fff;
+}
+[lang="ja"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):after {
+	content: "アレルギー対応が必要な方は下記に記載して下さい。";
+  font-size: 1.2em;
+  color: #fff;
+}
