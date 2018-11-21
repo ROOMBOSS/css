@@ -92,4 +92,9 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none; 
 }
 
-
+/* Flatten Input Text */ 
+.ui-input-text {
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+  	-webkit-box-shadow: none !important;
+}
