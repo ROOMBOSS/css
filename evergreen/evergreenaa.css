@@ -12,6 +12,16 @@
 	border: none !important;
 }
 
+/*Hide date an product selector*/
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1),
+#base_page\3a neworderform\3a checkin,
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(3),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(4),
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(5),
+#base_page\3a neworderform\3a productMenu{
+	display: none;
+}
+
 .ui-title {
 	font-family: "Lato", sans-serif;	
 	vertical-align: middle;
