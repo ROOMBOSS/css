@@ -59,7 +59,8 @@ button.ui-button.ui-state-active,.ui-button.ui-state-active {
 /* Titles */
 .rb-parent-cat-title,
 .rb-prod-title,
-.rb-basket-title-pg {
+.rb-basket-title-pg,
+.rb-checkout-title {
     font-size: 1.4em;
     font-weight: 700;
     color: #2399e5;
