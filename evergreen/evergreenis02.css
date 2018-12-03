@@ -1,0 +1,65 @@
+@import url('//roomboss.github.io/css/ui/main02.css');
+
+.rb-header {
+  background-image: url("https://www.evergreen-hakuba.com/wp-content/uploads/EISS_Logo-700x250-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: 400px;
+  border: none;
+  border-bottom: 10px solid #a1c712;
+  height:120px;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,.rb-checkout-title{
+  color: #333;
+}
+
+.rb-parent-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before {
+  color: #a1c712
+}
+/* Lighter Desc Font */
+.rb-parent-cat-desc {
+  font-weight: normal;
+}
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+  }
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl{
+  margin-left: 8px;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #a1c712 !important;
+}
+
+#orderForm\:booknow {
+  background-color: #a1c712;
+  border: 1px solid #a1c712;
+}
+#orderForm\:booknow:hover {
+  background-color: #92b510;
+  border: 1px solid #92b510;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+    content: "\f291";
+    margin-right: 10px;
+    font-family: "FontAwesome" !important;
+  color: #a1c712
+}
