@@ -57,3 +57,9 @@
     font-family: "FontAwesome" !important;
   color: #a1c712
 }
+
+#guestDialogForm\:addguest,
+#guestDialogForm\:canceladdguest{
+  margin-right: 3px;
+  margin-left: 3px;
+}
