@@ -369,6 +369,7 @@ button.ui-button.ui-state-active,.ui-button.ui-state-active {
 .rb-order-nav {
     padding: 1em;
     margin-top: 0 !important;
+    font-weight: 300;
 }
 #orderForm\:email {
     margin-bottom: 0.5em;
