@@ -413,10 +413,6 @@ button.ui-button.ui-state-active,.ui-button.ui-state-active {
     margin-top: 8px !important;
 }
 
-#orderForm\:vcpnl_content > div:nth-child(1) {
-    margin-bottom: 8px !important;
-}
-
 /* --- Order Form --- */
 /* Spacing */
 #orderForm\:contactinfo > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1),
