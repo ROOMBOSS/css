@@ -294,7 +294,7 @@ button.ui-button.ui-state-active,.ui-button.ui-state-active {
 /* Dialogue Header */
 .ui-dialog .ui-dialog-titlebar {
     margin: 0;
-    padding-left: 30px;
+    padding-left: 1em;
     padding-right: 5px;
     border-bottom: 6px solid rgb(35, 153, 229);
 }
