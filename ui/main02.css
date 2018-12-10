@@ -373,10 +373,10 @@ div [id*="pdtnoimgpg"],
   margin-top: .5em;
 }
 
-/* Center Dialogue */ /*
+/* Center Dialogue */
 #orderForm\:addbskpg {
   margin: auto;
-} */
+}
 
 /* Dialogue Background colour */
 .ui-dialog-content.ui-widget-content {
@@ -416,14 +416,14 @@ div [id*="pdtnoimgpg"],
   padding: 3px 3px 7px;
 }
 
-/* Align Date left */
+/* Align Date left
 #orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
   text-align: left;
   }
 #orderForm\:stdtlbl,
 #orderForm\:grosslbl{
   margin-left: 6px;
-}
+}*/
 
 /* ---------------------------------- */
 
@@ -526,7 +526,7 @@ div [id*="pdtnoimgpg"],
 /* --- Order Form --- */
 
 #orderForm\:chkoutpnl_content > div {
- padding-bottom: 1em; 
+ padding-bottom: 1em;
 }
 
 /* Spacing */
