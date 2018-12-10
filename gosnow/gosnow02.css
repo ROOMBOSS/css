@@ -1,5 +1,8 @@
 @import url('//roomboss.github.io/css/ui/main02.css');
 
+
+/* Custom design */
+
 .rb-header {
   background-image: url("https://www.gosnowniseko.com/assets/img/gosnow-logo-reverse.svg");
   background-color: rgb(55, 93, 157);
@@ -16,6 +19,7 @@
 }
 
 .rb-parent-cat-title,
+.rb-child-cat-title,
 .rb-prod-title,
 .rb-basket-title-pg,
 .rb-checkout-title{
@@ -23,27 +27,35 @@
 }
 
 .rb-parent-cat-title:before,
+.rb-child-cat-title:before,
 .rb-prod-title:before,
-.rb-basket-title-pg:before {
+.rb-basket-title-pg:before,
+.rb-checkout-title:before {
   color: #72d54a;
 }
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #375d9d;
+}
+
 /* Lighter Desc Font */
-.rb-parent-cat-desc {
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
   font-weight: normal;
   color: #375d9d;
 }
-/* Hide Icon */
-.rb-parent-cat-desc:before {
-  display: none;
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #375d9d;
+  box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #375d9d;
 }
 
-#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
-  text-align: left;
-  }
-#orderForm\:stdtlbl,
-#orderForm\:grosslbl{
-  margin-left: 8px;
-}
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
@@ -60,6 +72,11 @@
   border: 1px solid #2a4777;
 }
 
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: rgb(55, 93, 157);
+}
 
 /* Default Buttons */
 
@@ -71,68 +88,7 @@
   background-color: #62d035;
 }
 
-/* CHECKOUT */
-.rb-checkout-title:before {
-    content: "\f291";
-    margin-right: 10px;
-    font-family: "FontAwesome" !important;
-  color: #72d54a;
-}
-
-/* Cards */
-
-[id*="pdtpnl_content"] .ui-panel-content.ui-widget-content {
-  background-color:; 
-}
+/* Card title*/
 .rb-prod-desc-item:nth-child(1) label {
     color:  #375d9d !important;
-}
-
-
-/* Selector */
-
-#locform\:currencySelect,
-#locform\:languageSelect{
-  border: none;
-  transition: 0.2s ease-in-out;
-  background-color: #fff;
-}
-
-#locform\:currencySelect_label,
-#locform\:languageSelect_label {
-  text-align: center;
-  font-weight: bold;
-  color: #375d9d;
-}
-
-/* Basket Align Left*/
-#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1),
-#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) {
-  text-align: left !important;
-  padding-top: 0.6em;
-}
-#orderForm\:itemdtbsk_data tr.ui-widget-content > td [id*="bskitempdtopt_content"],
-#orderForm\:itemdtchkout_data tr.ui-widget-content > td [id*="bskitempdtopt_content"] {
-  padding-top: 0.2em;
-}
-#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
-#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #375d9d;
-  box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #375d9d;
-  box-decoration-break: clone;
-  border-radius: 4px;
-  width: 100%;
-  padding: 0.2em 0.5em;
-  color: #fff;
-}
-/* Button fix add guest */
-#guestDialogForm\:newguestdlg button {
-  margin: 0 2.5px;
-}
-#guestDialogForm\:newguestdlg > div:nth-child(2) > div:nth-child(1) {
-  padding-top: 0 !important;
-  padding-bottom: 1em
-}
-#guestDialogForm\:newguestdlg > div:nth-child(2) > div:nth-child(12) {
-  padding-top: 1.2em !important;
 }
