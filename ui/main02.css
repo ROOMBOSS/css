@@ -416,14 +416,14 @@ div [id*="pdtnoimgpg"],
   padding: 3px 3px 7px;
 }
 
-/* Align Date left 
+/* Align Date left */
 #orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
   text-align: left;
   }
 #orderForm\:stdtlbl,
 #orderForm\:grosslbl{
   margin-left: 6px;
-}*/
+}
 
 /* ---------------------------------- */
 
