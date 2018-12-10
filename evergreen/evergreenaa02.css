@@ -15,12 +15,14 @@
 }
 
 .rb-parent-cat-title,
+.rb-child-cat-title,
 .rb-prod-title,
 .rb-basket-title-pg,.rb-checkout-title{
   color: #333;
 }
 
 .rb-parent-cat-title:before,
+.rb-child-cat-title:before,
 .rb-prod-title:before,
 .rb-basket-title-pg:before {
   color: #e0440b;
