@@ -32,6 +32,19 @@ html, body {
   background-color: #f9f9f9;
 }
 
+/* Flash fix */
+.ui-widget-content {
+  background-color: #f9f9f9;
+}
+
+/* Table colours */
+.ui-datatable-even {
+ background-color:#fff;
+}
+.ui-datatable-odd {
+ background-color:#fafafb;
+}
+
 /* Buttons */
 .ui-button, button.ui-button.ui-state-default, .ui-button.ui-state-default,
 button.ui-button.ui-state-hover, .ui-button.ui-state-hover, button.ui-button.ui-state-focus, .ui-button.ui-state-focus,
