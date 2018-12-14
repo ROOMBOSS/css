@@ -6,14 +6,14 @@
 	visibility: hidden;
 }
 
-/*change date to First Day Skiing/Boarding*/
+/*change date to First Day Skiing/Boarding
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1){	
 	visibility: hidden;
-}
+}*/
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(2)::before{
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1)::after{
 	font-weight: bold;
-	content: "First Day Skiing/Boarding";
+	content: "(First Day Skiing/Boarding");
 }
 
 /*vendor name and image*/
