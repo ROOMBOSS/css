@@ -11,7 +11,7 @@
 	visibility: hidden;
 }*/
 
-#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1)::after{
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1):after{
 	font-weight: bold;
 	content: " (First Day Skiing/Boarding");
 }
