@@ -13,7 +13,12 @@
 
 #base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1):after{
 	font-weight: bold;
-	content: " (First Day Skiing/Boarding");
+	content: " (First Day Skiing/Boarding)";
+}
+
+
+#base_page\3a neworderform\3a checkin_input{
+	border:
 }
 
 /*vendor name and image*/
