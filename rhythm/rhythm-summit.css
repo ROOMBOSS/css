@@ -6,6 +6,15 @@
 	visibility: hidden;
 }
 
+/*change date to First Day Skiing/Boarding*/
+#base_page\3a neworderform\3a newOrderItemTable > div:nth-child(1){	
+	visibility: hidden;
+}
+
+#base_page\3a neworderform\3a newOrderItemTable::before{
+	content: "First Day Skiing/Boarding";
+}
+
 /*vendor name and image*/
 #base_page > div.ui-content.rb-content > table{
 	display: none;
