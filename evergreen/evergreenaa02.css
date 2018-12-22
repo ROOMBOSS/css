@@ -37,7 +37,8 @@
 }
 
 #orderForm\3a addqlbl:after {
- content: "- Please provide your full postal address below.";
+ content: " - Please provide your full postal address below.";
+	color: red;
 }
 
 
