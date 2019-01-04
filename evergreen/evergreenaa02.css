@@ -59,6 +59,22 @@
   border-color: #e0440b !important;
 }
 
+/*empasise product description*/
+#orderForm\:pdtrpt\:0\:slctpdtdesc,
+#orderForm\:pdtrpt\:1\:slctpdtdesc,
+#orderForm\:pdtrpt\:2\:slctpdtdesc,
+#orderForm\:pdtrpt\:3\:slctpdtdesc,
+#orderForm\:pdtrpt\:4\:slctpdtdesc,
+#orderForm\:pdtrpt\:5\:slctpdtdesc,
+#orderForm\:pdtrpt\:6\:slctpdtdesc,
+#orderForm\:pdtrpt\:7\:slctpdtdesc,
+#orderForm\:pdtrpt\:8\:slctpdtdesc,
+#orderForm\:pdtrpt\:9\:slctpdtdesc{
+	text-decoration: underline;
+    	color: red !important;
+    	font-size: 20px;
+}
+
 #orderForm\:booknow {
   background-color: #e0440b;
   border: 1px solid #e0440b;
