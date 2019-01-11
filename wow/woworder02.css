@@ -7,10 +7,9 @@
   background-image: url("//roomboss.github.io/css/wow/Niseko-Wow-Logo.png");
   background-color:rgba(86, 148, 205, 1);
   background-repeat: no-repeat;
-  background-position: 50% 66%;
-	background-size: 50vh;
-  border: none;
-  border-bottom: 20px solid #72d54a;
+  background-position: 50% 50%;
+	background-size: 30vh;
+  border: none;  
     height:100px;
 }
 
@@ -56,12 +55,6 @@
   box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #375d9d;
 }
 
-
-/* Accent Dialogue Title */
-.ui-dialog .ui-dialog-titlebar {
-  border-color: #72d54a !important;
-  background-color: #375d9d !important;
-}
 
 #orderForm\:booknow {
   background-color: #375d9d;
