@@ -148,15 +148,15 @@ background-color: #d2d41e;
 }
 
 /*hide wufoo*/
-#base_page\:tabview\:wufooLink0 !important,
-#base_page\:tabview\:wufooLink1 !important,
-#base_page\:tabview\:wufooLink2 !important,
-#base_page\:tabview\:wufooLink3 !important,
-#base_page\:tabview\:wufooLink4 !important,
-#base_page\:tabview\:wufooLink5 !important,
-#base_page\:tabview\:wufooLink6 !important,
-#base_page\:tabview\:wufooLink7 !important,
-#base_page\:tabview\:wufooLink8 !important,
-#base_page\:tabview\:wufooLink9!important{
-  display: none;
+#base_page\:tabview\:wufooLink0,
+#base_page\:tabview\:wufooLink1,
+#base_page\:tabview\:wufooLink2,
+#base_page\:tabview\:wufooLink3,
+#base_page\:tabview\:wufooLink4,
+#base_page\:tabview\:wufooLink5,
+#base_page\:tabview\:wufooLink6,
+#base_page\:tabview\:wufooLink7,
+#base_page\:tabview\:wufooLink8,
+#base_page\:tabview\:wufooLink9{
+  display: none !important;
 }
