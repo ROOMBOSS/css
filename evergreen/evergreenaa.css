@@ -43,6 +43,20 @@
   height:120px;
 }
 
+/*hide wufoo*/
+#base_page:tabview:wufooLink0,
+#base_page:tabview:wufooLink1,
+#base_page:tabview:wufooLink2,
+#base_page:tabview:wufooLink3,
+#base_page:tabview:wufooLink4,
+#base_page:tabview:wufooLink5,
+#base_page:tabview:wufooLink6,
+#base_page:tabview:wufooLink7,
+#base_page:tabview:wufooLink8,
+#base_page:tabview:wufooLink9{
+  display: none;
+}
+
 /* hide image */
 #base_page\:j_idt24 {
 	display: none;
