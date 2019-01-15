@@ -370,6 +370,11 @@ div [id*="pdtnoimgpg"],
   background-color: #eaeaea !important;
 }
 
+img[id*="pdtimg"] {
+  max-width: 200px !important;
+  border-radius: 2px;
+}
+
 /* --- Add Product --- */
 /* Dialogue Header */
 .ui-dialog .ui-dialog-titlebar {
