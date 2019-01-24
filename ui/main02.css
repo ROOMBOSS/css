@@ -103,6 +103,11 @@ button.ui-button.ui-state-active, .ui-button.ui-state-active {
   color: #777;
   font-size: 90%;
 }
+.rb-parent-cat-description,
+.rb-child-cat-description {
+  max-width: 900px;
+  margin: auto;
+}
 
 /* --- Parent Category --- */
 #orderForm\:prtcatpnl_content,
