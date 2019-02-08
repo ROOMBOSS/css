@@ -102,12 +102,39 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     font-weight: bold;
 }
 
-/*gallery image overflow*/
-#gallery {
-width: 99%
+/* Gallery */
+[id*="gallery"] {
+	width: 100% !important;
+	max-width: 1100px;
+	height: auto !important;
 }
-
-#base_page\3a j_idt29\3a fadeEffectImages\3a 0\3a image{
-width: 99% !important;
+[id*="fadeEffectImages"] {
+	width: calc(100vw - 34px) !important;
+	max-width: 100% !important;
+	max-height: 800px !important;
+	height: auto !important;
 }
-
+/* L */
+@media(min-width:1100px) {
+	[id*="gallery"] {
+		height: 490px !important;
+		max-height: 490px !important;
+		min-height: 490px !important
+	}
+}
+/* M */
+@media(min-width:641px) {
+	[id*="gallery"] {
+		width: 100% !important;
+		min-height: 43vw;
+		height: auto !important;
+	}
+}
+/* S */
+@media(max-width:640px) {
+	[id*="gallery"] {
+		width: 100% !important;
+		min-height: 42vw;
+		height: auto !important;
+	}
+}
