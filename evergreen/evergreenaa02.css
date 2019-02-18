@@ -108,6 +108,8 @@
 }
 
 /*Expose address fields*/
-.rb-postCode, .rb-address, .rb-city{
+#orderForm\3a postcodepgnew,
+#orderForm\3a addresspgnew,
+#orderForm\3a citypgnew{
     display: flex;
 }
