@@ -106,3 +106,8 @@
     font-family: "FontAwesome" !important;
   color: #e0440b
 }
+
+/*Expose address fields*/
+.rb-postCode, .rb-address, .rb-city{
+    display: flex;
+}
