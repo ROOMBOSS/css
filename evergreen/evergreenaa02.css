@@ -108,6 +108,6 @@
 }
 
 /*Expose address fields*/
-.rb-address, .rb-city {
+.rb-address, .rb-city, .rb-postCode {
   display: flex !important;
 }
