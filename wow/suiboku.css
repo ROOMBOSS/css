@@ -1,7 +1,5 @@
 /* Import font */
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
-
-/*Main*/
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: "Roboto", sans-serif;
   background: #aaa;
@@ -193,6 +191,12 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 #base_page\:vform\:avgridpan > div > div > .ui-grid-c .ui-btn-icon-left:after {
   display: none;
+}
+
+#base_page\:vform\:quickbookingtable_data > tr > td > div > div:nth-child(3) > table > tbody > tr > td {
+  clear: none;
+  display: table-cell;
+  width: auto;
 }
 
 /* Paginator */
