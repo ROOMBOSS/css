@@ -1,8 +1,8 @@
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
-  	font-family: Yu 'Open Sans',sans-serif;
+  	font-family: 'Open Sans',sans-serif;
 	font-weight: 100;
  	background: rgb(239, 239, 239)!important;
-	color: b1ack;
+	color: #000;
 	text-shadow: none;
 }
 /*remove title*/
@@ -25,3 +25,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	text-shadow: none; 
 }
 
+/* Availability message change */
+#base_page\:vform\:quickbookingtable_data > tr > td {
+	display: none;
+}
+#base_page\:vform\:quickbookingtable_data > tr:after {
+	content: "Sorry, we didn't find anything! Accommodation matching your search criteria might be fully booked, might not be possible to book during these dates, or is available on request only. Please try a different date or contact res@yasushinozawa.com for more information.";
+	display: block;
+	margin: .5em;
+}
