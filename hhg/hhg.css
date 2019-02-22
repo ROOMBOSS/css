@@ -108,7 +108,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button,
-#base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but {
+#base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
   background-color: #aaa !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
@@ -118,13 +118,13 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   font-weight: 700;
 }
 .rbn-sendenquiry-button:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover,
-#base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover {
+#base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover {
   background-color: #b7b7b7 !important;
 }
 
 /* Book and Pay button colour */
-#base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:neworderform\:addItemsLink,
-.ui-btn .ui-input-btn, #base_page\:gform\:gbutt, .fa-file-excel-o .ui-btn, #base_page\:selectvendorform\:searchButton, .rbn-more-info-button {
+#base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay,
+.ui-btn.ui-input-btn, .fa-file-excel-o .ui-btn, .rbn-more-info-button {
   background-color: #2f2f2f !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
@@ -133,8 +133,8 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   text-transform: none;
   font-weight: 700;
 }
-#base_page\:vform\:reservationConditionButt:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:neworderform\:addItemsLink:hover,
-.ui-btn .ui-input-btn:hover, #base_page\:gform\:gbutt:hover, .fa-file-excel-o .ui-btn:hover, #base_page\:selectvendorform\:searchButton:hover, .rbn-more-info-button:hover {
+#base_page\:vform\:reservationConditionButt:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover,
+.ui-btn.ui-input-btn:hover, .fa-file-excel-o .ui-btn:hover, .rbn-more-info-button:hover {
   background-color: #3c3c3c !important;
 }
 
