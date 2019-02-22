@@ -116,6 +116,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   border: 1px solid transparent !important;
   text-transform: none;
   font-weight: 700;
+  text-shadow: none !important;
 }
 .rbn-sendenquiry-button:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover,
 #base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover {
@@ -132,6 +133,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   border: 1px solid transparent !important;
   text-transform: none;
   font-weight: 700;
+  text-shadow: none !important;
 }
 #base_page\:vform\:reservationConditionButt:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover,
 .ui-btn.ui-input-btn:hover, .fa-file-excel-o .ui-btn:hover, .rbn-more-info-button:hover {
