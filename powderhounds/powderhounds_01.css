@@ -20,7 +20,7 @@
 	color: #fff;
 	text-shadow: none;
 	text-transform: uppercase;
-	background-image: url("//roomboss.github.io/css/powderhounds/logo-tagline.png"),url("http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg");
+	background-image: url("https://dabb7zy6p4b0z.cloudfront.net/powderhounds/logo-tagline.png"),url("http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: center, 90% 40%;
 	background-size: auto, cover;
@@ -29,7 +29,7 @@
 }
 @media (max-width:800px) {
   .ui-header.ui-bar-inherit {
-	background-image: url("//roomboss.github.io/css/powderhounds/logo-tagline.png"),url("http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg");
+	background-image: url("https://dabb7zy6p4b0z.cloudfront.net/powderhounds/logo-tagline.png"),url("http://powderhounds.com/Site/DefaultSite/Skins/powderhounds/Images/Background.jpg");
   background-repeat: no-repeat, no-repeat;
   background-position: center, 90% 40%;
 		background-size: 300px, cover;
