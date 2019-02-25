@@ -11,7 +11,7 @@ body, a, .ui-btn {
 
 /* Custom Banner */
 .ui-header.ui-bar-inherit {
-  background-image: url("//roomboss.github.io/css/theredskihouse/red-logo.png"), url("//roomboss.github.io/css/theredskihouse/redwood.jpeg");
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/theredskihouse/red-logo.png"), url("https://dabb7zy6p4b0z.cloudfront.net/theredskihouse/redwood.jpeg");
   background-repeat: no-repeat;
   background-position: center, center 20%;
 	background-size: 300px, cover;
