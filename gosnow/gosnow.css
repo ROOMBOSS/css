@@ -1,6 +1,6 @@
 .ui-header.ui-bar-inherit {
 	background: #375d9d
-		url('https://roomboss.github.io/css/gosnow/jenny-yuka-1.jpg')
+		url('https://dabb7zy6p4b0z.cloudfront.net/gosnow/jenny-yuka-1.jpg')
 		no-repeat;
 	background-position: 50% 12%;
 	padding-top: 80px;
@@ -15,7 +15,7 @@
 
 .ui-collapsible-heading-toggle, .ui-panel-m-titlebar {
 	background: #375d9d
-		url('https://roomboss.github.io/css/gosnow/yotei-bg.jpg')
+		url('https://dabb7zy6p4b0z.cloudfront.net/gosnow/yotei-bg.jpg')
 		no-repeat;
 	background-position: 50% 80%;
 	color: #ffffff !important;
@@ -39,7 +39,7 @@ div.ui-footer.ui-bar-inherit {
 
 .rb-header {
 background: #375d9d
-		url('https://roomboss.github.io/css/gosnow/jenny-yuka-1.jpg')
+		url('https://dabb7zy6p4b0z.cloudfront.net/gosnow/jenny-yuka-1.jpg')
 		no-repeat;
 	background-position: 50% 12%;
 	padding-top: 80px;
