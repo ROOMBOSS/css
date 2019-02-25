@@ -16,7 +16,7 @@ body {
 
 /* Header */
 .ui-header.ui-bar-inherit{
-  background: #625956 url('//roomboss.github.io/css/theluxnomad/eco-houses.jpg') no-repeat center;
+  background: #625956 url('https://dabb7zy6p4b0z.cloudfront.net/theluxnomad/eco-houses.jpg') no-repeat center;
   background-size: cover !important;
   background-position: 0 25%;
   height: 350px;
