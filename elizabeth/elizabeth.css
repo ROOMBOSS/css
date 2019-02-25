@@ -7,8 +7,8 @@
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
 	padding-top: 102px;
-	background: url(https://roomboss.github.io/css/elizabeth/Elizabeth_Logo_trans-300x138.png) center no-repeat, 
-	url(https://roomboss.github.io/css/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/elizabeth/Elizabeth_Logo_trans-300x138.png) center no-repeat, 
+	url(https://dabb7zy6p4b0z.cloudfront.net/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
     	height: 130px;
 	border: none;
     	background-size: 160px, 1999px; 
@@ -40,7 +40,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*color and square titlebars*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background: url(https://roomboss.github.io/css/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
 	/*background-color: #39bb9d;*/
 	color: white;
 	text-shadow: none; 
@@ -89,7 +89,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background: url(https://roomboss.github.io/css/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
 	color: white;
 	text-shadow: none; 
 	border: none;
