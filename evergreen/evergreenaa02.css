@@ -131,6 +131,21 @@
     border-color: red;
 }
 
+
+#guestDialogForm\3a fnmedit,
+#guestDialogForm\3a lnmedit,
+#guestDialogForm\3a dtbirthedit_input,
+#orderForm\3a address1edit,
+#orderForm\3a phoneedit,
+#orderForm\3a countryedit_label,
+#orderForm\3a postcodeedit,
+#orderForm\3a countryedit_label,
+#orderForm\3a address2edit,
+#orderForm\3a cityedit,
+#orderForm\3a stateedit{
+    border-color: red;
+}
+
 #orderForm\3a postcodelblnew:after{
 	content: "*";
 	
