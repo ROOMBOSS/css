@@ -118,12 +118,16 @@
 #orderForm\3a dtbirthnew_input,
 #orderForm\3a phonenew,
 #orderForm\3a countrynew_label,
-#orderForm\3a postcodenew{
+#orderForm\3a postcodenew,
+#orderForm\3a countrynew_label,
+#orderForm\3a address2new,
+#orderForm\3a citynew,
+#orderForm\3a statenew{
     border-color: red;
 }
 
 #orderForm\3a dtbirthlblnew:after,
 #orderForm\3a postcodelblnew:after{
 	content: "*";
-	color: red;
+	
 }
