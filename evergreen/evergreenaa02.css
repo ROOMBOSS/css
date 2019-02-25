@@ -112,6 +112,11 @@
   display: flex !important;
 }
 
+#orderForm\3a newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div:nth-child(1):before{
+	content: "Fields In Red Must Be Completed";
+	color: red;
+}
+
 #orderForm\3a address1new,
 #orderForm\3a fnmnew,
 #orderForm\3a lnmnew,
