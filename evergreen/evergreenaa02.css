@@ -40,10 +40,10 @@
  content: "Ask Any ";
 }
 
-#orderForm\3a addqlbl:after {
+/*#orderForm\3a addqlbl:after {
  content: " And Please Provide Your Full Address In English Below.";
 	color: red;
-}
+}*/
 
 /*hide wufoo*/
 #base_page:tabview:wufooLink0,
