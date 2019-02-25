@@ -9,14 +9,14 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/tomten/tomten-logo-new.png) 350px top no-repeat, url('https://roomboss.github.io/css/tomten/bg-header3.jpg') no-repeat bottom;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/tomten/tomten-logo-new.png) 350px top no-repeat, url('https://dabb7zy6p4b0z.cloudfront.net/tomten/bg-header3.jpg') no-repeat bottom;
 	background-size: 448px, 1300px; 
 	border-top-width: 20px; 
 	border-top-color: white!important;  
     	border-bottom-width: 0px;
 	height: 195px;
 }
-/*, url(https://roomboss.github.io/css/tomten/bg-header.jpg) no-repeat center bottom*/
+/*, url(https://dabb7zy6p4b0z.cloudfront.net/tomten/bg-header.jpg) no-repeat center bottom*/
 
 
 /*page white and font*/
@@ -59,7 +59,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*bpay header
 #base_page\3a descPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
+	background: url('https://dabb7zy6p4b0z.cloudfront.net/tomten/bg-header.jpg') no-repeat;
 	height: 100px;
 }*/
 
@@ -92,7 +92,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*your booking logos
 #base_page\3a messages {
-	background: url('https://roomboss.github.io/css/tomten/bg-header.jpg') no-repeat;
+	background: url('https://dabb7zy6p4b0z.cloudfront.net/tomten/bg-header.jpg') no-repeat;
 	height: 123px;
 }*/
 
