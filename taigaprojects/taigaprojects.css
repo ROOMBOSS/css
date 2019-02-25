@@ -13,7 +13,7 @@
 
 /*image, colour below header, as I can find a way to select the headers on your booking / bpay individually this adds underneath*/
 #base_page\3a messages {
-	background: url('https://roomboss.github.io/css/taigaprojects/logo.png') left no-repeat, linear-gradient(to top,#213357,#3585ac);
+	background: url('https://dabb7zy6p4b0z.cloudfront.net/taigaprojects/logo.png') left no-repeat, linear-gradient(to top,#213357,#3585ac);
 	background-position: 150px, 500px;
 	height: 123px;
 }
