@@ -9,7 +9,7 @@
 }
 
 .ui-header.ui-bar-inherit {	
-	background: url(https://roomboss.github.io/css/qooglobal/qoohotels.png) no-repeat left;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/qooglobal/qoohotels.png) no-repeat left;
 	height: 150px;
 	background-size: 110px; 
 	background-color: #F0F0F0!important;
@@ -128,7 +128,7 @@ body, input, select, textarea, button, .ui-btn {
 
 /*add JP name*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{	
-	background: url(https://roomboss.github.io/css/qooglobal/qoo3.png) no-repeat left;	
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/qooglobal/qoo3.png) no-repeat left;	
 }
 
 /*remove language toggle*/
