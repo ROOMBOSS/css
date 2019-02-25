@@ -1,8 +1,8 @@
 /*nozawa*/
 .ui-header.ui-bar-inherit{
-	background:url("https://roomboss.github.io/css/nozawahospitality/kknh-logo4.png") no-repeat left bottom, 
-	/*url("https://roomboss.github.io/css/nozawahospitality/top2.jpg") repeat left;*/
-	url("https://roomboss.github.io/css/nozawahospitality/nozawa.jpg") 100% no-repeat;
+	background:url("https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/kknh-logo4.png") no-repeat left bottom, 
+	/*url("https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/top2.jpg") repeat left;*/
+	url("https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/nozawa.jpg") 100% no-repeat;
 	border:none;
 	height:100px;
 	background-position: 18% 100%;	
@@ -16,7 +16,7 @@
 
 /* colour on header/title bars */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background:url("https://roomboss.github.io/css/nozawahospitality/banner.jpg") no-repeat 30%;
+	background:url("https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/banner.jpg") no-repeat 30%;
 	color: black;
 	text-shadow: none;	
 }
@@ -61,14 +61,14 @@
 
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background: url("https://roomboss.github.io/css/nozawahospitality/banner.jpg") no-repeat center;
+	background: url("https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/banner.jpg") no-repeat center;
 	color: Black;
 	text-shadow: none; 	
 }
 
 /*your booking page footer*/
 .ui-footer.ui-bar-inherit{
-	/*background: url("https://roomboss.github.io/css/nozawahospitality/banner.jpg") repeat;*/
+	/*background: url("https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/banner.jpg") repeat;*/
 	background-color: #eee!important;
 	color: grey!important;
 	text-shadow: none!important;
