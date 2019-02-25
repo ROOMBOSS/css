@@ -111,3 +111,19 @@
 .rb-address, .rb-city, .rb-postCode {
   display: flex !important;
 }
+
+#orderForm\3a address1new,
+#orderForm\3a fnmnew,
+#orderForm\3a lnmnew,
+#orderForm\3a dtbirthnew_input,
+#orderForm\3a phonenew,
+#orderForm\3a countrynew_label,
+#orderForm\3a postcodenew{
+    border-color: red;
+}
+
+#orderForm\3a dtbirthlblnew:after,
+#orderForm\3a postcodelblnew:after{
+	content: "*";
+	color: red;
+}
