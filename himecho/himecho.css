@@ -13,8 +13,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*add logo color*/
 .ui-header.ui-bar-inherit {
-	background: url(https://roomboss.github.io/css/himecho/himechologo.gif) 5% no-repeat, 
-		url(https://roomboss.github.io/css/himecho/exteriorfront-1-2000x1580.jpg) no-repeat;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/himecho/himechologo.gif) 5% no-repeat, 
+		url(https://dabb7zy6p4b0z.cloudfront.net/himecho/exteriorfront-1-2000x1580.jpg) no-repeat;
     	height: 200px;
     	background-size: 200px, cover;    	
 	border-width:0px;
