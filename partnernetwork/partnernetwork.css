@@ -19,7 +19,7 @@
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
 	background: linear-gradient(0deg,rgb(27, 124, 191),rgba(27, 124, 191,0.3)),
-		url(https://roomboss.github.io/css/partnernetwork/niseko-pic.jpg) no-repeat;
+		url(https://dabb7zy6p4b0z.cloudfront.net/partnernetwork/niseko-pic.jpg) no-repeat;
     	height: 150px;
 			background-size: cover;
 	background-position: 50% 25%;
