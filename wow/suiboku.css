@@ -14,7 +14,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 
 /* Header bar */
 .ui-header.ui-bar-inherit {
-  background: #2f2f2f url(https://dabb7zy6p4b0z.cloudfront.net/wow/suiboku-logo.png") no-repeat center;
+  background: #2f2f2f url(https://dabb7zy6p4b0z.cloudfront.net/wow/suiboku-logo.png) no-repeat center;
   background-size: auto;
   border: none;
   height: 100px;
