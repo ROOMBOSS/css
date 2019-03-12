@@ -1,11 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 #base_page\:resultsform\:vform\:quickbookingtable {
   border: 1px solid #ddd;
 }
 
 /* Import font */
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #0F5C8C;
   text-shadow: none;
   color: #fff;
@@ -45,7 +45,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   background: #0F5C8C;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-shadow: none;
 }
 
@@ -69,7 +69,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 }
 
 .rbn-datecontrol-button, select, .ui-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .rbn-datecontrol-button:before, select:before, .ui-btn:before {
   font-family: "FontAwesome";
@@ -114,7 +114,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 .rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:back,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
   background-color: #0F5C8C !important;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
   border: 1px solid #ddd !important;
@@ -131,7 +131,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 #base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay,
 .ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button {
   background-color: #777 !important;
-  font-family: "Roboto", sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
   border: 1px solid #ddd !important;
