@@ -50,7 +50,7 @@ visibility: hidden;
 .rbn-quantity:before {
 visibility: visible;
 	font-size: 0.9em;
-content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this for is for request only and submission of this form does not guarantee or confirm any reservation.';
+content: 'Please note that this service is exclusive to guests of AYA Niseko and that our concierge may require additional information for finalization of your reservation. Please be informed that this is for request only and submission of this form does not guarantee or confirm any reservation.';
 }
 
 .rbn-quantity:after {
