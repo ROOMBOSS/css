@@ -259,11 +259,13 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   background-color: #f9f9f9;
 }
 
-.rbn-vendor-grid-img-col {
-  padding-right: 1em;
-}
-
+/* Vendor Image */
 .rbn-vendor-grid-img {
   height: 100%;
   width: 100%;
+}
+@media(min-width: 641px) {
+	.rbn-vendor-grid-img-col {
+  padding-right: 1em;
+	}
 }
