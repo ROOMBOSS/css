@@ -55,3 +55,11 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border: none;
 	border-radius: 0px;   	
 }
+
+.rbn-vendor-grid-img-col {
+  padding-right: 1em;
+}
+.rbn-vendor-grid-img {
+  height: 100%;
+  width: 100%;
+}
