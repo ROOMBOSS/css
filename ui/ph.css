@@ -402,3 +402,7 @@ tbody > tr > td {
 tbody > tr > td li {
   font-weight: 300 !important;
 }
+
+.rbn-footer {
+  display: none;
+}
