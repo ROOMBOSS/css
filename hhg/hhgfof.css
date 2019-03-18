@@ -270,7 +270,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 	}
 }
 
-#base_page\3a j_idt29\3a j_idt30 > div.ui-collapsible-heading > a :after{
+#base_page\3a j_idt29\3a j_idt30 > div.ui-collapsible-heading > a::after{
 content: " - Friends Discount Portal";
 color: red;
 }
