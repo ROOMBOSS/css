@@ -392,8 +392,11 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   background-color: #884444 !important;
 }
 
-i, b, #base_page\:statementExtentMenu\:overviewGrid .ui-block-b,
+i, b,
+#base_page\:statementExtentMenu\:overviewGrid .ui-block-b,
+#base_page\:statementExtentMenu\:overviewGrid-annual .ui-block-b,
 #base_page\:statementExtentMenu\:overviewPanel p,
+#base_page\:statementExtentMenu\:overviewPanelAnnual p,
 #base_page\:statementExtentMenu\:occupiedNightsPanel p,
 tbody > tr > td {
   font-weight: 400 !important;
