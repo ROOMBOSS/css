@@ -35,7 +35,7 @@
   }
 }
 .rb-footer:before {
-  background: linear-gradient(to bottom, #f9faf9, rgba(0, 0, 0, 0)), url(https://c1.staticflickr.com/2/1589/25491089481_ce179e5b14_b.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #f9faf9, rgba(0, 0, 0, 0));
+  background: linear-gradient(to bottom, #f9faf9, rgba(0, 0, 0, 0)), url(https://github.com/ROOMBOSS/css/blob/master/lvasia/banner.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #f9faf9, rgba(0, 0, 0, 0));
   background-size: cover;
   height: 120px;
   display: block;
