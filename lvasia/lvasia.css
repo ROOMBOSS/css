@@ -15,6 +15,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 /* Header bar */
 .ui-header.ui-bar-inherit {
   background: url(https://roomboss.github.io/css/lvasia/logo.png) no-repeat center center, url(https://roomboss.github.io/css/lvasia/banner3.jpg) no-repeat center;
+  background-size: 100px, cover;
   border: none;
   height: 200px;
 }
