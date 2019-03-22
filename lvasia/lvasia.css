@@ -14,8 +14,8 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 
 /* Header bar */
 .ui-header.ui-bar-inherit {
-  background: url(https://roomboss.github.io/css/lvasia/banner.jpg) no-repeat center center, linear-gradient(rgba(0, 0, 0, 0.5), #252525), url(https://dabb7zy6p4b0z.cloudfront.net/hhg/hhg-apartment.jpg) no-repeat center 40%;
-  background-size: 100px, cover, cover;
+  background: url(https://roomboss.github.io/css/lvasia/banner.jpg) no-repeat center 40%;
+  background-size: cover, cover;
   border: none;
   height: 150px;
 }
