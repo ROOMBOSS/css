@@ -393,8 +393,8 @@ a[x-apple-data-detectors=true] {
 <td style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;" mce_style="padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;"><![endif]-->
 <div style="font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;color:#F8F8F8;line-height:120%; padding-right: 10px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;">
 <div style="font-size:12px;line-height:14px;color:#F8F8F8;font-family:'Lato', Tahoma, Verdana, Segoe, sans-serif;text-align:left;">
-<p style="margin: 0;font-size: 14px;line-height: 17px"><strong>Luxury Villas of Asia<br /></strong><span style="font-size: 12px; line-height: 14px;">&nbsp;</span><span style="font-size: 12px; line-height: 14px;">&nbsp;</span></p>
-<p style="margin: 0;font-size: 12px;line-height: 14px">https://www.luxuryvillasofasia.com</p>
+<p style="margin: 0;font-size: 14px;line-height: 17px"><strong>YOURCOMPANYNAME<br /></strong><span style="font-size: 12px; line-height: 14px;">&nbsp;</span><span style="font-size: 12px; line-height: 14px;">&nbsp;</span></p>
+<p style="margin: 0;font-size: 12px;line-height: 14px">YOURCOMPANYADDRESS</p>
 </div>
 </div>
 <!--[if mso]></td>
