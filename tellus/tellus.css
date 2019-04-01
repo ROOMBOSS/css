@@ -1,0 +1,10 @@
+/* Vendor Image */
+.rbn-vendor-grid-img {
+  height: 100%;
+  width: 100%;
+}
+@media(min-width: 641px) {
+	.rbn-vendor-grid-img-col {
+  padding-right: 1em;
+	}
+}
