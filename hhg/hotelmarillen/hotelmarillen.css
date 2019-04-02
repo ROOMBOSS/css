@@ -1,4 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.rbn-tab-img {
+  padding-right: 0.5em;
+}
+
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn,
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
   text-transform: uppercase !important;
