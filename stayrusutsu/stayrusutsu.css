@@ -25,7 +25,7 @@
 /* Import font */
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: "Open Sans", sans-serif;
-  background: #626262;
+  background: #27CFC3;
   text-shadow: none;
   color: #fff;
   -webkit-transition: ease-in-out 200ms;
@@ -132,7 +132,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:back,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
-  background-color: #626262 !important;
+  background-color: #27CFC3 !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
