@@ -80,7 +80,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 
 /* Icon and header colors */
 .rb-avail-roomtype, .ui-column-title, .fa-user:before, .fa-bed:before, .fa-bath:before, #base_page\:vform\:customertable .ui-grid-a {
-  color: #292828 !important;
+  color: #27aae1 !important;
 }
 
 .fa:before {
@@ -132,7 +132,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:back,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
-  background-color: #27CFC3 !important;
+  background-color: #27aae1 !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
@@ -149,7 +149,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 /* Book and Pay button colour */
 #base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
 .ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, .map-button {
-  background-color: #27aae !important;
+  background-color: #27aae1 !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
