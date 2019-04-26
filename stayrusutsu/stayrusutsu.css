@@ -160,7 +160,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 }
 #base_page\:vform\:reservationConditionButt:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:vform\:booknpay:hover,
 .ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, .map-button:hover {
-  background-color: #206025 !important;
+  background-color: #14ffe7 !important;
 }
 
 button.ui-btn, #base_page\:locform\:currencySelect_input-button,
