@@ -697,3 +697,27 @@ img[id*="pdtimg"] {
     font-weight: bold;
   }
 }
+
+/* Price adjustment */
+.cur.rb-prod-rack-value,
+.cur.rb-item-rack-value  {
+  color: rgba(255, 0, 0, 0.9);
+  text-decoration: none !important;
+  position: relative;
+  font-size: .8em;
+  top: -2px;
+}
+.cur.rb-prod-rack-value:before,
+.cur.rb-item-rack-value:before  {
+  content: "";
+  display: block;
+  width: 100%;
+  border-top: 2px solid rgba(255, 0, 0, 0.6);
+  height: 45%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+          transform: rotate(10deg);
+  }
