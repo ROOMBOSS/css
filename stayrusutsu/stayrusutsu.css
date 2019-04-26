@@ -20,7 +20,7 @@
 }
 
 /*.ui-btn:after {
-  background-color: #1a4d1e;
+  background-color: #444444;
 }*/
 /* Import font */
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
@@ -38,7 +38,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 /* Header bar */
 .ui-header.ui-bar-inherit {
   background: url(https://roomboss.github.io/css/stayrusutsu/stay-rusutsu.png) no-repeat center center, #fff;
-  background-size: 140px, cover, cover;
+  background-size: 500px, cover, cover;
   border: none;
   height: 150px;
 }
@@ -149,7 +149,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 /* Book and Pay button colour */
 #base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
 .ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, .map-button {
-  background-color: #1a4d1e !important;
+  background-color: #444444 !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
