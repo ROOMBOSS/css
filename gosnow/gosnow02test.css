@@ -4,7 +4,7 @@
 /* Custom design */
 
 .rb-header {
-  background-image: url("https://www.gosnowniseko.com/assets/img/gosnow-logo-reverse.svg");
+  background-image: url("https://previews.123rf.com/images/baldyrgan/baldyrgan1701/baldyrgan170100009/69262439-skiing-stylized-vector-symbol-logo-or-emblem-template.jpg");
   background-color: rgb(55, 93, 157);
   background-repeat: no-repeat;
   background-position: 50% 66%;
@@ -34,10 +34,6 @@
   color: #72d54a;
 }
 
-/*map*/
-#orderForm\:prtcatpnl:before{
-content: url("https://roomboss.github.io/css/gosnow/gsmap.png");
-}
 
 /* Category Image Selected*/
 .rb-parent-cat-container .rb-parent-cat-sel a img,
