@@ -11,6 +11,16 @@
   height: 120px;
 }
 
+/*hide date / cat / prod selectors*/
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(1),
+#base_page\:neworderform\:checkin,
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(3),
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(4),
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(5),
+#base_page\:neworderform\:productMenu > div{
+  display: none;
+}
+
 .rb-header-title {
   display: none;
 }
