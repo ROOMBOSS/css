@@ -27,5 +27,23 @@
   display: none;
 }
 
+#base_page\:neworderform\:orderItemTable\:0\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:0\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:1\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:1\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:2\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:2\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:3\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:3\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:4\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:4\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:5\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:5\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:6\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:6\:productMenu_input,
+#base_page\:neworderform\:orderItemTable\:7\:checkin_input,
+#base_page\:neworderform\:orderItemTable\:7\:productMenu_input{
+  display: none;
+}
 
 
