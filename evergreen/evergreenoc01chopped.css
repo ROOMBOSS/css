@@ -23,9 +23,6 @@
 #base_page\:neworderform\:newOrderItemTable > div:nth-child(5){
   visibility: hidden;
 }
-.ui-title {
-  display: none;
-}
 
 #base_page\:neworderform\:orderItemTable\:0\:checkin_input,
 #base_page\:neworderform\:orderItemTable\:0\:productMenu_input,
@@ -46,4 +43,6 @@
   display: none;
 }
 
-
+#base_page\:base_header > h1 {
+  display: none;
+}
