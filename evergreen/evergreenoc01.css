@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.rb-header {
+  background-image: url("https://www.evergreen-hakuba.com/wp-content/uploads/2016/12/EOC_Logo-700.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 360px;
+  background-color: white;
+  border: none;
+  border-bottom: 10px solid #00a65c;
+  height: 120px;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title, .rb-child-cat-title,
+.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title {
+  color: #333333;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before {
+  color: #00a65c;
+}
+
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #00a65c;
+  box-shadow: 0 0 0px 6px #00a65c;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #00a65c !important;
+}
+
