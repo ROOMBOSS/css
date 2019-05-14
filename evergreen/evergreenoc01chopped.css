@@ -16,11 +16,13 @@
 #base_page\:neworderform\:checkin,
 #base_page\:neworderform\:newOrderItemTable > div:nth-child(3),
 #base_page\:neworderform\:newOrderItemTable > div:nth-child(4),
-#base_page\:neworderform\:newOrderItemTable > div:nth-child(5),
 #base_page\:neworderform\:productMenu > div{
   display: none;
 }
 
+#base_page\:neworderform\:newOrderItemTable > div:nth-child(5){
+  visibility: hidden;
+}
 .rb-header-title {
   display: none;
 }
