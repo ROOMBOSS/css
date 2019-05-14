@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.rb-header {
+#base_page\:base_header{
   background-image: url("https://www.evergreen-hakuba.com/wp-content/uploads/2016/12/EOC_Logo-700.jpg");
   background-repeat: no-repeat;
   background-position: center;
