@@ -1,12 +1,22 @@
 /* CSS for Spicy Rentals Early Bird Specials */
 
 .ui-header.ui-bar-inherit{
-	background:url("https://dabb7zy6p4b0z.cloudfront.net/spicy/logo02.svg") no-repeat left, url("https://dabb7zy6p4b0z.cloudfront.net/spicy/oline.png") no-repeat;
-	background-color: #03283b;
-	background-position: 25%;
-	background-size: 180px, 5000px;
-	height:50px;
-	padding:20px 500px 50px;	
+    background: url(https://dabb7zy6p4b0z.cloudfront.net/spicy/logo02.svg) no-repeat left, url(https://dabb7zy6p4b0z.cloudfront.net/spicy/oline.png) no-repeat;
+    background-color: #de4313;
+    background-position: 10px, 0;
+    background-size: 180px, 5000px;
+    height: 50px;
+    padding: 20px 0 50px;
+	border: 0;
+}
+
+.ui-btn:after {
+    background-color: #de4313;
+}
+
+.ui-btn-right {
+	top: 0;
+	right: .2em;
 }
 
 /*remove title*/
