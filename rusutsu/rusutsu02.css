@@ -57,7 +57,7 @@
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-  border-color: #72d54a !important;
+  border-color: #9e8053 !important;
   background-color: #0f69b5 !important;
 }
 
@@ -83,7 +83,7 @@
   border-color: #9e8053;
 }
 .ui-button.ui-widget.ui-state-hover {
-  background-color: #62d035;
+  background-color: #9e8053;
 }
 
 /* Card title*/
