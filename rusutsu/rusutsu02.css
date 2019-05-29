@@ -28,7 +28,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-  color: #72d54a;
+  color: #9e8053;
 }
 
 
@@ -51,7 +51,7 @@
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
   background-color: #0f69b5;
-  box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #0f69b5;
+  box-shadow: 2px -1 -1 #0f69b5, -2px -1 -1 #0f69b5;
 }
 
 
@@ -66,8 +66,8 @@
   border: 1px solid #0f69b5;
 }
 #orderForm\:booknow:hover {
-  background-color: #2a4777;
-  border: 1px solid #2a4777;
+  background-color: #9e8053;
+  border: 1px solid #9e8053;
 }
 
 /* Lang and currency */
@@ -79,8 +79,8 @@
 /* Default Buttons */
 
 .ui-button.ui-widget.ui-state-default {
-  background-color: #72d54a;
-  border-color: #72d54a;
+  background-color: #9e8053;
+  border-color: #9e8053;
 }
 .ui-button.ui-widget.ui-state-hover {
   background-color: #62d035;
