@@ -27,10 +27,10 @@ body, a {
 
 /* Custom Banner */
 .ui-header.ui-bar-inherit {
-    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/demo/images.png");
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/demo/images.png"),url(https://www.snowjapan.com/photograph-resources/hakuba-valley-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 200px;
+    background-size: 200px cover;
     border-color: #999;
     border-bottom-color: #999;
     height:150px;
