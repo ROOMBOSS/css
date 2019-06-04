@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+/* --- Global Settings--- */
+body, a {
+    font-family: "Quicksand", Sans-serif !important;
+}
+
+/* Change input highlight colours */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+    box-shadow: inset 0 0 4px #aaa !important;
+}
+/* --- Header & Banner Settings --- */
+
+/* Top language and currency button margin */
+#base_page\:locform\:languageSelect .ui-select, #base_page\:locform\:currencySelect .ui-select {
+    margin-top: 1em;
+}
+
+/* Remove Header */
+.ui-title {
+    display: none !important;
+}
+
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+    display: none;
+}
+
+/* Custom Banner */
+.ui-header.ui-bar-inherit {
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/demo/images.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px;
+    border-color: #999;
+    border-bottom-color: #999;
+    height:150px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+}
+/* --- Panel & Content Settings --- */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+    padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.rbn-notoggle div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+    background-color: #494d50;
+    font-size: 110%;
+    color: #fff;
+    border: #717071;
+    text-shadow: none;
+}
+/* Datepicker spacing */
+#base_page\:neworderform\:checkin_input {;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 2em ;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+/* --- Icon Settings --- */
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+    border: none !important;
+    text-shadow: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon:after {
+    background-color: transparent !important;
+}
+/* --- Button Settings --- */
+
+/* Primary button colours (Add item / Send Inquiry) */
+button#base_page\:neworderform\:addItemsLink,
+button#base_page\:neworderform\:saveorderbutt,
+.rbn-sendenquiry-button{
+    background-color: #969696 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    border-color: #ddd;
+}
+button#base_page\:neworderform\:addItemsLink:hover,
+button#base_page\:neworderform\:saveorderbutt:hover,
+.rbn-sendenquiry-button:hover{
+    background-color: #a2a2a2 !important;
+}
+
+/* Secondary button colours (Book and Pay) */
+button#base_page\:neworderform\:booknpay,
+button#base_page\:neworderform\:reservationConditionButt {
+    background-color: #333333 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+button#base_page\:neworderform\:booknpay:hover,
+button#base_page\:neworderform\:reservationConditionButt:hover {
+    background-color: #484c4f !important;
+}
+
+/* Fix remove item button */
+.remove-item-control.ui-btn-inline {
+    color: #888;
+    margin-top: 0.5em;
+    width: 100%
+}
+.remove-item-control.ui-btn-inline:after {
+    background-color: #888;
+}
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  	padding: 0.5em !important;
+	outline: none !important;
+	text-shadow: none !important;
+  	box-shadow: none !important;
+}
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding-right: .5em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding-left: .5em;
+}
+/* Select Dates Mobile */
+@media(max-width: 400px) {
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding: 0.25em;
+  	width: 100%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-b  {
+	padding: .25em;
+  	width: 60%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding: .25em;
+	width: 40%;
+}
+}
