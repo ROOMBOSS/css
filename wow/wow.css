@@ -7,7 +7,7 @@
 /*change header colour and size*/
 .ui-header.ui-bar-inherit {
 	background:url(https://dabb7zy6p4b0z.cloudfront.net/wow/Niseko-Wow-Logo.png) center no-repeat;
-	background-size: 200px;
+	background-size: 100px;
 	background-color:rgba(86, 148, 205, 1);
 	height: 70px;
 	border-bottom-width:1px;
