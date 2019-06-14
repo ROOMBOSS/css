@@ -38,33 +38,33 @@
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
 .rb-child-cat-container .rb-child-cat-sel a img,
 .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  box-shadow: 0 0 0px 6px #375d9d;
+  box-shadow: 0 0 0px 6px #af9453;
 }
 
 /* Lighter Desc Font */
 .rb-parent-cat-desc,
 .rb-child-cat-desc {
   font-weight: normal;
-  color: #375d9d;
+  color: #af9453;
 }
 
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #375d9d;
-  box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #375d9d;
+  background-color: #af9453;
+  box-shadow: 2px -1 -1 #af9453, -2px -1 -1 #af9453;
 }
 
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
   border-color: #72d54a !important;
-  background-color: #375d9d !important;
+  background-color: #af9453 !important;
 }
 
 #orderForm\:booknow {
-  background-color: #375d9d;
-  border: 1px solid #375d9d;
+  background-color: #af9453;
+  border: 1px solid #af9453;
 }
 #orderForm\:booknow:hover {
   background-color: #2a4777;
@@ -89,5 +89,5 @@
 
 /* Card title*/
 .rb-prod-desc-item:nth-child(1) label {
-    color:  #375d9d !important;
+    color:  #af9453 !important;
 }
