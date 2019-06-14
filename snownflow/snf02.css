@@ -1,0 +1,93 @@
+@import url('//roomboss.github.io/css/ui/main02.css');
+
+
+/* Custom design */
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/snownflow/snf_banner_4.jpg");
+  background-color: #06214e !important;
+  background-repeat: no-repeat;
+  background-position: 50% 66%;
+	background-size: 50vh;
+  border: none;
+  height: 227px;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,
+.rb-checkout-title{
+  color: #375d9d;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before {
+  color: #72d54a;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #375d9d;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+  color: #375d9d;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #375d9d;
+  box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #375d9d;
+}
+
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #72d54a !important;
+  background-color: #375d9d !important;
+}
+
+#orderForm\:booknow {
+  background-color: #375d9d;
+  border: 1px solid #375d9d;
+}
+#orderForm\:booknow:hover {
+  background-color: #2a4777;
+  border: 1px solid #2a4777;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: rgb(55, 93, 157);
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget.ui-state-default {
+  background-color: #72d54a;
+  border-color: #72d54a;
+}
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #62d035;
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #375d9d !important;
+}
