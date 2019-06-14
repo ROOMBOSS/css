@@ -30,7 +30,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-  color: #375d9d;
+  color: #af9453;
 }
 
 /* Category Image Selected*/
@@ -67,8 +67,8 @@
   border: 1px solid #af9453;
 }
 #orderForm\:booknow:hover {
-  background-color: #2a4777;
-  border: 1px solid #2a4777;
+  background-color: #af9400;
+  border: 1px solid #af9400;
 }
 
 /* Lang and currency */
@@ -80,8 +80,8 @@
 /* Default Buttons */
 
 .ui-button.ui-widget.ui-state-default {
-  background-color: #72d54a;
-  border-color: #72d54a;
+  background-color: #af9453;
+  border-color: #af9453;
 }
 .ui-button.ui-widget.ui-state-hover {
   background-color: #62d035;
