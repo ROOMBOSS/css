@@ -30,7 +30,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-  color: #72d54a;
+  color: #375d9d;
 }
 
 /* Category Image Selected*/
@@ -58,7 +58,7 @@
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-  border-color: #72d54a !important;
+  border-color: #375d9d !important;
   background-color: #af9453 !important;
 }
 
