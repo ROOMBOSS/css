@@ -17,6 +17,7 @@
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.125em;
+  background:url(https://thehakubacompany.com/assets/svg/thc-logo.svg);  
 }
 
 @media (max-width: 600px) {
@@ -377,13 +378,13 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 /* Paginator */
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active {
-  background-color: #663333;
-  border-color: #663333;
+  background-color: #bf9f60;
+  border-color: #bf9f60;
   color: #fff !important;
 }
 
 .fa-file-excel-o.ui-btn, #base_page\:periodselectorform\:gotobutt {
-  background-color: #663333 !important;
+  background-color: #bf9f60 !important;
   color: #fff;
   border: none !important;
 }
