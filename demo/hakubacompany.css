@@ -17,7 +17,7 @@
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.125em;
-  background:url(https://thehakubacompany.com/assets/svg/thc-logo.svg);  
+    
 }
 
 @media (max-width: 600px) {
@@ -120,10 +120,11 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 
 /* Header bar */
 .ui-header.ui-bar-inherit {
-  background: #282828 no-repeat center;
+  background: #282828 no-repeat 25%;
   background-size: 100px, cover, cover;
   border: none;
-  height: 54px;
+  height: 120px;
+  background-image: url(https://thehakubacompany.com/assets/svg/thc-logo.svg);  
 }
 
 @media (max-width: 600px) {
