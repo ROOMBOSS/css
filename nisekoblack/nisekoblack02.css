@@ -1,0 +1,91 @@
+@import url('//roomboss.github.io/css/ui/main02.css');
+
+
+/* Custom design */
+
+.rb-header {
+  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1600px -20px  no-repeat,
+		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -120px;
+  border: none;
+  height: 227px;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,
+.rb-checkout-title{
+  color: #375d9d;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before {
+  color: #af9453;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #af9453;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+  color: #af9453;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #af9453;
+  box-shadow: 2px -1 -1 #af9453, -2px -1 -1 #af9453;
+}
+
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #375d9d !important;
+  background-color: #af9453 !important;
+}
+
+#orderForm\:booknow {
+  background-color: #af9453;
+  border: 1px solid #af9453;
+}
+#orderForm\:booknow:hover {
+  background-color: #af9400;
+  border: 1px solid #af9400;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: rgb(55, 93, 157);
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget.ui-state-default {
+  background-color: #af9453;
+  border-color: #af9453;
+}
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #af9400;
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #af9453 !important;
+}
