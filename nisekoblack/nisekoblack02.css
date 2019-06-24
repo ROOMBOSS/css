@@ -4,11 +4,11 @@
 /* Custom design */
 
 .rb-header {
-  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1600px -20px  no-repeat,
+  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1500px 0px  no-repeat,
 		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -120px;
+		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -180px;
   border: none;
-  height: 227px;
+  height: 200px;
 }
 
 .rb-header-title {
