@@ -6,7 +6,7 @@
 
 /*add logo, blue and green bars*/
 .ui-header.ui-bar-inherit {
-	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1400px -20px  no-repeat,
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1500px -20px  no-repeat,
 		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
 		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -120px;
     	height: 320px;
