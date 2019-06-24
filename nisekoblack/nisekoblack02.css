@@ -28,7 +28,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-  color: #af9453;
+  color: black;
 }
 
 /* Category Image Selected*/
@@ -36,14 +36,14 @@
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
 .rb-child-cat-container .rb-child-cat-sel a img,
 .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  box-shadow: 0 0 0px 6px #af9453;
+  box-shadow: 0 0 0px 6px black;
 }
 
 /* Lighter Desc Font */
 .rb-parent-cat-desc,
 .rb-child-cat-desc {
   font-weight: normal;
-  color: #af9453;
+  color: black;
 }
 
 /* Basket Item Highlights */
