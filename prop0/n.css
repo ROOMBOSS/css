@@ -332,3 +332,5 @@ padding: 1px;
 .ui-dialog-titlebar-close.ui-state-hover {
     background-color: #212121 !important;
 }
+ 
+.ui-dialog-titlebar-icon .ui-dialog-titlebar-close .ui-corner-all .ui-state-hover { background: #eee }
