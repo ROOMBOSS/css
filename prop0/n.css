@@ -69,8 +69,8 @@
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-    border-color: #72d54a !important;
-    background-color: #375d9d !important;
+    border-color: #fa5f17 !important;
+    background-color: #212121 !important;
 }
 
 #orderForm\:booknow {
@@ -323,4 +323,12 @@ div #locform\:currencySelect{
     /*! padding-left: 20px; */
     padding-bottom: 5px;
     font-size: 14px
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover {
+padding: 1px;
+}
+
+.ui-dialog-titlebar-close.ui-state-hover {
+    background-color: #212121 !important;
 }
