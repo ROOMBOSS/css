@@ -1,0 +1,326 @@
+
+/* Custom design */
+
+.rb-header {
+    background-image: url("http://www.niseko.ne.jp/en/wp-content/themes/niseko2018/images/logo.png");
+    background-color: #212121;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 75px;
+    border: none;
+    border-bottom: 10px solid #fc5000;
+    height:50px;
+    padding-bottom: 10px !important;
+}
+
+.rb-header-title {
+    position: relative;
+    top: 4px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title,
+.rb-basket-title-pg,
+.rb-checkout-title{
+    color: #212121;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.rb-prod-title::before, .rb-parent-cat-title::before, .rb-child-cat-title::before {
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before {
+    color: #fa5f17;
+    margin-right: 8px;
+}
+
+.rb-basket-title-pg:before {
+    margin-right: 13px;
+    margin-top: -10px !important;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+    box-shadow: 0 0 0 7px #21212140;
+    border-radius: 5px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+    background-color: #212121;
+    box-shadow: 2px -1 -1 #212121, -2px -1 -1 #212121;
+}
+
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+    border-color: #72d54a !important;
+    background-color: #375d9d !important;
+}
+
+#orderForm\:booknow {
+    background-color: #375d9d;
+    border: 1px solid #375d9d;
+}
+#orderForm\:booknow:hover {
+    background-color: #2a4777;
+    border: 1px solid #2a4777;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+    color: #fff;
+    overflow: visible;
+    text-align: center !important;
+    border-radius: 2px !important;
+    background-color: #fa5f17 !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+div #locform\:languageSelect,
+div #locform\:currencySelect{
+    min-width: 45px !important;
+    padding-right: 23px;
+}
+.ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+    border-radius: 2px !important;
+    background-color: #fa5f17 !important;
+    border-color: transparent;
+}
+.ui-btn-right {
+    margin-right: -5px;
+    margin-top: -5px;
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1
+}
+
+.ui-button.ui-widget.ui-state-default {
+    background-color: #fa5f17;
+    border-color: #fa5f17;
+}
+.ui-button.ui-widget.ui-state-hover {
+    background-color: #fc5000;
+    border-color: #fc5000
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #212121 !important;
+    font-weight: 700 !important;
+}
+
+/*              MORE           */
+
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td [id*="bskitempdtopt_content"], #orderForm\:itemdtchkout_data tr.ui-widget-content > td [id*="bskitempdtopt_content"] {
+    padding-top: 0;
+}
+
+.ui-column-title {
+    font-weight: 600;
+}
+
+#orderForm\:chdcatpnl_content,
+#orderForm\:slctpdtpnl_content {
+    padding-top: 24px;
+}
+
+.rb-scroll-top-panel .ui-panel-content {
+    text-transform: uppercase;
+}
+
+.rb-scroll-top-panel label {
+    font-weight: 600 !important;
+    letter-spacing: normal;
+}
+
+.item.rb-prod-desc-item {
+    padding-bottom: 0 !important;
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+    margin-top: 8px;
+}
+
+#orderForm\:scrolltop:after {
+    content: "\f148";
+    font-family: "FontAwesome" !important;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.rb-parent-cat-container {
+    padding-bottom: 44px !important;
+}
+
+.rb-child-cat-container {
+    padding-bottom: 46px !important;
+}
+
+/* Category Labels Selected */
+.rb-parent-cat-container .rb-parent-cat-sel label,
+.rb-child-cat-container .rb-child-cat-sel label {
+
+}
+.rb-scroll-top-panel, #orderForm\:j_idt53_content {
+    border: none;
+
+    /*! width: auto; */
+}
+.rb-scroll-top-panel .ui-panel-content.ui-widget-content{
+    background-color: #fa5f17;
+    border-radius: 3px;
+    border: 1px solid #fa5f17
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+}
+#orderForm\:scrolltop  {
+    color: #fff !important;
+    text-transform: none;
+}
+
+#orderForm\:pdtrpt\:3\:pdtpnl {
+    margin-bottom: 10px !important;
+}
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+    font-size: 16px;
+}
+
+.rb-border {
+    border: 1px solid rgba(119,119,119,.2);
+    padding: .6em .8em 1em;
+    border-radius: 3px;
+    margin: auto;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #eee;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.rb-parent-cat-desc:before {
+    content: "Peak Season Dates: ";
+    /*font-weight: bold;*/
+    font-size: 16px
+}
+.rb-parent-cat-desc:after {
+    content: "Take advantage of everything Niseko United has to offer during Hokkaido's most popular snow season! Experience the world's greatest powder, fantastic snow coverage, and full access to the Niseko resorts.";
+    display: block;
+    margin-top: .5em;
+    text-justify: inter-word;
+    font-size: 14.4px;
+    font-weight: 300;
+}
+
+.rb-child-cat-desc:after {
+    content: "Explore the mountain with Niseko United lift access for a full day, with 1 to 18 day passes available. Passes also include night skiing during applicable periods, and unlimited access to the Niseko United shuttle bus on the day of use.";
+    display: block;
+    margin-top: .5em;
+    text-justify: inter-word;
+    font-size: 14.4px;
+    font-weight: 300;
+}
+
+.rb-child-cat-item label,
+.rb-child-cat-sel.rb-child-cat-item label{
+    font-size: 16px;
+}
+
+.item.rb-prod-desc-item:nth-child(2):after {
+    content: "Valid for use December 11th, 2019 to March 20th, 2020.";
+    display: block;
+    margin-top:12px;
+    font-weight: 300;
+    color: rgb(102,102,102);
+}
+
+.rb-parent-cat-item {
+    max-width: 240px !important;
+    max-height: 240px !important;
+}
+
+.rb-parent-cat-container img {
+    width: 240px;
+    height: 240px;
+}
+
+.flex-item.rb-parent-cat-item {
+    padding: 20px 0 !important;
+}
+
+.flex-container.rb-parent-cat-container {
+    justify-content: space-between !important;
+}
+
+.rb-parent-cat-sel.rb-parent-cat-item label,
+.rb-parent-cat-item label {
+    font-size: 16px;
+}
+
+#orderForm\:wzd_content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.flex-item.rb-child-cat-item {
+    max-width: 175px !important;
+    max-height: 175px !important;
+    padding: 20px 0 !important;
+}
+.rb-child-cat-container img {
+    width: 175px;
+    height: 175px;
+}
+.flex-container.rb-child-cat-container {
+    justify-content: space-between !important;
+    padding: 0;
+}
+
+#orderForm\:j_idt53_content {
+    display: none;
+}
+
+#orderForm\:bskpnl_content {
+    padding-bottom: 14px
+}
+
+.rb-order-nav {
+    padding-top: .5em;
+}
+
+.rb-total {
+    color: rgb(102, 102, 102) !important;
+}
+
+.checkdesc {
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: left;
+    /*! padding-left: 20px; */
+    padding-bottom: 5px;
+    font-size: 14px
+}
