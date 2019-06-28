@@ -333,4 +333,4 @@ padding: 1px;
     background-color: #212121 !important;
 }
  
-.ui-dialog-titlebar-icon .ui-dialog-titlebar-close .ui-corner-all .ui-state-hover { background: #eee }
+.ui-dialog-titlebar-icon .ui-dialog-titlebar-close .ui-corner-all { background: #eee }
