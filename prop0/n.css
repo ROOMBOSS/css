@@ -151,7 +151,7 @@ div #locform\:currencySelect{
 }
 
 .rb-scroll-top-panel label {
-    font-weight: 600 !important;
+    font-weight: 300 !important;
     letter-spacing: normal;
 }
 
@@ -223,7 +223,7 @@ div #locform\:currencySelect{
 }
 
 .rb-parent-cat-desc:before {
-    content: "Peak Season Dates: ";
+    /*content: "Peak Season Dates: ";*/
     /*font-weight: bold;*/
     font-size: 16px
 }
