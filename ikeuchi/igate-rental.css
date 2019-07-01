@@ -1,0 +1,153 @@
+.ui-content {
+	max-width: 1000px;
+}
+
+tbody tr td.rbn-opt-label {
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+.remove-item-control.ui-btn-inline {
+	color: #E22;
+	margin-top: 30px;
+	width: 95%
+}
+
+.ui-grid-a>.ui-block-a {
+	font-weight: bold;
+	width: 20%;
+	padding-top: 7px;
+}
+
+/* #7689 */
+@media (min-width : 560px) {
+	.ui-grid-a>.ui-block-b {
+		width: 80%;
+	}
+}
+
+.ui-grid-a>.ui-block-a .rbn-cost-label {
+	padding-top: 0px;
+}
+
+.pricing-div {
+	margin-top: 7px;
+}
+
+.prod-opt-table .ui-table-reflow td .ui-table-cell-label {
+	display: none;
+}
+
+.no-items-txt {
+	color: red;
+	font-weight: normal;
+}
+
+#base_page\:neworderform\:totaltb_head {
+	display: none;
+}
+
+#base_page\:neworderform\:productPanel {
+	padding-bottom: 0.9em;
+}
+
+/* Remove Header */
+.ui-title {
+	display: none !important;
+}
+
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+  display: none;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("https://www.igate-ikeuchi.com/assets/img/igate-logo@2x.png");
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size: 200px;
+  background-color: #333 !important;
+  border: 0;
+  border-top: 5px solid #7A98AB;
+  height:150px;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+box-shadow: inset 0 0 4px #aaa !important;
+}
+
+/* Lang & Currency */
+
+/* Language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/* Panels */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #494d50;
+	color: #fff;
+  border: #717071;
+	text-shadow: none;
+}
+
+/* Icons */
+
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #7A98AB;
+}
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+	background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+  background-color: transparent !important;
+}
+
+/* Buttons */
+
+button[id*="addItemsLink"],
+button[id*="saveorderbutt"]{
+	background-color: #7A98AB !important;
+	color: #fff !important;
+	text-shadow: none !important;
+}
+button[id*="addItemsLink"]:hover,
+button[id*="saveorderbutt"]:hover{
+	background-color: #547285 !important;
+}
+
+/* Remove item Button */
+.remove-item-control.ui-btn-inline {
+	color: #888;
+	margin-top: 0.5em;
+	width: 100%
+}
+.remove-item-control.ui-btn-inline:after {
+	background-color: #888;
+}
+
+/* Hide Quantity */
+.rbn-quantity {
+	display: none;
+}
+
+h3, button {
+	font-weight: 300 !important;
+	text-transform: uppercase;
+	letter-spacing: .125em;
+}
