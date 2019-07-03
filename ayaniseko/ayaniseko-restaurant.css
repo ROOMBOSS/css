@@ -127,23 +127,19 @@ div.ui-block-a,
 	display: none;
 }
 
-
 /* Request booking ID */
-
-#base_page\3a neworderform\3a customIdTable_head>tr {
-	display: none;
+#base_page\3a neworderform\3a customIdTable_head > tr{
+display: none;
+}
+#base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	display: block;
+	content: 'Please enter your booking reference number (6-digits)';
+	font-weight: bold;
 }
 
 
 /* Ref Mobile */
 
 #base_page\:neworderform\:customIdTable_data>tr:nth-child(1)>td:nth-child(1)>b:nth-child(1) {
-	display: none;
-}
-
-
-/* Hide Ref # */
-
-#base_page\:neworderform\:customIdTable_data>tr>td {
 	display: none;
 }
