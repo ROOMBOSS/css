@@ -162,3 +162,15 @@ html, body,
 	background: #000;
 	color: #fff;
 }
+
+/* Parent Category Container */
+.flex-item.rb-parent-cat-item {
+  width: 225px !important;
+  max-width: 225px !important;
+}
+
+/* Category Images */
+.rb-parent-cat-container img {
+  width: 225px !important;
+  height: 150px;
+}
