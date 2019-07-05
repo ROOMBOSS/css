@@ -157,3 +157,8 @@ html, body,
 	padding: 1px;
 	margin: 1px;
 }
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	background: #000;
+	color: #fff;
+}
