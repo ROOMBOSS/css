@@ -4,9 +4,9 @@
 /* Custom design */
 
 .rb-header {
-  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1500px 0px  no-repeat,
+  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) center center no-repeat,
 		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -180px;
+      url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -180px;
   border: none;
   height: 200px;
 }
@@ -20,7 +20,7 @@
 .rb-prod-title,
 .rb-basket-title-pg,
 .rb-checkout-title{
-  color: #375d9d;
+  color: #fff;
 }
 
 .rb-parent-cat-title:before,
@@ -28,7 +28,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-  color: black;
+  color: #aaa;
 }
 
 /* Category Image Selected*/
@@ -36,56 +36,124 @@
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
 .rb-child-cat-container .rb-child-cat-sel a img,
 .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  box-shadow: 0 0 0px 6px black;
+  box-shadow: 0 0 0px 6px #aaa;
 }
 
 /* Lighter Desc Font */
 .rb-parent-cat-desc,
 .rb-child-cat-desc {
   font-weight: normal;
-  color: black;
+  color: #bbb
 }
 
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #af9453;
+  background-color: #888;
   box-shadow: 2px -1 -1 #af9453, -2px -1 -1 #af9453;
 }
 
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-  border-color: #375d9d !important;
-  background-color: #af9453 !important;
+  border-color: #000 !important;
+  background-color: #000 !important;
 }
 
 #orderForm\:booknow {
-  background-color: #af9453;
-  border: 1px solid #af9453;
+  background-color: #E50000;
+  border: 1px solid #E50000;
 }
 #orderForm\:booknow:hover {
-  background-color: #af9400;
-  border: 1px solid #af9400;
+  background-color: #ea3232;
+  border: 1px solid #ea3232;
 }
 
 /* Lang and currency */
 #locform\:currencySelect_label,
 #locform\:languageSelect_label {
-  color: rgb(55, 93, 157);
+  color: #000;
 }
 
 /* Default Buttons */
 
 .ui-button.ui-widget.ui-state-default {
-  background-color: #af9453;
-  border-color: #af9453;
+  background-color: #E50000;
+  border-color: #E50000;
 }
 .ui-button.ui-widget.ui-state-hover {
-  background-color: #af9400;
+  background-color: #ea3232;
 }
 
 /* Card title*/
 .rb-prod-desc-item:nth-child(1) label {
-    color:  #af9453 !important;
+    color:  #888 !important;
+}
+
+/*  ==== */
+
+html, body,
+.rb-body-content,
+.ui-panel-content {
+  background-color: #000 !important;
+}
+
+.ui-panel-content .ui-widget-content {
+  background-color: #f9f9f9 !important;
+}
+
+.rb-parent-cat-container label,
+.rb-child-cat-container label {
+  color: #fff;
+}
+.rb-order-nav label,
+#orderForm\:chkoutpnl_content .fa-user {
+  color: #aaa
+}
+
+.rb-scroll-top-panel {
+  max-width: 900px;
+  margin: auto;
+}
+
+[id*="orderForm:bskpnl_footer"] {
+  background-color: #000;
+  color: #fff !important;
+}
+
+#orderForm\:inquiry h3 {
+  color: #fff;
+}
+
+#orderForm\:guestpg label,
+#orderForm\:chkoutpnl_content label,
+#orderForm\:inquiry p {
+  color: #ccc;
+}
+#orderForm\:guestpg a,
+#orderForm\:chkoutpnl_content a {
+  color: #E50000;
+}
+#orderForm\:itemdtchkout a,
+#orderForm\:itemdtchkout label {
+  color: #000;
+}
+
+.rb-parent-cat-container img, .rb-child-cat-container img,{
+	-webkit-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+	box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+	-webkit-transition: ease-in-out .2s;
+	transition: ease-in-out .2s;
+}
+
+.rb-prod-item-panel > .ui-panel-content.ui-widget-content {
+	-webkit-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+	box-shadow: 1px 1px 4px rgba(255, 255, 255, .6);
+}
+
+.ui-dialog-titlebar-close.ui-state-hover {
+	background-color: #000;
+	border: 0;
+	padding: 1px;
+	margin: 1px;
 }
