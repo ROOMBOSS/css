@@ -78,16 +78,17 @@
 /* Default Buttons */
 
 .ui-button.ui-widget.ui-state-default {
-  background-color: #E50000;
-  border-color: #E50000;
+  background-color: #888;
+  border-color: #888;
 }
 .ui-button.ui-widget.ui-state-hover {
-  background-color: #ea3232;
+  background-color: #aaa;
+  border-color: #aaa;
 }
 
 /* Card title*/
 .rb-prod-desc-item:nth-child(1) label {
-    color:  #888 !important;
+    color:  #555 !important;
 }
 
 /*  ==== */
@@ -132,7 +133,7 @@ html, body,
 }
 #orderForm\:guestpg a,
 #orderForm\:chkoutpnl_content a {
-  color: #E50000;
+  color: #fff;
 }
 #orderForm\:itemdtchkout a,
 #orderForm\:itemdtchkout label {
