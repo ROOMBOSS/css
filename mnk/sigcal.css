@@ -98,7 +98,7 @@ td.ui-datepicker-days-cell-over.ui-datepicker-unselectable.ui-state-disabled.ui-
 .ui-datepicker .ui-datepicker-header {
     padding: 0;
     background: transparent !important;
-    color: #002e52;
+    color: #39bb9d;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Century Gothic' !important;
@@ -183,7 +183,7 @@ tr {
 }
 
 .ui-datepicker th {
-    border: 1px solid #39bb9d !important;
+    border: 1px solid #4a4a4a !important;
     background: #625956;
     color: #fff;
     font-family: 'Avenir LT Std' !important;
