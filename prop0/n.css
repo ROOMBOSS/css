@@ -335,3 +335,9 @@ padding: 1px;
 }
  
 .ui-dialog-titlebar-icon .ui-dialog-titlebar-close .ui-corner-all { background: #eee }
+
+/* Highlights */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: #fa5f17 !important;
+    color: #fff;
+}
