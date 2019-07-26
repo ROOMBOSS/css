@@ -151,10 +151,10 @@ div #locform\:currencySelect{
     text-transform: uppercase;
 }
 
-.rb-scroll-top-panel label {
+/* .rb-scroll-top-panel label {
     font-weight: 300 !important;
     letter-spacing: normal;
-}
+} */
 
 .item.rb-prod-desc-item {
     padding-bottom: 0 !important;
@@ -197,7 +197,7 @@ div #locform\:currencySelect{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
 }
 #orderForm\:scrolltop  {
-    color: #777 !important;
+    color: #fff !important;
     text-transform: none;
 }
 
