@@ -266,13 +266,13 @@ div #locform\:currencySelect{
 } */
 
 .rb-parent-cat-item {
-/*     max-width: 240px !important; */
-    max-height: 240px !important;
+    max-width: 150px !important;
+    max-height: 150px !important;
 }
 
 .rb-parent-cat-container img {
-    width: 240px;
-    height: 240px;
+    width: 150px;
+    height: 150px;
 }
 
 .flex-item.rb-parent-cat-item {
