@@ -358,3 +358,8 @@ padding: 1px;
 .rb-scroll-top-panel .ui-panel-content:hover {
     background-color: #fc5000 !important;
 }
+
+/* description height */
+.rb-parent-cat-container, .rb-child-cat-container {
+    padding-bottom: 4em;
+}
