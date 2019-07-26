@@ -175,9 +175,9 @@ div #locform\:currencySelect{
     padding-bottom: 44px !important;
 } */
 
-.rb-child-cat-container {
+/* .rb-child-cat-container {
     padding-bottom: 46px !important;
-}
+} */
 
 /* Category Labels Selected */
 .rb-parent-cat-container .rb-parent-cat-sel label,
@@ -237,14 +237,14 @@ div #locform\:currencySelect{
     font-weight: 300;
 } */
 
-.rb-child-cat-desc:after {
+/* .rb-child-cat-desc:after {
     content: "Explore the mountain with Niseko United lift access for a full day, with 1 to 18 day passes available. Passes also include night skiing during applicable periods, and unlimited access to the Niseko United shuttle bus on the day of use.";
     display: block;
     margin-top: .5em;
     text-justify: inter-word;
     font-size: 14.4px;
     font-weight: 300;
-}
+} */
 
 .rb-child-cat-item label,
 .rb-child-cat-sel.rb-child-cat-item label{
