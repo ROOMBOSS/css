@@ -99,10 +99,16 @@ div #locform\:currencySelect{
     min-width: 45px !important;
     padding-right: 23px;
 }
+
 .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
     border-radius: 2px !important;
 /*     background-color: #fa5f17 !important; */
     border-color: transparent;
+}
+/* Keep colour on lang/curr selectors */
+#locform\:currencySelect > .ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#locform\:languageSelect > .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+    background-color: #fa5f17 !important;
 }
 .ui-btn-right {
     margin-right: -5px;
