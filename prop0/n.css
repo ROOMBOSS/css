@@ -251,13 +251,13 @@ div #locform\:currencySelect{
     font-size: 16px;
 }
 
-.item.rb-prod-desc-item:nth-child(2):after {
+/* .item.rb-prod-desc-item:nth-child(2):after {
     content: "Valid for use December 11th, 2019 to March 20th, 2020.";
     display: block;
     margin-top:12px;
     font-weight: 300;
     color: rgb(102,102,102);
-}
+} */
 
 .rb-parent-cat-item {
     max-width: 240px !important;
