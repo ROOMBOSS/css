@@ -353,3 +353,8 @@ padding: 1px;
 #orderForm\:stdtcal_input {
     text-align: center;
 }
+
+/* Scroll hover*/
+.rb-scroll-top-panel .ui-panel-content:hover {
+    background-color: #fc5000 !important;
+}
