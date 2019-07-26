@@ -296,7 +296,7 @@ div #locform\:currencySelect{
 .flex-item.rb-child-cat-item {
 /*     max-width: 175px !important;
     max-height: 175px !important; */
-    padding: 20px 0 !important;
+    padding: 20px !important;
 }
 .rb-child-cat-container img {
     width: 175px;
