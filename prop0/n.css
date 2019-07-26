@@ -171,9 +171,9 @@ div #locform\:currencySelect{
     font-weight: normal;
 }
 
-.rb-parent-cat-container {
+/* .rb-parent-cat-container {
     padding-bottom: 44px !important;
-}
+} */
 
 .rb-child-cat-container {
     padding-bottom: 46px !important;
@@ -228,14 +228,14 @@ div #locform\:currencySelect{
     /*font-weight: bold;*/
     font-size: 16px
 }
-.rb-parent-cat-desc:after {
+/* .rb-parent-cat-desc:after {
     content: "Take advantage of everything Niseko United has to offer during Hokkaido's most popular snow season! Experience the world's greatest powder, fantastic snow coverage, and full access to the Niseko resorts.";
     display: block;
     margin-top: .5em;
     text-justify: inter-word;
     font-size: 14.4px;
     font-weight: 300;
-}
+} */
 
 .rb-child-cat-desc:after {
     content: "Explore the mountain with Niseko United lift access for a full day, with 1 to 18 day passes available. Passes also include night skiing during applicable periods, and unlimited access to the Niseko United shuttle bus on the day of use.";
