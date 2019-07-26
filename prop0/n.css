@@ -349,6 +349,7 @@ padding: 1px;
 }
 
 /* Center align options */
-.ui-selectonemenu .ui-selectonemenu-label {
+.ui-selectonemenu .ui-selectonemenu-label,
+#orderForm\:stdtcal_input {
     text-align: center;
 }
