@@ -347,3 +347,8 @@ padding: 1px;
     background: #fa5f17 !important;
     color: #fff;
 }
+
+/* Center align options */
+.ui-selectonemenu .ui-selectonemenu-label {
+    text-align: center;
+}
