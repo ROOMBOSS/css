@@ -361,5 +361,5 @@ padding: 1px;
 
 /* description height */
 .rb-parent-cat-container, .rb-child-cat-container {
-    padding-bottom: 4em;
+    padding-bottom: 4em !important;
 }
