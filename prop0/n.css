@@ -101,7 +101,7 @@ div #locform\:currencySelect{
 }
 .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
     border-radius: 2px !important;
-    background-color: #fa5f17 !important;
+/*     background-color: #fa5f17 !important; */
     border-color: transparent;
 }
 .ui-btn-right {
