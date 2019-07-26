@@ -273,9 +273,9 @@ div #locform\:currencySelect{
     padding: 20px 0 !important;
 }
 
-.flex-container.rb-parent-cat-container {
+/* .flex-container.rb-parent-cat-container {
     justify-content: space-between !important;
-}
+} */
 
 .rb-parent-cat-sel.rb-parent-cat-item label,
 .rb-parent-cat-item label {
@@ -296,10 +296,10 @@ div #locform\:currencySelect{
     width: 175px;
     height: 175px;
 }
-.flex-container.rb-child-cat-container {
+/* .flex-container.rb-child-cat-container {
     justify-content: space-between !important;
     padding: 0;
-}
+} */
 
 #orderForm\:j_idt53_content {
     display: none;
