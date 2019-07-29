@@ -360,3 +360,13 @@ padding: 1px;
     padding-top: 12px;
     padding-bottom: 12px !important;
 }
+
+/* For demo */
+#orderForm\:itemdtchkout\:j_idt284 {
+    width: 100px !important;
+}
+
+.rb-order-nav label, .rb-order-nav input,
+#orderForm\:usermessage, #orderForm\:sendinq {
+    display: none;
+}
