@@ -362,7 +362,8 @@ padding: 1px;
 }
 
 /* For demo */
-#orderForm\:itemdtchkout\:j_idt284 {
+#orderForm\:itemdtchkout\:j_idt284,
+#orderForm\:itemdtbsk\:j_idt76{
     width: 100px !important;
 }
 
