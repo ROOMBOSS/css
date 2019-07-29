@@ -360,6 +360,9 @@ padding: 1px;
 }
 
 /* description height */
-.rb-parent-cat-container, .rb-child-cat-container {
+.rb-parent-cat-container {
+    padding-bottom: 44px !important;
+}
+.rb-child-cat-container {
     padding-bottom: 20px !important;
 }
