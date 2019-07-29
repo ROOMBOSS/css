@@ -177,9 +177,9 @@ div #locform\:currencySelect{
     font-weight: normal;
 }
 
-/* .rb-parent-cat-container {
+.rb-parent-cat-container {
     padding-bottom: 44px !important;
-} */
+}
 
 /* .rb-child-cat-container {
     padding-bottom: 46px !important;
@@ -294,8 +294,8 @@ div #locform\:currencySelect{
 }
 
 .flex-item.rb-child-cat-item {
-/*     max-width: 175px !important;
-    max-height: 175px !important; */
+    max-width: 175px !important;
+    /* max-height: 175px !important; */
     padding: 20px !important;
 }
 .rb-child-cat-container img {
@@ -361,5 +361,5 @@ padding: 1px;
 
 /* description height */
 .rb-parent-cat-container, .rb-child-cat-container {
-    padding-bottom: 4em !important;
+    padding-bottom: 20px !important;
 }
