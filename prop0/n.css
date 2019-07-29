@@ -177,14 +177,6 @@ div #locform\:currencySelect{
     font-weight: normal;
 }
 
-.rb-parent-cat-container {
-    padding-bottom: 44px !important;
-}
-
-/* .rb-child-cat-container {
-    padding-bottom: 46px !important;
-} */
-
 /* Category Labels Selected */
 .rb-parent-cat-container .rb-parent-cat-sel label,
 .rb-child-cat-container .rb-child-cat-sel label {
@@ -361,7 +353,7 @@ padding: 1px;
 
 /* description height */
 .rb-parent-cat-container {
-    padding-bottom: 44px !important;
+    padding-bottom: 4em !important;
 }
 .rb-child-cat-container {
     padding-bottom: 20px !important;
