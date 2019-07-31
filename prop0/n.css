@@ -383,3 +383,14 @@ padding: 1px;
 	height: 175px !important;
 	width: 175px !important;
 }
+
+/* Remove Dietary / Medical */
+.rb-new-guest-form > div:nth-child(12),
+#guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div:nth-child(13) {
+    margin-top: 0 !important;
+}
+#orderForm\:dietarynew, #guestDialogForm\:dietaryedit,
+#orderForm\:medicalnew, #guestDialogForm\:medicaledit {
+display: none;
+}
+
