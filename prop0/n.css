@@ -2,7 +2,7 @@
 
 /* Custom design */
 
-.rb-header {
+.rb-header, #base_page\:base_header {
     background-image: url("http://www.niseko.ne.jp/en/wp-content/themes/niseko2018/images/logo.png");
     background-color: #212121;
     background-repeat: no-repeat;
@@ -10,11 +10,14 @@
     background-size: 75px;
     border: none;
     border-bottom: 10px solid #fc5000;
-    height:50px;
+    height:65px;
     padding-bottom: 10px !important;
 }
+#base_page\:base_header {
+    height: 80px;
+}
 
-.rb-header-title {
+.rb-header-title, .ui-title {
     position: relative;
     top: 4px;
     text-transform: uppercase;
