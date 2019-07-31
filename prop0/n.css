@@ -374,3 +374,12 @@ padding: 1px;
 #orderForm\:usermessage, #orderForm\:sendinq {
     display: none;
 }
+
+/* Cat Sizing */
+.rb-cat-box {
+	width: 175px !important;
+	}
+#orderForm\:chdcatrpt\:1\:chdcatlnk {
+	height: 175px !important;
+	width: 175px !important;
+}
