@@ -426,3 +426,8 @@ display: none;
 		height:100px;
 	}
 }
+
+/* YourBooking Lang */
+#base_page\:locform\:languageSelect {
+	padding-top: .5em;
+}
