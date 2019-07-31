@@ -721,3 +721,24 @@ img[id*="pdtimg"] {
       -ms-transform: rotate(10deg);
           transform: rotate(10deg);
   }
+
+/* Ajax loader sizing/background */
+.ui-dialog.ui-hidden-container.ui-widget {
+background-color: #fff !important;
+}
+.ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content{
+padding: .8em 1em .5em;
+}
+
+/*Go Back Button */
+@media(min-width: 600px) {
+	.rb-guest-nav {
+	    float: left;
+	    margin-left: 10px;
+	    position: absolute;
+	}
+}
+/* Vericode button */
+#orderForm\:guestpg div.p-col-12:nth-child(3) {
+	padding-top: .5em;
+}
