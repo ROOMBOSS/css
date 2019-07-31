@@ -379,7 +379,7 @@ padding: 1px;
 .rb-child-cat-container > div > .rb-cat-box {
 	width: 175px;
 }
-#orderForm\:chdcatrpt\:1\:chdcatlnk {
+.rb-child-cat-item > .rb-cat-box > .ui-commandlink {
 	height: 175px !important;
 	width: 175px !important;
 }
