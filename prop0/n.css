@@ -271,7 +271,7 @@ div #locform\:currencySelect{
 }
 
 .flex-item.rb-parent-cat-item {
-    padding: 20px !important;
+    padding: 32px !important;
 }
 
 /* .flex-container.rb-parent-cat-container {
@@ -394,3 +394,35 @@ padding: 1px;
 display: none;
 }
 
+/* Order Stuff */
+#orderForm\:orlbl {
+    overflow: hidden;
+    text-align: center;
+}
+#orderForm\:orlbl:before,
+#orderForm\:orlbl:after {
+    background-color: #dddddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+}
+#orderForm\:orlbl:before {
+    right: 0.5em;
+}
+#orderForm\:orlbl:after {
+    left: 0.5em;
+}
+
+@media(max-width: 780px) {
+	.rb-header-title, .ui-title {
+		top: 40%;
+		font-size: 24px !important;
+		margin: auto !important;
+	}
+    .rb-header, #base_page\:base_header {
+		height:100px;
+	}
+}
