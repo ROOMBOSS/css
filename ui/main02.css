@@ -730,14 +730,14 @@ background-color: #fff !important;
 padding: .8em 1em .5em;
 }
 
-/*Go Back Button */
+/*Go Back Button
 @media(min-width: 600px) {
 	.rb-guest-nav {
 	    float: left;
 	    margin-left: 10px;
 	    position: absolute;
 	}
-}
+} */
 /* Vericode button */
 #orderForm\:guestpg div.p-col-12:nth-child(3) {
 	padding-top: .5em;
