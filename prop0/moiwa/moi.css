@@ -193,7 +193,7 @@ div #locform\:currencySelect{
     /*! width: auto; */
 }
 .rb-scroll-top-panel .ui-panel-content.ui-widget-content{
-    background-color: #0172B2;
+    background-color: #05959A;
     border-radius: 3px;
     border: 1px solid #0172B2
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
@@ -353,13 +353,13 @@ padding: 1px;
 
 /* Scroll hover*/
 .rb-scroll-top-panel .ui-panel-content:hover {
-    background-color: #0182cb !important;
+    background-color: #06abc0 !important;
 }
 
 /* description height */
 .rb-parent-cat-container {
     padding-top: 0;
-    padding-bottom: 4em !important;
+    padding-bottom: 30px !important;
 }
 .rb-child-cat-container {
     padding-top: 12px;
