@@ -443,3 +443,7 @@ display: none;
 #orderForm\:sendvercode {
     font-family: "Roboto", sans-serif;
 }
+
+.rb-body-content {
+	max-width: 1024px !important;
+}
