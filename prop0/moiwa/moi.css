@@ -3,14 +3,14 @@
 /* Custom design */
 
 .rb-header, #base_page\:base_header {
-    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/prop0/niseko-united-logo.png");
-    background-color: #212121;
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/prop0/moiwa/moiwa-logo.png");
+    background-color: #ffffff;
     background-repeat: no-repeat;
-    background-position: 10px 10px;
-    background-size: 75px;
+    background-position: center;
+    background-size: 200px;
     border: none;
-    border-bottom: 10px solid #fc5000;
-    height:60px;
+    border-bottom: 10px solid #0172B2;
+    height:150px;
     padding-bottom: 10px !important;
 }
 #base_page\:base_header {
@@ -18,6 +18,7 @@
 }
 
 .rb-header-title, .ui-title {
+    display: none;
     position: relative;
     top: 4px;
     text-transform: uppercase;
@@ -32,9 +33,10 @@
 .rb-basket-title-pg,
 .rb-checkout-title{
     color: #212121;
-    text-transform: uppercase;
     font-weight: 700 !important;
     font-family: 'Roboto', sans-serif !important;
+    
+    text-transform: uppercase;
 }
 
 .rb-prod-title::before, .rb-parent-cat-title::before, .rb-child-cat-title::before {
@@ -45,7 +47,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-    color: #fa5f17;
+    color: #05959A;
     margin-right: 8px;
 }
 
@@ -66,24 +68,24 @@
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-    background-color: #212121;
-    box-shadow: 2px -1 -1 #212121, -2px -1 -1 #212121;
+    background-color: #3b3b3b;
+    box-shadow: 2px -1 -1 #3b3b3b, -2px -1 -1 #3b3b3b;
 }
 
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-    border-color: #333333 !important;
-    background-color: #fa5f17 !important;
+    border-color: #0172B2 !important;
+    background-color: #05959A !important;
 }
 
 #orderForm\:booknow {
-    background-color: #375d9d;
-    border: 1px solid #375d9d;
+    background-color: #05959A;
+    border: 1px solid #05959A;
 }
 #orderForm\:booknow:hover {
-    background-color: #2a4777;
-    border: 1px solid #2a4777;
+    background-color: #06abc0;
+    border: 1px solid #06abc0;
 }
 
 /* Lang and currency */
@@ -93,7 +95,7 @@
     overflow: visible;
     text-align: center !important;
     border-radius: 2px !important;
-    background-color: #fa5f17 !important;
+    background-color: #0172B2 !important;
     font-weight: 600;
     font-size: 14px;
 }
@@ -105,13 +107,13 @@ div #locform\:currencySelect{
 
 .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
     border-radius: 2px !important;
-/*     background-color: #fa5f17 !important; */
+    /*background-color: #375d9d !important;*/
     border-color: transparent;
 }
 /* Keep colour on lang/curr selectors */
 #locform\:currencySelect > .ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
 #locform\:languageSelect > .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
-    background-color: #fa5f17 !important;
+    background-color: #0172B2 !important;
 }
 .ui-btn-right {
     margin-right: -5px;
@@ -127,12 +129,12 @@ div #locform\:currencySelect{
 }
 
 .ui-button.ui-widget.ui-state-default {
-    background-color: #fa5f17;
-    border-color: #fa5f17;
+    background-color: #0172B2;
+    border-color: #0172B2;
 }
 .ui-button.ui-widget.ui-state-hover {
-    background-color: #fc5000;
-    border-color: #fc5000
+    background-color: #0182cb;
+    border-color: #0182cb;
 }
 
 /* Card title*/
@@ -191,9 +193,9 @@ div #locform\:currencySelect{
     /*! width: auto; */
 }
 .rb-scroll-top-panel .ui-panel-content.ui-widget-content{
-    background-color: #fa5f17;
+    background-color: #0172B2;
     border-radius: 3px;
-    border: 1px solid #fa5f17
+    border: 1px solid #0172B2
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
 }
@@ -332,14 +334,14 @@ padding: 1px;
 }
 
 .ui-dialog-titlebar-close.ui-state-hover {
-    background-color: #fa5f17 !important;
+    background-color: #05959a !important;
 }
  
 .ui-dialog-titlebar-icon .ui-dialog-titlebar-close .ui-corner-all { background: #eee }
 
 /* Highlights */
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
-    background: #fa5f17 !important;
+    background: #05959a !important;
     color: #fff;
 }
 
@@ -351,7 +353,7 @@ padding: 1px;
 
 /* Scroll hover*/
 .rb-scroll-top-panel .ui-panel-content:hover {
-    background-color: #fc5000 !important;
+    background-color: #0182cb !important;
 }
 
 /* description height */
@@ -430,4 +432,14 @@ display: none;
 /* YourBooking Lang */
 #base_page\:locform\:languageSelect {
 	padding-top: .5em;
+}
+
+/* Growl */
+.ui-growl-warn, .ui-messages .ui-messages-warn, .ui-message.ui-message-warn {
+    background-color: #05959a !important;
+    border-color: #05959a !important;
+}
+
+#orderForm\:sendvercode {
+    font-family: "Roboto", sans-serif;
 }
