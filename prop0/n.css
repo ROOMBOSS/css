@@ -431,3 +431,9 @@ display: none;
 #base_page\:locform\:languageSelect {
 	padding-top: .5em;
 }
+
+
+#orderForm\:itemdtbsk\:j_idt65 > span,
+#orderForm\:itemdtchkout\:j_idt273 > span {
+    display: none;
+}
