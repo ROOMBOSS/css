@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:300,400,600,700&display=swap|Open+Sans:300,400,700);
 .ui-header.ui-bar-inherit {
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); }
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
 
 .rb-footer:before {
   background: linear-gradient(to bottom, #f9faf9, transparent), url(https://www.hinodehills.com/images/slider-our-story.jpg) 50% 75% no-repeat;
