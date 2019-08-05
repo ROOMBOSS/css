@@ -83,7 +83,7 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 /* Header bar */
 .ui-header.ui-bar-inherit {
   background: #ffffff url(https://www.hinodehills.com/images/logo.png) no-repeat center;
-  background-size: 200px;
+  background-size: auto;
   border: none;
   height: 100px; }
 
@@ -337,3 +337,8 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:ownerDepositsTable > div > table,
 #base_page\:statementExtentMenu\:ownerWithdrawalsTable {
   table-layout: auto; }
+
+@media (max-width: 480px) {
+  .ui-header.ui-bar-inherit {
+    height: 120px;
+    background-position: 50% 80%; } }
