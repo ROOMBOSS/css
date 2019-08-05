@@ -327,3 +327,13 @@ tbody > tr > td li {
 
 .ui-content {
   z-index: 100; }
+
+@media (max-width: 680px) {
+  #base_page\:statementExtentMenu\:overviewGrid.ui-grid-a.ui-responsive, #base_page\:statementExtentMenu\:overviewGrid-annual.ui-grid-a.ui-responsive {
+    max-width: 100% !important; } }
+/* Table fix */
+#base_page\:statementExtentMenu\:otherIncomeTable > div > table,
+#base_page\:statementExtentMenu\:otherExpensesTable > div > table,
+#base_page\:statementExtentMenu\:ownerDepositsTable > div > table,
+#base_page\:statementExtentMenu\:ownerWithdrawalsTable {
+  table-layout: auto; }
