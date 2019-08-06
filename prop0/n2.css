@@ -392,6 +392,9 @@ padding: 1px;
 #orderForm\:medicalnew, #guestDialogForm\:medicaledit {
 display: none;
 }
+.ui-dialog-content.ui-widget-content > div.rb-guest-for-emergencies > div:nth-child(2) {
+	display: none;
+}
 
 /* Order Stuff */
 #orderForm\:orlbl {
