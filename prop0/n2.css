@@ -189,9 +189,9 @@ div #locform\:currencySelect{
     /*! width: auto; */
 }
 .rb-scroll-top-panel .ui-panel-content.ui-widget-content{
-    background-color: #fa5f17;
-    border-radius: 3px;
-    border: 1px solid #fa5f17
+    background-color: #fa5f17 !important;
+    border-radius: 3px !important;
+    border: 1px solid #fa5f17 !important;
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
 }
