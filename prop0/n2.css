@@ -420,8 +420,8 @@ display: none;
 
 @media(max-width: 780px) {
 	.rb-header-title, .ui-title {
-		top: 40%;
-		font-size: 24px !important;
+		top: 60%;
+		font-size: 21px !important;
 		margin: auto !important;
 	}
     .rb-header, #base_page\:base_header {
