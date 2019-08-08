@@ -934,15 +934,11 @@ padding: .8em 2em .5em;
 }
 
 @media(max-width: 820px) {
-	#orderForm\:sendinq, #orderForm\:booknow  {
+	#orderForm\:sendinq, #orderForm\:booknow,
+	#orderForm\:contshop {
 		width: 100%;
 		position: relative;
 		margin: 5px 5px 0 5px;
-	}
-	#orderForm\:contshop {
-		margin-left: 5px;
-		margin-top: -40px;
-		float: left;
 	}
 	.rb-checkout-nav tr td {
 		display: block;
