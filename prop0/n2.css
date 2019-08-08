@@ -439,3 +439,16 @@ display: none;
 #orderForm\:itemdtchkout\:j_idt273 > span {
     display: none;
 }
+
+/* Checkout Buttons */
+@media(max-width: 820px) {
+	#orderForm\:sendinq, #orderForm\:booknow,
+	#orderForm\:contshop {
+		width: 100%;
+		position: relative;
+		margin: 5px 5px 0 5px;
+	}
+	.rb-checkout-nav tr td {
+		display: block;
+	}
+}
