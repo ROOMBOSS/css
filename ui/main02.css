@@ -920,3 +920,31 @@ padding: .8em 2em .5em;
 .rb-child-cat-container label {
 	color: #222222;
 }
+
+/* Order Form Fix */
+
+#orderForm > .ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content {
+    padding: .5em;
+}
+#orderForm > .ui-dialog .ui-dialog-title {
+	max-width: 85%;
+}
+#orderForm\:addbskdlg {
+	max-width: 100%
+}
+
+@media(max-width: 820px) {
+	#orderForm\:sendinq, #orderForm\:booknow  {
+		width: 100%;
+		position: relative;
+		margin: 5px 5px 0 5px;
+	}
+	#orderForm\:contshop {
+		margin-left: 5px;
+		margin-top: -40px;
+		float: left;
+	}
+	.rb-checkout-nav tr td {
+		display: block;
+	}
+}
