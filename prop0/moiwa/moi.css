@@ -453,3 +453,7 @@ display: none;
 #orderForm\:itemdtchkout\:j_idt273 > span {
     display: none;
 }
+
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label:not(:nth-child(2)) {
+    background-color:#bbb;
+}
