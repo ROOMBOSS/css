@@ -193,7 +193,7 @@ div #locform\:currencySelect{
     /*! width: auto; */
 }
 .rb-scroll-top-panel .ui-panel-content.ui-widget-content{
-    background-color: #05959A;
+    background-color: #05959A !important;
     border-radius: 3px;
     border: 1px solid #0172B2
     -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
