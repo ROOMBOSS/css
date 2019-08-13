@@ -497,7 +497,7 @@ display: none;
 }
 
 /* Mobile block form */
-@media (max-width: 820px) {
+@media screen and (max-width: 480px) {
 #orderForm\:pdtoptdt td {
 	display: block;
 }
@@ -506,5 +506,4 @@ display: none;
 }
 .ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content {
 	padding: .5em;
-}
 }
