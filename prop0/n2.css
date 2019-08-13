@@ -510,6 +510,7 @@ display: none;
 .ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content {
 	padding: .5em;
 }
+}
 
 /* Sign In / Sign up Labels */
 #orderForm\:existglbl:before {
