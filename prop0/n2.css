@@ -30,7 +30,7 @@
 .rb-basket-title-pg,
 .rb-checkout-title,
 #orderForm\:existglbl,
-#orderForm\:newguestlb {
+#orderForm\:newguestlbl {
     color: #212121;
     text-transform: uppercase;
     font-weight: 700 !important;
@@ -38,7 +38,7 @@
 }
 
 #orderForm\:existglbl,
-#orderForm\:newguestlb {
+#orderForm\:newguestlbl {
     font-size: 1.4em;
 }
 
