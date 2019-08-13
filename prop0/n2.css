@@ -49,9 +49,12 @@
 .rb-child-cat-title:before,
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
-.rb-checkout-title:before {
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
     color: #fa5f17;
     margin-right: 8px;
+    font-weight: normal;
 }
 
 .rb-basket-title-pg:before {
@@ -506,4 +509,16 @@ display: none;
 }
 .ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content {
 	padding: .5em;
+}
+
+/* Sign In / Sign up Labels */
+#orderForm\:existglbl:before {
+	content: "\f090";
+	margin-right: 10px;
+	font-family: "FontAwesome" !important;
+}
+#orderForm\:newguestlbl:before {
+	content: "\f234";
+	margin-right: 10px;
+	font-family: "FontAwesome" !important;
 }
