@@ -28,11 +28,18 @@
 .rb-prod-title,
 .rb-basket-title,
 .rb-basket-title-pg,
-.rb-checkout-title{
+.rb-checkout-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlb {
     color: #212121;
     text-transform: uppercase;
     font-weight: 700 !important;
     font-family: 'Roboto', sans-serif !important;
+}
+
+#orderForm\:existglbl,
+#orderForm\:newguestlb {
+    font-size: 1.4em;
 }
 
 .rb-prod-title::before, .rb-parent-cat-title::before, .rb-child-cat-title::before {
