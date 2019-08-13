@@ -473,3 +473,8 @@ display: none;
 #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div:nth-child(3) {
 	padding: 20px 10px 10px !important;
 }
+
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: center !important;
+}	
+	
