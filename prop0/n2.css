@@ -85,11 +85,11 @@
     background-color: #fa5f17 !important;
 }
 
-#orderForm\:booknow {
+#orderForm\:booknow, #orderForm\:booknowcond {
     background-color: #375d9d;
     border: 1px solid #375d9d;
 }
-#orderForm\:booknow:hover {
+#orderForm\:booknow:hover, #orderForm\:booknowcond {
     background-color: #2a4777;
     border: 1px solid #2a4777;
 }
@@ -453,7 +453,7 @@ display: none;
 /* Checkout Buttons */
 @media(max-width: 820px) {
 	#orderForm\:sendinq, #orderForm\:booknow,
-	#orderForm\:contshop {
+	#orderForm\:contshop, #orderForm\:booknowcond {
 		width: 100%;
 		position: relative;
 		margin: 5px 5px 0 5px;
