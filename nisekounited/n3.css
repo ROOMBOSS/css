@@ -404,17 +404,3 @@ display: none;
 #base_page\:locform\:languageSelect {
 	padding-top: .5em;
 }
-
-/* Dialogue buttons */
-#guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div:nth-child(3) {
-	padding: 20px 10px 10px !important;
-}
-/* New remove dialogue */
-.ui-dialog .ui-dialog-buttonpane {
-	text-align: center !important;
-}	
-/* Allocation padding */
-[id*="guestsselpg"] {
-	margin-top: 0px !important;
-	padding-top: 0px !important;
-}
