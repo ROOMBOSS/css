@@ -501,9 +501,7 @@ display: none;
 #orderForm\:pdtoptdt .ui-datagrid-column > table {
 	margin: auto;
 }
-.ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content {
-	padding: .5em;
-}
+/* Remove this: .ui-dialog.ui-hidden-container > div.ui-dialog-content.ui-widget-content {padding: .5em;} */
 }
 
 /* Sign In / Sign up Labels */
