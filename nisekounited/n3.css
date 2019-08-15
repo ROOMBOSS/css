@@ -191,7 +191,7 @@ div #locform\:currencySelect{
 /* Category Labels Selected */
 .rb-parent-cat-container .rb-parent-cat-sel label,
 .rb-child-cat-container .rb-child-cat-sel label {
-
+	color: #333333;
 }
 .rb-scroll-top-panel, #orderForm\:j_idt53_content {
     border: none;
