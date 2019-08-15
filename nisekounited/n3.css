@@ -188,9 +188,11 @@ div #locform\:currencySelect{
     font-weight: normal;
 }
 
-/* Category Labels Selected */
+/* Category Labels */
 .rb-parent-cat-container .rb-parent-cat label,
-.rb-child-cat-container .rb-child-cat label {
+.rb-child-cat-container .rb-child-cat label,
+.rb-parent-cat-container .rb-parent-cat-sel label,
+.rb-child-cat-container .rb-child-cat-sel label{
 	color: #333333;
 }
 .rb-scroll-top-panel, #orderForm\:j_idt53_content {
