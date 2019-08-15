@@ -466,15 +466,6 @@ display: none;
 	}
 }
 
-/* For emergencies */
-.rb-guest-for-emergencies > .flex-container >  .flex-item {
-		width: 100% !important;
-		text-align: center !important;
-}
-.rb-guest-for-emergencies > .flex-container >  .flex-item:nth-child(1) {
-	margin-top: 0;
-}
-
 /* Dialogue buttons */
 #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div:nth-child(3) {
 	padding: 20px 10px 10px !important;
