@@ -402,3 +402,11 @@ display: none;
 #base_page\:locform\:languageSelect {
 	padding-top: .5em;
 }
+
+/* Date formatting */
+.ui-inputfield.hasDatepicker {
+	font-family: "Open Sans", sans-serif;
+}
+#orderForm\:addbskpg > tbody > tr:nth-child(2) > td {
+	padding-bottom: 6px;
+}
