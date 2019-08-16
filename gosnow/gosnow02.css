@@ -23,8 +23,8 @@
 .rb-prod-title,
 .rb-basket-title-pg,
 .rb-checkout-title,
-#orderForm\:existglbl:before,
-#orderForm\:newguestlbl:before{
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
   color: #375d9d;
 }
 
