@@ -22,7 +22,9 @@
 .rb-child-cat-title,
 .rb-prod-title,
 .rb-basket-title-pg,
-.rb-checkout-title{
+.rb-checkout-title,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before{
   color: #375d9d;
 }
 
@@ -30,7 +32,9 @@
 .rb-child-cat-title:before,
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
-.rb-checkout-title:before {
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
   color: #72d54a;
 }
 
