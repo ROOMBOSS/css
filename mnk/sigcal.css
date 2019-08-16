@@ -1,4 +1,78 @@
 
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.woff2') format('woff2'),
+        url('CenturyGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Medium.eot');
+    src: url('AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Medium.woff2') format('woff2'),
+        url('AvenirLTStd-Medium.woff') format('woff'),
+        url('AvenirLTStd-Medium.ttf') format('truetype'),
+        url('AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir LT Std';
+    src: url('AvenirLTStd-Heavy.eot');
+    src: url('AvenirLTStd-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('AvenirLTStd-Heavy.woff2') format('woff2'),
+        url('AvenirLTStd-Heavy.woff') format('woff'),
+        url('AvenirLTStd-Heavy.ttf') format('truetype'),
+        url('AvenirLTStd-Heavy.svg#AvenirLTStd-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
+.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled {
+    background: #fff !important;
+    border: none !important;
+}
+
+td.ui-datepicker-other-month.ui-datepicker-unselectable.ui-state-disabled {
+    background: #fff !important;
+    border: none !important;
+}
+
+
+td.ui-datepicker-week-end.rbn-selected {
+    background: -moz-linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(49%, rgba(255,255,255,1)), color-stop(50%, rgba(247,167,0,1)), color-stop(100%, rgba(247,167,0,1)));
+    background: -webkit-linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: -o-linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: -ms-linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#f7a700',GradientType=1 );
+}
+
+td.rbn-checkout-date {
+    background: -moz-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(247,167,0,1)), color-stop(50%, rgba(247,167,0,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: -o-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: -ms-linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    background: linear-gradient(315deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 49%, rgba(247,167,0,1) 50%, rgba(247,167,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7a700', endColorstr='#FFFFFF',GradientType=1 );
+}
+
+
+
+
+
+
 form#form {  text-align:center;width:auto;
 -webkit-overflow-scrolling:touch !important;}
 
