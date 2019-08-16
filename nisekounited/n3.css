@@ -1,38 +1,36 @@
 .rb-header, #base_page\:base_header {
-    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/prop0/niseko-united-logo.png");
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-tr-01.png");
     background-color: #212121;
     background-repeat: no-repeat;
-    background-position: 10px 10px;
-    background-size: 75px;
-    border: none;
+    background-position: 0 center;
+    background-size: 150px;
+   	border: none;
+   	border-top: 0px solid #212121;
     border-bottom: 10px solid #fc5000;
     height:60px;
     padding-bottom: 10px !important;
-}
-#base_page\:base_header {
-    height: 80px;
 }
 
 .rb-header-title, .ui-title {
     position: relative;
     top: 4px;
+    letter-spacing: .02em;
     text-transform: uppercase;
     font-size: 32px !important;
     font-family: 'Roboto', sans-serif !important;
 }
 
-.rb-parent-cat-title,
-.rb-child-cat-title,
-.rb-prod-title,
-.rb-basket-title,
-.rb-basket-title-pg,
-.rb-checkout-title,
-#orderForm\:existglbl,
-#orderForm\:newguestlbl {
-    color: #212121;
-    text-transform: uppercase;
-    font-weight: 700 !important;
-    font-family: 'Roboto', sans-serif !important;
+@media(max-width: 780px) {
+	.rb-header-title, .ui-title {
+		top:92px;
+		font-size: 21px !important;
+		margin: auto !important;
+	}
+    .rb-header, #base_page\:base_header {
+		height:145px;
+		background-size: 140px;
+		background-position: center 25px;
+	}
 }
 
 /* Mobile header */
@@ -112,8 +110,9 @@
     text-align: center !important;
     border-radius: 2px !important;
     background-color: #fa5f17 !important;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
+    text-transform: uppercase;
 }
 div #locform\:languageSelect,
 div #locform\:currencySelect{
