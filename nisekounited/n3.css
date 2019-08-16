@@ -410,3 +410,18 @@ display: none;
 #orderForm\:addbskpg > tbody > tr:nth-child(2) > td {
 	padding-bottom: 6px;
 }
+
+/* Saving style */
+#orderForm\:gross:after {
+	background: #d11111;
+	border-radius: 4px;
+	color: #fff;
+	content: "~7% OFF!";
+	font-size: .75em;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	margin-left: .75em;
+	padding: .1em .45em;
+	position: relative;
+	top: -.1em;
+}
