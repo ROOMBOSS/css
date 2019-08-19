@@ -1,10 +1,7 @@
 @charset "utf-8";
 
 
-#base_page/:bpayForm/:tabview/:pdttble/:0/:rack,
-#base_page/:bpayForm/:tabview/:pdttble/:1/:rack,
-#base_page/:bpayForm/:tabview/:pdttble/:0/:offer,
-#base_page/:bpayForm/:tabview/:pdttble/:1/:offer,
+.rb-avail-cost-column.
 .rb-avail-roomtype-cost{ 
 	display:none; 
 }
