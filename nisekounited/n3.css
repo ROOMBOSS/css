@@ -45,6 +45,21 @@
 	}
 }
 
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title,
+.rb-basket-title-pg,
+.rb-checkout-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
+  color: #212121;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+	
+
 #orderForm\:existglbl,
 #orderForm\:newguestlbl {
     font-size: 1.4em;
