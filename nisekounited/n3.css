@@ -27,9 +27,9 @@
 		margin: auto !important;
 	}
     .rb-header, #base_page\:base_header {
-		height:145px;
-		background-size: 140px;
-		background-position: center 25px;
+		height:145px !important;
+		background-size: 140px !important;
+		background-position: center 25px !important;
 	}
 }
 
