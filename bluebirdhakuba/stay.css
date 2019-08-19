@@ -15,6 +15,14 @@ body,
 	padding: 30px 0;
 }
 
+.rb-header-title {
+  background: white url('https://thehakubacollection.com/assets/img/logo-stay.jpg') no-repeat center;
+  background-size: 270px;
+  border: none;
+  height: 72px;
+	padding: 30px 0;
+}
+
 .ui-header.ui-bar-inherit h1.ui-title {
   display: none;
 }
