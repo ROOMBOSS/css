@@ -10,6 +10,9 @@
 	content:"Please make an enquiry for the dates you are interested in and we will get back to you to confirm prices."; 
 }
 
+.ui-content.rb-content:before{ 
+	content:"Please make an enquiry for the dates you are interested in and we will get back to you to confirm prices."; 
+}
 
 /*
  * RoomBoss用のCSSファイル
