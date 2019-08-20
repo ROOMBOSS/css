@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-
+.ui-column-title,
 .rb-avail-cost-column,
 .rb-avail-roomtype-cost{ 
 	display:none; 
