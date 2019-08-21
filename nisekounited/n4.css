@@ -439,3 +439,8 @@ display: none;
 	position: relative;
 	top: -2px;
 }
+
+.rb-cond-bp-dialog {
+	max-width: 500px !important;
+	max-height: 600px !important;
+}
