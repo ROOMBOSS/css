@@ -3,7 +3,9 @@
 .ui-column-title,
 .rb-avail-cost-column,
 .rb-avail-roomtype-cost,
-.rb-avail-cost-column{ 
+.rb-avail-cost-column,
+.rbn-price-rack,
+.rbn-price-offer{ 
 	display:none; 
 }
 
