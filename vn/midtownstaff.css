@@ -5,7 +5,8 @@
 .rb-avail-roomtype-cost,
 .rb-avail-cost-column,
 .rbn-price-rack,
-.rbn-price-offer{ 
+.rbn-price-offer,
+.rbn-booknpay-button.ui-btn.ui-btn-inline.ui-shadow.ui-corner-all{ 
 	display:none; 
 }
 
