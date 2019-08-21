@@ -2,16 +2,17 @@
 
 .ui-column-title,
 .rb-avail-cost-column,
-.rb-avail-roomtype-cost{ 
+.rb-avail-roomtype-cost,
+rb-avail-cost-column{ 
 	display:none; 
 }
 
 
-.ui-content.rb-content:before{ 
+/*.ui-content.rb-content:before{ 
 	content:"Please make an enquiry for your dates of interest and we will get back to you to confirm prices."; 
 	text-align:center !important;
 	color: red;
-}
+}*/
 
 /*
  * RoomBoss用のCSSファイル
