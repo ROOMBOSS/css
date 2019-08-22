@@ -401,15 +401,19 @@ padding: 1px;
 }
 
 /* Remove Dietary / Medical */
-.rb-new-guest-form > div:nth-child(12),
-#guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div:nth-child(13) {
-    margin-top: 0 !important;
-}
-div.rb-guest-for-emergencies > div:nth-child(2),
-div.rb-guest-for-emergencies > div:nth-child(3),
+div.rb-guest-for-emergencies,
+div.rb-guest-for-emergencies,
 #orderForm\:dietarynew, #guestDialogForm\:dietaryedit,
 #orderForm\:medicalnew, #guestDialogForm\:medicaledit {
 display: none;
+}
+#guestDialogForm\:newguestdlg>div:nth-child(2)>div:nth-child(1),
+#guestDialogForm\:editguestdlg>div:nth-child(2)>div:nth-child(1) {
+    padding-bottom: 0;
+}
+/* Hide Title Field */
+.rb-guest-basic-information > .flex-container:nth-child(1) {
+	display: none;
 }
 
 /* YourBooking Lang */
