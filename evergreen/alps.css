@@ -1,0 +1,106 @@
+/*css for http://www.ayanisekovillas.com/ using widget http://ayavillasniseko.bookfast.jp/cw/gen/ins/bpay1.jsf?vid=2c98902a561eaf1c0156453743653141*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+* {
+  text-shadow: none !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  border: 1px solid #666 !important;
+  border-bottom: none !important;
+  background: #777 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-shadow:none !important;
+}
+
+.ui-body-inherit {
+  text-shadow: none !important;
+  background: #777
+}
+
+div.ui-collapsible-heading > a {
+  color: #fff !important;
+  background: #777 !important;
+  text-shadow: none !important;
+}
+
+.ui-btn {
+  border: 1px solid #666 !important;
+  background: #898888 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-shadow: none !important;
+}
+
+#base_page\3a locform\3a currencySelect .ui-btn, #base_page\3a locform\3a languageSelect .ui-btn {
+  border: 1px solid #fff !important;
+}
+
+.ui-btn:not(.ui-datepicker-next):not( .ui-datepicker-prev) {
+  border-radius: 0 !important;
+}
+
+.ui-content {
+  background: #898888 !important;
+}
+
+.ui-header.ui-bar-inherit{
+  background: url('https://www.thealpsview-hakuba.com/wp-content/uploads/TAV-Header-1.jpg') no-repeat center, url('https://dabb7zy6p4b0z.cloudfront.net/wow/TAV-Logo-White.png') no-repeat center;
+  height:100px;
+  border:none;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title, #base_page\3a bpayForm\3a tabview\3a quickbookingtable_head{
+  display:none !important;
+}
+
+h1, h2, h3, h4, h5, .ui-column-title {
+  text-transform: uppercase !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400 !important;
+}
+
+.ui-column-title {
+  font-weight: 500 !important;
+}
+
+#base_page\3a datesPanel > div > div > h4 > span {
+  color: #fff !important;
+}
+
+.rb-avail-roomtype {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+  box-shadow: none !important;
+}
+
+.ui-state-default.ui-btn, .ui-datepicker-next, .ui-datepicker-prev {
+  border: 1px solid #c5c5c5  !important;
+  background: #f6f6f6 !important;
+  color: #454545 !important;
+  text-shadow: none !important;
+}
+
+.ui-page-theme-a, th .ui-bar-a {
+  color: #333333 !important;
+}
+
+.ui-state-active.ui-btn {
+  background: #fffa90 !important;
+}
+
+.ui-state-hover.ui-btn {
+  background: #ededed !important;
+}
+
+.ui-state-hover.ui-btn, .ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+  transition: ease-in-out 0.3s !important;
+}
+
+.ui-page {
+	background-color: #898888 !important;
+}
