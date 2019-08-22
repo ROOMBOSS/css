@@ -8,7 +8,7 @@
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
   border: 1px solid #666 !important;
   border-bottom: none !important;
-  background: #675bdf !important;
+  background: #777 !important;
   color: #ffffff !important;
   font-weight: bold !important;
   text-shadow:none !important;
@@ -28,7 +28,7 @@ div.ui-collapsible-heading > a {
 .ui-btn {
   border: 1px solid #666 !important;
   background: #898888 !important;
-  color: #ffffff !important;
+  color: #675bdf !important;
   font-weight: bold !important;
   text-shadow: none !important;
 }
