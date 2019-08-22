@@ -27,8 +27,8 @@ div.ui-collapsible-heading > a {
 
 .ui-btn {
   border: 1px solid #666 !important;
-  background: #898888 !important;
-  color: #675bdf !important;
+  background: #675bdf !important;
+  color: #fff !important;
   font-weight: bold !important;
   text-shadow: none !important;
 }
