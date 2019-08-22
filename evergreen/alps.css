@@ -80,8 +80,7 @@ h1, h2, h3, h4, h5, .ui-column-title {
 
 .ui-state-default.ui-btn, .ui-datepicker-next, .ui-datepicker-prev {
   border: 1px solid #c5c5c5  !important;
- /* background: #f6f6f6 !important;*/
-	background: #675bdf !important;
+ background: #f6f6f6 !important;	
   color: #454545 !important;
   text-shadow: none !important;
 }
@@ -103,5 +102,6 @@ h1, h2, h3, h4, h5, .ui-column-title {
 }
 
 .ui-page {
-	background-color: #898888 !important;
+	background: url('https://dabb7zy6p4b0z.cloudfront.net/evergreen/TAV-The-View.jpg') repeat center !important;	
+	/*background-color: #898888 !important;*/
 }
