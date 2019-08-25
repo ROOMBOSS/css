@@ -296,7 +296,7 @@ div #locform\:currencySelect{
 }
 
 .flex-item.rb-parent-cat-item {
-    padding: 32px !important;
+    padding: 32px 32px 80px !important;
 }
 
 .rb-parent-cat-sel.rb-parent-cat-item label,
@@ -373,7 +373,7 @@ padding: 1px;
 /* description height */
 .rb-parent-cat-container {
     padding-top: 0;
-    padding-bottom: 4em !important;
+    padding-bottom: 3em !important;
 }
 .rb-child-cat-container {
     padding-top: 12px;
@@ -448,3 +448,31 @@ display: none;
 	max-width: 500px !important;
 	max-height: 600px !important;
 }
+
+/* Dates */
+.rb-parent-cat-item:after {
+	display: block;
+	margin-top: .2em;
+	font-size: 0.9em;
+	color: #777;
+	text-transform: uppercase;
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(1):after {
+	content: "(Dec 11 – Mar 22)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(1):after {
+	content: "（12月11日～3月22日）";
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(2):after {
+	content: "(Mar 23 – Apr 5)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(2):after {
+	content: "（3月23日～4月5日）";
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(3):after {
+	content: "(Apr 6 – May 6)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(3):after {
+	content: "（4月6日～5月6日）";
+}
+
