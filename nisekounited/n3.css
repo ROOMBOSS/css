@@ -476,3 +476,25 @@ display: none;
 	content: "（4月6日～5月6日）";
 }
 
+/* In resort only */
+#orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	background: #333333ba;
+	border-radius: 1em;
+	color: #ffffff;
+	display: block;
+	font-weight:700;
+	letter-spacing: 0.025em;
+	margin: -1.3em auto 0 auto;
+	max-width: 175px;
+	position: relative;
+	text-transform: uppercase;
+	transform:rotate(-10deg);
+	top: 87px;
+	box-shadow: 3px 2px 2px rgb(0,0,0,.1);	
+}
+html[lang*="en"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
+	content: "In-Resort Only";
+}
+html[lang*="ja"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
+	content: "In-Resort Only";
+}
