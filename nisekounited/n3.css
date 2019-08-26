@@ -488,9 +488,12 @@ display: none;
 	max-width: 175px;
 	position: relative;
 	text-transform: uppercase;
-	transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	    -ms-transform:rotate(-10deg);
+	        transform:rotate(-10deg);
 	top: 87px;
-	box-shadow: 3px 2px 2px rgb(0,0,0,.1);	
+	-webkit-box-shadow: 3px 2px 2px rgb(0,0,0,.1);
+	        box-shadow: 3px 2px 2px rgb(0,0,0,.1);	
 }
 html[lang*="en"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
 	content: "In-Resort Only";
