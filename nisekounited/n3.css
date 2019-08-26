@@ -478,6 +478,7 @@ display: none;
 
 /* In resort only */
 #orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	background: #333333;
 	background: #333333ba;
 	border-radius: 1em;
 	color: #ffffff;
