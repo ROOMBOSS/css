@@ -487,6 +487,22 @@ html[lang*="ja"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:
 	content: "（4月6日～5月6日）";
 }
 
+/* Card Fee */
+/* Reg en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg:after,
+/* Spring en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg:after,
+/* Final en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
+/* Hourly en */ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
+	content: "(Price includes 500 yen new card fee.)";
+	display: block;
+}
+/* Reg ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg:after,
+/* Spring ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg:after,
+/* Final ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
+/* Hourly ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
+	content: "（専用キーカード代500円込）";
+	display: block;
+}
+
 /* In resort only */
 #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 	background: #333333;
