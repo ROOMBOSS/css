@@ -1,1 +1,111 @@
+/* Remove Header */
+.ui-title {
+    display: none !important;
+}
 
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+    display: none;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/teine/teine-logo.svg"), url("https://sapporo-teine.com/snow/lang/assets/images/common/bg-pattern-blue.png");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: 300px auto;
+    background-color: #1e3250 !important;
+    border-color: #fff;
+    height:150px;
+}
+@media(max-width: 480px) {
+    .ui-header.ui-bar-inherit {
+        background-size: 250px auto;
+        height: 200px;
+    }
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+    box-shadow: inset 0 0 4px #aaa !important;
+}
+
+/* Lang & Currency */
+
+/* Language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+    margin-top: 1em;
+}
+
+/* Panels */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+    padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+    background-color: #1e3250;
+    color: #fff;
+    border: #717071;
+    text-shadow: none;
+}
+
+/* Icons */
+
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #3c86be;
+}
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+    border: none !important;
+    text-shadow: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+    background-color: transparent !important;
+}
+
+/* Buttons */
+
+button[id*="addItemsLink"] {
+    background-color: #1e3250 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+button[id*="addItemsLink"]:hover {
+    background-color: #384c6b !important;
+}
+/* Inquiry */
+button[id*="saveorderbutt"]{
+    background-color: #3c86be !important;
+    color: #fff !important;
+    text-shadow: none !important;
+}
+button[id*="saveorderbutt"]:hover{
+    background-color: #59a2da !important;
+}
+
+/* Remove item Button */
+.remove-item-control {
+    color: #888;
+    margin-top: 0.25em !important;
+    width: 100% !important;
+}
+.remove-item-control.ui-btn-inline:after {
+    background-color: #888;
+}
+
+/* Hide Quantity */
+.rbn-quantity {
+    display: none;
+}
+
+/* Remove Ref */
+#base_page\:neworderform\:customIdTable_data {
+    display: none;
+}
