@@ -373,7 +373,7 @@ padding: 1px;
 /* description height */
 .rb-parent-cat-container {
     padding-top: 0;
-    padding-bottom: 1em !important;
+    padding-bottom: 2em !important;
 }
 .rb-child-cat-container {
     padding-top: 12px;
@@ -431,18 +431,28 @@ display: none;
 
 /* Saving style */
 #orderForm\:gross:after {
-	background: #d11111;
-	border-radius: 4px;
-	color: #fff;
-	content: "~7% OFF!";
-	display: inline-block;
-	font-size: .75em;
-	font-weight: bold;
-	letter-spacing: 0.03em;
-	margin-left: .75em;
-	padding: .1em .45em;
-	position: relative;
-	top: -2px;
+    background: #d11111;
+    border-radius: 4px;
+    color: #fff;
+    content: "~7% OFF!";
+    display: inline-block;
+    font-size: .75em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    margin-left: .75em;
+    padding: .1em .45em .2em;
+    position: relative;
+    top: -2px;
+}
+/* Online shop only */
+.rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+  background: #006634;
+}
+html[lang*="en"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+  content: "ONLINE SHOP ONLY";
+}
+html[lang*="ja"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+  content: "オンラインショップ限定";
 }
 
 .rb-cond-bp-dialog {
