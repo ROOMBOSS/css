@@ -19,10 +19,10 @@
     height:150px;
 }
 @media(max-width: 480px) {
-    .ui-header.ui-bar-inherit {
-        background-size: 250px auto;
-        height: 200px;
-    }
+	.ui-header.ui-bar-inherit {
+		background-size: 250px auto;
+		height: 200px;
+	}
 }
 
 /* Input highlights */
@@ -73,18 +73,20 @@
 /* Buttons */
 
 button[id*="addItemsLink"] {
-    background-color: #1e3250 !important;
+    background-color: #8C783C !important;
     color: #fff !important;
     text-shadow: none !important;
+    transition: ease-in-out .1s;
 }
 button[id*="addItemsLink"]:hover {
-    background-color: #384c6b !important;
+    background-color: #b3994b !important;
 }
 /* Inquiry */
 button[id*="saveorderbutt"]{
     background-color: #3c86be !important;
     color: #fff !important;
     text-shadow: none !important;
+    transition: ease-in-out .1s;
 }
 button[id*="saveorderbutt"]:hover{
     background-color: #59a2da !important;
@@ -107,5 +109,5 @@ button[id*="saveorderbutt"]:hover{
 
 /* Remove Ref */
 #base_page\:neworderform\:customIdTable_data {
-    display: none;
+	display: none;
 }
