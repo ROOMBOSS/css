@@ -73,23 +73,23 @@
 /* Buttons */
 
 button[id*="addItemsLink"] {
-    background-color: #8C783C !important;
-    color: #fff !important;
-    text-shadow: none !important;
-    transition: ease-in-out .1s;
-}
-button[id*="addItemsLink"]:hover {
-    background-color: #b3994b !important;
-}
-/* Inquiry */
-button[id*="saveorderbutt"]{
     background-color: #3c86be !important;
     color: #fff !important;
     text-shadow: none !important;
     transition: ease-in-out .1s;
 }
+button[id*="addItemsLink"]:hover {
+ 	background-color: #59a2da !important;   
+}
+/* Inquiry */
+button[id*="saveorderbutt"]{
+    background-color: #8C783C !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    transition: ease-in-out .1s;
+}
 button[id*="saveorderbutt"]:hover{
-    background-color: #59a2da !important;
+	background-color: #b3994b !important;
 }
 
 /* Remove item Button */
@@ -108,6 +108,7 @@ button[id*="saveorderbutt"]:hover{
 }
 
 /* Remove Ref */
-#base_page\:neworderform\:customIdTable_data {
+#base_page\:neworderform\:customIdTable_data,
+#base_page\:neworderform\:customIdTable {
 	display: none;
 }
