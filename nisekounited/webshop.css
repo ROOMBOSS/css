@@ -20,6 +20,11 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+/* Mobile viewport */
+.ui-mobile-viewport > .rb-page > #base_page\:base_header {
+	height: 80px;
+}
+
 @media(max-width: 780px) {
 	.rb-header-title, .ui-title {
 		top:92px;
