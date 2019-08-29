@@ -1,6 +1,6 @@
 .rb-header, #base_page\:base_header {
     background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-tr-01.png");
-    background-color: #212121;
+    background-color: #212121 !important;
     background-repeat: no-repeat;
     background-position: 0 center;
     background-size: 150px;
@@ -427,6 +427,11 @@ display: none;
 }
 #orderForm\:addbskpg > tbody > tr:nth-child(2) > td {
 	padding-bottom: 6px;
+}
+
+/* Hide border booking button */
+.ui-btn-right .ui-state-default {
+	border: none !important;
 }
 
 /* Saving style */
