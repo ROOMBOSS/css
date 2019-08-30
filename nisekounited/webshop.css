@@ -574,11 +574,20 @@ html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-t
 	content: "利用開始予定日";
 }
 /* Mobile Custom Order Start Date*/
+@media (max-width: 35em) {
 [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered > b {
 	display: none;
 }
-@media (max-width: 35em) {
-	[id*="base_page\:tabview\:orderItemTable"] [id*=checkindate] {
-		font-weight: bold;
-	}
+[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	content: "Estimated Start Date";
+	font-weight: bold;
+	padding: .4em;
+    min-width: 30%;
+    max-width: 30%;
+    display: inline-block;
+    margin: -.4em 1em -.4em -.4em;
+}
+html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	content: "利用開始予定日";
+}
 }
