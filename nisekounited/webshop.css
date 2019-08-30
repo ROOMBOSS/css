@@ -439,8 +439,8 @@ display: none;
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(5),
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(8),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(8),
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(12),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(12) {
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(14),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(14) {
 	display: none;
 }
 
