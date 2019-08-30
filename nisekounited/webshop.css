@@ -582,3 +582,13 @@ html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:b
 	content: "利用開始予定日";
 }
 }
+
+/* Focus Select Group */
+.rb-guest-sel-item > div {
+	border: 2px solid #ffa276 !important;
+	padding-left: .2em;
+	margin-left: -.2em;
+}
+span.rb-guest-sel-item {
+	display: none;
+}
