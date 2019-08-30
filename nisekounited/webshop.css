@@ -122,15 +122,6 @@
     background-color: #fa5f17 !important;
 }
 
-#orderForm\:booknow, #orderForm\:booknowcond {
-    background-color: #375d9d;
-    border: 1px solid #375d9d;
-}
-#orderForm\:booknow:hover, #orderForm\:booknowcond {
-    background-color: #2a4777;
-    border: 1px solid #2a4777;
-}
-
 /* Lang and currency */
 #locform\:currencySelect_label,
 #locform\:languageSelect_label {
@@ -401,7 +392,7 @@ padding: 1px;
 }
 
 .rb-order-nav label, .rb-order-nav input,
-#orderForm\:usermessage, #orderForm\:sendinq {
+#orderForm\:usermessage, #orderForm\:sendinq, #orderForm\:sendinqcond {
     display: none;
 }
 
