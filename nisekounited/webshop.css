@@ -562,3 +562,23 @@ html[lang*="en"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 html[lang*="ja"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
 	content: "スキー場のみで販売";
 }
+
+/* Desktop Custom Order Start Date */
+[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2) .ui-column-title:nth-child(1) {
+	display: none;
+}
+[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "Estimated Start Date";
+}
+html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "利用開始予定日";
+}
+/* Mobile Custom Order Start Date*/
+[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered > b {
+	display: none;
+}
+@media (max-width: 35em) {
+	[id*="base_page\:tabview\:orderItemTable"] [id*=checkindate] {
+		font-weight: bold;
+	}
+}
