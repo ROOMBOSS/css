@@ -585,10 +585,16 @@ html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:b
 
 /* Focus Select Group */
 .rb-guest-sel-item > div {
-	border: 2px solid #ffa276 !important;
+	border: 3px solid #fa5f17 !important;
 	padding-left: .2em;
 	margin-left: -.2em;
 }
 span.rb-guest-sel-item {
 	display: none;
+}
+
+/* Make add group member more visible */
+#orderForm\:guestsdt\:0\:newguestbut {
+	font-weight: bold;
+	color: #fa5f17;
 }
