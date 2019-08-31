@@ -602,3 +602,28 @@ span.rb-guest-sel-item {
 	text-decoration: none;
 	border-radius: .6em;
 }
+
+/* --- Your Booking --- */
+
+/* Hide YourBooking form #base_page\:gform {display: none;} */
+
+/* Hide email */
+#base_page\:postab\:posemail,
+#base_page\:postab_data > tr > td:nth-child(2) {
+	display: none;
+}
+
+#base_page\:locform\:languageSelect_input-button,
+.ui-btn[id*="squarePay"] {
+	background-color: #fa5f17;
+	color: #ffffff !important;
+	text-shadow: none !important;
+	border: none !important;
+}
+#base_page\:locform\:languageSelect_input-button:hover,
+.ui-btn[id*="squarePay"]:hover {
+	background-color: #fc5000;
+}
+.ui-btn-icon-left:after {
+	background-color: #fa5f17;
+}
