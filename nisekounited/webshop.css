@@ -602,6 +602,9 @@ span.rb-guest-sel-item {
 	text-decoration: none;
 	border-radius: 4px;
 }
+#orderForm\:guestsdt\:0\:newguestbut:hover {
+	background-color: #fc5000;
+}
 
 /* --- Your Booking --- */
 
