@@ -636,3 +636,9 @@ span.rb-guest-sel-item {
 	font-weight: bold;
 	font-size: large;
 }
+
+#base_page\:txtab\:0\:f1\:toPDF {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+}
