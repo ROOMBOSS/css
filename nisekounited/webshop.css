@@ -630,3 +630,9 @@ span.rb-guest-sel-item {
 .ui-btn-icon-left:after {
 	background-color: #fa5f17;
 }
+
+/* Make payment received text more visible */
+#base_page\:txtab\:0\:receivedMessageText {
+	font-weight: bold;
+	font-size: large;
+}
