@@ -1,1 +1,297 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.rbn-tab-img {
+  padding-right: .5em; }
+
+/* .ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn, */
+/*.ui-panel-m-titlebar.ui-bar.ui-bar-inherit, .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 { text-transform: uppercase !important; font-weight: 400 !important;}*/
+/* Extra color */
+#base_page\:vform .table-stripe tbody tr:nth-child(even) td {
+  background-color: #ebebf1;
+  text-shadow: none !important; }
+
+#base_page\:vform\:rqpnl .ui-panel-m-titlebar {
+  background-color: #2f2f2f !important;
+  color: white !important; }
+
+#base_page\:vform .table-stripe tbody tr:nth-child(even) .vendor-icons td {
+  border: 1px solid #ebebf1;
+  background-color: rgba(0, 0, 0, 0.04); }
+
+/*.ui-btn:after {
+  background-color: #1a4d1e;
+}*/
+/* Import font */
+body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  font-family: "Open Sans", sans-serif;
+  background: #242424;
+  text-shadow: none;
+  color: #fff;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms; }
+  body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
+    background: #0b0b0b; }
+
+/* Header bar */
+.ui-header.ui-bar-inherit {
+  background: url(https://thehakubacompany.com/assets/svg/thc-logo.svg) no-repeat center center, url(https://d2h1xbz8eihjpp.cloudfront.net/hero/_1500x600_crop_center-center_85/IMG5545HACHI-Header-Hero.jpg) no-repeat center center;
+  background-size: 140px, cover, cover;
+  border: none;
+  height: 180px; }
+
+@media (max-width: 600px) {
+  .ui-header.ui-bar-inherit {
+    height: 205px;
+    background-position: center 75%; } }
+/* Hide Default Header */
+.ui-header.ui-bar-inherit h1.ui-title {
+  display: none; }
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus {
+  -webkit-box-shadow: inset 0 0 4px #aaa !important;
+  box-shadow: inset 0 0 4px #aaa !important; }
+
+/* Non-Accordion Panels */
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background: #242424;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: none; }
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+  color: #5c5a5a !important; }
+
+/* Request Panel */
+[id*="requestPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #e0e0e0 !important;
+  color: #5c5a5a !important; }
+
+/* Icon and header colors */
+.rb-avail-roomtype, .ui-column-title, .fa-user:before, .fa-bed:before, .fa-bath:before, #base_page\:vform\:customertable .ui-grid-a {
+  color: #292828 !important; }
+
+.fa:before {
+  font-weight: 400; }
+
+.rbn-datecontrol-button, select, .ui-btn {
+  font-family: "Open Sans", sans-serif; }
+  .rbn-datecontrol-button:before, select:before, .ui-btn:before {
+    font-family: "FontAwesome"; }
+
+/* Date control padding */
+.ui-grid-c {
+  padding: 0 4px !important; }
+  .ui-grid-c .ui-block-a, .ui-grid-c .ui-block-b, .ui-grid-c .ui-block-c, .ui-grid-c .ui-block-d {
+    padding: 4px 4px; }
+
+/* Customer form padding */
+#base_page\:vform\:requestPanel > div > .ui-block-a > div > div.ui-panel-m-content {
+  padding: 0; }
+
+#base_page\:vform\:requestPanel div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+  margin-top: .5em; }
+
+/* About you form padding */
+#base_page\:vform\:customertable .ui-block-a {
+  padding: .5em .5em .5em 1em; }
+  @media (max-width: 560px) {
+    #base_page\:vform\:customertable .ui-block-a {
+      padding: .5em 1em; } }
+#base_page\:vform\:customertable .ui-block-b {
+  padding: .5em 1em .5em .5em; }
+  @media (max-width: 560px) {
+    #base_page\:vform\:customertable .ui-block-b {
+      padding: .5em 1em; } }
+
+/* Enquiry button colour */
+.rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:back,
+#base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
+  background-color: #242424 !important;
+  font-family: "Open Sans", sans-serif !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid #ffffff !important;
+  text-transform: none;
+  font-weight: 700;
+  text-shadow: none !important; }
+  .rbn-sendenquiry-button:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover, #base_page\:back:hover,
+  #base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover {
+    background-color: #313131 !important; }
+
+/* Book and Pay button colour */
+#base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
+.ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, .map-button {
+  background-color: #BF9F5F !important;
+  font-family: "Open Sans", sans-serif !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid #ffffff !important;
+  text-transform: none;
+  font-weight: 700;
+  text-shadow: none !important; }
+  #base_page\:vform\:reservationConditionButt:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:vform\:booknpay:hover,
+  .ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, .map-button:hover {
+    background-color: #c6aa71 !important; }
+
+button.ui-btn, #base_page\:locform\:currencySelect_input-button,
+#base_page\:locform\:languageSelect_input-button {
+  text-shadow: none !important;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms; }
+
+#base_page\:locform\:currencySelect > .ui-select,
+#base_page\:locform\:languageSelect > .ui-select {
+  margin: 1em 0.175em; }
+
+#base_page\:locform > .ui-btn-right {
+  right: -.2em !important; }
+
+/* Vendor padding */
+.ui-grid.ui-grid-responsive.rbn-vendor-box {
+  padding: 0.5em !important; }
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  padding: 0.5em !important;
+  outline: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important; }
+
+[id*="date-select-pan"] > div > div > .ui-block-a {
+  padding-right: .5em; }
+
+[id*="date-select-pan"] > div > div > .ui-block-c {
+  padding-left: .5em; }
+
+/* Select Dates Mobile */
+@media (max-width: 400px) {
+  [id*="date-select-pan"] > div > div > .ui-block-a {
+    padding: 0.25em;
+    width: 100%; }
+
+  [id*="date-select-pan"] > div > div > .ui-block-b {
+    padding: .25em;
+    width: 60%; }
+
+  [id*="date-select-pan"] > div > div > .ui-block-c {
+    padding: .25em;
+    width: 40%; } }
+.ui-page-theme-a {
+  background-color: #f9f9f9; }
+
+#base_page\:vform\:avgridpan > div > div > .ui-grid-c .ui-btn-icon-left {
+  padding-left: 1em; }
+  #base_page\:vform\:avgridpan > div > div > .ui-grid-c .ui-btn-icon-left:after {
+    display: none; }
+
+#base_page\:vform\:quickbookingtable_data > tr > td > div > div:nth-child(3) > table > tbody > tr > td {
+  clear: none;
+  display: table-cell;
+  width: auto; }
+
+/* Paginator */
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active {
+  background-color: #5c5a5a;
+  border-color: #4f4d4d; }
+
+/* Gallery */
+[id*="gallery"] {
+  width: 100% !important;
+  max-width: 1100px;
+  height: auto !important; }
+
+[id*="fadeEffectImages"] {
+  width: calc(100vw - 34px) !important;
+  max-width: 100% !important;
+  max-height: 800px !important;
+  height: auto !important; }
+
+/* L */
+@media (min-width: 1100px) {
+  [id*="gallery"] {
+    height: 490px !important;
+    max-height: 490px !important;
+    min-height: 490px !important; } }
+/* M */
+@media (min-width: 641px) {
+  [id*="gallery"] {
+    width: 100% !important;
+    min-height: 43vw;
+    height: auto !important; } }
+/* S */
+@media (max-width: 640px) {
+  [id*="gallery"] {
+    width: 100% !important;
+    min-height: 42vw;
+    height: auto !important; } }
+.rb-page > .rb-content > div > div:nth-child(2) > .ui-collapsible-content {
+  background-color: #f9f9f9; }
+
+/* Vendor Image */
+.rbn-vendor-grid-img {
+  height: 100%;
+  width: 100%; }
+
+@media (min-width: 641px) {
+  .rbn-vendor-grid-img-col {
+    padding-right: 1em; } }
+/* Cost */
+@media (min-width: 561px) {
+  td.right {
+    float: none;
+    text-align: right; } }
+.ui-column-header.right {
+  border-bottom: none; }
+
+.ui-collapsible-heading-toggle,
+.rbn-toggle > div.ui-panel-m-titlebar,
+.rbn-notoggle > div.ui-panel-m-titlebar {
+  border-color: #333 !important; }
+
+[id*="requestPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #242424 !important;
+  color: #fff !important; }
+
+.ui-btn-icon-right:not(#base_page\:locform\:languageSelect_input-button):not(#base_page\:locform\:currencySelect_input-button):after {
+  background-color: #BF9F5F; }
+
+/* Browse dates */
+#base_page\:vform\:avgridpan\:backDay,
+#base_page\:vform\:avgridpan\:backWeek,
+#base_page\:vform\:avgridpan\:forwardWeek,
+#base_page\:vform\:avgridpan\:forwardDay {
+  background-color: #bf9f5f;
+  color: #fff;
+  font-weight: 700; }
+
+.ui-accordion div.ui-collapsible-content.ui-body-inherit {
+  border: none; }
+
+.rbn-footer, .rb-footer {
+  display: none; }
+
+button.fa-file-excel-o {
+  padding-left: 1em; }
+
+button.fa-file-excel-o:after {
+  display: none; }
+
+/* Disabled searchform */
+#base_page\:resultsform\:sortPanelGrid .ui-state-disabled {
+  background-color: #dddddd;
+  color: #aaaaaa; }
+
+.ui-checkbox-on:after {
+  background-color: #bf9f5f !important; }
+
+.ui-panel-m .ui-panel-m-titlebar {
+  border: 1px solid #333; }
+
+/* v-form MA */
+#base_page\:resultsform\:vform\:requestPanel .rbn-margin-top {
+  border-radius: 5px;
+  background-color: #f9f9f9 !important; }
+
+.ui-content .rb-content {
+  background-color: #f9f9f9; }
 
