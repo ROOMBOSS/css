@@ -614,6 +614,9 @@ span.rb-guest-sel-item {
 #orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
 	width: calc(100vw - 5em);
 	}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-child(2) {
+	display: none;
+}
 }
 
 /* --- Your Booking --- */
