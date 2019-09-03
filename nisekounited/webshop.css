@@ -593,7 +593,7 @@ span.rb-guest-sel-item {
 }
 
 /* Make add group member more visible */
-#orderForm\:guestsdt\:0\:newguestbut {
+.ui-datatable-summaryrow [id*=newguestbut] {
 	font-weight: bold;
 	font-family: "Open Sans", sans-serif;
 	color: #FFFFFF;
