@@ -619,6 +619,10 @@ span.rb-guest-sel-item {
 }
 }
 
+#orderForm\:itemdtchkout > .ui-datatable-tablewrapper {
+	overflow: hidden;
+}
+
 /* Product Page */
 /* Non-events - Remove DD*/
 #orderForm\:pdtoptdt\:1\:cbval,
