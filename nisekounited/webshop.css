@@ -619,6 +619,34 @@ span.rb-guest-sel-item {
 }
 }
 
+/* Product Page */
+/* Non-events - Remove DD*/
+#orderForm\:pdtoptdt\:1\:cbval,
+#orderForm\:pdtoptdt\:2\:cbval,
+#orderForm\:pdtoptdt\:3\:cbval {
+	padding: 0 !important;
+	border: 0 !important;
+	line-height: .8em;
+	pointer-events: none !important;
+}
+@media screen and (max-width: 480px) {
+	#orderForm\:pdtoptdt\:1\:cbval,
+	#orderForm\:pdtoptdt\:2\:cbval,
+	#orderForm\:pdtoptdt\:3\:cbval {
+		line-height: normal !important;
+	}
+}
+#orderForm\:pdtoptdt\:1\:cbval_label,
+#orderForm\:pdtoptdt\:2\:cbval_label,
+#orderForm\:pdtoptdt\:3\:cbval_label {
+	padding: 0 !important;
+}
+#orderForm\:pdtoptdt\:1\:cbval > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#orderForm\:pdtoptdt\:2\:cbval > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#orderForm\:pdtoptdt\:3\:cbval > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+	display: none !important;
+}
+
 /* --- Your Booking --- */
 
 /* Hide YourBooking form #base_page\:gform {display: none;} */
