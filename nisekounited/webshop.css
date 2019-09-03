@@ -597,13 +597,23 @@ span.rb-guest-sel-item {
 	font-weight: bold;
 	font-family: "Open Sans", sans-serif;
 	color: #FFFFFF;
-	padding: .6em 1em;
-	background-color: #fa5f17;
 	text-decoration: none;
-	border-radius: 4px;
 }
-#orderForm\:guestsdt\:0\:newguestbut:hover {
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	padding: .3em 1em;
+	background-color: #fa5f17;
+	border-radius: 4px;
+	display: block;
+	width: 210px;
+	margin: .5em auto;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1):hover {
 	background-color: #fc5000;
+}
+@media(max-width: 820px)  {
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	width: calc(100vw - 5em);
+	}
 }
 
 /* --- Your Booking --- */
