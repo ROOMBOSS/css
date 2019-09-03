@@ -6,7 +6,7 @@
     background-size: 150px;
    	border: none;
    	border-top: 0px solid #212121;
-    border-bottom: 10px solid #fc5000;
+    border-bottom: 10px solid #faf517;
     height:60px;
     padding-bottom: 10px !important;
 }
@@ -707,4 +707,35 @@ span.rb-guest-sel-item {
 #base_page\:txtab_head > tr > th:nth-child(6),
 #base_page\:txtab_data > tr > td:nth-child(6) {
 	display: none;
+}
+
+/* Support Header */
+.rb-body-content:before {
+	content: "Need assistance? • Online Support: +81 136-55-6068 • Open Mon–Fri, 9am–6pm (JST)";
+	display: block;
+	background: none;
+	border-top: 0px solid #fa5f17;
+	color: #999999;
+	font-size: 10px;
+	font-weight: normal;
+	padding: .5em;
+	text-transform: none;
+	text-align: center;
+	position: relative;
+	width: -moz-available;
+	width: -webkit-fill-available;
+	width: stretch;
+}
+html[lang=ja] .rb-body-content:before {
+	content: "何かお困りですか？ オンラインサポート連絡先 0136-55-6068（月～金、9:00-18:00）";
+}
+@media screen and (max-width: 1024px) {
+	.rb-body-content:before {
+		background-color: #fa5f17;
+		border-top: none !important;
+		color: #ffffff;
+	}
+	.rb-header, #base_page\:base_header {
+		border-bottom: 0;
+	}
 }
