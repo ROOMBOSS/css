@@ -768,6 +768,10 @@ html[lang=ja] .rb-body-content:before {
 }
 
 /* My Group / Booking */
+.rb-my-booking {
+	padding-top: 1em;
+}
+
 #orderForm\:chkoutpnl_content > div:nth-child(1) > div {
 	display: none;
 }
