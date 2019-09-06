@@ -38,6 +38,29 @@
 	}
 }
 
+/* Legacy Passes */
+.legacy-pass {
+	min-width: 100%;
+}
+.skipass-message {
+	font-family: "Open Sans", sans-serif;
+	font-size: 10px;
+	margin: .5em 1em .5em;
+}
+.skipass-message:after {
+	display: block;
+	content: "Please note that when manually entering the ID of a legacy ski pass for recharge, only previously purchased red Niseko United IC cards are compatible for online recharge. (See example below.)";
+	text-align: center;
+}
+.skipass-image {
+	background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/legacy-ic.png");
+	background-size: auto 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 60px;
+}
+
+
 /* Mobile header */
 @media(max-width: 780px) {
 	.rb-header-title, .ui-title {
