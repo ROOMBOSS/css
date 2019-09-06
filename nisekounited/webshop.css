@@ -110,7 +110,8 @@
 
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
-#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content>td:nth-child(1) > div.rb-skipass > label{
     background-color: #212121;
     box-shadow: 2px -1 -1 #212121, -2px -1 -1 #212121;
 }
