@@ -52,6 +52,10 @@
 	content: "Please note that when manually entering the ID of a legacy ski pass for recharge, only previously purchased red Niseko United IC cards are compatible for online recharge. (See example below.)";
 	text-align: center;
 }
+html[lang*=ja] .skipass-message:after {
+	content: "リフト券のIDを手動で入力してチャージする場合、以前にご購入頂いた赤色の旧ニセコインターネットリフト券専用カードのみがオンラインチャージに対応しています。(下記の例をご参照ください）";
+}
+
 .skipass-image {
 	background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/legacy-ic.png");
 	background-size: auto 60px;
@@ -761,4 +765,26 @@ html[lang=ja] .rb-body-content:before {
 	.rb-header, #base_page\:base_header {
 		border-bottom: 0;
 	}
+}
+
+/* My Group / Booking */
+#orderForm\:chkoutpnl_content > div:nth-child(1) > div {
+	display: none;
+}
+.rb-my-group-title:before {
+	content: "\f0c0";
+}
+.rb-my-booking-title:before {
+	content: "\f09d";
+}
+.rb-my-group-title,
+.rb-my-booking-title {
+	font-size: 20px;
+}
+.rb-my-group-title:before,
+.rb-my-booking-title:before {
+	color: #fa5f17;
+ 	margin-right: 10px;
+  	font-family: "FontAwesome" !important;
+  	font-weight: normal;
 }
