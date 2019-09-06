@@ -584,7 +584,7 @@ html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:b
 }
 
 /* Focus Select Group */
-.rb-guest-sel-item > div {
+.rb-guest-sel-container:nth-child(1) > .rb-guest-sel-item > div {
 	border: 4px solid #fa5f17 !important;
 	padding-left: .2em;
 	margin-left: -.2em;
