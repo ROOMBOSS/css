@@ -658,7 +658,7 @@ span.rb-guest-sel-item {
 #orderForm\:pdtoptdt\:3\:cbval {
 	padding: 0 !important;
 	border: 0 !important;
-	line-height: .8em;
+	top: 2px;
 	pointer-events: none !important;
 }
 @media screen and (max-width: 480px) {
