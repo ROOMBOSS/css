@@ -55,7 +55,7 @@
 html[lang*=ja] .skipass-message:after {
 	content: "リフト券のIDを手動で入力してチャージする場合、以前にご購入頂いた赤色の旧ニセコインターネットリフト券専用カードのみがオンラインチャージに対応しています。(下記の例をご参照ください）";
 }
-html[lang*="zh_CN"] .skipass-message:after {
+html[lang="zh"] .skipass-message:after {
 	content: "請注意，當手動輸入現有滑雪通行證的ID進行充值時，只有先前購買的紅色Niseko United IC卡才能在線充值。 （見下面的例子。）";
 }
 .skipass-image {
@@ -507,7 +507,7 @@ html[lang*="en"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:
 html[lang*="ja"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
   content: "オンラインショップ限定";
 }
-html[lang*="zh-cn"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+html[lang="zh"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
 	content: "僅限線上網路商城";
 }
 
@@ -528,21 +528,21 @@ html[lang*="zh-cn"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderFor
 	content: "(Dec 11 – Mar 22)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(1):after,
-[lang*="zh-cn"] .rb-parent-cat-item:nth-of-type(1):after {
+[lang="zh"] .rb-parent-cat-item:nth-of-type(1):after {
 	content: "（12月11日～3月22日）";
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(2):after {
 	content: "(Mar 23 – Apr 5)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(2):after,
-[lang*="zh-cn"] .rb-parent-cat-item:nth-of-type(2):after {
+[lang="zh"] .rb-parent-cat-item:nth-of-type(2):after {
 	content: "（3月23日～4月5日）";
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(3):after {
 	content: "(Apr 6 – May 6)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(3):after,
-[lang*="zh-cn"] .rb-parent-cat-item:nth-of-type(3):after {
+[lang="zh"] .rb-parent-cat-item:nth-of-type(3):after {
 	content: "（4月6日～5月6日）";
 }
 
@@ -588,7 +588,7 @@ html[lang*="en"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 html[lang*="ja"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
 	content: "スキー場のみで販売";
 }
-html[lang*="zh-cn"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
+html[lang="zh"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 	content: "僅限渡假村內";
 }
 
@@ -602,7 +602,7 @@ html[lang*="zh-cn"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
 	content: "利用開始予定日";
 }
-html[lang*="zh-cn"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+html[lang="zh"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
 	content: "預計開始日期";
 }
 /* Mobile Custom Order Start Date*/
@@ -622,7 +622,7 @@ html[lang*="zh-cn"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-o
 html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
 	content: "利用開始予定日";
 }
-	html[lang*="zh-cn"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	html[lang="zh"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
 		content: "預計開始日期";
 	}
 }
