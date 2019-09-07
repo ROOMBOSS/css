@@ -794,3 +794,15 @@ html[lang=ja] .rb-body-content:before {
 }
 
 #orderForm\:itemdtchkout\:0\:guestsrpt\:0\:guestslct_label { font-size: 14px;}
+
+/* Recharge formatting */
+[id*="guestsselpg"] > div > div {
+	padding-bottom: 0 !important;
+}
+.rb-order02-dt [id*="guestsselpg"]  {
+	margin-bottom: .6em;
+}
+#orderForm\:itemdtchkout_data > tr.ui-widget-content.ui-datatable-odd > td:nth-child(1) > span.flex-container.rb-guest-sel-container > .rb-guest-sel-item {
+	margin: .6em;
+}
+
