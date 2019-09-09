@@ -31,6 +31,10 @@
   color: #aaa;
 }
 
+body > div.rb-body-content > div{
+background-color: white;
+}
+
 /* Category Image Selected*/
 .rb-parent-cat-container .rb-parent-cat-sel a img,
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
