@@ -105,7 +105,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 [id*="vendorPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 [id*="descPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 [id*="statementExtentMenu"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-	background-color: #dddddd !important;
+	background-color: black !important;
+	color: white !important;
 }
 
 /* Secondary Headings */
