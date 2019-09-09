@@ -1,83 +1,159 @@
-/*remove title*/
-.ui-title{
-	display: none;
-	visibility: hidden;
-}
+@import url('//roomboss.github.io/css/ui/main02.css');
 
-/*add logo, blue and green bars*/
-.ui-header.ui-bar-inherit {
-	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1500px -20px  no-repeat,
+
+/* Custom design */
+
+.rb-header {
+  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) center center no-repeat,
 		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -120px;
-    	height: 320px;
-    	background-size: 180px, 1999px, 1999px;
-    	border-top-width: 60px;
-    	border-top-color: black;
-    	border-bottom-width: 0px;	
-}
-/*page white and font*/
-body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
-  	font-family: "futura-pt-condensed", Arial, sans-serif;
-	font-weight: 100;
- 	background: white!important;
-	color: black;
-	text-shadow: none;
+      url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -180px;
+  border: none;
+  height: 200px;
 }
 
-
-
-/*color and square titlebars*/
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color: #333;
-	color: rgba(255,255,255,.7);
-	text-shadow: none; 
-	border: none;
-	border-radius: 0px; 
-	text-transform: uppercase;
-	font-weight: 100!important;
-    	letter-spacing: 2px;
+.rb-header-title {
+  display: none;
 }
 
-
-
-
-.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
-	background-color: white;
-	color: #333;
-	text-shadow: none; 
-	border-color: #333;
-	border-radius: 0px; 
-	border-width: 2px;
-	text-transform: uppercase;
-	font-weight: 100;
-    	letter-spacing: 2px;
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,
+.rb-checkout-title{
+  color: #fff;
 }
 
-/*your booking page footer*/
-.ui-footer.ui-bar-inherit{
-	background-color: #333!important;
-	color: rgba(255,255,255,.7)!important;
-	text-shadow: none!important;
-	border:none!important;	
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before {
+  color: #aaa;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #aaa;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+  color: #bbb
 }
 
 
-/*your booking bars*/
-#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
-	background-color: #333;
-	color: rgba(255,255,255,.7);
-	text-shadow: none; 
-	border: none;
-	border-radius: 0px;
-	text-transform: uppercase;
-	font-weight: 100;
-    	letter-spacing: 2px;
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #000 !important;
+  background-color: #000 !important;
 }
 
-/*Your Booking non conf Red*/
-.rb-notconfbook {
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
+#orderForm\:booknow {
+  background-color: #E50000;
+  border: 1px solid #E50000;
+}
+#orderForm\:booknow:hover {
+  background-color: #ea3232;
+  border: 1px solid #ea3232;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #000;
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget.ui-state-default {
+  background-color: #888;
+  border-color: #888;
+}
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #aaa;
+  border-color: #aaa;
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #555 !important;
+}
+
+/*  ==== */
+
+html, body,
+.rb-body-content,
+.ui-panel-content {
+  background-color: #000 !important;
+}
+
+.ui-panel-content .ui-widget-content {
+  background-color: #f9f9f9 !important;
+}
+
+.rb-parent-cat-container label,
+.rb-child-cat-container label {
+  color: #fff;
+}
+.rb-order-nav label,
+#orderForm\:chkoutpnl_content .fa-user {
+  color: #aaa
+}
+
+.rb-scroll-top-panel {
+  max-width: 900px;
+  margin: auto;
+}
+
+[id*="orderForm:bskpnl_footer"] {
+  background-color: #000;
+  color: #fff !important;
+}
+
+#orderForm\:inquiry h3 {
+  color: #fff;
+}
+
+#orderForm\:guestpg label,
+#orderForm\:chkoutpnl_content label,
+#orderForm\:inquiry p {
+  color: #ccc;
+}
+#orderForm\:guestpg a,
+#orderForm\:chkoutpnl_content a {
+  color: #fff;
+}
+#orderForm\:itemdtchkout a,
+#orderForm\:itemdtchkout label {
+  color: #000;
+}
+
+.rb-parent-cat-container img, .rb-child-cat-container img,{
+	-webkit-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+	box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.7);
+	-webkit-transition: ease-in-out .2s;
+	transition: ease-in-out .2s;
+}
+
+.rb-prod-item-panel > .ui-panel-content.ui-widget-content {
+	-webkit-box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
+	box-shadow: 1px 1px 4px rgba(255, 255, 255, .6);
+}
+
+.ui-dialog-titlebar-close.ui-state-hover {
+	background-color: #000;
+	border: 0;
+	padding: 1px;
+	margin: 1px;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+	background: #000;
+	color: #fff;
 }
 
