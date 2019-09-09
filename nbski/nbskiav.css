@@ -1,0 +1,83 @@
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logo, blue and green bars*/
+.ui-header.ui-bar-inherit {
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) 1500px -20px  no-repeat,
+		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+		url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -120px;
+    	height: 320px;
+    	background-size: 180px, 1999px, 1999px;
+    	border-top-width: 60px;
+    	border-top-color: black;
+    	border-bottom-width: 0px;	
+}
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: "futura-pt-condensed", Arial, sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #333;
+	color: rgba(255,255,255,.7);
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px; 
+	text-transform: uppercase;
+	font-weight: 100!important;
+    	letter-spacing: 2px;
+}
+
+
+
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: #333;
+	text-shadow: none; 
+	border-color: #333;
+	border-radius: 0px; 
+	border-width: 2px;
+	text-transform: uppercase;
+	font-weight: 100;
+    	letter-spacing: 2px;
+}
+
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
+	background-color: #333!important;
+	color: rgba(255,255,255,.7)!important;
+	text-shadow: none!important;
+	border:none!important;	
+}
+
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #333;
+	color: rgba(255,255,255,.7);
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: 100;
+    	letter-spacing: 2px;
+}
+
+/*Your Booking non conf Red*/
+.rb-notconfbook {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
