@@ -60,9 +60,9 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
   box-shadow: inset 0 0 4px #aaa !important; }
 
 /* Non-Accordion Panels */
-#base_page/:postab_head,
-#base_page/:ttab_head,
-#base_page/:txtab_head,
+#base_page\:postab_head,
+#base_page\:ttab_head,
+#base_page\:txtab_head,
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   background: #242424;
   color: #fff;
