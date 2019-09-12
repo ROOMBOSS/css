@@ -64,10 +64,10 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 #base_page\:ttab_head,
 #base_page\:txtab_head,
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background: #242424;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  text-shadow: none; }
+  background: #242424 !important;;
+  color: #fff !important;;
+  font-family: "Open Sans", sans-serif !important;;
+  text-shadow: none !important;; }
 
 .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
   color: #5c5a5a !important; }
