@@ -70,7 +70,8 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
   text-shadow: none !important; }
 
 .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
-  color: #5c5a5a !important; }
+  color: #5c5a5a !important; 
+text-shadow: none !important;}
 
 
 /* Icon and header colors */
