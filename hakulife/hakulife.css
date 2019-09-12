@@ -22,6 +22,21 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
   body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
     background: #b59571; }
 
+#paynowimage0,
+#paynowimage1,
+#paynowimage2,
+#paynowimage3,
+#paynowimage4,
+#paynowimage5{
+  font-family: "Open Sans", sans-serif;
+  background: #b38869;
+  text-shadow: none;
+  color: #fff;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms; }
+  body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
+    background: #b59571; }
+
 /* Header bar */
 .ui-header.ui-bar-inherit {
   background: url(HAKULife-N.svg) no-repeat center center;
@@ -80,17 +95,6 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 #base_page\:vform\:requestPanel div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
   margin-top: .5em; }
 
-/* About you form padding */
-#base_page\:vform\:customertable .ui-block-a {
-  padding: .5em .5em .5em 1em; }
-  @media (max-width: 560px) {
-    #base_page\:vform\:customertable .ui-block-a {
-      padding: .5em 1em; } }
-#base_page\:vform\:customertable .ui-block-b {
-  padding: .5em 1em .5em .5em; }
-  @media (max-width: 560px) {
-    #base_page\:vform\:customertable .ui-block-b {
-      padding: .5em 1em; } }
 
 
 #base_page\:locform > .ui-btn-right {
@@ -140,10 +144,6 @@ button.fa-file-excel-o:after {
 .ui-panel-m .ui-panel-m-titlebar {
   border: 1px solid #333; }
 
-/* v-form MA */
-#base_page\:resultsform\:vform\:requestPanel .rbn-margin-top {
-  border-radius: 5px;
-  background-color: #f9f9f9 !important; }
 
 .ui-content .rb-content {
   background-color: #f9f9f9; }
