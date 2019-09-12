@@ -29,13 +29,13 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 #paynowimage4,
 #paynowimage5{
   font-family: "Open Sans", sans-serif;
-  background: #b38869;
+  background: #b38869 !important;
   text-shadow: none;
   color: #fff;
   -webkit-transition: ease-in-out 200ms;
   transition: ease-in-out 200ms; }
   body:hover .ui-btn:hover {
-    background: #b59571; }
+    background: #b59571 !important; }
 
 /* Header bar */
 .ui-header.ui-bar-inherit {
