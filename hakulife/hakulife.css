@@ -14,7 +14,7 @@
 /* Import font */
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: "Open Sans", sans-serif;
-  background: #242424;
+  background: #b59571;
   text-shadow: none;
   color: #fff;
   -webkit-transition: ease-in-out 200ms;
