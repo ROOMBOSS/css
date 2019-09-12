@@ -112,11 +112,6 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 .ui-column-header.right {
   border-bottom: none; }
 
-.ui-collapsible-heading-toggle,
-.rbn-toggle > div.ui-panel-m-titlebar,
-.rbn-notoggle > div.ui-panel-m-titlebar {
-  border-color: #333 !important; }
-
 
 .ui-btn-icon-right:not(#base_page\:locform\:languageSelect_input-button):not(#base_page\:locform\:currencySelect_input-button):after {
   background-color: #BF9F5F; }
