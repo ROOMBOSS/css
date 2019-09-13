@@ -68,8 +68,8 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 /* Non-Accordion Panels 
 #base_page\:postab_head,
 #base_page\:ttab_head,
-#base_page\:txtab_head,
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit */
+#base_page\:txtab_head,*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 .ui-bar-a{
   background: #242424 !important;
   color: white !important;
@@ -157,4 +157,4 @@ button.fa-file-excel-o:after {
 
 
 .ui-content .rb-content {
-  background-color: #f9f9f9; }
+  background-color: #fff; }
