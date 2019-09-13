@@ -83,7 +83,7 @@ text-shadow: none !important;}
 
 /* Icon and header colors */
 .rb-avail-roomtype, .ui-column-title, .fa-user:before, .fa-bed:before, .fa-bath:before, #base_page\:vform\:customertable .ui-grid-a {
-  color: #292828 !important; }
+  color: white !important; }
 
 .fa:before {
   font-weight: 400; }
