@@ -783,7 +783,7 @@ html[lang=ja] .rb-body-content:before {
 html[lang="zh"] .rb-body-content:before {
 	content: "需要協助？ • 線上支援：+81 1234-56-789 • 營業時間週一至週五 9am–6pm (JST)";
 }
-html[lang="zh-cn"] .rb-body-content:before {
+html[lang="zh_cn"] .rb-body-content:before {
 	content: "需要帮助？在线支持：+81 1234-56-789 •  营业时间：周一–周五，日本标准时间 上午 9 点–下午 6 点";
 }
 @media screen and (max-width: 1024px) {
