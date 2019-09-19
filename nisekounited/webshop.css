@@ -58,6 +58,9 @@ html[lang*=ja] .skipass-message:after {
 html[lang="zh"] .skipass-message:after {
 	content: "請注意，當手動輸入現有滑雪通行證的ID進行充值時，只有先前購買的紅色Niseko United IC卡才能在線充值。 （見下面的例子。）";
 }
+html[lang="zh_cn"] .skipass-message:after {
+	content: "请注意，当手动输入现有滑雪通行证的ID进行充值时，只有先前购买的红色Niseko United IC卡才能在线充值。 （见下面的例子。）";
+}
 .skipass-image {
     background-image: url(https://dabb7zy6p4b0z.cloudfront.net/nisekounited/pass-recharge.png);
     background-size: auto 100%;
@@ -517,6 +520,9 @@ html[lang*="ja"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:
 html[lang="zh"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
 	content: "僅限線上網路商城";
 }
+html[lang="zh_cn"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+	content: "僅限線上網路商城";
+}
 
 .rb-cond-bp-dialog {
 	max-width: 500px !important;
@@ -535,21 +541,21 @@ html[lang="zh"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 	content: "(Dec 11 – Mar 22)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(1):after,
-[lang="zh"] .rb-parent-cat-item:nth-of-type(1):after {
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(1):after {
 	content: "（12月11日～3月22日）";
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(2):after {
 	content: "(Mar 23 – Apr 5)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(2):after,
-[lang="zh"] .rb-parent-cat-item:nth-of-type(2):after {
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(2):after {
 	content: "（3月23日～4月5日）";
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(3):after {
 	content: "(Apr 6 – May 6)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(3):after,
-[lang="zh"] .rb-parent-cat-item:nth-of-type(3):after {
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(3):after {
 	content: "（4月6日～5月6日）";
 }
 
@@ -598,6 +604,9 @@ html[lang*="ja"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 html[lang="zh"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
 	content: "僅限渡假村內";
 }
+html[lang="zh_cn"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	content: "仅限渡假村内";
+}
 
 /* Desktop Custom Order Start Date */
 [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2) .ui-column-title:nth-child(1) {
@@ -611,6 +620,9 @@ html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-t
 }
 html[lang="zh"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
 	content: "預計開始日期";
+}
+html[lang="zh_cn"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "预计开始日期";
 }
 /* Mobile Custom Order Start Date*/
 @media (max-width: 35em) {
@@ -631,6 +643,9 @@ html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:b
 }
 	html[lang="zh"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
 		content: "預計開始日期";
+	}
+		html[lang="zh_cn"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+		content: "预计开始日期";
 	}
 }
 
