@@ -62,7 +62,7 @@ html[lang="zh_cn"] .skipass-message:after {
 	content: "请注意，当手动输入现有滑雪通行证的ID进行充值时，只有先前购买的红色Niseko United IC卡才能在线充值。 （见下面的例子。）";
 }
 .skipass-image {
-    background-image: url(https://dabb7zy6p4b0z.cloudfront.net/nisekounited/pass-recharge.png);
+    background-image: url(https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-cards.png);
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
