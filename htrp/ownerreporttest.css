@@ -1,0 +1,190 @@
+/*for https://www.hokkaidotracksaccommodation.com/
+https://hokkaidotracks.bookfast.jp/cw/gen/ins/bpay1.jsf?vid=2c98902a57f37ae70157ff50de81451a
+https://hokkaidotracks.bookfast.jp/cw/gen/ins/bpay2.jsf?vid=2c98902a5ce0fba2015ce3764b511d22
+https://hokkaidotracks.bookfast.jp/public/yourbooking.jsf?id=415120&em=john%40test.com
+https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
+https://hokkaidotracks.bookfast.jp/ui/owner/index.jsf?id=2c98902a5ddd8b12015de8cab0f9352c183
+*/
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*add logos*/
+.ui-header.ui-bar-inherit {
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/htrp/HT-logo-black-horiz.png) 50% no-repeat;
+    	height: 140px;
+      	background-color: white;
+    	background-size: 250px;
+    	border-top-width: 0px;
+	border-bottom-color: black;
+    	border-bottom-width: 0px;
+    	padding-bottom: 20px;
+}
+
+#base_page{
+  	background-color: #ffffff ;
+	background-size: cover;
+}
+
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: 'Open Sans',sans-serif;
+	font-weight: 100;
+	line-height: 150%;
+ 	color: black;
+	text-shadow: none;
+	background-color: white;
+}
+
+#base_page:txtab_data{
+  	background-color: white;
+}
+
+/*Fix selected buttons*/
+.ui-state-disabled.rbn-gotobutt{
+  	 	background:#38c!important;	
+}
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Merriweather:400,700');
+
+* {
+  text-shadow: none !important;
+  font-family: "Open Sans"
+}
+
+.ui-page-theme-a .ui-btn:not(.ui-btn-icon-notext) {
+  background-color: #fff;
+  border-radius: 0;
+  font-weight: 400;
+}
+/* Button Uppercase */
+.ui-btn .ui-btn-shadow .ui-corner-all	{
+	text-transform: capitalize;
+}
+[id*="sortSuitable"],[id*="sortName"],[id*="sortPrice"],[id*="mapViewTab"],
+[id*="searchButton"],[id*="listViewTab"],
+.ui-link.ui-btn, [id*=":gbutt"] {
+	text-transform: capitalize !important;
+	font-family: "opensans" !important;
+}
+
+/* Input border radius*/
+.ui-input-text {
+	border-radius: 1 !important;
+}
+
+/* Active filters / paginator */
+.ui-btn.ui-btn-active, 
+.ui-paginator-page .ui-btn.ui-btn-active,
+.ui-state-disabled.rbn-gotobutt{
+  background-color: #1d1d1d !important;
+  border-color: #1f1f1f !important;
+}
+
+/* Main Tab Headings */
+.ui-corner-all .ui-panel-m-titlebar:first-child,
+.ui-collapsible-heading .ui-btn, .rbn-yb-h1 {
+  color: #fffcfc !important;
+  background-color: #1f1f1f !important;
+  font-family: "Open Sans" !important;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+
+.ui-collapsible-themed-content > .ui-collapsible-heading .ui-btn {
+	letter-spacing: normal;
+}
+
+.ui-corner-all .ui-panel-m-titlebar h3 {
+	font-size: 1.25em;
+	font-family: "Merriweather"
+}
+/* Headings background */
+.ui-block-a > [id*="vendorGrid"] > .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="messagePanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="vendorPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="descPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+[id*="statementExtentMenu"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	background-color: black !important;
+	color: white !important;
+}
+
+/* Secondary Headings */
+.rbn-offers-panel h3,
+[id*="vendorMessagePanel"] h3,
+.rbn-accom-opt-panel h3 {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+/* Enquire buttons */
+.rbn-more-info-button {
+  color: #fff !important;
+  background-color: #000 !important;
+  text-transform: uppercase !important;
+  font-weight: 400;
+	font-family: "Merriweather" !important;
+}
+.rbn-more-info-button:hover {
+  color: #d1d1d1 !important;
+}
+
+/* Black buttons*/
+#base_page\3a locform\3a currencySelect .ui-btn,
+#base_page\3a locform\3a languageSelect .ui-btn, .ui-btn-inline {
+	background-color: #000 !important;
+	color: #fff !important;
+  text-transform: uppercase !important;
+    font-weight: bold;
+	font-family: "Opensans" !important;
+}
+#base_page\3a locform\3a currencySelect .ui-btn:hover,
+#base_page\3a locform\3a languageSelect .ui-btn:hover, .ui-btn-inline:hover {
+  color: #d1d1d1 !important;
+}
+
+/* Box Shadow Removal */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,
+html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,
+html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,
+html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,
+html body .ui-group-theme-a .ui-focus,
+html head+body .ui-btn-a.ui-focus,
+html head+body .ui-body-a.ui-focus{
+  box-shadow: none !important;
+}
+
+#base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(3) > b::after{
+  background: url(https://dabb7zy6p4b0z.cloudfront.net/htrp/htrpowner.png);
+  background-size: cover;
+  height: 120px;
+  display: block;
+  content: "";
+}
+
+.rbn-gotobutt {
+	font-family: "Merriweather" !important;
+}
+
+/* single owner report Hide property*/
+#base_page\3a messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(3) > i{
+	display: none;
+}
+
+/* multi owner report Hide property*/
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(1) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(2) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(3) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(4) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(5) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(6) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(7) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(8) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(9) > i,
+#base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(10) > i{
+	display: none;
+}
