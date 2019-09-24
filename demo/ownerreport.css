@@ -117,6 +117,14 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   background: #919191;
 }
 
+#base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(3) > b::after{
+  background: url(https://dabb7zy6p4b0z.cloudfront.net/htrp/htrpowner.png);
+  background-size: cover;
+  height: 120px;
+  display: block;
+  content: "";
+}
+
 /* Header bar */
 .ui-header.ui-bar-inherit {
   background: #282828 no-repeat center;
