@@ -1,21 +1,22 @@
-@import url('https://dabb7zy6p4b0z.cloudfront.net/ui/main02.css');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+
+*{ font-family: 'Noto Sans JP', sans-serif; }
 
 /* Custom design */
 
 .rb-header {
   background-image: url("https://cdn.hanazononiseko.com/assets/hanazono-niseko-logo-54957dfcc30ba074224d79a540293230ed9bc706e92302d531bb77ec6ab764c9.svg");
-  background-color: #00A0DF;
+  background-color: #000;
   background-repeat: no-repeat;
   background-position: 50% 66%;
-	background-size: 300px;
+	background-size: 250px;
   border: none;
-  border-bottom: 20px solid #0095D9;
+  border-bottom: 10px solid #000;
     height:100px;
 }
 @media(max-width: 300px) {
   .rb-header {
-    background-size: 90vw;
-    height: 80px;
+    backgroun100px;
     background-position: 50% 90%;
   }
 }
@@ -27,11 +28,22 @@
 .rb-parent-cat-title,
 .rb-child-cat-title,
 .rb-prod-title,
+.rb-basket-title,
 .rb-basket-title-pg,
 .rb-checkout-title,
 #orderForm\:existglbl,
-#orderForm\:newguestlbl {
+#orderForm\:newguestlbl,
+.rb-guest-for-emergencies > div > label,
+.rb-my-group-title,
+.rb-my-booking-title,
+#orderForm\:contactinfolbl,
+#orderForm\:addqlbl,
+.rb-checkout-total label,
+.rb-total label
+ {
   color: #333;
+  text-transform: uppercase;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .rb-parent-cat-title:before,
@@ -42,6 +54,7 @@
 #orderForm\:existglbl:before,
 #orderForm\:newguestlbl:before{
   color: #0095D9;
+  font-size: 1.1em
 }
 
 /* Category Image Selected*/
@@ -57,6 +70,7 @@
 .rb-child-cat-desc {
   font-weight: normal;
   color: #777;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Basket Item Highlights */
@@ -64,6 +78,7 @@
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
   background-color: #0095D9;
   box-shadow: 2px -1 -1 #0095D9, -2px -1 -1 #0095D9;
+   font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* Accent Dialogue Title */
@@ -87,11 +102,13 @@
 #locform\:languageSelect_label {
   color: #666 !important;
   font-weight: normal;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* Menu Highlight */
 .ui-selectonemenu-item.ui-selectonemenu-list-item.ui-state-highlight {
-  background-color: #EC5339;
+  background-color: #333;
+  border-top: 2px solid #0095D9;
 }
 
 /* Default Buttons */
@@ -110,4 +127,15 @@
 
 /* Card title*/
 .rb-prod-desc-item:nth-child(1) label {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ui-button > .ui-button-text,
+.ui-dialog-title, .ui-dialog label {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.rb-prod-desc-item:nth-child(2) label,
+.rb-scroll-top-panel label, .rb-order-nav {
+  font-family: "Open Sans", sans-serif;
 }
