@@ -15,7 +15,7 @@
 @media(max-width: 300px) {
   .rb-header {
     background-size: 90vw;
-    height: 60px;
+    height: 80px;
     background-position: 50% 90%;
   }
 }
@@ -28,7 +28,9 @@
 .rb-child-cat-title,
 .rb-prod-title,
 .rb-basket-title-pg,
-.rb-checkout-title{
+.rb-checkout-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
   color: #333;
 }
 
@@ -36,7 +38,9 @@
 .rb-child-cat-title:before,
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
-.rb-checkout-title:before{
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before{
   color: #0095D9;
 }
 
