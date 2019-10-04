@@ -118,11 +118,12 @@
 }
 
 .ui-button.ui-widget.ui-state-default {
-  background-color: #EC5339;
-  border-color: #EC5339;
+  background-color: #00A0DF;
+  border-color: #00A0DF;
 }
 .ui-button.ui-widget.ui-state-hover {
-  background-color: #ea3f22;
+  background-color: #0095D9;
+  border-color: #0095D9;
 }
 
 /* Card title*/
