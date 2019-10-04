@@ -755,13 +755,13 @@ span.rb-guest-sel-item {
 }
 
 /* YB Search Form */
-/* .rbn-yb-searchtext,
+.rbn-yb-searchtext,
 #base_page\:gform {
 	display: none;
 }
 .rbn-yb-h1 {
 	margin-top: .3em;
-}*/
+}
 
 /* YB Invoice */
 #base_page\:txtab\:notesText,
