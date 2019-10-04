@@ -1,1 +1,95 @@
+/* Remove Header */
+.ui-title {
+	display: none !important;
+}
 
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+  display: none;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+    background-image: url(http://www.shigaskischool.com/wp/wp-content/themes/siss/img/shared/logo.gif);
+    background-size: 500px;
+    height: 100px;
+    background-color: rgb(255, 255, 255) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-color: rgb(255, 255, 255);
+}
+@media (max-width: 580px) {
+.ui-header.ui-bar-inherit {
+    background-size: 80vw;
+    height: 120px;
+    background-position: center 80%;
+}
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+box-shadow: inset 0 0 4px #aaa !important;
+}
+
+/* Lang & Currency */
+
+/* Language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/* Panels */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #000;
+	color: #fff;
+  border: #000;
+	text-shadow: none;
+}
+
+/* Icons */
+
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #AE362A;
+}
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+	background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+  background-color: transparent !important;
+}
+
+/* Buttons */
+
+button[id*="addItemsLink"],
+button[id*="saveorderbutt"]{
+	background-color: #AE362A !important;
+	color: #fff !important;
+	text-shadow: none !important;
+}
+button[id*="addItemsLink"]:hover,
+button[id*="saveorderbutt"]:hover{
+	background-color: #C33C2F !important;
+}
+
+/* Remove item Button */
+.remove-item-control.ui-btn-inline {
+	color: #888;
+	margin-top: 0.5em;
+	width: 100%
+}
+.remove-item-control.ui-btn-inline:after {
+	background-color: #888;
+}
