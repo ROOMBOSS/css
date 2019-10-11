@@ -140,3 +140,12 @@
 .rb-scroll-top-panel label, .rb-order-nav {
   font-family: "Open Sans", sans-serif;
 }
+
+.ui-title{
+	display:none;
+}
+
+.ui-header.ui-bar-inherit{
+	background-color: white;
+   	border-color: #e50050;
+}
