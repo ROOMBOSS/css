@@ -1,0 +1,125 @@
+@import url('//roomboss.github.io/css/ui/main02.css');
+
+
+/* Custom design */
+
+.rb-header {
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), #000 140%), url("https://dabb7zy6p4b0z.cloudfront.net/shigainternational/shiga-team.jpg");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+	background-size: cover, cover;
+  border: none;
+  border-bottom: 20px solid #AE362A;
+    height:100px;
+}
+
+.rb-header-title {
+  padding-top: 40px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #333
+}
+
+@media (max-width: 480px) {
+.rb-header {
+  height: 200px;
+  }
+  .rb-header-title {
+    padding-top: 100px;
+  }
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,
+.rb-checkout-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
+  color: #333;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
+  color: #AE362A;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #AE362A;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+  color: #666;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #AE362A;
+  box-shadow: 2px -1 -1 #AE362A, -2px -1 -1 #AE362A;
+}
+
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #000 !important;
+  background-color: #AE362A !important;
+}
+.ui-dialog-title {
+  color: #fff !important;
+}
+
+/* Dialog cross */
+.ui-dialog-titlebar-close.ui-state-hover {
+    background-color: transparent !important;
+}
+
+#orderForm\:booknow {
+  background-color: #000;
+  border: 1px solid #000;
+}
+#orderForm\:booknow:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #333;
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget.ui-state-default {
+  background-color: #AE362A;
+  border-color: #AE362A;
+}
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #C33C2F;
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #333 !important;
+}
+
+
+/* Highlight colour */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #AE362A;
+    background: #AE362A;
+    color: #fff;
+}
