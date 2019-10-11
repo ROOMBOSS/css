@@ -142,7 +142,7 @@
 }
 
 .ui-title{
-	display:none;
+	display:none !important;
 }
 
 .ui-header.ui-bar-inherit{
