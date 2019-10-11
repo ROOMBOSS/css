@@ -852,3 +852,4 @@ html[lang="zh_cn"] .rb-body-content:before {
 	margin: .6em;
 }
 
+.rb-basket-dt > div > table > thead > tr > th:nth-child(n+1):nth-child(n+2) { width: auto !important; }
