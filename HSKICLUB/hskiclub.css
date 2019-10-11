@@ -76,14 +76,14 @@
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #0095D9;
-  box-shadow: 2px -1 -1 #0095D9, -2px -1 -1 #0095D9;
+  background-color: #e50039;
+  box-shadow: 2px -1 -1 #0095D9, -2px -1 -1 #e50039;
    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-  border-color: #0095D9 !important;
+  border-color: #e50050 !important;
   background-color: #e50039 !important;
   text-transform: uppercase;
 }
