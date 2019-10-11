@@ -11,7 +11,7 @@
   background-position: 50% 66%;
 	background-size: 250px;
   border: none;
-  border-bottom: 10px solid white;
+  border-bottom: 10px solid #e50039;
     height:100px;
 }
 @media(max-width: 300px) {
