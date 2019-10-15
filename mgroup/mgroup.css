@@ -24,30 +24,70 @@ input,select,textarea,button,.ui-btn{
 }
 
 
-.rbn-filter-panel.ui-hidden-container>div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
-	background-color:#991b1e;
-}
-
-/*puts shadow around box that is clicked*/
-.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
-	box-shadow:0 0 12px #991b1e;
-}
-
-.ui-panel-m-titlebar{
-	background-color:#991b1e!important;
-	color:white!important;
-	text-shadow:none!important;	
-}
-
-.ui-column-header{
-	background-color:#991b1e!important;
-	color:white!important;
-	text-shadow:none!important;	
-}
-
 /*background white*/
 .ui-page.ui-page-theme-a.ui-page-active{
 	background-color: White;	
 }
 
-/*# sourceMappingURL=book.css.map */
+
+/*puts shadow around box that is clicked*/
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+	box-shadow:0 0 3px #ddd;
+}
+
+/* Filter Panel Title Bar */
+.rbn-filter-panel.ui-hidden-container>div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #fff;
+	border-color: #ccc;
+	color: #991b1e;
+}
+
+/* Vendor Panel Title Bar */
+.rbn-vendor-panel > .ui-panel-m-titlebar {
+	background-color:#991b1e;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* Available Options Titlebar */
+.rbn-filter-panel > .ui-panel-m-titlebar, .rbn-offers-panel > .ui-panel-m-titlebar {
+	background-color: #fff;
+	border-color: #ccc;
+	color: #991b1e;
+}
+
+/* Active Highlight */
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
+	background-color:#ccc;
+	border-color: #ccc;
+	color: #333;
+	text-shadow: none;
+}
+
+#base_page\:resultsform\:vform\:quickbookingtable_head {
+	display: none;
+}
+
+/* Action Icon */
+.rbn-filter-panel > .ui-panel-m-titlebar .ui-panel-m-titlebar-icon, .rbn-offers-panel > .ui-panel-m-titlebar .ui-panel-m-titlebar-icon,
+.ui-btn.ui-checkbox-on:after {
+	background-color:#991b1e;
+}
+
+/* Icons */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+	background-color:#991b1e;
+}
+
+/* Bordered request panels */
+#base_page\:resultsform\:vform\:customertable_head,
+#base_page\:resultsform\:vform\:customertable_data,
+#base_page\:resultsform\:vform\:customertable2_data {
+	border: 1px solid #ddd;
+	}
+
+/* Message width */
+#base_page\:resultsform\:vform\:customertable > div,
+#base_page\:resultsform\:vform\:requestPanel > div > div:nth-child(1) > div > div.ui-grid.ui-grid-responsive.rbn-margin-top > div > div {
+	width: 99.9%;
+}
