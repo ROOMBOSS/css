@@ -479,6 +479,11 @@ display: none;
 	padding-top: .5em;
 }
 
+/* YourBooking Hide Notes*/
+body.ui-mobile-viewport div[id*="base_page\:tabview\:vendorMessagePanel"] {
+	display: none;
+}
+
 /* Date formatting */
 .ui-inputfield.hasDatepicker {
 	font-family: "Open Sans", sans-serif;
