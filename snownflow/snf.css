@@ -322,9 +322,7 @@ div.ui-block-a:nth-child(9) {
 }
 
 [lang="zh"] #base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
-	content: "謝謝您聯繫雪浪！
-我們已收到您的詢問，並會依造詢問順序在48小時內與您電郵回覆聯繫預約內容是否可以為您安排。
-同時我們已寄出一封系統自動信至您的信箱，若是您在五分鐘內沒有收到的話也請確認您的垃圾信件夾，謝謝您！";
+	content: "謝謝您聯繫雪浪！我們已收到您的詢問，並會依造詢問順序在48小時內與您電郵回覆聯繫預約內容是否可以為您安排。同時我們已寄出一封系統自動信至您的信箱，若是您在五分鐘內沒有收到的話也請確認您的垃圾信件夾，謝謝您！";
 }
 
 
@@ -373,6 +371,11 @@ div.ui-block-a:nth-child(9) {
 [lang="zh_cn"] #base_page\:neworderform\:customIdTable\:customIdl:after {
 	content: "请问您是从那里找到我们的？";
 }
+
+[lang="zh_cn"] #base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
+	content: "謝謝您聯繫雪浪！我們已收到您的詢問，並會依造詢問順序在48小時內與您電郵回覆聯繫預約內容是否可以為您安排。同時我們已寄出一封系統自動信至您的信箱，若是您在五分鐘內沒有收到的話也請確認您的垃圾信件夾，謝謝您！";
+}
+
 /* Req */
 [lang="zh_cn"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
 	content: "请告诉雪浪您的滑雪经验，目标或兴趣範围，例如黑线／松雪等。另外对旅程有问题也欢迎提出。";
