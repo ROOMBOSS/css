@@ -266,6 +266,12 @@ div.ui-block-a:nth-child(9) {
 #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
 	content: "Please tell SnF your ski/board experience and your goals or areas of interests.";
 }
+
+#base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
+	content: "Thank you for contacting SnF! We've received your enquiry and we'll get back to you within the next 48 hours by email. Thank you for your patience as we take time to reply each email by the order we've received them. There should also be another automatic email to your account and if it hasn't arrived within the next 5 minutes, please also check your junk mail box. Otherwise, please contact us again. Thank you!";
+}
+
+
 /* -- Mobile -- */
 @media(max-width:561px) {
 #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4) > b:nth-child(1),
