@@ -148,5 +148,5 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 /*price strikethrough red*/
 .rbn-price-rack{
-    color: red;
+    color: red!important;
 }
