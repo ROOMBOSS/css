@@ -146,3 +146,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	-moz-box-shadow: none !important;
   	-webkit-box-shadow: none !important;
 }
+
+/*price strikethrough red*/
+.rbn-price-rack{
+    color: red;
+}
