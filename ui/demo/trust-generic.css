@@ -1,16 +1,48 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Noto+Sans:400,700|Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC|Sura|Noto+Sans:400,700|Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap');
 .ui-header.ui-bar-inherit {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); }
+  
+.rb-header:before {
+  content: "Demo Company ｜ Demo Location";
+  color: #0172b2;
+  text-shadow: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: calc(50% - 10px);
+  font-family: "Sura", serif;
+  font-size: 18px;
+  letter-spacing: 0.125em;
+}
+
+@media (max-width: 600px) {
+  .rb-header:before {
+    top: calc(50%);
+    font-size: 18px;
+  }
+}
+@media (max-width: 250px) {
+  .rb-header:before {
+    font-size: 14px;
+  }
+
+  .ui-header.ui-bar-inherit {
+    height: 120px !important;
+  }
+}
 
 .rb-footer:before {
-  background: linear-gradient(to bottom, #f9faf9, transparent), url(https://dabb7zy6p4b0z.cloudfront.net/ui/ski-back.jpg) 50% 5% no-repeat;
+  background: linear-gradient(to bottom, #f9faf9, transparent), url(https://dabb7zy6p4b0z.cloudfront.net/ui/demo/accommodation-entrance.jpg) 50% 70% no-repeat;
   background-size: cover;
   height: 250px;
   display: block;
   content: "";
   margin-top: -100px;
   position: relative;
-  z-index: 0; }
+  z-index: 0;
+  }
 
 .rb-footer {
   border-top: none; }
@@ -51,7 +83,7 @@ a, .ui-select {
   background-color: #282828 !important; }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Sura", sans-serif !important;
   color: #f9f9f9 !important;
   font-size: 1.5rem !important;
   font-weight: 300 !important;
@@ -69,9 +101,15 @@ a, .ui-select {
   font-weight: 400 !important; }
 
 /* Import font */
-body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
-  font-family: "Open Sans", sans-serif;
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  font-family: "Sura", sans-serif;
+  font-size: 1.5rem;
+  text-align: center !important;
+  padding-left: 1em;
   background: #aaa;
+  letter-spacing: normal;
+  font-weight: 700;
+  text-transform: None !important;
   text-shadow: none;
   color: #fff;
   -webkit-transition: ease-in-out 200ms;
@@ -79,22 +117,22 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
   body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
     background: #919191; }
 
+    body {
+      font-family: "Open Sans", sans-serif;
+      }
+
 /* Header bar */
 .ui-header.ui-bar-inherit {
   background: #ffffff url() no-repeat center;
   background-size: auto;
   border: none;
-  height: 100px; }
+  height: 52px;
+  }
 
 .ui-header .ui-title {
-  padding-top: calc(20px);
-  font-size: 3em;
-  font-family: "Lobster", cursive;
-  font-weight: 400;
-  color: #0172b2;
-  text-shadow: 1px 1px #ddd;
-  width: 100%;
-  margin: auto;
+  display: none;
+  /* font-size: 2em; */
+  /* font-family: "Open Sans"; */
 }
 
 /* Hide Default Header
@@ -335,7 +373,7 @@ tbody > tr > td li {
   display: none; }
 
 #base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit {
-  background: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #f9faf9, transparent), url(https://dabb7zy6p4b0z.cloudfront.net/ui/ski-back.jpg) 50% 85% no-repeat;
+  background: #fff;
   }
 
 .ui-content {
