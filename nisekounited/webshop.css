@@ -777,7 +777,8 @@ span.rb-guest-sel-item {
 #base_page\:txtab_data > tr > td:nth-child(5),
 #base_page\:txtab\:dueDate,
 #base_page\:txtab_head > tr > th:nth-child(6),
-#base_page\:txtab_data > tr > td:nth-child(6) {
+#base_page\:txtab_data > tr > td:nth-child(6),
+#base_page\:txtab_head > tr > th:nth-child(7){
 	display: none;
 }
 
