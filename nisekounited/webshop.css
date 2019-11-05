@@ -769,16 +769,18 @@ span.rb-guest-sel-item {
 }
 
 /* YB Invoice */
+/* Notes */
 #base_page\:txtab\:notesText,
-#base_page\:txtab_data > tr > td:nth-child(3),
 #base_page\:txtab_data > tr > td:nth-child(4),
+/* Invoice Date */
 #base_page\:txtab\:invoiceDate,
-#base_page\:txtab_head > tr > th:nth-child(5),
 #base_page\:txtab_data > tr > td:nth-child(5),
+/* Due Date */
 #base_page\:txtab\:dueDate,
-#base_page\:txtab_head > tr > th:nth-child(6),
 #base_page\:txtab_data > tr > td:nth-child(6),
-#base_page\:txtab_head > tr > th:nth-child(7){
+/* Payment Amount */
+#base_page\:txtab\:recd,
+#base_page\:txtab_data > tr > td:nth-child(7) {
 	display: none;
 }
 
