@@ -1,4 +1,62 @@
+/* Custom */
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+.rb-guest-for-emergencies {
+  font-family: Raleway, sans-serif;
+}
+
+/* Replace For Em*/
+#orderForm\:foremlblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(1):after {
+  content: "Accommodation Requests";
+  font-weight: 700;
+}
+
+/* Replace Diet */
+#orderForm\:dietarylblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(2) > div:nth-child(1):after {
+  content: "Please choose from Country Resort / The Orchards / Akazora:";
+}
+
+/* Replace Med */
+#orderForm\:medicallblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(3) > div:nth-child(1):after {
+  content: "Check-in & Check-out date";
+}
+
+#orderForm\:emcontactnmlblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(4) > div:nth-child(1):after {
+  content: "Number of guests in your group";
+}
+
+#orderForm\:emcontactphonelblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(5) > div:nth-child(1):after {
+  content: "Number of children under 7 years old";
+}
+
+/* Hide per guest */
+.ui-dialog-content.ui-widget-content > .rb-guest-for-emergencies {
+  display: none;
+}
+
+.rb-cat-desc {
+  padding-top: 1em;
+}
+
 * {
   font-family: Raleway, sans-serif;
 }
