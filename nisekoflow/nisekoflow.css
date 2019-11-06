@@ -79,7 +79,8 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 button[id*="addItemsLink"],
 button[id*="saveorderbutt"],
 button#base_page\:neworderform\:reservationConditionButt,
-button#base_page\:neworderform\:booknpay
+button#base_page\:neworderform\:booknpay,
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow
 {
   background-color: #333 !important;
   color: #fff !important;
@@ -88,7 +89,8 @@ button#base_page\:neworderform\:booknpay
 button[id*="addItemsLink"]:hover,
 button[id*="saveorderbutt"]:hover,
 button#base_page\:neworderform\:reservationConditionButt:hover,
-button#base_page\:neworderform\:booknpay:hover{
+button#base_page\:neworderform\:booknpay:hover,
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover{
   background-color: #2B2B2B !important;
 }
 
