@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+/* Remove Header */
+.ui-title {
+  display: none !important;
+}
+
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+  display: none;
+}
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("https://nisekopowderschool.com/wp-content/uploads/2019/10/Artboard-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  background-color: #fff !important;
+  border-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height:150px;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+  box-shadow: inset 0 0 4px #aaa !important;
+}
+
+/* Lang & Currency */
+
+/* Language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/* Panels */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background: #4c4c4c;
+  background: -moz-linear-gradient(top, #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%);
+  background: -webkit-linear-gradient(top, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+  background: linear-gradient(to bottom, #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 );
+  color: #fff;
+  border: #717071;
+  text-shadow: none;
+}
+
+/* Icons */
+
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #333;
+}
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+  background-color: transparent !important;
+}
+
+/* Buttons */
+
+button[id*="addItemsLink"],
+button[id*="saveorderbutt"],
+button#base_page\:neworderform\:reservationConditionButt,
+button#base_page\:neworderform\:booknpay
+{
+  background-color: #333 !important;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+button[id*="addItemsLink"]:hover,
+button[id*="saveorderbutt"]:hover,
+button#base_page\:neworderform\:reservationConditionButt:hover,
+button#base_page\:neworderform\:booknpay:hover{
+  background-color: #2B2B2B !important;
+}
+
+/* Remove item Button */
+.remove-item-control.ui-btn-inline {
+  color: #888;
+  margin-top: 0.5em;
+  width: 100%
+}
+.remove-item-control.ui-btn-inline:after {
+  background-color: #888;
+}
