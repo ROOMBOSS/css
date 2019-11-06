@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+* {
+  font-family: Raleway, sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://www.edventureniseko.com/uploads/6/4/9/7/64971489/published/edventure-niseko-weebly-logo2.png?1531294232");
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 360px;
+  border: none;
+  border-bottom: 10px solid #5199a8;
+  height: 120px !important;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 150px !important;
+    background-position: center calc(100% - 10px);
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 120px !important;
+    background-size: 285px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title, .rb-child-cat-title,
+.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title,
+#orderForm\:existglbl, #orderForm\:newguestlbl {
+  color: #333;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
+  color: #5199a8;
+}
+
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #5199a8;
+  box-shadow: 0 0 0px 6px #5199a8;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #5199a8;
+  box-shadow: 2px -1 -1 #5199a8, -2px -1 -1 #5199a8;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #305a63 !important;
+  background-color: #5199a8 !important;
+}
+
+#orderForm\:booknow {
+  background-color: #5199a8;
+  border: 1px solid #5199a8;
+}
+
+#orderForm\:booknow:hover {
+  background-color: #407a86;
+  border: 1px solid #407a86;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #5199a8;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: #5199a8;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+  color: #305a63;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #305a63;
+  border-color: #305a63;
+}
+
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #407a86;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 10px solid #5199a8;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #5199a8;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #71aebb;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #305a63;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #407a86;
+}
