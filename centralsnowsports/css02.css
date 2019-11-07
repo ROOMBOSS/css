@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/* Custom */
+.rb-guest-for-emergencies {
+  display: none;
+}
+
+.rb-cat-desc {
+  padding-top: 1em;
+}
+
+.rb-header {
+  background-image: url("https://centralsnowsports.com.au/assets/images/css-logo.svg");
+  background-color: #2D2D2D !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 360px;
+  border: none;
+  height: 120px !important;
+  border-bottom: 10px solid #0EB8C9;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 150px !important;
+    background-position: center calc(100% - 10px);
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 120px !important;
+    background-size: 285px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title, .rb-child-cat-title,
+.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title,
+#orderForm\:existglbl, #orderForm\:newguestlbl {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
+  color: #0EB8C9;
+}
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #0EB8C9;
+  box-shadow: 0 0 0px 6px #0EB8C9;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #2D2D2D;
+  box-shadow: 2px -1 -1 #2D2D2D, -2px -1 -1 #2D2D2D;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #0EB8C9 !important;
+  background-color: #2D2D2D !important;
+}
+
+#orderForm\:booknow {
+  background-color: #2D2D2D;
+  border: 1px solid #2D2D2D;
+}
+
+#orderForm\:booknow:hover {
+  background-color: #141414;
+  border: 1px solid #141414;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #2D2D2D;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: #0EB8C9;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+  color: #0EB8C9;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #0EB8C9;
+  border-color: #0EB8C9;
+}
+
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #E84093;
+  border-color: #E84093;
+}
+.ui-button.ui-widget.ui-state-hover else {
+  background-color: #1bdcef;
+}
+
+.ui-button {
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 10px solid #0EB8C9;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #2D2D2D;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #474747;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #0EB8C9;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #E84093;
+}
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
+#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+  background-color: #1bdcef;
+}
