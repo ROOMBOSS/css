@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* Custom */
+.rb-cat-desc {
+  padding-top: 1em;
+}
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekokidsclub/kidsclublogo.png");
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border: none;
+  height: 120px !important;
+  border-bottom: 10px solid #5CC2CF;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 150px !important;
+    background-position: center calc(100% - 10px);
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 120px !important;
+    background-size: 125px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title, .rb-child-cat-title,
+.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title,
+#orderForm\:existglbl, #orderForm\:newguestlbl {
+  color: #333;
+  text-transform: normal;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #C756A1;
+}
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #5CC2CF;
+  box-shadow: 0 0 0px 6px #5CC2CF;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #002F43;
+  box-shadow: 2px -1 -1 #002F43, -2px -1 -1 #002F43;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #5CC2CF !important;
+  background-color: #002F43 !important;
+}
+
+#orderForm\:booknow {
+  background-color: #C756A1;
+  border: 1px solid #C756A1;
+}
+
+#orderForm\:booknow:hover {
+  background-color: #b03a88;
+  border: 1px solid #b03a88;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #002F43;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: #5CC2CF;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #5CC2CF;
+  border-color: #5CC2CF;
+}
+
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #83d1db;
+  border-color: #83d1db;
+}
+
+.ui-button {
+  text-transform: normal;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 10px solid #5CC2CF;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #002F43;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #005376;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #5CC2CF;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
+#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+  background-color: #83d1db;
+}
