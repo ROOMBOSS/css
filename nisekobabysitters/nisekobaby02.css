@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Custom */
 .rb-cat-desc {
   padding-top: 1em;
@@ -78,8 +77,8 @@
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #002F43;
-  box-shadow: 2px -1 -1 #002F43, -2px -1 -1 #002F43;
+  background-color: #C756A1;
+  box-shadow: 2px -1 -1 #C756A1, -2px -1 -1 #C756A1;
 }
 
 /* Accent Dialogue Title */
