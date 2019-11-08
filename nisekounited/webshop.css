@@ -61,6 +61,9 @@ html[lang="zh"] .skipass-message:after {
 html[lang="zh_cn"] .skipass-message:after {
 	content: "请注意，当手动输入现有滑雪通行证的ID进行充值时，只有先前购买的红色Niseko United IC卡才能在线充值。 （见下面的例子。）";
 }
+html[lang="ko"] .skipass-message:after {
+	content: "아래 표시 된 종류의 스키패스만이 충전 가능 함을 유의해주세요. 새로운 화이트 스키 패스를 구입하셨다면, ID가 자동으로 나타날것입니다. 오래 된 레드 스키패스는 ID를 입력해주세요. ";
+}
 .skipass-image {
     background-image: url(https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-cards.png);
     background-size: auto 100%;
