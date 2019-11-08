@@ -1,0 +1,175 @@
+/* Custom */
+.rb-cat-desc {
+  padding-top: 1em;
+}
+
+.rb-header {
+  height: 200px;
+}
+
+.rb-header {
+  background-image: url("https://skihakuba.com/contact-thanks_htm_files/374365@2x.png");
+  background-color: #000 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px;
+  border: none;
+  height: 120px !important;
+  border-bottom: 10px solid #FF8200;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 150px !important;
+    background-position: center calc(100% - 10px);
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 120px !important;
+    background-size: 200px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title, .rb-child-cat-title,
+.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title,
+#orderForm\:existglbl, #orderForm\:newguestlbl {
+  color: #333;
+  text-transform: normal;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #66A8DD;
+}
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #FF8200;
+  box-shadow: 0 0 0px 6px #FF8200;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #FF8200;
+  box-shadow: 2px -1 -1 #FF8200, -2px -1 -1 #FF8200;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #FF8200 !important;
+  background-color: #000000 !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #FF8200 !important;
+  border: 1px solid #FF8200 !important;
+  color: #000 !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #cc6800 !important;
+  border: 1px solid #cc6800 !important;
+  color: #000 !important;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #000000;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: #FF8200;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #66A8DD;
+  border-color: #66A8DD;
+  color: #000 !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #90c0e6;
+  border-color: #90c0e6;
+}
+
+.ui-button {
+  text-transform: normal;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 10px solid #FF8200;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #000000;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #1a1a1a;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #66A8DD;
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
+#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+  background-color: #90c0e6;
+}
