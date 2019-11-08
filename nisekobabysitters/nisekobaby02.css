@@ -163,7 +163,7 @@
 #base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
   background-color: #83d1db;
 }
-
+/*
 .rb-parent-cat-2c9890f06d8dd89d016da3937f091405 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(1) {
   display: none !important;
-}
+}*/
