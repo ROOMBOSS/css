@@ -169,3 +169,34 @@
 #base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
   background-color: #ca5151;
 }
+
+/* Icon Update */
+.fa-edit, .fa-trash-o {
+  font-size: 20px !important;
+  width: 24px !important;
+  padding: 5px ;
+  background-color: #ddd;
+  border-radius: 3px;
+  color: #fff;
+  margin-bottom: 4px;
+  text-align: center;
+}
+.fa-edit {
+  background: #008CBA;
+}
+.fa-edit:hover {
+  background: #00a6dc;
+}
+.fa-trash-o {
+  background: #B23636;
+}
+.fa-trash-o:hover {
+  background: #d84343;
+}
+a[id*="edit"] {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
+}
+#orderForm\:guestsdt_head > tr > th:nth-child(3) {
+  width: auto !important;
+}
