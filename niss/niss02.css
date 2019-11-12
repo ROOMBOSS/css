@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Open+Sans:300,400,700&display=swap&subset=japanese');
 
 *{ font-family: 'Noto Sans JP', sans-serif; }
 
@@ -6,12 +6,12 @@
 
 .rb-header {
   background-image: url("https://cdn.hanazononiseko.com/assets/hanazono-niseko-logo-54957dfcc30ba074224d79a540293230ed9bc706e92302d531bb77ec6ab764c9.svg");
-  background-color: #000;
+  background-color: #221E20;
   background-repeat: no-repeat;
   background-position: 50% 66%;
 	background-size: 250px;
   border: none;
-  border-bottom: 10px solid #000;
+  border-bottom: 10px solid #221E20;
     height:100px;
 }
 @media(max-width: 300px) {
@@ -107,7 +107,7 @@
 
 /* Menu Highlight */
 .ui-selectonemenu-item.ui-selectonemenu-list-item.ui-state-highlight {
-  background-color: #333;
+  background-color: #221E20;
   border-top: 2px solid #0095D9;
 }
 
@@ -139,4 +139,32 @@
 .rb-prod-desc-item:nth-child(2) label,
 .rb-scroll-top-panel label, .rb-order-nav {
   font-family: "Open Sans", sans-serif;
+}
+
+/* Icon Update */
+.fa-edit, .fa-trash-o {
+  font-size: 20px !important;
+  width: 24px !important;
+  padding: 5px ;
+  background-color: #ddd;
+  border-radius: 3px;
+  color: #fff;
+  margin-bottom: 4px;
+  text-align: center;
+}
+.fa-edit {
+  background: #00A0DF;
+}
+.fa-edit:hover {
+  background: #0095D9;
+}
+.fa-trash-o {
+  background: #EC5840;
+}
+.fa-trash-o:hover {
+  background: #c94833;
+}
+a[id*="edit"] {
+  margin-left: 4px !important;
+  margin-right: 4px !important;
 }
