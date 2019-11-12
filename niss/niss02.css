@@ -168,3 +168,6 @@ a[id*="edit"] {
   margin-left: 4px !important;
   margin-right: 4px !important;
 }
+#orderForm\:guestsdt_head > tr > th:nth-child(3) {
+  width: auto !important;
+}
