@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-.rbn-tab-img {
-  padding-right: .5em; }
+[src="https://dh1msuk8kbcis.cloudfront.net/0_img/vdr/thumb_sml/hakulife_services_niseko_837316.jpg"].rbn-tab-img {
+  padding: 10px 0;
+  background-color: #fff;
+  margin-right: .5em;
+}
 
 
 #base_page\:vform\:rqpnl .ui-panel-m-titlebar {
