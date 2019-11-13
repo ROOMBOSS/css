@@ -10,13 +10,14 @@
 
 /* Custom banner */
 .ui-header.ui-bar-inherit {
-  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/sushijapan/sushi_logo.png");
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/sushijapan/sushi-japan-new.png");
   background-repeat: no-repeat;
   background-position: center;
-	background-size: 200px;
-  background-color: #333 !important;
-  border-color: #fff;
-  height:150px;
+  background-size: 160px;
+  background-color: #eee !important;
+  border: none;
+  border-bottom:1px solid #efefef;
+  height: 220px;
 }
 
 /* Input highlights */
