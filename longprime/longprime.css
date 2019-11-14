@@ -1,1 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  font-family: "Open Sans", sans-serif !important;
+}
 
+/* Remove Header */
+
+.ui-header {
+  font-size: 30px;
+  color: #f9f9f9;
+  text-shadow: 2px 2px #333 !important;
+}
+
+.ui-header .ui-title {
+  overflow-wrap: normal;
+  overflow: visible;
+  white-space: normal;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title {
+  margin: 24px auto;
+}
+
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+  display: none;
+}
+
+.ui-header.ui-bar-inherit {
+  background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,.5)), to(rgba(0,0,0,.5))), url("https://dabb7zy6p4b0z.cloudfront.net/longprime/snow-covered.jpg");
+  background-image:-o-linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://dabb7zy6p4b0z.cloudfront.net/longprime/snow-covered.jpg");
+  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("https://dabb7zy6p4b0z.cloudfront.net/longprime/snow-covered.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center 25%;
+  border-color: #fff;
+  border-bottom: 1px solid #ddd;
+  height:auto;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+  box-shadow: inset 0 0 4px #aaa !important;
+}
+
+/* Lang & Currency */
+
+/* Language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em;
+}
+
+/* Panels */
+
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle{
+  background: #38c;
+  color: #fff;
+  border: #717071;
+  text-shadow: none;
+}
+
+/* Icons */
+
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #38c;
+}
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+  background-color: transparent !important;
+}
+
+/* Buttons */
+
+button[id*="addItemsLink"],
+button[id*="saveorderbutt"],
+button#base_page\:neworderform\:reservationConditionButt,
+button#base_page\:neworderform\:booknpay,
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow
+{
+  background-color: #2ad !important;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+button[id*="addItemsLink"]:hover,
+button[id*="saveorderbutt"]:hover,
+button#base_page\:neworderform\:reservationConditionButt:hover,
+button#base_page\:neworderform\:booknpay:hover,
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover{
+  background-color: #239dcb !important;
+}
+
+/* Remove item Button */
+.remove-item-control.ui-btn-inline {
+  color: #888;
+  margin-top: 0.5em;
+  width: 100%
+}
+.remove-item-control.ui-btn-inline:after {
+  background-color: #888;
+}
