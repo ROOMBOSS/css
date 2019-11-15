@@ -7,11 +7,11 @@
   display: none !important;
 }
 
-.rb-parent-cat-2c9890f06e421730016e48d9d1170b61 {
+#orderForm\:prtcatpnl_content > div.flex-container.rb-parent-cat-container > div:nth-child(3) {
   display: none !important;
 }
 
 
-.rb-parent-cat-2c9890f06e421730016e48d95e660b5d {
+#orderForm\:prtcatpnl_content > div.flex-container.rb-parent-cat-container > div:nth-child(4){
   display: none !important;
 }
