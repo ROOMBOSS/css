@@ -222,3 +222,50 @@ div.rb-guest-for-emergencies > div:nth-child(5) > div:nth-child(1):after {
 #base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #407a86;
 }
+
+/* Photo product disclaimer */
+#orderForm\:addbskpg > tbody > tr:nth-child(4) > td:before {
+  content: "I give consent to MnK EdV Niseko to use any photographs, or any edited versions thereof, that are taken of my child and/or myself while participating in EdV Niseko for use by MnK EdV Niseko in MnK EdV Niseko projects or in MnK EdV Niseko brochures and flyers that are distributed both as printed documents and/or on the Internet. I understand that my child’s name and/or my name will not be identified with such brochures and flyers and I agree that neither my child not I will receive any compensation for the use of any such photographs.";
+  display: block;
+  max-width: 400px;
+  font-size: 10px;
+  margin: auto;
+  padding-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+@media(max-width: 460px) {
+  #orderForm\:addbskpg > tbody > tr:nth-child(4) > td:before {
+    max-width: 100%;
+  }
+}
+
+/* Post Assigning Message */
+.rb-contact-info:before {
+  content: "Please make sure you assign the correct guest to the activity selected.";
+  display: block;
+  margin-bottom: 1.5em;
+  font-size: 90%;
+  font-weight: bold;
+  color: #5199a8;
+}
+
+/* Post Disclaimer */
+.rb-checkout-nav:before{
+content: "By making this request, you are agreeing to the Terms & Conditions of the above Disclaimer.";
+display: block;
+text-align: left;
+padding-left: 18px;
+padding-bottom: 10px;
+}
+
+/* Replace Button Text */
+#orderForm\:sendinq span {
+  display: none;
+}
+#orderForm\:sendinq:after {
+  content: "Accept Terms and Conditions and Make Request";
+  padding: .3em 1em;
+  display: block;
+  line-height: normal;
+}
