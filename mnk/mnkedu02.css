@@ -317,3 +317,11 @@ padding-bottom: 10px;
   background-repeat: no-repeat;
   }
 }
+
+/* Totals rework */
+#orderForm\:chkouttotal {
+  margin-right: 0 !important;
+}
+#orderForm\:chkouttot {
+  padding-right: 18px;
+}
