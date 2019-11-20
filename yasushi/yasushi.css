@@ -33,3 +33,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   display: block;
   margin: .5em;
 }
+
+.ui-btn-icon-top{
+  background-color: #82786e;
+}
