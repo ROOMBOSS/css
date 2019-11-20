@@ -39,7 +39,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   text-shadow: none; 
 }
 
-.ui-paginator-page {
+.ui-paginator-page.ui-btn-active.ui-btn{
   color: Black;
   text-shadow: none; 	
 }
