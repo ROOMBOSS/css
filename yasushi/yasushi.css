@@ -36,4 +36,10 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 .ui-btn-icon-top {
   background-color: #82786e;
+  text-shadow: none; 
+}
+
+.ui-paginator-page {
+  color: Black;
+  text-shadow: none; 	
 }
