@@ -34,6 +34,6 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   margin: .5em;
 }
 
-.ui-btn-icon-top{
-  color: #82786e;
+#base_page\:resultsform\:mapViewTab{
+  background-color: #82786e;
 }
