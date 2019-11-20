@@ -34,7 +34,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   margin: .5em;
 }
 
-.ui-btn-icon-top {
+.ui-link.ui-btn.ui-icon-navigation.ui-btn-icon-top.ui-btn-active {
   background-color: #82786e;
   text-shadow: none; 
 }
