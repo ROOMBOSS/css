@@ -35,8 +35,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 .ui-link.ui-btn.ui-icon-navigation.ui-btn-icon-top.ui-btn-active {
-  background-color: #82786e;
-  text-shadow: none; 
+  background-color: #82786e !important;
+  text-shadow: none !important; 
 }
 
 .ui-paginator-page.ui-btn-active.ui-btn{
