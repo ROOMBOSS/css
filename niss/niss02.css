@@ -247,3 +247,7 @@ a[id*=edit] {
   background-color: #0db3ff;
   border: none;
 }
+
+.ui-growl-info, .ui-messages .ui-messages-info, .ui-message.ui-message-info {
+  border-color: #156090 !important;
+}
