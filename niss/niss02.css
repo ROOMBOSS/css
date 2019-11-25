@@ -157,15 +157,15 @@ a[id*=edit] {
 
 #orderForm\:booknow,
 #orderForm\:booknowcond {
-  background-color: #0095D9 !important;
-  border: 1px solid #0095D9 !important;
+  background-color: #221E20 !important;
+  border: 1px solid #221E20 !important;
   color: #fff !important;
 }
 
 #orderForm\:booknow:hover,
 #orderForm\:booknowcond:hover {
-  background-color: #0072a6 !important;
-  border: 1px solid #0072a6 !important;
+  background-color: #1A2204 !important;
+  border: 1px solid #1A2204 !important;
   color: #fff !important;
 }
 
