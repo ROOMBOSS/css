@@ -242,7 +242,7 @@ div.rb-guest-for-emergencies > div:nth-child(5) > div:nth-child(1):after {
 
 /* Post Assigning Message */
 .rb-contact-info:before {
-  content: "Please make sure you assign the correct guest to the activity selected.";
+  content: "Please add details for each child that is participating in the program by selecting '+ Add New Group Member'. Please make sure you assign the correct child to the program selected.";
   display: block;
   margin-bottom: 1.5em;
   font-size: 90%;
