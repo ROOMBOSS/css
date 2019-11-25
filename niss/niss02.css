@@ -233,21 +233,35 @@ a[id*=edit] {
   background-color: #1a1a1a;
 }
 
+.ui-bar {
+  padding: .8em 1em;
+}
+
 /* Buttons */
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
-#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button,
+.ui-btn.ui-input-btn.ui-corner-all.ui-shadow {
   background-color: #0095D9;
   border: none;
   color: #fff !important;
   text-shadow: none !important;
 }
 
-#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
-#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover,
+.ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover {
   background-color: #0db3ff;
   border: none;
 }
 
 .ui-growl-info, .ui-messages .ui-messages-info, .ui-message.ui-message-info {
   border-color: #156090 !important;
+}
+
+/* Reverse product weight */
+[id*="pocgrd_content"] > .ui-block-a:not(span) {
+  font-weight: bold !important;
+}
+[id*="pocgrd_content"] > .ui-block-a span {
+  font-weight: normal !important;
 }
