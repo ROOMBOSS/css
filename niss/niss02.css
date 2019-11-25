@@ -259,9 +259,9 @@ a[id*=edit] {
 }
 
 /* Reverse product weight */
-[id*="pocgrd_content"] > .ui-block-a:not(span) {
-  font-weight: bold !important;
-}
-[id*="pocgrd_content"] > .ui-block-a span {
+[id*="pocgrd_content"] > .ui-block-a span:not([id*="criterionValueId"]) {
   font-weight: normal !important;
+}
+[id*="pocgrd_content"] > .ui-block-a {
+  font-weight: bold !important;
 }
