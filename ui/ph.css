@@ -424,14 +424,14 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7),
 #base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7),
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11),
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(9) {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11) {
   font-size: 0;
 }
 /*Overview*/
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7):before,
 #base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7):before,
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11):before,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(9):before {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11):before {
   font-size: 16px;
   line-height: 20px;
   margin-top: 4px;
@@ -444,7 +444,7 @@ tbody > tr > td li {
   content: "Gross Rental Revenue";  
 }
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11):before,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(9):before {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11):before {
 content: "Adjusted Gross Rental Revenue";
 }
 /******/
@@ -522,4 +522,8 @@ content: "Adjusted Gross Rental Revenue";
 }
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   text-align: center;
+}
+
+.fa-file-excel-o.ui-btn-icon-left:after {
+  display: none;
 }
