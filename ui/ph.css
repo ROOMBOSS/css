@@ -409,3 +409,117 @@ tbody > tr > td li {
 .rbn-footer {
   display: none;
 }
+
+/* Lorem Ipsum */
+#base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(4) {
+  display: none;
+}
+#base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(3):after {
+  content: "Lorem ipsum vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae.";
+  display: block;
+  margin: 1em 0;
+}
+
+/*** GRI & NRI rep ***/
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7),
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7),
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11),
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(9) {
+  font-size: 0;
+}
+/*Overview*/
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7):before,
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7):before,
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11):before,
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(9):before {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 4px;
+  padding-left: 4px;
+  display: block;
+}
+/* Overview text */
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7):before,
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7):before {
+  content: "Gross Rental Revenue";  
+}
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11):before,
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(9):before {
+content: "Adjusted Gross Rental Revenue";
+}
+/******/
+
+/* Result By Month ANN DT */
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt594 span,
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600 span {
+  display: none;
+}
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt594:after,
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600:after {
+  content: "Gross Rental Revenue";
+  font-size: .8em;
+  line-height: .8em;
+}
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600:after {
+  content: "Adjusted Gross Rental Revenue";
+}
+/* ANN MB */
+#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3) > b,
+#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5) > b {
+  display: none;
+}
+@media (max-width: 35em) {
+#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3):before,
+#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before {
+  content: "Gross Rental Revenue";
+  padding: .4em;
+    min-width: 30%;
+    display: inline-block;
+    margin: -.4em 1em -.4em -.4em;
+}
+#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before {
+  content: "Adjusted Gross Rental Revenue";
+}
+}
+
+/* Overview Titles */
+#base_page\:statementExtentMenu\:rba1OverviewTitle,
+#base_page\:statementExtentMenu\:rba1OverviewTitle-annual,
+#base_page\:statementExtentMenu\:rba2OverviewTitle,
+#base_page\:statementExtentMenu\:rba2OverviewTitle-annual {
+  display: none;
+}
+
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(31):after,
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(31):after {
+  content: "FF&E Reserve Fund";
+  font-weight: bold;
+}
+#base_page\:statementExtentMenu\:overviewGrid > div:nth-child(49):after,
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(49):after {
+  content: "Consumption Tax Holding";
+  font-weight: bold;
+}
+
+/* Panel Titles */
+#base_page\:statementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3,
+#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
+  display: none
+}
+#base_page\:statementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before,
+#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before {
+    content: "FF&E Reserve Fund";
+    display; block;
+    font-family: "EB Garamond", serif !important;
+    color: #f9f9f9 !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    text-align: center;
+    width: 100%;
+}
+#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before {
+    content: "Consumption Tax Holding"
+}
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  text-align: center;
+}
