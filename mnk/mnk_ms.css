@@ -125,6 +125,12 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
+/*Hide Income breakout on owner report*/
+[id*="allocIncomeList"]{
+display:none!important;
+}
+
+
 /*Your Booking non conf Red*/
 .rb-notconfbook {
     color: red;
