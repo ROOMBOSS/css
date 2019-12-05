@@ -65,5 +65,13 @@ body,
 	background: #919eab;
 }stay.css
 
+/* flywire page*/
+.flex-item > input {
+    width: 220px !important;
+}
 
+/* flywire page*/
+.rb-body-content {   
+    max-width: 480px;    
+}
 
