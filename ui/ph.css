@@ -527,3 +527,53 @@ content: "Adjusted Gross Rental Revenue";
 .fa-file-excel-o.ui-btn-icon-left:after {
   display: none;
 }
+
+/* Bookings Table */
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span {
+  display: none;
+}
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6):before {
+  content: "Gross Rental Revenue";
+}
+
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7) span {
+  display: none;
+}
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before {
+  content: "Rental-Based Expenses";
+}
+
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span {
+ display: none;
+}
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before {
+  content: "Adjusted Gross Rental Revenue";
+}
+
+/* Mobile */
+@media (max-width: 35em) {
+#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
+  display: none;
+}
+#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
+  content: "Gross Rental Revenue";
+  float: left;
+}
+
+#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
+  display: none;
+}
+#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
+  content: "Rental-Based Expenses";
+  float: left;
+}
+
+#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
+  display: none;
+}
+#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
+  content: "Adjusted Gross Rental Revenue";
+  float: left;
+  margin-right: .5em;
+}
+}
