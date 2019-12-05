@@ -1,4 +1,12 @@
-body,
+body/*,
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a,
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn*/ {
+  font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-shadow: none;
+	font-size: 0.9em;
+}
+
+/*body,*/
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a,
 .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: -apple-system, BlinkMacSystemFont,  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
