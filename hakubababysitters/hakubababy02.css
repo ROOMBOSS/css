@@ -1,1 +1,174 @@
+/* Your Booking */
+/* Custom */
+@import url("https://fonts.googleapis.com/css?family=Lato|Playfair+Display+SC:400,700&display=swap");
+.rb-cat-desc {
+  padding-top: 1em; }
 
+.rb-header {
+  display: flex;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://dabb7zy6p4b0z.cloudfront.net/hakubababysitters/hakubabysitters.jpg") !important;
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dabb7zy6p4b0z.cloudfront.net/hakubababysitters/hakubabysitters.jpg") !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dabb7zy6p4b0z.cloudfront.net/hakubababysitters/hakubabysitters.jpg") !important; }
+
+.rb-header-title {
+  text-align: center;
+  width: 100%;
+  font-size: 2em; }
+
+* {
+  font-family: "Lato", sans-serif; }
+
+.rb-header {
+  background-image: none;
+  background-color: #F2C05E !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0; }
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 180px !important;
+    background-position: center 75%; } }
+@media (max-width: 360px) {
+  .rb-header {
+    height: 160px !important;
+    background-size: cover-20px !important; } }
+.rb-header-title {
+  font-family: "Playfair Display SC", display; }
+
+/* Custom Headers */
+.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #333;
+  text-transform: none;
+  font-family: "Playfair Display SC", display; }
+
+/*Custom Icons */
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #F2C05E; }
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #36B5CD;
+  box-shadow: 0 0 0px 6px #36B5CD; }
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal; }
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none; }
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left; }
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px; }
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #000;
+  box-shadow: 2px -1 -1 #000, -2px -1 -1 #000; }
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #F2C05E !important;
+  background-color: #fff !important; }
+
+.ui-dialog-title {
+  color: #000 !important; }
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #fff !important;
+  border: 1px solid #fff !important;
+  color: #F2C05E !important; }
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #e6e6e6 !important;
+  border: 1px solid #e6e6e6 !important;
+  color: #F2C05E !important; }
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Playfair Display SC", display !important; }
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #000; }
+
+.ui-widget-content .ui-state-highlight {
+  background: #fff; }
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "\f291";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important; }
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #F2C05E;
+  border-color: #F2C05E;
+  color: #fff !important; }
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #f6d28d;
+  border-color: #f6d28d; }
+
+.ui-button {
+  text-transform: uppercase; }
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0;
+  border-top: 0; }
+
+.ui-title {
+  display: none !important; }
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #fff;
+  border: none;
+  color: #fff;
+  text-shadow: none; }
+  .ui-panel-m-titlebar.ui-bar.ui-bar-inherit else,
+  .ui-btn .ui-panel-collapsible-heading-toggle else,
+  .ui-icon-minus:after else, .ui-icon-plus:after else {
+    background-color: #000; }
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #1a1a1a; }
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #F2C05E;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important; }
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
+#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+  background-color: #f6d28d;
+  border: none; }
