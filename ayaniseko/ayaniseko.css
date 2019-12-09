@@ -80,10 +80,12 @@ div.gallery {
   width: 100% !important;
   height: auto !important;
   padding-top: 56% !important;
+	z-index: 0;
 }
 [id*="fadeEffectImages"] {
   width: 100% !important;
   height: auto !important;
+	z-index: 0;
 }
 
 /* About you resizing */
