@@ -96,3 +96,8 @@
 .rb-prod-desc-item:nth-child(1) label {
     color:  #375d9d !important;
 }
+
+/*booking today warnings*/
+.rb-warn-guest-booking-today-dt, .rb-warn-guest-booking-today-msg{
+    color:  red !important;
+}
