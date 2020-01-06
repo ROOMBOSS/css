@@ -90,3 +90,8 @@
 .rb-prod-desc-item:nth-child(1) label {
     color: #0f69b5 !important;
 }
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important;
+}
