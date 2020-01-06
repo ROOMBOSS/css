@@ -265,3 +265,8 @@ a[id*=edit] {
 [id*="pocgrd_content"] > .ui-block-a {
   font-weight: bold !important;
 }
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important;
+}
