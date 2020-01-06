@@ -63,3 +63,8 @@
     font-family: "FontAwesome" !important;
   color: #0168b3;
 }
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important;
+}
