@@ -873,3 +873,8 @@ html[lang="ko"] .rb-body-content:before {
 }
 
 .rb-basket-dt > div > table > thead > tr > th:nth-child(n+1):nth-child(n+2) { width: auto !important; }
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important;
+}
