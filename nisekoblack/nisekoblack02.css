@@ -175,3 +175,9 @@ html, body,
   width: 225px !important;
   height: 150px;
 }
+
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important;
+}
