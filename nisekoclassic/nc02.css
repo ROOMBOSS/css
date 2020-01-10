@@ -49,16 +49,15 @@ div.rb-guest-for-emergencies > div:nth-child(2) {
   display: none; }
 
 /* Country */
-#orderForm\:countrylblnew,
-#guestDialogForm\:countrylbledit,
-#guestDialogForm\:countrylbladd {
+[id*=countrylbl] {
   display: none; }
 
 html[lang="en"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form >
 div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
 html[lang="en"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
 div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
-#guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+#guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+.rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
   content: "Country of Residence *"; }
 
 html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form >
@@ -160,7 +159,11 @@ html[lang="ja"] [id*=postcodelbl]:after {
 #locform\:languageSelect_2,
 #locform\:languageSelect_3,
 #locform\:languageSelect_4,
-#locform\:languageSelect_5 {
+#locform\:languageSelect_5,
+li[data-label*="Korean"], li[data-label*="韓国語"],
+li[data-label*="French"], li[data-label*="フランス語"],
+li[data-label*="Chinese (simplified)"], li[data-label*="中国語（簡体）"],
+li[data-label*="Chinese (traditional)"], li[data-label*="中国語（繁体）"] {
   display: none; }
 
 * {
