@@ -181,3 +181,9 @@
 .rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
   display: none !important;
 }
+
+/* Hide dietary / medical */
+.rb-guest-for-emergencies > div:nth-child(2),
+.rb-guest-for-emergencies > div:nth-child(3) {
+  display: none;
+}
