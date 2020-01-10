@@ -1,6 +1,13 @@
 /* Your Booking */
 /* Custom */
+/* Remove Yourbooking */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+#base_page\:gform, .rbn-yb-searchtext, .rbn-yb-h1 {
+  display: none; }
+
+html[class="ui-mobile"] .ui-content.rb-content {
+  padding-top: 0; }
+
 .rb-cat-desc {
   padding-top: 1em; }
 
@@ -36,6 +43,11 @@ html[lang="ja"] .rb-prod-title:after {
   content: "年齢区分を選択してください"; }
 
 /*** Sign in replacement ***/
+/* Title */
+div.rb-guest-basic-information > div:nth-child(1),
+div.rb-guest-for-emergencies > div:nth-child(2) {
+  display: none; }
+
 /* Country */
 #orderForm\:countrylblnew,
 #guestDialogForm\:countrylbledit,
@@ -47,22 +59,67 @@ div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
 html[lang="en"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
 div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
 #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
-  content: "Nationality"; }
+  content: "Country of Residence *"; }
 
 html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form >
 div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
 html[lang="ja"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
 div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
 html[lang="ja"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
-  content: "国籍"; }
+  content: "国籍 *"; }
 
+/**** Address Order ***/
+.rb-guest-basic-information {
+  display: flex;
+  flex-direction: column; }
+
+.rb-guest-basic-information > .flex-container {
+  order: 1; }
+
+html[lang="ja"] [id*=postcodepg] {
+  order: 2; }
+
+html[lang="ja"] [id*=statepg] {
+  order: 2; }
+
+html[lang="ja"] [id*=citypg] {
+  order: 3; }
+
+html[lang="ja"] [id*=address1pg] {
+  order: 4; }
+
+html[lang="ja"] [id*=address2pg] {
+  order: 5; }
+
+/************************************/
+/* Address replacement */
+html[lang="en"] [id*=statelbl] {
+  display: none; }
+
+html[lang="ja"] [id*=statelbl], html[lang="ja"] [id*=citylbl], html[lang="ja"] [id*=address1lbl], html[lang="ja"] [id*=address2lbl] {
+  display: none; }
+
+html[lang="ja"] [id*=statepg] > .flex-item:first-of-type:after {
+  content: "都道府県"; }
+
+html[lang="ja"] [id*=citypg] > .flex-item:first-of-type:after {
+  content: "市町村"; }
+
+html[lang="ja"] [id*=address1pg] > .flex-item:first-of-type:after {
+  content: "番地"; }
+
+html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:after {
+  content: "建物名"; }
+
+html[lang="en"] [id*=statepg] > .flex-item:first-of-type:after {
+  content: "Nationality"; }
+
+/************************************/
 /* For Emergency */
-html[lang="en"] #orderForm\:foremlblnew:before,
-html[lang="en"] #guestDialogForm\:foremlbledit:before {
+html[lang="en"] [id*=foremlbl]:before {
   content: "Contact Details "; }
 
-html[lang="en"] #orderForm\:foremlblnew:after,
-html[lang="en"] #guestDialogForm\:foremlbledit:after {
+html[lang="en"] [id*=foremlbl]:after {
   content: " / Guardian"; }
 
 div.rb-guest-for-emergencies > div:nth-child(1):after {
@@ -74,41 +131,27 @@ div.rb-guest-for-emergencies > div:nth-child(1):after {
 html[lang="en"] div.rb-guest-for-emergencies > div:nth-child(1):after {
   content: "Please enter details of guardian if participant is a minor"; }
 
-html[lang="ja"] #orderForm\:foremlblnew:after,
-html[lang="ja"] #guestDialogForm\:foremlbledit:after {
+html[lang="ja"] [id*=foremlbl]:after {
   content: " / 保護者"; }
 
 html[lang="ja"] div.rb-guest-for-emergencies > div:nth-child(1):after {
   content: "参加者が未成年の場合は保護者を入力してください"; }
 
 /* Romaji only */
-html[lang="ja"] #orderForm\:fnmslblnew:after,
-html[lang="ja"] #guestDialogForm\:fnmslbledit:after,
-html[lang="ja"] #guestDialogForm\:emcontactnmlbledit:after,
-html[lang="ja"] div.rb-guest-basic-information > div:nth-child(2) > div:nth-child(1) > label:after,
-html[lang="ja"] #guestDialogForm\:fnmslbladd:after {
+html[lang="ja"] [id*=fnmslbl]:after,
+html[lang="ja"] [id*=nmlbl]:after,
+html[lang="ja"] [for*=nmlbl]:after {
   content: " (半角ローマ字）";
   font-size: .6em;
   color: #444; }
 
-html[lang="en"] #orderForm\:phonelblnew:after,
-html[lang="en"] #guestDialogForm\:phonelbledit:after,
-html[lang="en"] #orderForm\:emcontactphonelblnew:after,
-html[lang="en"] #guestDialogForm\:emcontactphonelblnew:after,
-html[lang="en"] #guestDialogForm\:emcontactphonelbledit:after,
-html[lang="en"] #guestDialogForm\:phonelbladd:after,
-html[lang="en"] #guestDialogForm\:emcontactphonelbladd:after {
+html[lang="en"] [id*=phonelbl]:after {
   content: "(Numbers only)";
   font-size: .6em;
   color: #444; }
 
-html[lang="ja"] #orderForm\:phonelblnew:after,
-html[lang="ja"] #guestDialogForm\:phonelbledit:after,
-html[lang="ja"] #orderForm\:emcontactphonelblnew:after,
-html[lang="ja"] #guestDialogForm\:emcontactphonelblnew:after,
-html[lang="ja"] #guestDialogForm\:emcontactphonelbledit:after,
-html[lang="ja"] #guestDialogForm\:phonelbladd:after,
-html[lang="ja"] #guestDialogForm\:emcontactphonelbladd:after {
+html[lang="ja"] [id*=phonelbl]:after,
+html[lang="ja"] [id*=postcodelbl]:after {
   content: "（ハイフンなし）";
   font-size: .6em;
   color: #444; }
