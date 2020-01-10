@@ -8,6 +8,118 @@
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); }
 
+/* Category replacement */
+.rb-parent-cat-text,
+.rb-child-cat-text,
+.rb-prod-panel-text {
+  display: none; }
+
+/* Event */
+html[lang="en"] .rb-parent-cat-title:after {
+  content: "Choose an Event"; }
+
+html[lang="ja"] .rb-parent-cat-title:after {
+  content: "イベントを選択してください"; }
+
+/* Race */
+html[lang="en"] .rb-child-cat-title:after {
+  content: "Choose a Race"; }
+
+html[lang="ja"] .rb-child-cat-title:after {
+  content: "レースを選択してください"; }
+
+/* Product */
+html[lang="en"] .rb-prod-title:after {
+  content: "Choose An Age Category"; }
+
+html[lang="ja"] .rb-prod-title:after {
+  content: "年齢区分を選択してください"; }
+
+/*** Sign in replacement ***/
+/* Country */
+#orderForm\:countrylblnew,
+#guestDialogForm\:countrylbledit,
+#guestDialogForm\:countrylbladd {
+  display: none; }
+
+html[lang="en"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form >
+div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
+html[lang="en"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
+div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+#guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+  content: "Nationality"; }
+
+html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form >
+div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
+html[lang="ja"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
+div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang="ja"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+  content: "国籍"; }
+
+/* For Emergency */
+html[lang="en"] #orderForm\:foremlblnew:before,
+html[lang="en"] #guestDialogForm\:foremlbledit:before {
+  content: "Contact Details "; }
+
+html[lang="en"] #orderForm\:foremlblnew:after,
+html[lang="en"] #guestDialogForm\:foremlbledit:after {
+  content: " / Guardian"; }
+
+div.rb-guest-for-emergencies > div:nth-child(1):after {
+  display: block;
+  padding-top: .25em;
+  font-size: .8em;
+  color: #444; }
+
+html[lang="en"] div.rb-guest-for-emergencies > div:nth-child(1):after {
+  content: "Please enter details of guardian if participant is a minor"; }
+
+html[lang="ja"] #orderForm\:foremlblnew:after,
+html[lang="ja"] #guestDialogForm\:foremlbledit:after {
+  content: " / 保護者"; }
+
+html[lang="ja"] div.rb-guest-for-emergencies > div:nth-child(1):after {
+  content: "参加者が未成年の場合は保護者を入力してください"; }
+
+/* Romaji only */
+html[lang="ja"] #orderForm\:fnmslblnew:after,
+html[lang="ja"] #guestDialogForm\:fnmslbledit:after,
+html[lang="ja"] #guestDialogForm\:emcontactnmlbledit:after,
+html[lang="ja"] div.rb-guest-basic-information > div:nth-child(2) > div:nth-child(1) > label:after,
+html[lang="ja"] #guestDialogForm\:fnmslbladd:after {
+  content: " (半角ローマ字）";
+  font-size: .6em;
+  color: #444; }
+
+html[lang="en"] #orderForm\:phonelblnew:after,
+html[lang="en"] #guestDialogForm\:phonelbledit:after,
+html[lang="en"] #orderForm\:emcontactphonelblnew:after,
+html[lang="en"] #guestDialogForm\:emcontactphonelblnew:after,
+html[lang="en"] #guestDialogForm\:emcontactphonelbledit:after,
+html[lang="en"] #guestDialogForm\:phonelbladd:after,
+html[lang="en"] #guestDialogForm\:emcontactphonelbladd:after {
+  content: "(Numbers only)";
+  font-size: .6em;
+  color: #444; }
+
+html[lang="ja"] #orderForm\:phonelblnew:after,
+html[lang="ja"] #guestDialogForm\:phonelbledit:after,
+html[lang="ja"] #orderForm\:emcontactphonelblnew:after,
+html[lang="ja"] #guestDialogForm\:emcontactphonelblnew:after,
+html[lang="ja"] #guestDialogForm\:emcontactphonelbledit:after,
+html[lang="ja"] #guestDialogForm\:phonelbladd:after,
+html[lang="ja"] #guestDialogForm\:emcontactphonelbladd:after {
+  content: "（ハイフンなし）";
+  font-size: .6em;
+  color: #444; }
+
+/* Hide other languages */
+#locform\:languageSelect_2,
+#locform\:languageSelect_3,
+#locform\:languageSelect_4,
+#locform\:languageSelect_5 {
+  display: none; }
+
 * {
   font-family: "Noto Sans JP", sans-serif; }
 
