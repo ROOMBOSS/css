@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Your Booking */
 /* Custom */
 /* Remove Yourbooking */
@@ -91,6 +92,28 @@ html[lang="ja"] [id*=address2pg] {
   order: 5; }
 
 /************************************/
+/* English Order */
+html[lang="en"] [id*=statepg] {
+  order: 1; }
+
+html[lang="en"] [id*=address1pg] {
+  order: 2; }
+
+html[lang="en"] [id*=address2pg] {
+  order: 2; }
+
+html[lang="en"] [id*=citypg] {
+  order: 2; }
+
+html[lang="en"] [id*=postcodepg] {
+  order: 3; }
+
+html[lang="en"] .rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(9) {
+  order: 4; }
+
+html[lang="en"] .rb-guest-basic-information > div:nth-child(8) {
+  order: 4; }
+
 /* Address replacement */
 html[lang="en"] [id*=statelbl] {
   display: none; }
