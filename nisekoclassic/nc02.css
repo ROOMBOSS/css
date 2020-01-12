@@ -56,15 +56,16 @@ html[lang="en"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
 html[lang="en"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
 div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
-#guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
-.rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+html[lang="en"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang="en"] .rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
   content: "Country of Residence *"; }
 
 html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form >
 div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
 html[lang="ja"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content >
 div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
-html[lang="ja"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+html[lang="ja"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang="ja"] .rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
   content: "国籍 *"; }
 
 /**** Address Order ***/
