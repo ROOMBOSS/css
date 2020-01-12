@@ -1,4 +1,5 @@
 /* Your Booking */
+/* Custom */
 /* Remove Yourbooking */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
 #base_page\:gform, .rbn-yb-searchtext, .rbn-yb-h1 {
@@ -74,6 +75,18 @@ html[lang="ja"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > d
 .rb-guest-basic-information > .flex-container {
   order: 1; }
 
+html[lang="ja"] .rb-guest-basic-information > div:nth-child(2) {
+  order: 0; }
+
+html[lang="ja"] .rb-guest-basic-information > div:nth-child(3) {
+  order: 0; }
+
+html[lang="ja"] [id*=address2pg] {
+  order: 0; }
+
+html[lang="ja"] .rb-guest-basic-information > div:nth-child(9) {
+  order: 2; }
+
 html[lang="ja"] [id*=postcodepg] {
   order: 2; }
 
@@ -86,18 +99,20 @@ html[lang="ja"] [id*=citypg] {
 html[lang="ja"] [id*=address1pg] {
   order: 4; }
 
-html[lang="ja"] [id*=address2pg] {
-  order: 5; }
-
 /************************************/
 /* English Order */
-html[lang="en"] [id*=statepg] {
+/* DOB */
+html[lang="en"] .rb-guest-basic-information > div:nth-child(8) {
   order: 1; }
 
-html[lang="en"] [id*=address1pg] {
+/* Nationality */
+html[lang="en"] [id*=address2pg] {
+  order: 1; }
+
+html[lang="en"] [id*=statepg] {
   order: 2; }
 
-html[lang="en"] [id*=address2pg] {
+html[lang="en"] [id*=address1pg] {
   order: 2; }
 
 html[lang="en"] [id*=citypg] {
@@ -106,17 +121,13 @@ html[lang="en"] [id*=citypg] {
 html[lang="en"] [id*=postcodepg] {
   order: 3; }
 
+/* Country of Residence */
 html[lang="en"] .rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(9) {
-  order: 4; }
-
-html[lang="en"] .rb-guest-basic-information > div:nth-child(8) {
-  order: 4; }
+  order: 5; }
 
 /* Address replacement */
-html[lang="en"] [id*=statelbl] {
-  display: none; }
-
-html[lang="ja"] [id*=statelbl], html[lang="ja"] [id*=citylbl], html[lang="ja"] [id*=address1lbl], html[lang="ja"] [id*=address2lbl] {
+html[lang="ja"] [id*=statelbl], html[lang="ja"] [id*=citylbl],
+html[lang="ja"] [id*=address1lbl], html[lang="ja"] [id*=address2lbl] {
   display: none; }
 
 html[lang="ja"] [id*=statepg] > .flex-item:first-of-type:after {
@@ -126,13 +137,22 @@ html[lang="ja"] [id*=citypg] > .flex-item:first-of-type:after {
   content: "市町村"; }
 
 html[lang="ja"] [id*=address1pg] > .flex-item:first-of-type:after {
-  content: "番地"; }
+  content: "番地＆建物名"; }
 
-html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:after {
-  content: "建物名"; }
+html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:before {
+  content: "姓名*"; }
 
-html[lang="en"] [id*=statepg] > .flex-item:first-of-type:after {
+html[lang="en"] [id*=address2lbl] {
+  display: none; }
+
+html[lang="en"] [id*=address2pg] > .flex-item:first-of-type:after {
   content: "Nationality"; }
+
+html[lang="en"] [id*=address1lbl] {
+  display: none; }
+
+html[lang="en"] [id*=address1pg] > .flex-item:first-of-type:after {
+  content: "Address *"; }
 
 /************************************/
 /* For Emergency */
@@ -173,6 +193,11 @@ html[lang="en"] [id*=phonelbl]:after {
 html[lang="ja"] [id*=phonelbl]:after,
 html[lang="ja"] [id*=postcodelbl]:after {
   content: "（ハイフンなし）";
+  font-size: .6em;
+  color: #444; }
+
+html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:after {
+  content: "（漢字）";
   font-size: .6em;
   color: #444; }
 
