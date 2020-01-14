@@ -100,3 +100,21 @@ div.gallery {
     padding-bottom: .5em;
   }
 }
+
+/* Reference number */
+html[lang=en] #base_page\:neworderform\:customIdTable\:customIdl,
+html[lang=ja] #base_page\:neworderform\:customIdTable\:customIdl,
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td > b, 
+html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td > b {
+	display: none;
+}
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td:before,
+html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td:before {
+	font-weight: bold;
+}
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td:before {
+	content: "Please enter your 6 digit reference number *";
+}
+html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td:before {
+	content: "6桁の参照番号を入力してください *";
+}
