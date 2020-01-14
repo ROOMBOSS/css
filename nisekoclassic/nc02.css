@@ -214,10 +214,11 @@ li[data-label*="Chinese (traditional)"], li[data-label*="中国語（繁体）"]
   display: none; }
 
 /* Internet Reservation Conditions */
-#orderForm\:condreqdlg_title {
+#orderForm\:condreqdlg_title, #orderForm\:condbpdlg_title {
   display: none; }
 
-html[lang="en"] #orderForm\:condreqdlg .ui-dialog-titlebar:before {
+html[lang="en"] #orderForm\:condreqdlg .ui-dialog-titlebar:before,
+html[lang="en"] #orderForm\:condbpdlg_title .ui-dialog-titlebar:before {
   content: "Participation Agreement";
   color: #fff !important;
   margin: 1em;
@@ -225,7 +226,8 @@ html[lang="en"] #orderForm\:condreqdlg .ui-dialog-titlebar:before {
   text-transform: uppercase;
   pointer-events: none !important; }
 
-html[lang="ja"] #orderForm\:condreqdlg .ui-dialog-titlebar:before {
+html[lang="ja"] #orderForm\:condreqdlg .ui-dialog-titlebar:before,
+html[lang="ja"] #orderForm\:condbpdlg_title .ui-dialog-titlebar:before {
   content: "参加者同意承諾";
   color: #fff !important;
   margin: 1em;
@@ -233,7 +235,8 @@ html[lang="ja"] #orderForm\:condreqdlg .ui-dialog-titlebar:before {
   text-transform: uppercase;
   pointer-events: none !important; }
 
-#orderForm\:condreqdlg {
+#orderForm\:condreqdlg,
+#orderForm\:condbpdlg {
   max-height: 80vh !important;
   margin: auto; }
 
