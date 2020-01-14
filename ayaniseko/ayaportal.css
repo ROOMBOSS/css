@@ -133,7 +133,7 @@
 /* Reference number */
 html[lang=en] #base_page\:neworderform\:customIdTable\:customIdl,
 html[lang=ja] #base_page\:neworderform\:customIdTable\:customIdl,
-html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td > b 
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td > b, 
 html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td > b {
 	display: none;
 }
