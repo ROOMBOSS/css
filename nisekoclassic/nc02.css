@@ -434,15 +434,15 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   color: #3ba1af;
 }
 html[lang=en] .rb-my-group-title:after {
- content: "Please add a group member for each rider taking part."; 
+ content: "For groups with multiple riders, please add a group member for each rider taking part."; 
 }
 html[lang=ja] .rb-my-group-title:after {
-  content: "";
+  content: "参加する各ライダーをグループメンバーとして追加してください。（複数人エントリーの場合）";
 }
 
 html[lang=en] .rb-my-booking-title:after {
   content: "Please be sure to assign the correct group member to each race item.";
 }
 html[lang=ja] .rb-my-booking-title:after {
-  content: "";
+  content: "各レースに正しいグループメンバーを割り当ててください。";
 }
