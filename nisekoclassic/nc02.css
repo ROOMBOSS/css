@@ -452,6 +452,12 @@ html[lang=ja] .rb-my-booking-title:after {
   color: #fff;
 }
 
+/* Yourbooking panel hover color */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover {
 	background-color: #66c6d4;
+}
+
+/* Hide Notes */
+[id*=base_page\:tabview\:vendorMessagePanel] {
+  display: none;
 }
