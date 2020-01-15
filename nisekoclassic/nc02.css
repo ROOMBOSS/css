@@ -420,7 +420,7 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   display: none;
 }
 /* P yourbooking*/
-[id*=pocgrd_content] > div:nth-last-child(-n+2) {
+[id*=pdoptgrd_content] > div:nth-last-child(-n+2) {
 	display: none;
 }
 
