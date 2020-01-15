@@ -423,3 +423,26 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 [id*=pocgrd_content] > div:nth-last-child(-n+2) {
 	display: none;
 }
+
+/* Booking comments */
+.rb-my-group-title:after,
+.rb-my-booking-title:after {
+  display: block;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+  color: #3ba1af;
+}
+html[lang=en] .rb-my-group-title:after {
+ content: "Please add a group member for each rider taking part."; 
+}
+html[lang=ja] .rb-my-group-title:after {
+  content: "";
+}
+
+html[lang=en] .rb-my-booking-title:after {
+  content: "Please be sure to assign the correct group member to each race item.";
+}
+html[lang=ja] .rb-my-booking-title:after {
+  content: "";
+}
