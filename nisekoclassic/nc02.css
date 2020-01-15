@@ -451,3 +451,7 @@ html[lang=ja] .rb-my-booking-title:after {
 .ui-bar h3 {
   color: #fff;
 }
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover {
+	background-color: #66c6d4;
+}
