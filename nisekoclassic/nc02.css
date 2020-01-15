@@ -446,3 +446,8 @@ html[lang=en] .rb-my-booking-title:after {
 html[lang=ja] .rb-my-booking-title:after {
   content: "各レースに正しいグループメンバーを割り当ててください。";
 }
+
+/* Yourbooking title */
+.ui-bar h3 {
+  color: #fff;
+}
