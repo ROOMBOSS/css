@@ -404,3 +404,22 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 #base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
   background-color: #57b9c6;
   border: none; }
+
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+    padding: 1px !important;
+    margin: 1px !important;
+}
+
+/* P dialog */
+#orderForm\:pdtoptdt_content > table > tbody > tr:nth-last-child(-n+2) {
+  display: none;
+}
+/* P basket */
+[id*=bskitempdtopt_content] > div:nth-last-child(-n+2) > div {
+  display: none;
+}
+/* P yourbooking*/
+[id*=pocgrd_content] > div:nth-last-child(-n+2) {
+	display: none;
+}
