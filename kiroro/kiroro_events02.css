@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* Your Booking */
+/* Custom */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
 .rb-cat-desc {
   padding-top: 1em; }
@@ -24,6 +27,33 @@
   display: block;
   margin: auto;
   content: "申込者の情報を入力してください（参加者が未成年の場合は、保護者の情報を入力）。参加者の情報はこの後入力していただきます。"; }
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #f48551;
+  border: none; }
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important; }
+
+/* Hide dietary / medical */
+.rb-guest-for-emergencies > div:nth-child(2),
+.rb-guest-for-emergencies > div:nth-child(3) {
+  display: none; }
+
+/* Remove internal */
+/* P dialog */
+#orderForm\:pdtoptdt_content > table > tbody > tr:nth-child(n+2):nth-child(-n+3) {
+  display: none; }
+
+/* P basket */
+[id*=bskitempdtopt_content] > div:nth-child(n+2):nth-child(-n+3) > div {
+  display: none; }
+
+/* P yourbooking */
+[id*=pdoptgrd_content] > div:nth-child(n+2):nth-child(-n+3) {
+  display: none; }
 
 * {
   font-family: "Noto Sans JP", sans-serif; }
@@ -155,10 +185,6 @@
   border: none;
   color: #fff;
   text-shadow: none; }
-  .ui-panel-m-titlebar.ui-bar.ui-bar-inherit else,
-  .ui-btn .ui-panel-collapsible-heading-toggle else,
-  .ui-icon-minus:after else, .ui-icon-plus:after else {
-    background-color: #333; }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
 .ui-btn .ui-panel-collapsible-heading-toggle:hover {
@@ -172,18 +198,7 @@
   color: #fff !important;
   text-shadow: none !important; }
 
-#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
-#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #f48551;
   border: none; }
-
-/*Hide address fields*/
-.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
-  display: none !important;
-}
-
-/* Hide dietary / medical */
-.rb-guest-for-emergencies > div:nth-child(2),
-.rb-guest-for-emergencies > div:nth-child(3) {
-  display: none;
-}
