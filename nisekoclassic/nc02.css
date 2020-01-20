@@ -253,6 +253,51 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
     padding: 1em 1em 1em 1.5em;
     text-align: center; } }
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important; }
+
+/* P dialog */
+#orderForm\:pdtoptdt_content > table > tbody > tr:nth-last-child(-n+2) {
+  display: none; }
+
+/* P basket */
+[id*=bskitempdtopt_content] > div:nth-last-child(-n+2) > div {
+  display: none; }
+
+/* P yourbooking*/
+[id*=pdoptgrd_content] > div:nth-last-child(-n+2) {
+  display: none; }
+
+.rb-my-group-title:after,
+.rb-my-booking-title:after {
+  display: block;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+  color: #3ba1af; }
+
+html[lang=en] .rb-my-group-title:after {
+  content: "For groups with multiple riders, please add a group member for each rider taking part."; }
+
+html[lang=ja] .rb-my-group-title:after {
+  content: "参加する各ライダーをグループメンバーとして追加してください。（複数人エントリーの場合）"; }
+
+html[lang=en] .rb-my-booking-title:after {
+  content: "Please be sure to assign the correct group member to each race item."; }
+
+html[lang=ja] .rb-my-booking-title:after {
+  content: "各レースに正しいグループメンバーを割り当ててください。"; }
+
+/* Yourbooking title */
+.ui-bar h3 {
+  color: #fff; }
+
+/* Hide Notes */
+[id*=base_page\:tabview\:vendorMessagePanel] {
+  display: none; }
+
 * {
   font-family: "Noto Sans JP", sans-serif; }
 
@@ -383,10 +428,6 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   border: none;
   color: #fff;
   text-shadow: none; }
-  .ui-panel-m-titlebar.ui-bar.ui-bar-inherit else,
-  .ui-btn .ui-panel-collapsible-heading-toggle else,
-  .ui-icon-minus:after else, .ui-icon-plus:after else {
-    background-color: #064B76; }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
 .ui-btn .ui-panel-collapsible-heading-toggle:hover {
@@ -400,64 +441,7 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   color: #fff !important;
   text-shadow: none !important; }
 
-#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover else,
-#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #57b9c6;
   border: none; }
-
-/* Dialog close icon hotfix */
-.ui-dialog-titlebar-close {
-    padding: 1px !important;
-    margin: 1px !important;
-}
-
-/* P dialog */
-#orderForm\:pdtoptdt_content > table > tbody > tr:nth-last-child(-n+2) {
-  display: none;
-}
-/* P basket */
-[id*=bskitempdtopt_content] > div:nth-last-child(-n+2) > div {
-  display: none;
-}
-/* P yourbooking*/
-[id*=pdoptgrd_content] > div:nth-last-child(-n+2) {
-	display: none;
-}
-
-/* Booking comments */
-.rb-my-group-title:after,
-.rb-my-booking-title:after {
-  display: block;
-  font-size: 1em;
-  text-transform: none;
-  font-weight: normal;
-  color: #3ba1af;
-}
-html[lang=en] .rb-my-group-title:after {
- content: "For groups with multiple riders, please add a group member for each rider taking part."; 
-}
-html[lang=ja] .rb-my-group-title:after {
-  content: "参加する各ライダーをグループメンバーとして追加してください。（複数人エントリーの場合）";
-}
-
-html[lang=en] .rb-my-booking-title:after {
-  content: "Please be sure to assign the correct group member to each race item.";
-}
-html[lang=ja] .rb-my-booking-title:after {
-  content: "各レースに正しいグループメンバーを割り当ててください。";
-}
-
-/* Yourbooking title */
-.ui-bar h3 {
-  color: #fff;
-}
-
-/* Yourbooking panel hover color */
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover {
-	background-color: #66c6d4;
-}
-
-/* Hide Notes */
-[id*=base_page\:tabview\:vendorMessagePanel] {
-  display: none;
-}
