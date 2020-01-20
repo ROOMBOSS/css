@@ -295,3 +295,6 @@ button.fa-file-excel-o:after {
 .ui-content .rb-content {
   background-color: #f9f9f9; }
 
+.rb-rack-cost{
+color:red !important;
+}
