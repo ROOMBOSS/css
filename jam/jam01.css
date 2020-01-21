@@ -1,1 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
+/* Remove Header */
+.ui-title {
+  font-family: 'Bree Serif', serif;
+  text-shadow: none;
+  font-size: 2em !important;
+  padding-bottom: 0 !important;
+  font-weight: normal; }
 
+/* Remove vendor headers */
+.rb-content > table:nth-child(2) {
+  display: none; }
+
+/* Custom banner */
+.ui-header.ui-bar-inherit {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/jam/jam.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  background-color: #000;
+  border: none;
+  border-bottom: 20px solid #000;
+  height: 210px; }
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus {
+  box-shadow: inset 0 0 4px #aaa !important; }
+
+/* Lang & Currency */
+/* Language and currency buttons */
+[id*="languageSelect"] .ui-select, [id*="currencySelect"] .ui-select {
+  margin-top: 1em; }
+
+/* Panels */
+/* Panel spacing */
+.ui-panel-m.ui-corner-all:not([id*="questions"]) {
+  padding-bottom: 1em; }
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #989F67;
+  color: #fff;
+  border: #717071;
+  text-shadow: none; }
+
+/* Icons */
+/* General icon colour */
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+  background-color: #ddae13; }
+
+/* Panel icon hide border and background */
+.ui-panel-m-titlebar-icon {
+  border: none !important;
+  text-shadow: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important; }
+
+/* Does not inherit general icon colour */
+.ui-panel-m-titlebar-icon::after {
+  background-color: transparent !important; }
+
+/* Buttons */
+button[id*="addItemsLink"],
+button[id*="saveorderbutt"],
+button[id*="resCondForReqbutt"] {
+  background-color: #989F67 !important;
+  color: #fff !important;
+  text-shadow: none !important; }
+
+button[id*="addItemsLink"]:hover,
+button[id*="saveorderbutt"]:hover,
+button[id*="resCondForReqbutt"]:hover {
+  background-color: #5e623e !important; }
+
+button[id*="resCondForReqbutt"] {
+  background-color: #ddae13 !important;
+  color: #fff !important;
+  text-shadow: none !important; }
+
+button[id*="resCondForReqbutt"]:hover {
+  background-color: #ae890f !important; }
+
+/* Remove item Button */
+.remove-item-control.ui-btn-inline {
+  color: #888;
+  margin-top: 0.5em;
+  width: 100%; }
+
+.remove-item-control.ui-btn-inline:after {
+  background-color: #888; }
+
+/* Custom */
+.rb-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; }
