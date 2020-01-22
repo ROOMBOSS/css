@@ -92,7 +92,4 @@
     color:  #af9453 !important;
 }
 
-/*Hide address fields*/
-.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
-  display: none !important;
-}
+
