@@ -176,8 +176,3 @@
 #base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover else {
   background-color: #1bdcef;
 }
-
-/*Hide address fields*/
-.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
-  display: none !important;
-}
