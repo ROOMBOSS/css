@@ -167,8 +167,3 @@
 .rb-parent-cat-2c9890f06d8dd89d016da3937f091405 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(1) {
   display: none !important;
 }*/
-
-/*Hide address fields*/
-.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
-  display: none !important;
-}
