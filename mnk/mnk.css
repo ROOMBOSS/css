@@ -140,3 +140,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	-moz-box-shadow: none !important;
   	-webkit-box-shadow: none !important;
 }
+
+.rb-rack-cost{
+color: red !important;
+}
