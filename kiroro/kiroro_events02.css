@@ -54,39 +54,6 @@
 [id*=pdoptgrd_content] > div:nth-child(n+2):nth-child(-n+3) {
   display: none; }
 
-/* Email message */
-html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
-  content: "携帯電話のキャリアメール（@docomo.ne.jp、@ezweb.ne.jp 、@softbank.ne.jp、@i.softbank.jpなど）でのご注文は、メールが届かないケースが多くなっております。ドメイン指定をされている場合は、弊社からのメールが受信できるように@roomboss.netを受信指定するか、キャリアメール以外のアドレスをご登録ください。";
-  color: #444;
-  font-size: .6em;
-  max-width: calc(400px + .5em);
-  padding: 1em 0 0 .75em;
-  text-align: left; }
-
-@media screen and (max-width: 820px) {
-  html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
-    padding: 1em 1em 1em 1.5em;
-    text-align: center; } }
-/**** Address Order ***/
-.rb-guest-basic-information {
-  display: flex;
-  flex-direction: column; }
-
-.rb-guest-basic-information > .flex-container {
-  order: 1; }
-
-html[lang="ja"] [id*=postcodepg] {
-  order: 2; }
-
-html[lang="ja"] [id*=citypg] {
-  order: 3; }
-
-html[lang="ja"] [id*=address1pg] {
-  order: 4; }
-
-html[lang="ja"] [id*=address2pg] {
-  order: 5; }
-
 * {
   font-family: "Noto Sans JP", sans-serif; }
 
@@ -234,3 +201,37 @@ html[lang="ja"] [id*=address2pg] {
 #base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #f48551;
   border: none; }
+
+/* Email message */
+html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
+  content: "携帯電話のキャリアメール（@docomo.ne.jp、@ezweb.ne.jp 、@softbank.ne.jp、@i.softbank.jpなど）でのご注文は、メールが届かないケースが多くなっております。ドメイン指定をされている場合は、弊社からのメールが受信できるように@roomboss.netを受信指定するか、キャリアメール以外のアドレスをご登録ください。";
+  color: #444;
+  font-size: .6em;
+  max-width: calc(400px + .5em);
+  padding: 1em 0 0 .75em;
+  text-align: left; }
+
+@media screen and (max-width: 820px) {
+  html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
+    padding: 1em 1em 1em 1.5em;
+    text-align: center; } }
+
+/**** Address Order ***/
+.rb-guest-basic-information {
+  display: flex;
+  flex-direction: column; }
+
+.rb-guest-basic-information > .flex-container {
+  order: 1; }
+
+html[lang="ja"] [id*=postcodepg] {
+  order: 2; }
+
+html[lang="ja"] [id*=citypg] {
+  order: 3; }
+
+html[lang="ja"] [id*=address1pg] {
+  order: 4; }
+
+html[lang="ja"] [id*=address2pg] {
+  order: 5; }
