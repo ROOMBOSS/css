@@ -118,3 +118,7 @@ html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td:before {
 html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td:before {
 	content: "6桁の参照番号を入力してください *";
 }
+
+#ui-datepicker-div {
+	z-index: 99 !important;
+}
