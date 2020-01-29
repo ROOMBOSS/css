@@ -98,3 +98,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	-moz-box-shadow: none !important;
   	-webkit-box-shadow: none !important;
 }
+
+.rb-rack-unselected{
+	color: red !important;
+	font-size: 0.8em !important;
+}
