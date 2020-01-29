@@ -288,7 +288,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 /*strikethrough*/
-.rb-rack-unselected{
+.rb-rack-unselected, .original-value-formatted{
 	color: red !important;
 	font-size: 0.8em !important;
 	text-shadow: none !important;
