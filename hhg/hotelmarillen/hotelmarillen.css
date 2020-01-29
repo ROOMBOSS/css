@@ -286,3 +286,10 @@
   .ui-column-header.right {
     border-bottom: none;
   }
+
+/*strikethrough*/
+.rb-rack-unselected{
+	color: red !important;
+	font-size: 0.8em !important;
+	text-shadow: none !important;
+}
