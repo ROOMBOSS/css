@@ -257,3 +257,16 @@ button.fa-file-excel-o:after {
 .rb-rack-cost{
 color:red !important;
 }
+
+/* Image and gallery */
+div.gallery {
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 56% !important;
+	z-index: 0;
+}
+[id*="fadeEffectImages"] {
+  width: 100% !important;
+  height: auto !important;
+	z-index: 0;
+}
