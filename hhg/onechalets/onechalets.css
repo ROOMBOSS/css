@@ -237,42 +237,10 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   border-color: #4f4d4d;
 }
 
-/* Gallery */
-[id*=gallery] {
-    padding-top: 56.25% !important;
-    height: auto !important;
-}
-
-[id*=fadeEffectImages] {
-    position: absolute !important;
-    left: 0 !important;
-    bottom: 0 !important;
-    width: 100% !important;
-    height: auto !important;
-}
-
 .rb-page > .rb-content > div > div:nth-child(2) > .ui-collapsible-content {
   background-color: #f9f9f9;
 }
 
-/* Vendor Image */
-.rbn-vendor-grid-img {
-  height: 100%;
-  width: 100%;
-}
-
-@media (min-width: 641px) {
-  .rbn-vendor-grid-img-col {
-    padding-right: 1em;
-  }
-}
-/* Cost */
-@media (min-width: 561px) {
-  td.right {
-    float: none;
-    text-align: right;
-  }
-}
 .ui-column-header.right {
   border-bottom: none;
 }
@@ -289,4 +257,21 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 	color: red !important;
 	font-size: 1.1em !important;
 	text-shadow: none !important;
+}
+
+/* Image and gallery */
+div.gallery {
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 56% !important;
+	z-index: 0;
+}
+[id*="fadeEffectImages"] {
+  width: 100% !important;
+  height: auto !important;
+	z-index: 0;
+}
+/* Calendar */
+#ui-datepicker-div.ui-datepicker {
+	z-index: 99 !important;
 }
