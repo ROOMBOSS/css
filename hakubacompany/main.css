@@ -270,3 +270,7 @@ div.gallery {
   height: auto !important;
 	z-index: 0;
 }
+/* Calendar */
+#ui-datepicker-div.ui-datepicker {
+	z-index: 99 !important;
+}
