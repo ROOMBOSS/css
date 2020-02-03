@@ -225,66 +225,27 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   border-color: #4f4d4d;
 }
 
-/* Gallery */
-[id*=gallery] {
-  width: 100% !important;
-  max-width: 1100px;
-  height: auto !important;
-}
-
-[id*=fadeEffectImages] {
-  width: calc(100vw - 34px) !important;
-  max-width: 100% !important;
-  max-height: 800px !important;
-  height: auto !important;
-}
-
-/* L */
-@media (min-width: 1100px) {
-  [id*=gallery] {
-    height: 490px !important;
-    max-height: 490px !important;
-    min-height: 490px !important;
-  }
-}
-/* M */
-@media (min-width: 641px) {
-  [id*=gallery] {
-    width: 100% !important;
-    min-height: 43vw;
-    height: auto !important;
-  }
-}
-/* S */
-@media (max-width: 640px) {
-  [id*=gallery] {
-    width: 100% !important;
-    min-height: 42vw;
-    height: auto !important;
-  }
-}
 .rb-page > .rb-content > div > div:nth-child(2) > .ui-collapsible-content {
   background-color: #f9f9f9;
 }
 
-/* Vendor Image */
-.rbn-vendor-grid-img {
-  height: 100%;
-  width: 100%;
-}
-
-@media (min-width: 641px) {
-  .rbn-vendor-grid-img-col {
-    padding-right: 1em;
-  }
-}
-/* Cost */
-@media (min-width: 561px) {
-  td.right {
-    float: none;
-    text-align: right;
-  }
-}
 .ui-column-header.right {
   border-bottom: none;
+}
+
+/* Image and gallery */
+div.gallery {
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 56% !important;
+	z-index: 0;
+}
+[id*="fadeEffectImages"] {
+  width: 100% !important;
+  height: auto !important;
+	z-index: 0;
+}
+/* Calendar */
+#ui-datepicker-div.ui-datepicker {
+	z-index: 99 !important;
 }
