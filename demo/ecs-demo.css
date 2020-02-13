@@ -3,7 +3,7 @@
 /* Custom design */
 
 .rb-header, #base_page\:base_header {
-    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/prop0/moiwa/moiwa-logo.png");
+  /*  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/prop0/moiwa/moiwa-logo.png");*/
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
