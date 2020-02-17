@@ -252,3 +252,18 @@ div.ui-collapsible-heading > a > table > tbody > tr > td:nth-child(2) {
   .ui-title {
     font-size: 24px !important;
     padding-top: 40px !important; } }
+
+
+/* P Cat */
+html[lang="en"] .rb-parent-cat-title:after {
+  content: "ENGLISH BLAH BLAH"; }
+
+html[lang="ja"] .rb-parent-cat-title:after {
+  content: "JP BLAH BLAH"; }
+
+/* Cat */
+html[lang="en"] .rb-child-cat-title:after {
+  content: "ENGLISH BLAH BLAH"; }
+
+html[lang="ja"] .rb-child-cat-title:after {
+  content: "JP BLAH BLAH"; }
