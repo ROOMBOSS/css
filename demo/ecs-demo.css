@@ -3,11 +3,11 @@
 /* Custom design */
 
 .rb-header, #base_page\:base_header {
-    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/jse/jse2018_rogo.jpg");
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/jse/jse-crop.jpg");
     background-color: #ffffff;
     background-repeat: no-repeat;
-    background-position: 60%;
-    background-size: 500px;
+    background-position: 50%;
+    background-size: 225px;
     border: none;
     border-bottom: 10px solid #0172B2;
     height:150px;
@@ -423,6 +423,10 @@ display: none;
 		top: 40%;
 		font-size: 24px !important;
 		margin: auto !important;
+	}
+	.rb-header, #base_page\:base_header {
+   	    background-position: 50% 65%;
+	    background-size: 150px;
 	}
     .rb-header, #base_page\:base_header {
 		height:100px;
