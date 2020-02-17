@@ -102,7 +102,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     font-weight: bold;
 }
 
-/* Gallery */
+/* No longer needs this after ma/bpay changes
 [id*="gallery"] {
 	width: 100% !important;
 	max-width: 1100px;
@@ -137,4 +137,4 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 		min-height: 42vw;
 		height: auto !important;
 	}
-}
+}*/
