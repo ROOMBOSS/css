@@ -253,17 +253,22 @@ div.ui-collapsible-heading > a > table > tbody > tr > td:nth-child(2) {
     font-size: 24px !important;
     padding-top: 40px !important; } }
 
+/* Category replacement */
+.rb-parent-cat-text,
+.rb-child-cat-text,
+.rb-prod-panel-text {
+  display: none; }
 
 /* P Cat */
 html[lang="en"] .rb-parent-cat-title:after {
-  content: "ENGLISH BLAH BLAH"; }
+  content: "Choose a category"; }
 
 html[lang="ja"] .rb-parent-cat-title:after {
   content: "JP BLAH BLAH"; }
 
 /* Cat */
 html[lang="en"] .rb-child-cat-title:after {
-  content: "ENGLISH BLAH BLAH"; }
+  content: "Choose a type"; }
 
 html[lang="ja"] .rb-child-cat-title:after {
   content: "JP BLAH BLAH"; }
