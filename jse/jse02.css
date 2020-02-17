@@ -264,11 +264,11 @@ html[lang="en"] .rb-parent-cat-title:after {
   content: "Choose a category"; }
 
 html[lang="ja"] .rb-parent-cat-title:after {
-  content: "JP BLAH BLAH"; }
+  content: "カテゴリーを選択してください"; }
 
 /* Cat */
 html[lang="en"] .rb-child-cat-title:after {
   content: "Choose a type"; }
 
 html[lang="ja"] .rb-child-cat-title:after {
-  content: "JP BLAH BLAH"; }
+  content: "商品を選択してください"; }
