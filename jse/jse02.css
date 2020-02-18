@@ -272,3 +272,7 @@ html[lang="en"] .rb-child-cat-title:after {
 
 html[lang="ja"] .rb-child-cat-title:after {
   content: "商品を選択してください"; }
+
+/* Ajax */
+#waitImage {
+  padding-top: 1em;
