@@ -275,4 +275,5 @@ html[lang="ja"] .rb-child-cat-title:after {
 
 /* Ajax */
 #waitImage {
-  padding-top: 1em;
+  padding-top: 15px;
+}
