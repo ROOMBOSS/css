@@ -80,18 +80,18 @@
 
 
 .rb-header {
-  background-image: url("");
   background-color: rgb(183, 158, 87);
   background-repeat: no-repeat;
   background-position: 50% 66%;
 	background-size: 50vh;
   border: none;
-  border-bottom: 20px solid rgb(183, 158, 87);
-    height:100px;
+      height:100px;
 }
 
 .rb-header-title {
   color: black;
+  font-size: 2em;
+  padding-top: 35px;    
 }
 
 .rb-parent-cat-title,
