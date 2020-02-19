@@ -83,7 +83,7 @@ div #locform\:languageSelect, div #locform\:currencySelect {
 /* Custom Headers */
 .rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
   color: #333;
-  text-transform: none;
+  text-transform: uppercase;
   font-family: "Noto Sans JP", sans-serif; }
 
 /*Custom Icons */
