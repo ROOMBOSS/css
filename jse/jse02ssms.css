@@ -32,9 +32,6 @@
 
   .rb-header-title {
     padding-top: 30px !important; } }
-.rb-header-title:before {
-  content: "JSE ";
-  color: #D42E46; }
 
 #locform\:currencySelect_label, #locform\:languageSelect_label {
   color: #fff !important;
@@ -219,10 +216,6 @@ div #locform\:languageSelect, div #locform\:currencySelect {
   padding: 10px 10px !important;
   font-size: 36px;
   text-shadow: none; }
-
-.ui-title:before {
-  content: "JSE ";
-  color: #D42E46; }
 
 #base_page\:base_header > form {
   margin-top: 10px; }
