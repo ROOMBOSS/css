@@ -86,7 +86,7 @@
   background-position: 50% 66%;
 	background-size: 50vh;
   border: none;
-  border-bottom: 20px solid #72d54a;
+  border-bottom: 20px solid black;
     height:100px;
 }
 
@@ -107,7 +107,7 @@
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
 .rb-checkout-title:before {
-  color: #72d54a;
+  color: black;
 }
 
 
@@ -129,14 +129,14 @@
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #375d9d;
+  background-color: rgb(183, 158, 87);
   box-shadow: 2px -1 -1 rgb(183, 158, 87), -2px -1 -1 #375d9d;
 }
 
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-  border-color: #72d54a !important;
+  border-color: black !important;
   background-color: rgb(183, 158, 87) !important;
 }
 
@@ -158,8 +158,8 @@
 /* Default Buttons */
 
 .ui-button.ui-widget.ui-state-default {
-  background-color: #72d54a;
-  border-color: #72d54a;
+  background-color: black;
+  border-color: black;
 }
 .ui-button.ui-widget.ui-state-hover {
   background-color: #62d035;
