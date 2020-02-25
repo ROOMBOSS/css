@@ -138,3 +138,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 		height: auto !important;
 	}
 }
+
+.ui-button-text.ui-c{
+	color: black !important;  	
+}
