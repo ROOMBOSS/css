@@ -33,7 +33,7 @@
   border: none; }
 
 /*Hide address fields*/
-.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+.rb-address-1, .rb-city, .rb-postCode .rb-state {
   display: none !important; }
 
 /* Hide dietary / medical */
@@ -113,7 +113,7 @@ html[lang="ja"] [id*=address1pg] > .flex-item:first-of-type:after {
   content: "番地＆建物名"; }
 
 html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:before {
-  content: "住所"; }
+  content: "姓名（カナ）"; }
 
 /**** Address Order ***/
 .rb-guest-basic-information {
@@ -124,6 +124,9 @@ html[lang="ja"] .rb-guest-basic-information > div:nth-child(2) {
   order: 0; }
 
 html[lang="ja"] .rb-guest-basic-information > div:nth-child(3) {
+  order: 0; }
+
+html[lang="ja"] [id*=address2pg] {
   order: 0; }
 
 * {
