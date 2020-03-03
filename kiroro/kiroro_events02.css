@@ -103,7 +103,7 @@ html[lang="ja"] [for*=lnmlbl]:after {
   content: " （漢字）"; }
 
 /* Address replacement */
-html[lang="ja"] [id*=citylbl], html[lang="ja"] [id*=address1lbl], html[lang="ja"] [id*=address2pg] {
+html[lang="ja"] [id*=citylbl], html[lang="ja"] [id*=address1lbl], html[lang="ja"] [id*=address2lbl] {
   display: none; }
 
 html[lang="ja"] [id*=citypg] > .flex-item:first-of-type:after {
