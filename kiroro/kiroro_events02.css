@@ -103,7 +103,7 @@ html[lang="ja"] [for*=lnmlbl]:after {
   content: " （漢字）"; }
 
 /* Address replacement */
-html[lang="ja"] [id*=citylbl], html[lang="ja"] [id*=address1lbl] {
+html[lang="ja"] [id*=citylbl], html[lang="ja"] [id*=address1lbl], html[lang="ja"] [id*=address2pg] {
   display: none; }
 
 html[lang="ja"] [id*=citypg] > .flex-item:first-of-type:after {
@@ -111,6 +111,9 @@ html[lang="ja"] [id*=citypg] > .flex-item:first-of-type:after {
 
 html[lang="ja"] [id*=address1pg] > .flex-item:first-of-type:after {
   content: "番地＆建物名"; }
+
+html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:before {
+  content: "住所"; }
 
 /**** Address Order ***/
 .rb-guest-basic-information {
@@ -270,3 +273,5 @@ html[lang="ja"] .rb-guest-basic-information > div:nth-child(3) {
 #base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #f48551;
   border: none; }
+
+/*# sourceMappingURL=kiroro_events02.css.map */
