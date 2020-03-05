@@ -529,7 +529,8 @@ content: "Adjusted Gross Rental Revenue";
 }
 
 /* Bookings Table */
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span {
+#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span,
+#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(6) span{
   display: none;
 }
 #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6):before {
