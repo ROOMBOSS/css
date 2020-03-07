@@ -1,0 +1,542 @@
+/* Your Booking */
+/* Custom */
+/* Remove Yourbooking */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+#base_page\:gform, .rbn-yb-searchtext, .rbn-yb-h1 {
+  display: none;
+}
+
+html[class=ui-mobile] .ui-content.rb-content {
+  padding-top: 0;
+}
+
+.rb-cat-desc {
+  padding-top: 1em;
+}
+
+.rb-header {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Category replacement */
+.rb-parent-cat-text,
+.rb-child-cat-text,
+.rb-prod-panel-text {
+  display: none;
+}
+
+/* Event */
+html[lang=en] .rb-parent-cat-title:after {
+  content: "Choose an Event";
+}
+
+html[lang=ja] .rb-parent-cat-title:after {
+  content: "イベントを選択してください";
+}
+
+/* Race */
+html[lang=en] .rb-child-cat-title:after {
+  content: "Choose a Race";
+}
+
+html[lang=ja] .rb-child-cat-title:after {
+  content: "レースを選択してください";
+}
+
+/* Product */
+html[lang=en] .rb-prod-title:after {
+  content: "Choose a Class";
+}
+
+html[lang=ja] .rb-prod-title:after {
+  content: "クラスを選択してください";
+}
+
+/*** Sign in replacement ***/
+/* Title */
+div.rb-guest-basic-information > div:nth-child(1),
+div.rb-guest-for-emergencies > div:nth-child(2) {
+  display: none;
+}
+
+/* Country */
+[id*=countrylbl] {
+  display: none;
+}
+
+html[lang=en] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
+html[lang=en] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang=en] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang=en] .rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+  content: "Country of Residence *";
+}
+
+html[lang=ja] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(9) > div:nth-child(1):after,
+html[lang=ja] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget-content > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang=ja] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
+html[lang=ja] .rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
+  content: "国籍 *";
+}
+
+/**** Address Order ***/
+.rb-guest-basic-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.rb-guest-basic-information > .flex-container {
+  order: 1;
+}
+
+html[lang=ja] [id*=address2pg] {
+  order: -1;
+}
+
+html[lang=ja] .rb-guest-basic-information > div:nth-child(2) {
+  order: 1;
+}
+
+html[lang=ja] .rb-guest-basic-information > div:nth-child(3) {
+  order: 1;
+}
+
+html[lang=ja] .rb-guest-basic-information > div:nth-child(9) {
+  order: 2;
+}
+
+html[lang=ja] [id*=postcodepg] {
+  order: 2;
+}
+
+html[lang=ja] [id*=statepg] {
+  order: 2;
+}
+
+html[lang=ja] [id*=citypg] {
+  order: 3;
+}
+
+html[lang=ja] [id*=address1pg] {
+  order: 4;
+}
+
+/************************************/
+/* English Order */
+/* DOB */
+html[lang=en] .rb-guest-basic-information > div:nth-child(8) {
+  order: 1;
+}
+
+/* Nationality */
+html[lang=en] [id*=address2pg] {
+  order: 1;
+}
+
+html[lang=en] [id*=statepg] {
+  order: 2;
+}
+
+html[lang=en] [id*=address1pg] {
+  order: 2;
+}
+
+html[lang=en] [id*=citypg] {
+  order: 2;
+}
+
+html[lang=en] [id*=postcodepg] {
+  order: 3;
+}
+
+/* Country of Residence */
+html[lang=en] .rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(9) {
+  order: 5;
+}
+
+/* Address replacement */
+html[lang=ja] [id*=statelbl], html[lang=ja] [id*=citylbl],
+html[lang=ja] [id*=address1lbl], html[lang=ja] [id*=address2lbl] {
+  display: none;
+}
+
+html[lang=ja] [id*=statepg] > .flex-item:first-of-type:after {
+  content: "都道府県";
+}
+
+html[lang=ja] [id*=citypg] > .flex-item:first-of-type:after {
+  content: "市町村";
+}
+
+html[lang=ja] [id*=address1pg] > .flex-item:first-of-type:after {
+  content: "番地＆建物名";
+}
+
+html[lang=ja] [id*=address2pg] > .flex-item:first-of-type:before {
+  content: "姓名*";
+}
+
+html[lang=en] [id*=address2lbl] {
+  display: none;
+}
+
+html[lang=en] [id*=address2pg] > .flex-item:first-of-type:after {
+  content: "Nationality *";
+}
+
+html[lang=en] [id*=address1lbl] {
+  display: none;
+}
+
+html[lang=en] [id*=address1pg] > .flex-item:first-of-type:after {
+  content: "Address *";
+}
+
+/************************************/
+/* For Emergency */
+html[lang=en] [id*=foremlbl]:before {
+  content: "Contact Details ";
+}
+
+html[lang=en] [id*=foremlbl]:after {
+  content: " / Guardian";
+}
+
+div.rb-guest-for-emergencies > div:nth-child(1):after {
+  display: block;
+  padding-top: 0.25em;
+  font-size: 0.8em;
+  color: #444;
+}
+
+html[lang=en] div.rb-guest-for-emergencies > div:nth-child(1):after {
+  content: "Please enter details of guardian if participant is a minor";
+}
+
+html[lang=ja] [id*=foremlbl]:after {
+  content: " / 保護者";
+}
+
+html[lang=ja] div.rb-guest-for-emergencies > div:nth-child(1):after {
+  content: "参加者が未成年の場合は保護者を入力してください";
+}
+
+/* Romaji only */
+html[lang=ja] [id*=fnmslbl]:after,
+html[lang=ja] [id*=nmlbl]:after,
+html[lang=ja] [for*=nmlbl]:after {
+  content: " (半角ローマ字）";
+  font-size: 0.6em;
+  color: #444;
+}
+
+html[lang=en] [id*=phonelbl]:after {
+  content: "(Numbers only)";
+  font-size: 0.6em;
+  color: #444;
+}
+
+html[lang=ja] [id*=phonelbl]:after,
+html[lang=ja] [id*=postcodelbl]:after {
+  content: "（ハイフンなし）";
+  font-size: 0.6em;
+  color: #444;
+}
+
+html[lang=ja] [id*=address2pg] > .flex-item:first-of-type:after {
+  content: "（漢字）";
+  font-size: 0.6em;
+  color: #444;
+}
+
+/* Hide other languages */
+#locform\:languageSelect_2,
+#locform\:languageSelect_3,
+#locform\:languageSelect_4,
+#locform\:languageSelect_5,
+li[data-label*=Korean], li[data-label*=韓国語],
+li[data-label*=French], li[data-label*=フランス語],
+li[data-label*="Chinese (simplified)"], li[data-label*=中国語（簡体）],
+li[data-label*="Chinese (traditional)"], li[data-label*=中国語（繁体）] {
+  display: none;
+}
+
+/* Internet Reservation Conditions */
+#orderForm\:condreqdlg_title, #orderForm\:condbpdlg_title {
+  display: none;
+}
+
+html[lang=en] #orderForm\:condreqdlg .ui-dialog-titlebar:before,
+html[lang=en] #orderForm\:condbpdlg .ui-dialog-titlebar:before {
+  content: "Participation Agreement";
+  color: #fff !important;
+  margin: 1em;
+  float: left;
+  text-transform: uppercase;
+  pointer-events: none !important;
+}
+
+html[lang=ja] #orderForm\:condreqdlg .ui-dialog-titlebar:before,
+html[lang=ja] #orderForm\:condbpdlg .ui-dialog-titlebar:before {
+  content: "参加者同意承諾";
+  color: #fff !important;
+  margin: 1em;
+  float: left;
+  text-transform: uppercase;
+  pointer-events: none !important;
+}
+
+#orderForm\:condreqdlg,
+#orderForm\:condbpdlg {
+  max-height: 80vh !important;
+  margin: auto;
+}
+
+/* Email message */
+html[lang=ja] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
+  content: "携帯電話のキャリアメール（@docomo.ne.jp、@ezweb.ne.jp 、@softbank.ne.jp、@i.softbank.jpなど）でのご注文は、メールが届かないケースが多くなっております。ドメイン指定をされている場合は、弊社からのメールが受信できるように@roomboss.netを受信指定するか、キャリアメール以外のアドレスをご登録ください。";
+  color: #444;
+  font-size: 0.6em;
+  max-width: calc(400px + .5em);
+  padding: 1em 0 0 0.75em;
+  text-align: left;
+}
+
+@media screen and (max-width: 820px) {
+  html[lang=ja] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
+    padding: 1em 1em 1em 1.5em;
+    text-align: center;
+  }
+}
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+/* P dialog */
+#orderForm\:pdtoptdt_content > table > tbody > tr:nth-last-child(-n+2) {
+  display: none;
+}
+
+/* P basket */
+[id*=bskitempdtopt_content] > div:nth-last-child(-n+2) > div {
+  display: none;
+}
+
+/* P yourbooking*/
+[id*=pdoptgrd_content] > div:nth-last-child(-n+2) {
+  display: none;
+}
+
+.rb-my-group-title:after,
+.rb-my-booking-title:after {
+  display: block;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+  color: #3ba1af;
+}
+
+html[lang=en] .rb-my-group-title:after {
+  content: "For groups with multiple riders, please add a group member for each rider taking part.";
+}
+
+html[lang=ja] .rb-my-group-title:after {
+  content: "参加する各ライダーをグループメンバーとして追加してください。（複数人エントリーの場合）";
+}
+
+html[lang=en] .rb-my-booking-title:after {
+  content: "Please be sure to assign the correct group member to each race item.";
+}
+
+html[lang=ja] .rb-my-booking-title:after {
+  content: "各レースに正しいグループメンバーを割り当ててください。";
+}
+
+/* Yourbooking title */
+.ui-bar h3 {
+  color: #fff;
+}
+
+/* Hide Notes */
+[id*=base_page\:tabview\:vendorMessagePanel] {
+  display: none;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://nisekoclassic.com/assets/svg/niseko-classic-logo-white.svg"), url("https://d3kmq6thb9m3lf.cloudfront.net/general/_1400x900_crop_center-center_100_none/2020-hero-visual.jpg?mtime=20191209114405");
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  background-position: center center, center 25%;
+  background-size: 50%, cover;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Custom Headers */
+.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #333;
+  text-transform: uppercase;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*Custom Icons */
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #064B76;
+}
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #3ba1af;
+  box-shadow: 0 0 0px 6px #3ba1af;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #064B76;
+  box-shadow: 2px -1 -1 #064B76, -2px -1 -1 #064B76;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #fff !important;
+  background-color: #064B76 !important;
+}
+
+.ui-dialog-title {
+  color: #fff !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #3ba1af !important;
+  border: 1px solid #3ba1af !important;
+  color: #fff !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #2e7e89 !important;
+  border: 1px solid #2e7e89 !important;
+  color: #fff !important;
+}
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #064B76;
+}
+
+.ui-widget-content .ui-state-highlight {
+  background: #3ba1af;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #3ba1af;
+  border-color: #3ba1af;
+  color: #fff !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #57b9c6;
+  border-color: #57b9c6;
+}
+
+.ui-button {
+  text-transform: uppercase;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #3ba1af;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #086aa7;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #3ba1af;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #57b9c6;
+  border: none;
+}
