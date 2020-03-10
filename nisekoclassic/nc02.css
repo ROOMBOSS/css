@@ -294,9 +294,9 @@ html[lang=ja] .rb-my-booking-title:after {
 .ui-bar h3 {
   color: #fff; }
 
-/* Hide Notes */
+/* Hide Notes 
 [id*=base_page\:tabview\:vendorMessagePanel] {
-  display: none; }
+  display: none; } */
 
 * {
   font-family: "Noto Sans JP", sans-serif; }
