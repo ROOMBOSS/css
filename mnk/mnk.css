@@ -141,6 +141,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	-webkit-box-shadow: none !important;
 }
 
-.rb-rack-cost{
+.rb-rack-cost, 
+.rb-rack-unselected{
 color: red !important;
 }
