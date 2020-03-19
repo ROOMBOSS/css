@@ -490,23 +490,29 @@ content: "Adjusted Gross Rental Revenue";
 
 /*overview section*/
 
-html[lang=en] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25):before{
+html[lang=ja] #base_page:multiStatementExtentMenu:ownerAccOverviewTitle span {
 display: none;
 }
 
-html[lang=en] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25):after{
-  content: "Unit-owner’s balance";
+html[lang=ja] #base_page:multiStatementExtentMenu:ownerAccOverviewTitle:before {
+content: "オーナー様アカウント";
 }
 
-html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25){
+html[lang=ja] #base_page:multiStatementExtentMenu:rba1OverviewTitle span {
 display: none;
 }
 
-html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25):before {
-  content: "区分所有者の残額";
+html[lang=ja] #base_page:multiStatementExtentMenu:rba1OverviewTitle:before {
+content: "リザーブ口座";
 }
 
+html[lang=ja] #base_page:multiStatementExtentMenu:rba2OverviewTitle span {
+display: none;
+}
 
+html[lang=ja] #base_page:multiStatementExtentMenu:rba2OverviewTitle:before {
+content: "税金保有額";
+}
 
 
 
