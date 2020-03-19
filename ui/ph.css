@@ -528,10 +528,17 @@ content: "税金保有額";
     font-size: 20px;
 }
 
+html[lang=ja] #base_page:multiStatementExtentMenu:ownerAccOverviewTitle-annual{
+display: none;
+}
 
-
-
-
+html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(2):before {
+content: "税金保有額";
+      text-align: left;
+    color: #5c5a5a !important;
+    font-weight: 1000;
+    font-size: 20px;
+}
 
 
 
