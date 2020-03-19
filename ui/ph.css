@@ -62,6 +62,12 @@
   color: #fff !important;
 }
 
+/*hide chinese language options*/
+#base_page\:locform\:languageSelect_input > option:nth-child(5),
+#base_page\:locform\:languageSelect_input > option:nth-child(6){
+display:none;
+}
+
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3, a, .ui-select div, button {
   font-weight: 400 !important;
 }
