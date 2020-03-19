@@ -495,7 +495,11 @@ display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(2):before {
-content: "オーナー様アカウント";
+    content: "オーナー様アカウント";
+    text-align: left;
+    color: #5c5a5a !important;
+    font-weight: 1000;
+    font-size: 20px;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rba1OverviewTitle span {
