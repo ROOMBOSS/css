@@ -529,116 +529,115 @@ content: "Adjusted Gross Rental Revenue";
 }
 
 /* Bookings Table */
-html[lang=en]{
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7) span{
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span,
+html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7) span{
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6):before,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7):before {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6):before,
+html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7):before {
   content: "Gross Rental Revenue";
 }
 
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7) span,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8) span {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7) span,
+html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8) span {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before,
+html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
   content: "Rental-Based Expenses";
 }
 
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
+html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
  display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
+html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
   content: "Adjusted Gross Rental Revenue";
 }
 
 /* Mobile */
 @media (max-width: 35em) {
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
   content: "Gross Rental Revenue";
   float: left;
 }
 
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
   content: "Rental-Based Expenses";
   float: left;
 }
 
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
+html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
   content: "Adjusted Gross Rental Revenue";
   float: left;
   margin-right: .5em;
 }
 }
-}
 
-html[lang=ja]{
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7) span{
+
+
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span,
+html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7) span{
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6):before,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7):before {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6):before,
+html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(7):before {
   content: "グロスレンタル収入";
 }
 
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7) span,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8) span {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7) span,
+html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8) span {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before,
+html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
   content: "レンタルプログラムにおける支出";
 }
 
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
+html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
  display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
-#base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
+html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
   content: "調整後グロスレンタル収入";
 }
 
 /* Mobile */
 @media (max-width: 35em) {
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
   content: "グロスレンタル収入";
   float: left;
 }
 
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
   content: "レンタルプログラムにおける支出";
   float: left;
 }
 
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
   display: none;
 }
-#base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
+html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
   content: "調整後グロスレンタル収入";
   float: left;
   margin-right: .5em;
 }
 }
-}
+
