@@ -490,11 +490,11 @@ content: "Adjusted Gross Rental Revenue";
 
 /*overview section*/
 
-html[lang=en] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25){
+html[lang=en] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25):before{
 display: none;
 }
 
-html[lang=en] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25):before {
+html[lang=en] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(25):after{
   content: "Unit-owner’s balance";
 }
 
