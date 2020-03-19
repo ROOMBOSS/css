@@ -490,7 +490,7 @@ content: "Adjusted Gross Rental Revenue";
 
 /*overview section*/
 
-html[lang=ja] #base_page\:multiStatementExtentMenu\:ownerAccOverviewTitle span {
+html[lang=ja] #base_page\:multiStatementExtentMenu\:ownerAccOverviewTitle {
 visibility: hidden;
 }
 
