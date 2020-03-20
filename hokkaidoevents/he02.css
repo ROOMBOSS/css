@@ -369,13 +369,13 @@ html[lang=ja] .rb-my-booking-title:after {
 }
 
 .rb-header {
-  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/hokkaidoevents/hill-climb.jpg");
-  background-color: #fff !important;
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/hokkaidoevents/HC-logo.png");
+  background-color: #00406B !important;
   background-repeat: no-repeat;
-  background-position: center 40%;
-  background-size:cover;
+  background-position: center center;
+  background-size: contain;
   border: none;
-  height: 150px !important;
+  height: 185px !important;
   border-bottom: 0; }
 
 .rb-header-title {
