@@ -540,7 +540,7 @@ content: "オーナー様アカウント";
     font-size: 20px;
 }
 
-/*annual*/
+/*multi annual*/
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rba1OverviewTitle-annual{
 display: none;
 }
@@ -553,7 +553,17 @@ content: "リザーブ口座";
     font-size: 20px;
 }
 
+html[lang=ja] #base_page\:multiStatementExtentMenu\:rba2OverviewTitle-annual{
+display: none;
+}
 
+html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(50):before {
+content: "リザーブ口座";
+    text-align: left;
+    color: #5c5a5a !important;
+    font-weight: 1000;
+    font-size: 20px;
+}
 
 
 /* Overview Titles */
