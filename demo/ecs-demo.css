@@ -2,8 +2,25 @@
 
 /* Custom design */
 
+
+.rb-header:before {
+  content: "Your Logo / Header Image";
+  color: #212121;
+  text-shadow: none;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+  position: relative;
+  top: calc(50% - 12px);
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.125em;
+}
+
 .rb-header, #base_page\:base_header {
-    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/jse/jse-crop.jpg");
+   /* background-image: url("https://dabb7zy6p4b0z.cloudfront.net/jse/jse-crop.jpg");*/    
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -13,6 +30,7 @@
     height:150px;
     padding-bottom: 10px !important;
 }
+
 #base_page\:base_header {
     height: 80px;
 }
