@@ -65,14 +65,15 @@
 /*hide chinese language options*/
 #base_page\:locform\:languageSelect_input > option:nth-child(5),
 #base_page\:locform\:languageSelect_input > option:nth-child(6){
-display:none;
+  display:none;
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3, a, .ui-select div, button {
   font-weight: 400 !important;
 }
 
-#base_page\:statementExtentMenu\:currentBalance {
+#base_page\:statementExtentMenu\:currentBalance,
+#base_page\:multiStatementExtentMenu\:currentBalance{
   font-weight: 600 !important;
 }
 
@@ -98,14 +99,16 @@ a, .ui-select {
   width: 100%;
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+#base_page\:messagePanel2 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
   font-family: "EB Garamond", serif !important;
   font-size: 1.5rem !important;
   font-weight: 300 !important;
   background-color: #fff !important;
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
+#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3,
+#base_page\:messagePanel2 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3{
   color: #333 !important;
   font-weight: 600 !important;
 }
@@ -404,6 +407,11 @@ i, b,
 #base_page\:statementExtentMenu\:overviewPanel p,
 #base_page\:statementExtentMenu\:overviewPanelAnnual p,
 #base_page\:statementExtentMenu\:occupiedNightsPanel p,
+#base_page\:multiStatementExtentMenu\:overviewGrid .ui-block-b,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual .ui-block-b,
+#base_page\:multiStatementExtentMenu\:overviewPanel p,
+#base_page\:multiStatementExtentMenu\:overviewPanelAnnual p,
+#base_page\:multiStatementExtentMenu\:occupiedNightsPanel p,
 tbody > tr > td {
   font-weight: 400 !important;
 }
@@ -416,28 +424,26 @@ tbody > tr > td li {
   display: none;
 }
 
-/* Lorem Ipsum 
-#base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(4) {
-  display: none;
-}
-#base_page\:messagePanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(3):after {
-  content: "Lorem ipsum vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae.";
-  display: block;
-  margin: 1em 0;
-}*/
-
 /*** GRI & NRI rep ***/
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7),
 #base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7),
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11),
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11) {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11),
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(7),
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(7),
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(11),
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(11){
   font-size: 0;
 }
 /*Overview*/
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7):before,
 #base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7):before,
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11):before,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11):before {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(7):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(7):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(11):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(11):before{
   font-size: 16px;
   line-height: 20px;
   margin-top: 4px;
@@ -446,123 +452,137 @@ tbody > tr > td li {
 }
 /* Overview text */
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(7):before,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7):before {
-  content: "Gross Rental Revenue";  
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(7):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(7):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(7):before{
+  content: "Gross Rental Revenue";
 }
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(11):before,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11):before {
-content: "Adjusted Gross Rental Revenue";
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(11):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(11):before,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(11):before {
+  content: "Adjusted Gross Rental Revenue";
 }
 /******/
 
 /* Result By Month ANN DT */
 #base_page\:statementExtentMenu\:annualStatementMonths\:j_idt594 span,
-#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600 span {
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600 span,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths\:j_idt594 span,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths\:j_idt600 span{
   display: none;
 }
 #base_page\:statementExtentMenu\:annualStatementMonths\:j_idt594:after,
-#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600:after {
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600:after,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths\:j_idt594:after,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths\:j_idt600:after {
   content: "Gross Rental Revenue";
   font-size: .8em;
   line-height: .8em;
 }
-#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600:after {
+#base_page\:statementExtentMenu\:annualStatementMonths\:j_idt600:after,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths\:j_idt600:after{
   content: "Adjusted Gross Rental Revenue";
 }
 /* ANN MB */
 #base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3) > b,
-#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5) > b {
+#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5) > b,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3) > b,
+#base_page\:multiStatementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5) > b{
   display: none;
 }
 @media (max-width: 35em) {
-#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3):before,
-#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before {
-  content: "Gross Rental Revenue";
-  padding: .4em;
+  #base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3):before,
+  #base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before,
+  #base_page\:multiStatementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(3):before,
+  #base_page\:multiStatementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before{
+    content: "Gross Rental Revenue";
+    padding: .4em;
     min-width: 30%;
     display: inline-block;
     margin: -.4em 1em -.4em -.4em;
-}
-#base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before {
-  content: "Adjusted Gross Rental Revenue";
-}
+  }
+  #base_page\:statementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before,
+  #base_page\:multiStatementExtentMenu\:annualStatementMonths_data > tr > td:nth-child(5):before{
+    content: "Adjusted Gross Rental Revenue";
+  }
 }
 
 /*overview section*/
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:ownerAccOverviewTitle {
-display: none;
+  display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(2):before {
-    content: "オーナー様アカウント";
-    text-align: left;
-    color: #5c5a5a !important;
-    font-weight: 1000;
-    font-size: 20px;
+  content: "オーナー様アカウント";
+  text-align: left;
+  color: #5c5a5a !important;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rba1OverviewTitle{
-display: none;
+  display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(32):before {
-content: "リザーブ口座";
-    text-align: left;
-    color: #5c5a5a !important;
-    font-weight: 1000;
-    font-size: 20px;
+  content: "リザーブ口座";
+  text-align: left;
+  color: #5c5a5a !important;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rba2OverviewTitle {
-display: none;
+  display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(50):before {
-content: "税金保有額";
-      text-align: left;
-    color: #5c5a5a !important;
-    font-weight: 1000;
-    font-size: 20px;
+  content: "税金保有額";
+  text-align: left;
+  color: #5c5a5a !important;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:ownerAccOverviewTitle-annual{
-display: none;
+  display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(2):before {
-content: "オーナー様アカウント";
-      text-align: left;
-    color: #5c5a5a !important;
-    font-weight: 1000;
-    font-size: 20px;
+  content: "オーナー様アカウント";
+  text-align: left;
+  color: #5c5a5a !important;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 /*multi annual*/
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rba1OverviewTitle-annual{
-display: none;
+  display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(32):before {
-content: "リザーブ口座";
-    text-align: left;
-    color: #5c5a5a !important;
-    font-weight: 1000;
-    font-size: 20px;
+  content: "リザーブ口座";
+  text-align: left;
+  color: #5c5a5a !important;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rba2OverviewTitle-annual{
-display: none;
+  display: none;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(50):before {
-content: "税金保有額";
-    text-align: left;
-    color: #5c5a5a !important;
-    font-weight: 1000;
-    font-size: 20px;
+  content: "税金保有額";
+  text-align: left;
+  color: #5c5a5a !important;
+  font-weight: 1000;
+  font-size: 20px;
 }
 
 
@@ -570,39 +590,53 @@ content: "税金保有額";
 #base_page\:statementExtentMenu\:rba1OverviewTitle,
 #base_page\:statementExtentMenu\:rba1OverviewTitle-annual,
 #base_page\:statementExtentMenu\:rba2OverviewTitle,
-#base_page\:statementExtentMenu\:rba2OverviewTitle-annual {
+#base_page\:statementExtentMenu\:rba2OverviewTitle-annual,
+#base_page\:multiStatementExtentMenu\:rba1OverviewTitle,
+#base_page\:multiStatementExtentMenu\:rba1OverviewTitle-annual,
+#base_page\:multiStatementExtentMenu\:rba2OverviewTitle,
+#base_page\:multiStatementExtentMenu\:rba2OverviewTitle-annual
+{
   display: none;
 }
 
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(31):after,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(31):after {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(31):after,
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(31):after,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(31):after{
   content: "FF&E Reserve Fund";
   font-weight: bold;
 }
 #base_page\:statementExtentMenu\:overviewGrid > div:nth-child(49):after,
-#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(49):after {
+#base_page\:statementExtentMenu\:overviewGrid-annual > div:nth-child(49):after,
+#base_page\:multiStatementExtentMenu\:overviewGrid > div:nth-child(49):after,
+#base_page\:multiStatementExtentMenu\:overviewGrid-annual > div:nth-child(49):after{
   content: "Consumption Tax Holding";
   font-weight: bold;
 }
 
 /* Panel Titles */
 #base_page\:statementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3,
-#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
+#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3,
+#base_page\:multiStatementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3,
+#base_page\:multiStatementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3{
   display: none
 }
 #base_page\:statementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before,
-#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before {
-    content: "FF&E Reserve Fund";
-    display; block;
-    font-family: "EB Garamond", serif !important;
-    color: #f9f9f9 !important;
-    font-size: 1.5rem !important;
-    font-weight: 300 !important;
-    text-align: center;
-    width: 100%;
+#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before,
+#base_page\:multiStatementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before,
+#base_page\:multiStatementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before{
+  content: "FF&E Reserve Fund";
+  display: block;
+  font-family: "EB Garamond", serif !important;
+  color: #f9f9f9 !important;
+  font-size: 1.5rem !important;
+  font-weight: 300 !important;
+  text-align: center;
+  width: 100%;
 }
-#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before {
-    content: "Consumption Tax Holding"
+#base_page\:statementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before,
+#base_page\:multiStatementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before{
+  content: "Consumption Tax Holding"
 }
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   text-align: center;
@@ -633,7 +667,7 @@ html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
 
 html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
 html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
- display: none;
+  display: none;
 }
 html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
 html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
@@ -642,30 +676,36 @@ html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
 
 /* Mobile */
 @media (max-width: 35em) {
-html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
-  display: none;
-}
-html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
-  content: "Gross Rental Revenue";
-  float: left;
-}
+  html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b,
+  html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b{
+    display: none;
+  }
+  html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before,
+  html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
+    content: "Gross Rental Revenue";
+    float: left;
+  }
 
-html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
-  display: none;
-}
-html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
-  content: "Rental-Based Expenses";
-  float: left;
-}
+  html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b,
+  html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b{
+    display: none;
+  }
+  html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before,
+  html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
+    content: "Rental-Based Expenses";
+    float: left;
+  }
 
-html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
-  display: none;
-}
-html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
-  content: "Adjusted Gross Rental Revenue";
-  float: left;
-  margin-right: .5em;
-}
+  html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b,
+  html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b{
+    display: none;
+  }
+  html[lang=en] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before,
+  html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
+    content: "Adjusted Gross Rental Revenue";
+    float: left;
+    margin-right: .5em;
+  }
 }
 
 
@@ -675,12 +715,12 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:rollingBalance1AccountPanel 
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rollingBalance1AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before {
   content: "リザーブ口座";
-    font-family: "EB Garamond", serif !important;
-    color: #f9f9f9 !important;
-    font-size: 1.5rem !important;
-    font-weight: 300 !important;
-    text-align: center;
-    width: 100%;
+  font-family: "EB Garamond", serif !important;
+  color: #f9f9f9 !important;
+  font-size: 1.5rem !important;
+  font-weight: 300 !important;
+  text-align: center;
+  width: 100%;
 }
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3{
@@ -689,12 +729,12 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:rollingBalance2AccountPanel 
 
 html[lang=ja] #base_page\:multiStatementExtentMenu\:rollingBalance2AccountPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:before {
   content: "税金保有額";
-    font-family: "EB Garamond", serif !important;
-    color: #f9f9f9 !important;
-    font-size: 1.5rem !important;
-    font-weight: 300 !important;
-    text-align: center;
-    width: 100%;
+  font-family: "EB Garamond", serif !important;
+  color: #f9f9f9 !important;
+  font-size: 1.5rem !important;
+  font-weight: 300 !important;
+  text-align: center;
+  width: 100%;
 }
 
 html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(6) span,
@@ -717,7 +757,7 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
 
 html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
 html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
- display: none;
+  display: none;
 }
 html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
 html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
@@ -726,29 +766,35 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
 
 /* Mobile */
 @media (max-width: 35em) {
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b {
-  display: none;
-}
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
-  content: "グロスレンタル収入";
-  float: left;
-}
+  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b,
+  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(6) > b{
+    display: none;
+  }
+  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(6):before,
+  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
+    content: "グロスレンタル収入";
+    float: left;
+  }
 
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b {
-  display: none;
-}
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
-  content: "レンタルプログラムにおける支出";
-  float: left;
-}
+  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b,
+  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b{
+    display: none;
+  }
+  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before,
+  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
+    content: "レンタルプログラムにおける支出";
+    float: left;
+  }
 
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
-  display: none;
-}
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
-  content: "調整後グロスレンタル収入";
-  float: left;
-  margin-right: .5em;
-}
+  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b,
+  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
+    display: none;
+  }
+  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before,
+  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
+    content: "調整後グロスレンタル収入";
+    float: left;
+    margin-right: .5em;
+  }
 }
 
