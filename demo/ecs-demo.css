@@ -5,17 +5,17 @@
 
 .rb-header:before {
   content: "Your Logo / Header Image";
-  color: #212121;
+  color: #0172B2;
   text-shadow: none;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
   display: block;
   position: relative;
-  top: calc(50% - 12px);
+  top: calc(50% - 30px);
   font-family: "EB Garamond", serif;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 30px;
   letter-spacing: 0.125em;
 }
 
