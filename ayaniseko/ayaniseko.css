@@ -122,3 +122,7 @@ html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td:before {
 #ui-datepicker-div.ui-datepicker {
 	z-index: 99 !important;
 }
+
+/* Owners */
+#base_page\:statementExtentMenu > div > ul > li > a.ui-btn-active { background: #555 !important; border: 1px solid #555; text-shadow: none;}
+#base_page\:multiStatementExtentMenu > div > ul > li > a.ui-btn-active { background: #555 !important; border: 1px solid #555; text-shadow: none;}
