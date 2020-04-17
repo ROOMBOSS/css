@@ -97,18 +97,6 @@ li[data-label*="Chinese (traditional)"], li[data-label*="中国語（繁体）"]
   padding: 1px !important;
   margin: 1px !important; }
 
-/* P dialog */
-#orderForm\:pdtoptdt_content > table > tbody > tr:nth-last-child(-n+2) {
-  display: none; }
-
-/* P basket */
-[id*=bskitempdtopt_content] > div:nth-last-child(-n+2) > div {
-  display: none; }
-
-/* P yourbooking*/
-[id*=pdoptgrd_content] > div:nth-last-child(-n+2) {
-  display: none; }
-
 .rb-my-group-title:after,
 .rb-my-booking-title:after {
   display: block;
