@@ -161,7 +161,12 @@ background-color: #d2d41e;
   color:red;
 }
 
+html[lang=ja] #base_page\:tabview\:wufooLink0: before{
+  content:"ツアー参加にあたり、";
+}
+
+
 html[lang=ja] #base_page\:tabview\:wufooLink0: after{
-  content:"ツアー参加にあたり、“追加予約詳細のフォーム”より同意書のご入力をお願いします";
+  content:" より同意書のご入力をお願いします";
 }
 
