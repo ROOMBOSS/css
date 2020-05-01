@@ -161,12 +161,12 @@ background-color: #d2d41e;
   color:red;
 }
 
-html[lang=ja] #base_page\:tabview\:wufooLink0:before{
+html[lang=ja] a#base_page\:tabview\:wufooLink0:before{
   content:"ツアー参加にあたり、";
 }
 
 
-html[lang=ja] #base_page\:tabview\:wufooLink0:after{
+html[lang=ja] a#base_page\:tabview\:wufooLink0:after{
   content:" より同意書のご入力をお願いします";
 }
 
