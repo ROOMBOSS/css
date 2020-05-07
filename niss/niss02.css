@@ -265,3 +265,39 @@ a[id*=edit] {
 [id*="pocgrd_content"] > .ui-block-a {
   font-weight: bold !important;
 }
+
+/* Double cat width */
+@media (max-width: 480px) {
+.rb-parent-cat-container,
+.rb-child-cat-container {
+  padding: 6px 0 0 !important;
+  
+}
+.flex-item.rb-parent-cat-item,
+.flex-item.rb-child-cat-item {
+  padding: 10px 10px 4px !important;
+}
+
+.rb-parent-cat-item, .rb-child-cat-item,
+.rb-parent-cat-item > div > a > img,
+.rb-child-cat-item > a > img,
+.rb-cat-box,
+.rb-cat-box > a {
+  width: 120px !important;
+}
+.rb-parent-cat-item > div > a > img,
+.rb-child-cat-item > a > img,
+.rb-cat-box,
+.rb-cat-box > a {
+  height: 120px !important;
+}
+
+#orderForm\:slctpdtpnl_content,
+#orderForm\:chdcatpnl_content {
+  padding-top: 0px !important;
+}
+
+.rb-cat-desc {
+  padding-top:20px !important;
+}
+}
