@@ -267,7 +267,7 @@ a[id*=edit] {
 }
 
 /* Double cat width */
-@media (max-width: 480px) {
+@media (max-width: 410px) {
 .rb-parent-cat-container,
 .rb-child-cat-container {
   padding: 6px 0 0 !important;
