@@ -271,11 +271,10 @@ a[id*=edit] {
 .rb-parent-cat-container,
 .rb-child-cat-container {
   padding: 6px 0 0 !important;
-  
 }
 .flex-item.rb-parent-cat-item,
 .flex-item.rb-child-cat-item {
-  padding: 10px 10px 4px !important;
+  padding: 10px 10px 0 !important;
 }
 
 .rb-parent-cat-item, .rb-child-cat-item,
