@@ -267,13 +267,13 @@ a[id*=edit] {
 }
 
 /* Double cat width */
-@media (max-width: 410px) {
+@media (max-width: 420px) {
 .rb-parent-cat-container,
 .rb-child-cat-container {
   padding: 6px 0 0 !important;
 }
 .flex-item.rb-parent-cat-item,
-.flex-item.rb-child-cat-item {
+.flex-item.rb-child-cat-item{
   padding: 10px !important;
 }
 
@@ -305,7 +305,7 @@ a[id*=edit] {
 .rb-child-cat-container .rb-child-cat-sel label,
 .rb-parent-cat-container label,
 .rb-child-cat-container label {
-  font-size: 17px;
+  font-size: 15px;
   line-height: 18px !important;
   display: block;
 }
