@@ -152,7 +152,7 @@ a[id*=edit] {
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
   border-color: #0095D9 !important;
-  background-color: #000 !important;
+  background-color: #888 !important;
 }
 
 #orderForm\:booknow,
@@ -274,7 +274,7 @@ a[id*=edit] {
 }
 .flex-item.rb-parent-cat-item,
 .flex-item.rb-child-cat-item {
-  padding: 10px 10px 0 !important;
+  padding: 10px !important;
 }
 
 .rb-parent-cat-item, .rb-child-cat-item,
@@ -299,4 +299,13 @@ a[id*=edit] {
 .rb-cat-desc {
   padding-top:20px !important;
 }
+}
+
+.rb-parent-cat-container .rb-parent-cat-sel label,
+.rb-child-cat-container .rb-child-cat-sel label,
+.rb-parent-cat-container label,
+.rb-child-cat-container label {
+  font-size: 17px;
+  line-height: 18px !important;
+  display: block;
 }
