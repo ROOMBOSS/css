@@ -6,7 +6,7 @@
 .rb-header:before {
  /* content: "Demo Company | Demo Location";*/
   background: url(https://dabb7zy6p4b0z.cloudfront.net/nms/vacation-niseko.svg) 50% 50% no-repeat;
-  color: #fff;
+  color: white;
   text-shadow: none;
   text-align: center;
   text-transform: uppercase;
