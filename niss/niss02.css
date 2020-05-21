@@ -309,3 +309,22 @@ a[id*=edit] {
   line-height: 18px !important;
   display: block;
 }
+
+
+/* Ajax */
+.ui-dialog:not(#ajaxLoader) {
+	max-height: 90% !important;
+	overflow: auto !important;
+}
+@media screen and (max-width: 425px) {
+	.ui-dialog:not(#ajaxLoader) {
+	min-width: 90%;
+	}
+}
+.ui-dialog:not(#ajaxLoader).ui-hidden-container > div.ui-dialog-content.ui-widget-content{
+padding: 1em 1em 2em 1em;
+}
+/* Limit Size Product / Dialog */
+.ui-dialog:not(#ajaxLoader) {
+	max-width: 100vw;
+}
