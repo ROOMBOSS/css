@@ -110,7 +110,7 @@
 }
 
 /* Enquiry button colour */
-.rbn-sendenquiry-button, #base_page\:back,
+.rbn-sendenquiry-button, #base_page\:back, .map-button,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton, #base_page\:vform\:cancelbutt {
   background-color: #5ca0d6 !important;
   font-family: "Open Sans", sans-serif !important;
@@ -121,14 +121,14 @@
   font-weight: 700;
   text-shadow: none !important;
 }
-.rbn-sendenquiry-button:hover, #base_page\:back:hover,
+.rbn-sendenquiry-button:hover, #base_page\:back:hover, .map-button:hover,
 #base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover, #base_page\:vform\:cancelbutt:hover {
   background-color: #70acdb !important;
 }
 
 /* Book and Pay button colour */
 #base_page\:vform\:reservationConditionButt, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
-.ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, .map-button, #base_page\:vform\:acceptButt, #base_page\:txtab_data .ui-btn {
+.ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, #base_page\:vform\:acceptButt, #base_page\:txtab_data .ui-btn {
   background-color: #3388cc !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
@@ -139,7 +139,7 @@
   text-shadow: none !important;
 }
 #base_page\:vform\:reservationConditionButt:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:vform\:booknpay:hover,
-.ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, .map-button:hover, #base_page\:vform\:acceptButt:hover, #base_page\:txtab_data .ui-btn:hover {
+.ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, #base_page\:vform\:acceptButt:hover, #base_page\:txtab_data .ui-btn:hover {
   background-color: #4794d1 !important;
 }
 
