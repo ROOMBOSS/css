@@ -279,6 +279,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 /* Order02 style button */
 #backBtn, #locform\:currencySelect, #locform\:languageSelect,
 #locform\:languageSelect_label, #locform\:languageSelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#locform\:currencySelect_label, #locform\:currencySelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
 .ui-state-highlight {
   background-color: #3388cc !important;
   font-family: "Open Sans", sans-serif !important;
