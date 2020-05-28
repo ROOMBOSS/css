@@ -333,5 +333,6 @@ button#form\:pay:after {
   display: block;
   font-family: "Open Sans", sans-serif;
   content: "Proceed to Payment";
+  background-color: #3388cc !important;
   padding: 0.3em 1em !important;
 }
