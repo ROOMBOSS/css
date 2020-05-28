@@ -329,6 +329,10 @@ button#form\:pay span {
   display: none;
 }
 
+#base_page\:vform\:reservationConditionsbox {
+  overflow: visible !important;
+}
+
 button#form\:pay:after {
   display: block;
   font-family: "Open Sans", sans-serif;
