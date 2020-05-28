@@ -312,3 +312,26 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 .qb-2, .rb-avail-roomtype, th {
   font-family: "Open Sans", sans-serif !important;
 }
+
+.overlay {
+  z-index: 3;
+}
+
+#base_page\:vform\:rsrvCondPanel {
+  margin-top: 20px;
+}
+
+#base_page\:gform, .rbn-yb-searchtext, #locform\:currencySelect {
+  display: none;
+}
+
+button#form\:pay span {
+  display: none;
+}
+
+button#form\:pay:after {
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  content: "Proceed to Payment";
+  padding: 0.3em 1em !important;
+}
