@@ -307,3 +307,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 #base_page\:tabview\:vendorMessagePanel0 > div.ui-panel-m-content.ui-body.ui-body-inherit > div.myloc > img {
   display: none !important;
 }
+
+.qb-2, .rb-avail-roomtype, th {
+  font-family: "Open Sans", sans-serif !important;
+}
