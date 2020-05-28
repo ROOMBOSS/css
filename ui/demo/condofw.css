@@ -287,7 +287,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   border: 0;
 }
 
-.fa-arrow-left, #backBtn, #locform\:languageSelect {
+.fa-arrow-left, #backBtn, #locform\:languageSelect, #locform\:currencySelect {
   font-size: 14px;
 }
 
