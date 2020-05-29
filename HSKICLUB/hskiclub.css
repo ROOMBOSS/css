@@ -150,3 +150,17 @@
    	border-color: #e50050;
 }
 
+/*hide address fields*/
+#orderForm\:postcodepgnew,
+#orderForm\:address1pgnew,
+#orderForm\:address2pgnew,
+#orderForm\:citypgnew,
+#orderForm\:statepgnew,
+#guestDialogForm\:postcodepgadd,
+#guestDialogForm\:address1pgnew,
+#guestDialogForm\:address2pgnew,
+#guestDialogForm\:citypgnew,
+#guestDialogForm\:statepgnew{
+display: none;
+}
+
