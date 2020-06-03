@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* Your Booking */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,500,700&family=Open+Sans:400,600,700&display=swap");
+.rb-header {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekocollective/nc_logo.png");
+  background-color: #FFFFFF !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 165px;
+  border: none;
+  height: 200px !important;
+  border-bottom: 0;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 230px !important;
+    background-position: center 75%;
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 210px !important;
+    background-size: 145px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Custom Headers */
+.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #1d1d1d;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+/*Custom Icons */
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #F0343F;
+}
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #333333;
+  box-shadow: 0 0 0px 6px #333333;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #1d1d1d;
+  box-shadow: 2px -1 -1 #1d1d1d, -2px -1 -1 #1d1d1d;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #ddd !important;
+  background-color: #ddd !important;
+}
+
+.ui-dialog-title {
+  color: #333 !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #666666 !important;
+  border: 1px solid #666666 !important;
+  color: #FFFFFF !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #4d4d4d !important;
+  border: 1px solid #4d4d4d !important;
+  color: #FFFFFF !important;
+}
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Lato", sans-serif !important;
+}
+
+/* Custom Button Font */
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #1d1d1d;
+}
+
+.ui-widget-content .ui-state-highlight {
+  background: #333333;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #1d1d1d;
+  border-color: #1d1d1d;
+  color: #fff !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #373737;
+  border-color: #373737;
+}
+
+.ui-button {
+  text-transform: capitalized;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #333333;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #373737;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #1d1d1d;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #373737;
+  border: none;
+}
