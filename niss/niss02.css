@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Open+Sans:300,400,700&display=swap&subset=japanese');
-
+@charset "UTF-8";
+/* Custom */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
 .rb-parent-cat-title:before, .rb-child-cat-title:before, .rb-prod-title:before, .rb-basket-title-pg:before, .rb-checkout-title:before, #orderForm\:existglbl:before, #orderForm\:newguestlbl:before {
   font-size: 1.1em;
 }
@@ -28,7 +29,8 @@
   background: #00A0DF;
 }
 
-.fa-edit:hover {
+span:not(.ui-state-disabled) > .fa-edit:hover,
+a > .fa-edit:hover {
   background: #0095D9;
 }
 
@@ -36,7 +38,8 @@
   background: #EC5840;
 }
 
-.fa-trash-o:hover {
+span:not(.ui-state-disabled) > .fa-trash-o:hover,
+a > .fa-trash-o:hover {
   background: #c94833;
 }
 
@@ -68,7 +71,7 @@ a[id*=edit] {
 }
 
 * {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP";
 }
 
 .rb-header {
@@ -98,13 +101,18 @@ a[id*=edit] {
   display: none;
 }
 
-.rb-parent-cat-title, .rb-child-cat-title,
-.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title,
-#orderForm\:existglbl, #orderForm\:newguestlbl {
+.rb-header-title {
+  font-family: "Noto JP";
+}
+
+/* Custom Headers */
+.rb-vendor-text, .rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
   color: #333;
   text-transform: uppercase;
 }
 
+/*Custom Icons */
+.rb-vendor-text:before,
 .rb-parent-cat-title:before,
 .rb-child-cat-title:before,
 .rb-prod-title:before,
@@ -117,7 +125,7 @@ a[id*=edit] {
 }
 
 /* Sel item highlight */
-.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+.rb-vendor-container .rb-vendor-sel a img, .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
   -webkit-box-shadow: 0 0 0px 6px #0095D9;
   box-shadow: 0 0 0px 6px #0095D9;
 }
@@ -147,6 +155,7 @@ a[id*=edit] {
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
   background-color: #0095D9;
   box-shadow: 2px -1 -1 #0095D9, -2px -1 -1 #0095D9;
+  color: #ffffff;
 }
 
 /* Accent Dialogue Title */
@@ -155,27 +164,33 @@ a[id*=edit] {
   background-color: #888 !important;
 }
 
+.ui-dialog-title {
+  color: #ffffff !important;
+}
+
 #orderForm\:booknow,
 #orderForm\:booknowcond {
-  background-color: #221E20 !important;
-  border: 1px solid #221E20 !important;
+  background-color: #0095D9 !important;
+  border: 1px solid #0095D9 !important;
   color: #fff !important;
 }
 
 #orderForm\:booknow:hover,
 #orderForm\:booknowcond:hover {
-  background-color: #1A2204 !important;
-  border: 1px solid #1A2204 !important;
+  background-color: #0072a6 !important;
+  border: 1px solid #0072a6 !important;
   color: #fff !important;
 }
 
+/* Custom Button Font */
+/* Custom Button Font */
 /* Lang and currency */
 #locform\:currencySelect_label,
 #locform\:languageSelect_label {
   color: #000;
 }
 
-.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+.ui-widget-content .ui-state-highlight {
   background: #0095D9;
 }
 
@@ -222,25 +237,15 @@ a[id*=edit] {
   color: #fff;
   text-shadow: none;
 }
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit else,
-.ui-btn .ui-panel-collapsible-heading-toggle else,
-.ui-icon-minus:after else, .ui-icon-plus:after else {
-  background-color: #000;
-}
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
 .ui-btn .ui-panel-collapsible-heading-toggle:hover {
   background-color: #1a1a1a;
 }
 
-.ui-bar {
-  padding: .8em 1em;
-}
-
 /* Buttons */
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
-#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button,
-.ui-btn.ui-input-btn.ui-corner-all.ui-shadow {
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
   background-color: #0095D9;
   border: none;
   color: #fff !important;
@@ -248,83 +253,72 @@ a[id*=edit] {
 }
 
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
-#base_page\:locform\:languageSelect_input-button:hover else, #base_page\:locform\:currencySelect_input-button:hover,
-.ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover {
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #0db3ff;
   border: none;
 }
 
-.ui-growl-info, .ui-messages .ui-messages-info, .ui-message.ui-message-info {
-  border-color: #156090 !important;
+/* Order 02.5 */
+.rb-vendor-container {
+  padding-top: 6px;
+  padding-bottom: 0 !important;
 }
 
-/* Reverse product weight */
-[id*="pocgrd_content"] > .ui-block-a span:not([id*="criterionValueId"]) {
-  font-weight: normal !important;
+.flex-item.rb-vendor-item {
+  width: 200px;
+  max-width: 200px !important;
+  padding: 10px !important;
 }
-[id*="pocgrd_content"] > .ui-block-a {
-  font-weight: bold !important;
+
+.rb-vendor-item img {
+  width: 200px;
+}
+
+.rb-vendor-container label, .rb-parent-cat-container label, .rb-child-cat-container label {
+  font-size: 15px;
+  line-height: 18px;
+  display: block;
 }
 
 /* Double cat width */
 @media (max-width: 420px) {
-.rb-parent-cat-container,
+  .rb-parent-cat-container,
 .rb-child-cat-container {
-  padding: 6px 0 0 !important;
-}
-.flex-item.rb-parent-cat-item,
-.flex-item.rb-child-cat-item{
-  padding: 10px !important;
-}
+    padding: 6px 0 0 !important;
+  }
 
-.rb-parent-cat-item, .rb-child-cat-item,
+  .flex-item.rb-parent-cat-item,
+.flex-item.rb-child-cat-item {
+    padding: 10px !important;
+  }
+
+  .rb-parent-cat-item, .rb-child-cat-item,
 .rb-parent-cat-item > div > a > img,
 .rb-child-cat-item > a > img,
 .rb-cat-box,
 .rb-cat-box > a {
-  width: 120px !important;
-}
-.rb-parent-cat-item > div > a > img,
+    width: 120px !important;
+  }
+
+  .rb-parent-cat-item > div > a > img,
 .rb-child-cat-item > a > img,
 .rb-cat-box,
 .rb-cat-box > a {
-  height: 120px !important;
+    height: 120px !important;
+  }
+
+  /* Double vendor */
+  .flex-item.rb-vendor-item {
+    width: 120px;
+    height: auto;
+    max-width: 120px !important;
+    padding: 10px !important;
+  }
+
+  .rb-vendor-item img {
+    width: 120px;
+    height: auto;
+  }
 }
 
-#orderForm\:slctpdtpnl_content,
-#orderForm\:chdcatpnl_content {
-  padding-top: 0px !important;
-}
-
-.rb-cat-desc {
-  padding-top:20px !important;
-}
-}
-
-.rb-parent-cat-container .rb-parent-cat-sel label,
-.rb-child-cat-container .rb-child-cat-sel label,
-.rb-parent-cat-container label,
-.rb-child-cat-container label {
-  font-size: 15px;
-  line-height: 18px !important;
-  display: block;
-}
-
-
-/* Ajax */
-.ui-dialog:not(#ajaxLoader) {
-	max-height: 90% !important;
-	overflow: auto !important;
-}
-@media screen and (max-width: 425px) {
-	.ui-dialog:not(#ajaxLoader) {
-	min-width: 90%;
-	}
-}
-.ui-dialog:not(#ajaxLoader).ui-hidden-container > div.ui-dialog-content.ui-widget-content{
-padding: 1em 1em 2em 1em;
-}
-/* Limit Size Product / Dialog */
-.ui-dialog:not(#ajaxLoader) {
-	max-width: 100vw;
-}
+/*# sourceMappingURL=niss03.css.map */
