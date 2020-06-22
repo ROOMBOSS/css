@@ -74,13 +74,19 @@ body/*,
 }
 
 body > div.rb-body-content > div.sq-payment-form > img{
-	width: 1px;
+	width: 0px;
+	dispay: none;
 }
 
-body > div.rb-body-content > div.sq-payment-form > img:after{
+#sq-ccbox:before{
+	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
+  	width: 250px;
+}
+
+/*body > div.rb-body-content > div.sq-payment-form > img:after{
 	content: 'cc images';
 	content: url('https://dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
-  	width: 350px;
+  	width: 350px;*/
 }
 
 /*body > div.rb-body-content > div:nth-child(3):after{
