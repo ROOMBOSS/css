@@ -73,21 +73,26 @@ body/*,
 	background: #919eab;
 }
 
-body > div.rb-body-content > div.sq-payment-form > img{
+/*body > div.rb-body-content > div.sq-payment-form > img{
 	width: 0px;
 	dispay: none;
+}*/
+
+body > div.rb-body-content > div.sq-payment-form > img:after{	
+	content: url('https://dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
+  	width: 350px;
 }
 
-#sq-ccbox:before{
+/*#sq-ccbox:before{
 	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
   	width: 250px;
-}
+}*/
 
 /*body > div.rb-body-content > div.sq-payment-form > img:after{
 	content: 'cc images';
 	content: url('https://dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
-  	width: 350px;*/
-}
+  	width: 350px;
+}*/
 
 /*body > div.rb-body-content > div:nth-child(3):after{
 	content: "";
