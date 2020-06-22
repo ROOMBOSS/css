@@ -78,6 +78,7 @@ body > div.rb-body-content > div.sq-payment-form > img{
 }
 
 body > div.rb-body-content > div.sq-payment-form > img:after{
+	content: 'cc images';
 	content: url('https://dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
   	width: 350px;
 }
