@@ -834,3 +834,7 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
     margin-right: .5em;
   }
 }
+
+#base_page:ost:0:ownerStatementLink{
+display:none;
+}
