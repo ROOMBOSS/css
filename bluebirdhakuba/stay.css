@@ -78,10 +78,15 @@ body/*,
 	dispay: none;
 }*/
 
-body > div.rb-body-content > div.sq-payment-form > img:after{	
+#sqpdetails:after{	
 	content: url('https://dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
   	width: 350px;
 }
+
+/*body > div.rb-body-content > div.sq-payment-form > img:after{	
+	content: url('https://dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
+  	width: 350px;
+}*/
 
 /*#sq-ccbox:before{
 	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
