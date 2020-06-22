@@ -73,3 +73,11 @@ body/*,
 	background: #919eab;
 }stay.css
 
+body > div.rb-body-content > div.sq-payment-form > img{
+	width: 0px;
+}
+
+body > div.rb-body-content > div.sq-payment-form > img :after{
+	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
+  	width: 70px;	
+}
