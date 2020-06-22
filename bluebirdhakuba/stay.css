@@ -71,14 +71,13 @@ body/*,
 
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active, html .ui-body-a .ui-btn.ui-btn-active, html body .ui-group-theme-a .ui-btn.ui-btn-active, html head+body .ui-btn.ui-btn-a.ui-btn-active, .ui-page-theme-a .ui-checkbox-on:after, html .ui-bar-a .ui-checkbox-on:after, html .ui-body-a .ui-checkbox-on:after, html body .ui-group-theme-a .ui-checkbox-on:after, .ui-btn.ui-checkbox-on.ui-btn-a:after, .ui-page-theme-a .ui-flipswitch-active, html .ui-bar-a .ui-flipswitch-active, html .ui-body-a .ui-flipswitch-active, html body .ui-group-theme-a .ui-flipswitch-active, html body .ui-flipswitch.ui-bar-a.ui-flipswitch-active, .ui-page-theme-a .ui-slider-track .ui-btn-active, html .ui-bar-a .ui-slider-track .ui-btn-active, html .ui-body-a .ui-slider-track .ui-btn-active, html body .ui-group-theme-a .ui-slider-track .ui-btn-active, html body div.ui-slider-track.ui-body-a .ui-btn-active {
 	background: #919eab;
-}stay.css
+}
 
-/*.body > div*/
-.rb-body-content > div.sq-payment-form > img{
+body > div.rb-body-content > div.sq-payment-form > img{
 	width: 0px;
 }
 
-.body > div.rb-body-content > div.sq-payment-form > img :after{
+body > div.rb-body-content > div.sq-payment-form > img :after{
 	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
   	width: 250px;	
 }
