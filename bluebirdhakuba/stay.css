@@ -77,10 +77,10 @@ body > div.rb-body-content > div.sq-payment-form > img{
 	width: 0px;
 }
 
-body > div.rb-body-content > div.sq-payment-form > img:after{
+/*body > div.rb-body-content > div.sq-payment-form > img:after{
 	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
   	width: 250px;
-}
+}*/
 
 #sq-ccbox:before{
 	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
