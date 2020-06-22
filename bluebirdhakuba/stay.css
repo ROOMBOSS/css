@@ -77,10 +77,15 @@ body > div.rb-body-content > div.sq-payment-form > img{
 	width: 1px;
 }
 
-body > div.rb-body-content > div.sq-payment-form > img:after{
-	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
+body > div.rb-body-content > div:nth-child(3):after{
+	content: url("dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg");
   	width: 250px;
 }
+
+/*body > div.rb-body-content > div.sq-payment-form > img:after{
+	content: url('dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg');
+  	width: 250px;
+}*/
 
 /*#sqpdetails:after{
 	content: url("dabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg");
