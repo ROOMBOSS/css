@@ -835,6 +835,15 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
   }
 }
 
-#base_page:ost:0:ownerStatementLink{
+#base_page\:ost\:0\:ownerStatementLink,
+#base_page\:ost\:1\:ownerStatementLink,
+#base_page\:ost\:2\:ownerStatementLink,
+#base_page\:ost\:3\:ownerStatementLink,
+#base_page\:ost\:4\:ownerStatementLink,
+#base_page\:ost\:5\:ownerStatementLink,
+#base_page\:ost\:6\:ownerStatementLink,
+#base_page\:ost\:7\:ownerStatementLink,
+#base_page\:ost\:8\:ownerStatementLink,
+#base_page\:ost\:9\:ownerStatementLink{
 display:none;
 }
