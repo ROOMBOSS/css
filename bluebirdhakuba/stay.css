@@ -73,7 +73,8 @@ body/*,
 	background: #919eab;
 }stay.css
 
-.body > div.rb-body-content > div.sq-payment-form > img{
+/*.body > div*/
+.rb-body-content > div.sq-payment-form > img{
 	width: 0px;
 }
 
