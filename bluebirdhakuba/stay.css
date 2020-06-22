@@ -78,9 +78,9 @@ body > div.rb-body-content > div.sq-payment-form > img{
 }
 
 body > div.rb-body-content > div:nth-child(3):after{
-	background:url("https://tdabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg");
-	/*content: url("https://tdabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg");*/
-  	width: 350px;
+	/*background:url("https://tdabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg");*/
+	content: url("https://tdabb7zy6p4b0z.cloudfront.net/bluebirdhakuba/cclogos.jpg");
+  	/*width: 350px;*/
 }
 
 /*body > div.rb-body-content > div.sq-payment-form > img:after{
