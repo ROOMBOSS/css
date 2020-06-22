@@ -74,7 +74,7 @@ body/*,
 }
 
 body > div.rb-body-content > div.sq-payment-form > img{	
-	dispay: none;
+	display: none;
 }
 
 #sqpdetails:after{	
