@@ -1,6 +1,5 @@
-@charset "UTF-8";
 /* Your Booking */
-/* Custom */
+/* Custom 02*/
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
 .rb-cat-desc {
   padding-top: 1em;
@@ -399,3 +398,4 @@ html[lang=ja] .rb-my-booking > div:after {
   background-color: #f48551;
   border: none;
 }
+
