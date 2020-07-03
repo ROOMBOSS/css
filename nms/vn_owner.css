@@ -55,16 +55,6 @@
   width: 100%;
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  font-weight: 300 !important;
-  background-color: #fff !important;
-  color: #717171 !important;
-}
-
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
-  color: #717171 !important;
-}
-
 .ui-collapsible-heading {
   text-transform: none;
 }
