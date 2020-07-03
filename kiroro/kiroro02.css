@@ -302,7 +302,7 @@ html[lang=ja] .rb-my-booking > div:after {
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
   border-color: #fff !important;
-  background-color: #444444 !important;
+  background-color: #777777 !important;
 }
 
 .ui-dialog-title {
