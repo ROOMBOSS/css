@@ -272,7 +272,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 .ui-content {
-  max-width: 1200px;
+  max-width: 1100px;
 }
 
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
