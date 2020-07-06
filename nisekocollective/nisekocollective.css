@@ -356,7 +356,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 .ui-collapsible-content > p,
 #base_page\:vform\:date-select-pan > .ui-panel-m-content,
 .rbn-margin-top.ui-accordion > div:nth-child(3) > .ui-collapsible-content {
-  background-color: #f9f9f9 !important;
+  background-color: #fff;
 }
 
 /*# sourceMappingURL=nisekocollective_bpay.css.map */
