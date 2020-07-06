@@ -1,10 +1,7 @@
-@charset "UTF-8";
-@import "https://use.typekit.net/gqa4eoo.css";
-/* Your Booking */
 @import url("https://use.typekit.net/gqa4eoo.css");
 .rb-header {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Dialog close icon hotfix */
@@ -31,31 +28,35 @@
   max-width: 1400px;
 }
 
+.ui-wizard-content {
+  margin: 12px 0;
+}
+
 * {
   font-family: "proxima-nova", sans-serif;
 }
 
 .rb-header {
-  background-image: url("https://www.explore-niseko.com/assets/svg/main-logo.svg");
-  background-color: #252e4f !important;
+  background-image: url("https://d2smd08xgped62.cloudfront.net/logos/explore-transfers-tours.svg?mtime=20190528104539");
+  background-color: #98ca4e !important;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 150px;
+  background-position: center 20px;
+  background-size: 250px;
   border: none;
-  height: 200px !important;
-  border-bottom: 12px solid #98ca4e;
+  height: 110px !important;
+  border-bottom: 12px solid #477dca;
 }
 
 @media (max-width: 780px) {
   .rb-header {
-    height: 230px !important;
+    height: 140px !important;
     background-position: center 75%;
   }
 }
 @media (max-width: 360px) {
   .rb-header {
-    height: 210px !important;
-    background-size: 130px !important;
+    height: 120px !important;
+    background-size: 230px !important;
   }
 }
 .rb-header-title {
@@ -83,7 +84,7 @@
 #orderForm\:existglbl:before,
 #orderForm\:newguestlbl:before,
 .rb-checkout-title:before {
-  color: #98ca4e;
+  color: #98CA4D;
 }
 
 /* Sel item highlight */
@@ -134,14 +135,14 @@
 #orderForm\:booknowcond {
   background-color: #c6e29c !important;
   border: 1px solid #c6e29c !important;
-  color: #252e4f !important;
+  color: #98ca4e !important;
 }
 
 #orderForm\:booknow:hover,
 #orderForm\:booknowcond:hover {
   background-color: #afd675 !important;
   border: 1px solid #afd675 !important;
-  color: #252e4f !important;
+  color: #98ca4e !important;
 }
 
 /* Custom Button Font */
@@ -185,7 +186,7 @@
 }
 
 .ui-header.ui-bar-inherit {
-  border-bottom: 12px solid #98ca4e;
+  border-bottom: 12px solid #477dca;
 }
 
 .ui-title {
