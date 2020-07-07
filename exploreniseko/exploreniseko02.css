@@ -32,6 +32,26 @@
   margin: 12px 0;
 }
 
+#base_page\:base_header {
+  height: 150px !important;
+}
+
+#base_page\:locform {
+  margin-top: 10px;
+}
+
+.ui-collapsible-heading .ui-btn {
+  background: #477dca !important;
+  transition: ease-in-out 0.2s;
+  text-shadow: none !important;
+  color: #ffffff;
+}
+
+.ui-collapsible-heading .ui-btn:hover {
+  background: #3264ac !important;
+  color: #ffffff;
+}
+
 * {
   font-family: "proxima-nova", sans-serif;
 }
