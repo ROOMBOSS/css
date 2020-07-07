@@ -52,6 +52,10 @@
   color: #ffffff;
 }
 
+[id*="base_page:tabview:i"] {
+  display: none;
+}
+
 * {
   font-family: "proxima-nova", sans-serif;
 }
