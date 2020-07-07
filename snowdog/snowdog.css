@@ -388,3 +388,24 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
+
+.rb-selected-rt-sr {
+  background-color: rgba(208, 20, 44, 0.89);
+  border: 2px solid rgba(161, 16, 34, 0.89) !important;
+  outline: 2px solid rgba(161, 16, 34, 0.89) !important;
+}
+.rb-selected-rt-sr .qb-2 {
+  color: #dddddd !important;
+}
+.rb-selected-rt-sr .rb-avail-roomtype-cost, .rb-selected-rt-sr .rb-avail-roomtype,
+.rb-selected-rt-sr .vendor-icons, .rb-selected-rt-sr .fa:before, .rb-selected-rt-sr .qb-3 {
+  color: #ffffff !important;
+}
+.rb-selected-rt-sr .qb-4 {
+  border-top: none;
+  outline: 2px solid rgba(161, 16, 34, 0.89) !important;
+  background-color: rgba(161, 16, 34, 0.89) !important;
+}
+.rb-selected-rt-sr .pimage {
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.5);
+}
