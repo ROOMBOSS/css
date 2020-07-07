@@ -7,14 +7,14 @@
 /* Import font */
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: "Lato", sans-serif;
-  background: #58595d;
+  background: #94c0c8;
   text-shadow: none;
   color: #fff;
   -webkit-transition: ease-in-out 200ms;
   transition: ease-in-out 200ms;
 }
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
-  background: #3f4043;
+  background: #72acb7;
 }
 
 /* Header bar */
@@ -39,7 +39,7 @@
 
 /* Non-Accordion Panels */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background: #58595d;
+  background: #94c0c8;
   color: #fff;
   font-family: "Lato", sans-serif;
   text-shadow: none;
@@ -109,35 +109,35 @@
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:back, .map-button,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton, #base_page\:vform\:cancelbutt {
-  background-color: #58595d !important;
+  background-color: #94c0c8 !important;
   font-family: "Lato", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
   border: 1px solid rgba(0, 0, 0, 0) !important;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   text-shadow: none !important;
 }
 .rbn-sendenquiry-button:hover, #base_page\:back:hover, .map-button:hover,
 #base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover, #base_page\:vform\:cancelbutt:hover {
-  background-color: #4c4c50 !important;
+  background-color: #83b6bf !important;
 }
 
 /* Book and Pay button colour */
 #base_page\:vform\:reservationConditionButt, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
 .ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, #base_page\:vform\:acceptButt, #base_page\:txtab_data .ui-btn {
-  background-color: #58595d !important;
+  background-color: #b8152d !important;
   font-family: "Lato", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
   border: 1px solid rgba(0, 0, 0, 0) !important;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   text-shadow: none !important;
 }
 #base_page\:vform\:reservationConditionButt:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:vform\:booknpay:hover,
 .ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, #base_page\:vform\:acceptButt:hover, #base_page\:txtab_data .ui-btn:hover {
-  background-color: #4c4c50 !important;
+  background-color: #a11227 !important;
 }
 
 button.ui-btn, #base_page\:locform\:currencySelect_input-button,
@@ -257,7 +257,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 .ui-btn:after {
-  background-color: #58595d;
+  background-color: #b8152d;
 }
 
 /* Hide highlights */
@@ -266,14 +266,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
-  background: #212121;
-  background: -moz-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #212121), color-stop(100%, #6f6f6f));
-  background: -webkit-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: -o-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: -ms-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: linear-gradient(to right, #212121 0%, #6f6f6f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#212121", endColorstr="#6f6f6f",GradientType=1 );
+  background: #94c0c8;
   color: #fff !important;
 }
 
@@ -281,7 +274,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 [id*=requestPanel] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
   background-color: #ffffff !important;
-  color: #212121 !important;
+  color: #666 !important;
 }
 
 #base_page\:vform {
@@ -300,14 +293,6 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
   color: #fff;
-  background: #212121;
-  background: -moz-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #212121), color-stop(100%, #6f6f6f));
-  background: -webkit-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: -o-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: -ms-linear-gradient(left, #212121 0%, #6f6f6f 100%);
-  background: linear-gradient(to right, #212121 0%, #6f6f6f 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#212121", endColorstr="#6f6f6f",GradientType=1 );
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
@@ -338,23 +323,12 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   padding-bottom: 1em;
 }
 
-#base_page\:resultsform\:vform\:but,
-#base_page\:vform\:but {
-  background: #1d1d1d !important;
-  color: #ffffff !important;
-}
-
-#base_page\:resultsform\:vform\:but:hover,
-#base_page\:vform\:but:hover {
-  background: #373737 !important;
-}
-
 /* Order02 style button */
 #backBtn, #locform\:currencySelect, #locform\:languageSelect,
 #locform\:languageSelect_label, #locform\:languageSelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
 #locform\:currencySelect_label, #locform\:currencySelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
 .ui-state-highlight {
-  background-color: #58595d !important;
+  background-color: #b8152d !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff;
   border: 0;
@@ -390,22 +364,42 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 .rb-selected-rt-sr {
-  background-color: rgba(208, 20, 44, 0.89);
-  border: 2px solid rgba(161, 16, 34, 0.89) !important;
-  outline: 2px solid rgba(161, 16, 34, 0.89) !important;
+  background-color: #D4E6EA;
+  border: #94c0c8;
+  outline: #94c0c8;
 }
 .rb-selected-rt-sr .qb-2 {
-  color: #dddddd !important;
+  color: #666 !important;
 }
 .rb-selected-rt-sr .rb-avail-roomtype-cost, .rb-selected-rt-sr .rb-avail-roomtype,
 .rb-selected-rt-sr .vendor-icons, .rb-selected-rt-sr .fa:before, .rb-selected-rt-sr .qb-3 {
-  color: #ffffff !important;
+  color: #333 !important;
 }
 .rb-selected-rt-sr .qb-4 {
   border-top: none;
-  outline: 2px solid rgba(161, 16, 34, 0.89) !important;
-  background-color: rgba(161, 16, 34, 0.89) !important;
+  outline: #94c0c8 !important;
+  background-color: #94c0c8 !important;
 }
 .rb-selected-rt-sr .pimage {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* Wufoo replacement */
+[id*=wufooLink] {
+  text-indent: -9999px;
+  line-height: 0;
+}
+
+[id*=wufooLink]:after {
+  text-indent: 0;
+  display: block;
+  line-height: initial;
+}
+
+html[lang=en] [id*=wufooLink]:after {
+  content: "Pet Registration Form";
+}
+
+html[lang=ja] [id*=wufooLink]:after {
+  content: "追加予約詳細のフォーム -> ペット申請フォーム";
 }
