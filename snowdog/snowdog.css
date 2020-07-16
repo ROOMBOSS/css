@@ -375,6 +375,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 .rb-selected-rt-sr .vendor-icons, .rb-selected-rt-sr .fa:before, .rb-selected-rt-sr .qb-3 {
   color: #333 !important;
 }
+
 .rb-selected-rt-sr .qb-4 {
   border-top: none;
   outline: #94c0c8 !important;
@@ -382,6 +383,12 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 .rb-selected-rt-sr .pimage {
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* rack unselected */
+
+.rb-selected-rt-sr .rb-rack-unselected {
+  color: #888888;
 }
 
 /* Wufoo replacement */
