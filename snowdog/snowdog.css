@@ -410,3 +410,20 @@ html[lang=en] [id*=wufooLink]:after {
 html[lang=ja] [id*=wufooLink]:after {
   content: "ペット申請フォーム";
 }
+
+html[lang=ja] [id*=wufooLink]:after {
+  content: "ペット申請フォーム";
+}
+
+html[lang=ja] #base_page\:vform\:customertable > div:nth-child(6)/text{
+  display: none;
+}
+
+html[lang=ja] #base_page\:vform\:gms:before{
+  content: "ご住所及び愛犬同伴の場合のサイズ・頭数";
+}
+
+#base_page\:vform\:gms{
+  rows = "6":
+}
+
