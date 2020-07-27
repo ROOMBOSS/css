@@ -450,7 +450,6 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 #base_page\:messages, .rbn-yb-h1, #base_page\:tabview\:vnddesc,
-#base_page\:vendorMessagePanel, [id*=vendorMessagePanel],
 #base_page\:gform\:gid_input, #base_page\:gform\:gem_input {
   font-family: "futura-pt", sans-serif !important;
 }
