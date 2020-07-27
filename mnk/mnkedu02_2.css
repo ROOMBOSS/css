@@ -1,0 +1,328 @@
+/* Custom */
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+.rb-guest-for-emergencies {
+  font-family: Raleway, sans-serif;
+}
+
+/* Replace For Em*/
+#orderForm\:foremlblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(1):after {
+  content: "Accommodation Requests";
+  font-weight: 700;
+}
+
+/* Replace Diet */
+#orderForm\:dietarylblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(2) > div:nth-child(1):after {
+  content: "Please choose from Country Resort / The Orchards / Akazora:";
+}
+
+/* Replace Med */
+#orderForm\:medicallblnew {
+  display: none;
+}
+
+/* Photo consent text
+#orderForm\:addbskpg > tbody > tr:nth-child(3):after{
+  content: " to MnK EdV Niseko to use any photographs, or any edited versions thereof, that are taken of my child and/or myself while participating in EdV Niseko for use by MnK EdV Niseko in MnK EdV Niseko projects or in MnK EdV Niseko brochures and flyers that are distributed both as printed documents and/or on the Internet. I understand that my child’s name and/or my name will not be identified with such brochures and flyers and I agree that neither my child not I will receive any compensation for the use of any such photographs.";
+}*/
+
+div.rb-guest-for-emergencies > div:nth-child(3) > div:nth-child(1):after {
+  content: "Check-in & Check-out date";
+}
+
+#orderForm\:emcontactnmlblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(4) > div:nth-child(1):after {
+  content: "Number of guests in your group";
+}
+
+#orderForm\:emcontactphonelblnew {
+  display: none;
+}
+
+div.rb-guest-for-emergencies > div:nth-child(5) > div:nth-child(1):after {
+  content: "Number of children under 7 years old";
+}
+
+/* Hide per guest */
+.ui-dialog-content.ui-widget-content > .rb-guest-for-emergencies {
+  display: none;
+}
+
+.rb-cat-desc {
+  padding-top: 1em;
+}
+
+* {
+  font-family: Raleway, sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/mnk/MnK_Guest_Experiences-01.png");
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 360px;
+  border: none;
+  border-bottom: 10px solid #5199a8;
+  height: 120px !important;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 150px !important;
+    background-position: center calc(100% - 10px);
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 120px !important;
+    background-size: 285px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title, .rb-child-cat-title,
+.rb-prod-title, .rb-basket-title-pg, .rb-checkout-title,
+#orderForm\:existglbl, #orderForm\:newguestlbl {
+  color: #333;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
+  color: #5199a8;
+}
+
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #5199a8;
+  box-shadow: 0 0 0px 6px #5199a8;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #5199a8;
+  box-shadow: 2px -1 -1 #5199a8, -2px -1 -1 #5199a8;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #305a63 !important;
+  background-color: #5199a8 !important;
+}
+
+#orderForm\:booknow {
+  background-color: #5199a8;
+  border: 1px solid #5199a8;
+}
+
+#orderForm\:booknow:hover {
+  background-color: #407a86;
+  border: 1px solid #407a86;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #5199a8;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: #5199a8;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+  color: #305a63;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #305a63;
+  border-color: #305a63;
+}
+
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #407a86;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 10px solid #5199a8;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #5199a8;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #71aebb;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #305a63;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #407a86;
+}
+
+/* Photo product disclaimer */
+#orderForm\:addbskpg > tbody > tr:nth-child(4) > td:before {
+  content: "I give consent to MnK EdV Niseko to use any photographs, or any edited versions thereof, that are taken of my child and/or myself while participating in EdV Niseko for use by MnK EdV Niseko in MnK EdV Niseko projects or in MnK EdV Niseko brochures and flyers that are distributed both as printed documents and/or on the Internet. I understand that my child’s name and/or my name will not be identified with such brochures and flyers and I agree that neither my child not I will receive any compensation for the use of any such photographs.";
+  display: block;
+  max-width: 400px;
+  font-size: 10px;
+  margin: auto;
+  padding-bottom: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+@media(max-width: 460px) {
+  #orderForm\:addbskpg > tbody > tr:nth-child(4) > td:before {
+    max-width: 100%;
+  }
+}
+
+/* Post Assigning Message */
+.rb-contact-info:before {
+  content: "Please add details for each child that is participating in the program by selecting '+ Add New Group Member'. Please make sure you assign the correct child to the program selected.";
+  display: block;
+  margin-bottom: 1.5em;
+  font-size: 90%;
+  font-weight: bold;
+  color: #5199a8;
+}
+
+/* Post Disclaimer */
+.rb-checkout-nav:before{
+content: "By making this request, you are agreeing to the Terms & Conditions of the above Disclaimer.";
+display: block;
+text-align: left;
+padding-left: 18px;
+padding-bottom: 10px;
+}
+
+/* Replace Button Text */
+#orderForm\:sendinq span {
+  display: none;
+}
+#orderForm\:sendinq:after {
+  content: "Accept Terms and Conditions and Make Request";
+  padding: .3em 1em;
+  display: block;
+  line-height: normal;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+#orderForm\:chkouttotal:after {
+  content: "";
+  background: url("https://dabb7zy6p4b0z.cloudfront.net/mnk/disclaimer-lg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 46vw;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+
+@media(min-width: 1240px) {
+#orderForm\:chkouttotal:after {
+    background: url("https://dabb7zy6p4b0z.cloudfront.net/mnk/disclaimer-lg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 572px;
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+}
+
+@media(max-width: 768px) {
+#orderForm\:chkouttotal:after{
+  background: url("https://dabb7zy6p4b0z.cloudfront.net/mnk/disclaimer-md.png");
+  height: 88vw;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  display: block;
+  }
+}
+
+@media(max-width: 400px) {
+#orderForm\:chkouttotal:after {
+  background: url("https://dabb7zy6p4b0z.cloudfront.net/mnk/disclaimer-xs.png");
+  width: 300px;
+  height: 920px;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+}
+
+/* Totals rework */
+#orderForm\:chkouttotal {
+  margin-right: 0 !important;
+  margin-left: 4px;
+}
+#orderForm\:chkouttot {
+  padding-right: 18px;
+}
