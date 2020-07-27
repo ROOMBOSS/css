@@ -93,15 +93,15 @@
 
 /*  ==== */
 
-html, body,
+/*html, body,
 .rb-body-content,
 .ui-panel-content {
   background-color: #000 !important;
-}
-
-/*.ui-panel-content .ui-widget-content {
-  background-color: #f9f9f9 !important;
 }*/
+
+.ui-panel-content .ui-widget-content {
+  background-color: #f9f9f9 !important;
+}
 
 .rb-parent-cat-container label,
 .rb-child-cat-container label {
