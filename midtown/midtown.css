@@ -471,3 +471,8 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   background-color: transparent;
   color: #666666;
 }
+
+#base_page\:tabview .ui-panel-m-titlebar,
+#base_page\:vendorMessagePanel .ui-panel-m-titlebar {
+  background-color: #019FE9 !important;
+}
