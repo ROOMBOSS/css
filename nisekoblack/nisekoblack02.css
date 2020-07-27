@@ -4,11 +4,10 @@
 /* Custom design */
 
 .rb-header {
-  	background: url(https://dabb7zy6p4b0z.cloudfront.net/nbski/niseko-black-logo-web80.png) center center no-repeat,
-		linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-      url(https://dabb7zy6p4b0z.cloudfront.net/nbski/snow-concierge-header.jpg) no-repeat center -180px;
-  border: none;
-  height: 200px;
+	background: #f9f9f9 url(https://dabb7zy6p4b0z.cloudfront.net/nisekoblack/nisekoblack-blk-NB-badge.png) no-repeat center;
+	background-size:140px;
+	border:none;
+	height: 160px;
 }
 
 .rb-header-title {
@@ -99,13 +98,13 @@ html, body,
   background-color: #000 !important;
 }
 
-.ui-panel-content .ui-widget-content {
+/*.ui-panel-content .ui-widget-content {
   background-color: #f9f9f9 !important;
-}
+}*/
 
 .rb-parent-cat-container label,
 .rb-child-cat-container label {
-  color: #fff;
+  color: #222;
 }
 .rb-order-nav label,
 #orderForm\:chkoutpnl_content .fa-user {
@@ -119,11 +118,11 @@ html, body,
 
 [id*="orderForm:bskpnl_footer"] {
   background-color: #000;
-  color: #fff !important;
+  color: #222 !important;
 }
 
 #orderForm\:inquiry h3 {
-  color: #fff;
+  color: #222;
 }
 
 #orderForm\:guestpg label,
@@ -133,7 +132,7 @@ html, body,
 }
 #orderForm\:guestpg a,
 #orderForm\:chkoutpnl_content a {
-  color: #fff;
+  color: #222;
 }
 #orderForm\:itemdtchkout a,
 #orderForm\:itemdtchkout label {
@@ -161,7 +160,7 @@ html, body,
 
 .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
 	background: #000;
-	color: #fff;
+	color: #222;
 }
 
 /* Parent Category Container */
