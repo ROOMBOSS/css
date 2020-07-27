@@ -118,8 +118,7 @@
 }
 
 [id*="orderForm:bskpnl_footer"] {
-  background-color: #000;
-  color: #222 !important;
+    color: #222 !important;
 }
 
 #orderForm\:inquiry h3 {
