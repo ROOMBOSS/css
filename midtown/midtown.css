@@ -1,5 +1,4 @@
 @import url(https://use.typekit.net/gqa4eoo.css);
-
 .rbn-tab-img {
   padding-right: 0.5em;
 }
@@ -443,4 +442,32 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 
 #base_page\:vform\:searchButton {
   background-color: #22AC38;
+}
+
+/* Yourbooking */
+#base_page\:postab_data, #base_page\:ttab_data, #base_page\:txtab_data {
+  background: #ffffff;
+}
+
+#base_page\:messages, .rbn-yb-h1, #base_page\:tabview\:vnddesc,
+#base_page\:vendorMessagePanel, [id*=vendorMessagePanel],
+#base_page\:gform\:gid_input, #base_page\:gform\:gem_input {
+  font-family: "futura-pt", sans-serif !important;
+}
+
+.rbn-yb-searchtext, .ui-field-contain > label {
+  font-family: "futura-pt", sans-serif !important;
+  font-size: 1.2em;
+}
+
+#base_page\:tabview\:vnddesc, #base_page\:tabview\:vndname {
+  font-family: futura-pt, sans-serif;
+  font-size: 1.2em;
+  line-height: 1.3em;
+}
+
+.rb-footer.ui-footer.ui-bar-inherit {
+  margin-top: 40px;
+  background-color: transparent;
+  color: #666666;
 }
