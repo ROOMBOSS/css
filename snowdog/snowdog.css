@@ -427,3 +427,7 @@ html[lang="ja"] #base_page\:vform\:customertable > div:nth-child(6):before {
   content: "ご住所及び愛犬同伴の場合のサイズ・頭数";
   color: #666;
 }
+
+html[lang=fr] [id*=wufooLink] {
+  display:none;
+}
