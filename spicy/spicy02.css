@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+.rb-header {
+  -webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Dialog close icon */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+/* Up button text */
+.rb-scroll-top-panel .ui-panel-content {
+  padding: 0.5em !important;
+}
+
+.rb-scroll-top-panel > div {
+  font-size: 0.75em;
+  color: #777;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+}
+
+.rb-scroll-top-panel > div:before {
+  content: "Please select additional products from above if you wish to add extra products to your basket";
+}
+
+html[lang=ja] .rb-scroll-top-panel > div:before {
+  content: "複数ご利用の場合は、再度上部から商品を追加・選択して下さい。";
+}
+
+.rb-scroll-top-panel > div:after {
+  content: "";
+  font-family: "FontAwesome" !important;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+#orderForm\:scrolltop {
+  display: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #e9e9e9 !important;
+  border: 1px solid #dddddd !important;
+}
+
+.ui-icon-minus:after {
+  background-color: #dddddd !important;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://spicy.co.jp/wordpress/wp-content/themes/spicy/common/img/logo02.svg");
+  background-color: #ffffff !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 180px !important;
+    background-position: center 75%;
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 160px !important;
+    background-size: 180px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Custom Headers */
+.rb-vendor-text, .rb-parent-cat-title > *, .rb-child-cat-title > *, .rb-prod-title > *, .rb-basket-title > *, .rb-basket-title-pg > *, .rb-checkout-title, .rb-my-booking-title > *, .rb-my-group-title > *, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #1d1d1d;
+  text-transform: uppercase;
+}
+
+/*Custom Icons */
+.rb-vendor-text:before,
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #E66423;
+}
+
+/* Sel item highlight */
+.rb-vendor-container .rb-vendor-sel a img, .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #30669D;
+  box-shadow: 0 0 0px 6px #30669D;
+}
+
+/* Lighter Desc Font */
+.rb-vendor-desc,
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+#orderForm\:stdtlbl,
+#orderForm\:grosslbl {
+  margin-left: 8px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #001A43;
+  box-shadow: 2px -1 -1 #001A43, -2px -1 -1 #001A43;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #30669D !important;
+  background-color: #30669D !important;
+}
+
+.ui-dialog-title {
+  color: #ffffff !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #f8cc7b !important;
+  border: 1px solid #f8cc7b !important;
+  color: #ffffff !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #f5ba4b !important;
+  border: 1px solid #f5ba4b !important;
+  color: #ffffff !important;
+}
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+/* Custom Button Font */
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #001A43;
+}
+
+.ui-widget-content .ui-state-highlight {
+  background: #F2A71B;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #E66423;
+  border-color: #E66423;
+  color: #fff !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #eb8451;
+  border-color: #eb8451;
+}
+
+.ui-button {
+  text-transform: capitalized;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #f9f9f9;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #002e76;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #E66423;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #eb8451;
+  border: none;
+}
