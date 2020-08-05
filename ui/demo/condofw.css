@@ -22,7 +22,7 @@
 
 /* Header bar */
 .rb-header, .ui-header.ui-bar-inherit {
-  background: #333 url("https://dabb7zy6p4b0z.cloudfront.net/ui/demo/demologo.png") center no-repeat !important;
+  background: #fff url("https://dabb7zy6p4b0z.cloudfront.net/ui/demo/demologo-333.png") center no-repeat !important;
   background-size: 175px;
   border: none;
   height: 200px;
@@ -60,7 +60,7 @@
 
 /* Icon and header colors */
 .rb-avail-roomtype, .ui-column-title, .fa-user:before, .fa-bed:before, .fa-bath:before, #base_page\:vform\:customertable .ui-grid-a {
-  color: #292828 !important;
+  color: #df2929 !important;
 }
 
 .fa:before {
@@ -112,7 +112,7 @@
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:back, .map-button,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton, #base_page\:vform\:cancelbutt {
-  background-color: #5ca0d6 !important;
+  background-color: #5fc052 !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
@@ -123,13 +123,13 @@
 }
 .rbn-sendenquiry-button:hover, #base_page\:back:hover, .map-button:hover,
 #base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover, #base_page\:vform\:cancelbutt:hover {
-  background-color: #70acdb !important;
+  background-color: #89c981 !important;
 }
 
 /* Book and Pay button colour */
 #base_page\:vform\:reservationConditionButt, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
 .ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, #base_page\:vform\:acceptButt, #base_page\:txtab_data .ui-btn {
-  background-color: #3388cc !important;
+  background-color: #0c9100 !important;
   font-family: "Open Sans", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
@@ -243,7 +243,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #333;
+  background-color: rgb(242, 4, 250);
   color: #ffffff;
 }
 
