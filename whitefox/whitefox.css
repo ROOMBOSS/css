@@ -43,3 +43,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	font-size: 1.1em !important;
 	text-shadow: none !important;
 }
+
+.sq-button{
+	background: linear-gradient(180deg,#3399cc -57.14%,#1f89ce 125%) !important;
+}
