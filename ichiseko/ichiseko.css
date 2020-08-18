@@ -10,9 +10,9 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 
 .ui-header.ui-bar-inherit{
 	background: #f9f9f9 url(https://dabb7zy6p4b0z.cloudfront.net/ichiseko/ichiseko.png) no-repeat center;
-	background-size:280px;
+	background-size:300px;
 	border:none;
-	height: 280px;
+	height: 160px;
 }
 
 .ui-header.ui-bar-inherit h1.ui-title{
