@@ -4,7 +4,7 @@
   font-family: Raleway, sans-serif;
 }
 
-/* Replace For Em*/
+/* Replace For Em
 #orderForm\:foremlblnew {
   display: none;
 }
@@ -13,8 +13,9 @@ div.rb-guest-for-emergencies > div:nth-child(1):after {
   content: "Accommodation Requests";
   font-weight: 700;
 }
+*/
 
-/* Replace Diet */
+/* Replace Diet 
 #orderForm\:dietarylblnew {
   display: none;
 }
@@ -22,16 +23,16 @@ div.rb-guest-for-emergencies > div:nth-child(1):after {
 div.rb-guest-for-emergencies > div:nth-child(2) > div:nth-child(1):after {
   content: "Please choose from Country Resort / The Orchards / Akazora:";
 }
-
-/* Replace Med */
+*/
+/* Replace Med 
 #orderForm\:medicallblnew {
   display: none;
 }
-
+*/
 /* Photo consent text
 #orderForm\:addbskpg > tbody > tr:nth-child(3):after{
   content: " to MnK EdV Niseko to use any photographs, or any edited versions thereof, that are taken of my child and/or myself while participating in EdV Niseko for use by MnK EdV Niseko in MnK EdV Niseko projects or in MnK EdV Niseko brochures and flyers that are distributed both as printed documents and/or on the Internet. I understand that my child’s name and/or my name will not be identified with such brochures and flyers and I agree that neither my child not I will receive any compensation for the use of any such photographs.";
-}*/
+}
 
 div.rb-guest-for-emergencies > div:nth-child(3) > div:nth-child(1):after {
   content: "Check-in & Check-out date";
@@ -52,8 +53,8 @@ div.rb-guest-for-emergencies > div:nth-child(4) > div:nth-child(1):after {
 div.rb-guest-for-emergencies > div:nth-child(5) > div:nth-child(1):after {
   content: "Number of children under 7 years old";
 }
-
-/* Hide per guest */
+*/
+/* Hide per guest 
 .ui-dialog-content.ui-widget-content > .rb-guest-for-emergencies {
   display: none;
 }
@@ -61,7 +62,7 @@ div.rb-guest-for-emergencies > div:nth-child(5) > div:nth-child(1):after {
 .rb-cat-desc {
   padding-top: 1em;
 }
-
+*/
 * {
   font-family: Raleway, sans-serif;
 }
