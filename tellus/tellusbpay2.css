@@ -304,3 +304,9 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 	font-size: 1.1em !important;
 	text-shadow: none !important;
 }
+
+.rbn-price-rack{
+	color: red !important;
+	font-size: 1.1em !important;
+	text-shadow: none !important;
+}
