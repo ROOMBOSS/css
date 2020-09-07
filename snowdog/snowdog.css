@@ -409,16 +409,16 @@ html[lang=ja] [id*=wufooLink]:after {
   content: "ペット申請フォーム";
 }
 
-#base_page\:vform\:customertable > div:nth-child(6) {
+#base_page\:vform\:messagelblnew {
   color: #fff;
 }
 
-html[lang=en] #base_page\:vform\:customertable > div:nth-child(6):before {
+#base_page\:vform\:messagelblnew:before {
   content: "Dog Breed / Size / Number (if any)";
   color: #666;
 }
 
-html[lang=ja] #base_page\:vform\:customertable > div:nth-child(6):before {
+html[lang=ja] #base_page\:vform\:messagelblnew:before {
   content: "愛犬同伴の場合の犬種・サイズ・頭数";
   color: #666;
 }
