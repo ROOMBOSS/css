@@ -375,7 +375,6 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 .rb-selected-rt-sr .vendor-icons, .rb-selected-rt-sr .fa:before, .rb-selected-rt-sr .qb-3 {
   color: #333 !important;
 }
-
 .rb-selected-rt-sr .qb-4 {
   border-top: none;
   outline: #94c0c8 !important;
@@ -386,7 +385,6 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 }
 
 /* rack unselected */
-
 .rb-selected-rt-sr .rb-rack-unselected {
   color: #888888;
 }
@@ -411,23 +409,20 @@ html[lang=ja] [id*=wufooLink]:after {
   content: "ペット申請フォーム";
 }
 
-html[lang=ja] [id*=wufooLink]:after {
-  content: "ペット申請フォーム";
-}
-
 #base_page\:vform\:customertable > div:nth-child(6) {
   color: #fff;
 }
-html[lang="en"] #base_page\:vform\:customertable > div:nth-child(6):before {
-  content: "Address | Number & Size of Dogs (if any)";
+
+html[lang=en] #base_page\:vform\:customertable > div:nth-child(6):before {
+  content: "Dog Breed / Size / Number (if any)";
   color: #666;
 }
 
-html[lang="ja"] #base_page\:vform\:customertable > div:nth-child(6):before {
-  content: "ご住所及び愛犬同伴の場合のサイズ・頭数";
+html[lang=ja] #base_page\:vform\:customertable > div:nth-child(6):before {
+  content: "愛犬同伴の場合の犬種・サイズ・頭数";
   color: #666;
 }
 
 html[lang=fr] [id*=wufooLink] {
-  display:none;
+  display: none;
 }
