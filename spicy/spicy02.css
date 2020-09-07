@@ -126,11 +126,6 @@ html[lang=ja] .rb-scroll-top-panel > div:before {
   text-align: left;
 }
 
-#orderForm\:stdtlbl,
-#orderForm\:grosslbl {
-  margin-left: 8px;
-}
-
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
