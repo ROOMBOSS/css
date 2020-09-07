@@ -111,10 +111,6 @@ div #locform\:languageSelect, div #locform\:currencySelect {
 #orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
   text-align: left; }
 
-#orderForm\:stdtlbl,
-#orderForm\:grosslbl {
-  margin-left: 8px; }
-
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
