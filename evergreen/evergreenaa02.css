@@ -59,16 +59,6 @@
   display: none;
 }
 
-
-
-#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
-  text-align: left;
-  }
-#orderForm\:stdtlbl,
-#orderForm\:grosslbl{
-  margin-left: 8px;
-}
-
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
   border-color: #e0440b !important;
