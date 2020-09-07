@@ -498,13 +498,6 @@ img[id*="pdtimg"] {
   max-width: 300px;
 }
 
-/* Margin after labels */
-#orderForm\:addbskpg [id*="pdtoptnm"],
-[id*="orderForm:stdtlbl"],
-[id*="orderForm:qtylbl"] {
-  margin-right: .2em;
-}
-
 /* Reduce margin quantity */
 /*
 #orderForm\:qtypg {
