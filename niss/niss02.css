@@ -145,10 +145,10 @@ a[id*=edit] {
   text-align: left;
 }
 
-#orderForm\:stdtlbl,
+/*#orderForm\:stdtlbl,
 #orderForm\:grosslbl {
   margin-left: 8px;
-}
+}*/
 
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
