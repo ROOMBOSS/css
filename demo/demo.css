@@ -31,3 +31,7 @@
 .rb-gicon{	
 	filter: grayscale(100%);
 }
+
+#base_page\:base_header > h1{	
+	display:none;
+}
