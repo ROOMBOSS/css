@@ -479,3 +479,7 @@ display: none;
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label:not(:nth-child(2)) {
     background-color:#bbb;
 }
+
+#base_page\:base_header > h1{	
+	display:none;
+}
