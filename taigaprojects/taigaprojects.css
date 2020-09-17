@@ -36,3 +36,6 @@
 	text-shadow: none;	
 }
 
+#base_page\:locform\:languageSelect{
+    visibility: visible;
+}
