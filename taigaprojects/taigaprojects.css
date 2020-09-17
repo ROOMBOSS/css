@@ -37,5 +37,7 @@
 }
 
 #base_page\:locform\:languageSelect{
-    visibility: visible;	
+ 	visibility: visible;
+ 	z-index: 9999;
+ 	position: relative;
 }
