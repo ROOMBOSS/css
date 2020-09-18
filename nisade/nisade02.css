@@ -78,6 +78,7 @@ h3 {
 }
 
 /* Sel item highlight */
+.rb-vendor-container .rb-vendor-sel a img, .rb-vendor-container .rb-vendor-sel .rb-cat-box a,
 .rb-parent-cat-container .rb-parent-cat-sel a img,
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
 .rb-child-cat-container .rb-child-cat-sel a img,
