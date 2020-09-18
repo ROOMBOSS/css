@@ -42,6 +42,7 @@
 }
 
 /* Custom Headers */
+.rb-vendor-title,
 .rb-parent-cat-title,
 .rb-child-cat-title,
 .rb-prod-title,
@@ -149,7 +150,7 @@ h3 {
 /* CHECKOUT */
 .rb-checkout-title:before {
   content: "\f291";
-  margin-right: 10px;
+  margin-right: 4px;
   font-family: "FontAwesome" !important;
 }
 
