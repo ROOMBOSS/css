@@ -759,12 +759,12 @@ body {
 
 .ui-header.ui-bar-inherit h1:before {
   content: ' ';
-  height: 70px;
+  height: 100px;
   display: block;
   background: url(https://vacationniseko.com/images/vacation-niseko-logo.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 100px contain;
+  background-size: 200px;
   margin-bottom: 2rem;
 }
 
