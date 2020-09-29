@@ -108,6 +108,10 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
   background-color: #928d27;
 }
 
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active{
+  background-color: #d4d09e;
+}
+
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:back,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
