@@ -54,7 +54,7 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 
 /* Non-Accordion Panels */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background: #242424;
+  background: #666666;
   color: #fff;
   font-family: "Open Sans", sans-serif;
   text-shadow: none; }
