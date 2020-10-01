@@ -109,7 +109,7 @@ body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collap
 }
 
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active{
-  background-color: #d4d09e;
+  background-color: #d4d09e; border-color: #d4d09e;
 }
 
 /* Enquiry button colour */
