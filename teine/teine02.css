@@ -1,0 +1,252 @@
+/* Your Booking */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+#base_page\:postab_head .ui-bar-a,
+#base_page\:ttab .ui-bar-a {
+  background-color: #3c86be !important;
+  border: 1px solid #dddddd !important;
+  color: #ffffff !important;
+  text-shadow: none !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
+  color: #ffffff;
+}
+
+.ui-icon-minus {
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.ui-icon-minus:after {
+  background-color: #3c86be !important;
+}
+
+.rbn-tab-img {
+  margin-right: 0.5em;
+}
+
+.rb-header {
+  background-position: center center, center center, 100% 50%;
+}
+
+.ui-datatable th.ui-state-default {
+  background: #5D9CEC;
+  color: #ffffff;
+}
+
+.rb-vendor-title:before, .rb-prod-title:before, .rb-parent-cat-title:before, .rb-child-cat-title:before {
+  font-size: 24px;
+}
+
+#orderForm\:guestsdt {
+  border: 1px solid #ddd !important;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+[id*=newguestbut], #orderForm\:logout {
+  color: #5D9CEC !important;
+  font-weight: bold;
+}
+
+#orderForm\:guestsdt .ui-datatable-summaryrow > td {
+  padding: 8px;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/teine/teine-logo.svg");
+  background-color: #1e3250 !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+  border: none;
+  height: 130px !important;
+  border-bottom: 0;
+}
+
+@media (max-width: 780px) {
+  .rb-header {
+    height: 160px !important;
+    background-position: center 75%;
+  }
+}
+@media (max-width: 360px) {
+  .rb-header {
+    height: 140px !important;
+    background-size: 280px !important;
+  }
+}
+.rb-header-title {
+  display: none;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Custom Headers */
+.rb-vendor-text, .rb-parent-cat-title > *, .rb-child-cat-title > *, .rb-prod-title > *, .rb-basket-title > *, .rb-basket-title-pg > *, .rb-checkout-title, .rb-my-booking-title > *, .rb-my-group-title > *, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #1d1d1d;
+  text-transform: uppercase;
+}
+
+/*Custom Icons */
+.rb-vendor-title:before,
+.rb-vendor-text:before,
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #3c86be;
+}
+
+/* Sel item highlight */
+.rb-vendor-container .rb-vendor-sel a img, .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #3c86be;
+  box-shadow: 0 0 0px 6px #3c86be;
+}
+
+/* Lighter Desc Font */
+.rb-vendor-desc,
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #3c86be;
+  box-shadow: 2px -1 -1 #3c86be, -2px -1 -1 #3c86be;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #5D9CEC !important;
+  background-color: #5D9CEC !important;
+}
+
+.ui-dialog-title {
+  color: #ffffff !important;
+}
+
+.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-state-hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #b8d4f7 !important;
+  border: 1px solid #b8d4f7 !important;
+  color: #1e3250 !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #8bb8f1 !important;
+  border: 1px solid #8bb8f1 !important;
+  color: #1e3250 !important;
+}
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+/* Custom Button Font */
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #3c86be;
+}
+
+.ui-widget-content .ui-state-highlight {
+  background: #5D9CEC;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #5D9CEC;
+  border-color: #5D9CEC;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #8bb8f1;
+  border-color: #8bb8f1;
+}
+
+.ui-button {
+  text-transform: capitalize;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #f9f9f9;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #609ecd;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #5D9CEC;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #8bb8f1;
+  border: none;
+}
