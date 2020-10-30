@@ -433,8 +433,9 @@ padding: 1px;
     width: 100px !important;
 }
 
+/* #orderForm\:sendinq, #orderForm\:sendinqcond,*/
 .rb-order-nav label, .rb-order-nav input,
-#orderForm\:usermessage, #orderForm\:sendinq, #orderForm\:sendinqcond {
+#orderForm\:usermessage {
     display: none;
 }
 
