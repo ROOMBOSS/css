@@ -18,6 +18,7 @@
 	background-color: black!important;	
 	background-size: 200px; 	
 	height: 100px;
+	border: none;
 }
 @media(max-width:1000px) {
 	.ui-header.ui-bar-inherit {
