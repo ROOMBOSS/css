@@ -108,7 +108,7 @@ body, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
-/*hide text Questions & Instructions and replace text*/
+/*hide text Questions & Instructions and replace text
 #base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3{
 	display: none;
 	visibility: hidden;
@@ -124,7 +124,7 @@ body, select, textarea, button, .ui-content, .ui-page-theme-a{
 
 #base_page\3a neworderform\3a questionsPanel > div.ui-panel-m-content.ui-body.ui-body-inherit::after{
 	content: "If you require any assistance, please contact us on +81 (0)136 23 0164 or email: info@rhythmjapan.com";
-}
+}*/
 
 /*hide enter your booking id box*/
 #base_page\:neworderform\:customIdTable{
@@ -152,40 +152,40 @@ display: none;
 #base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
 	display: none;	
 }
-
+/*
 #base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:After{
 	content: 'Group Leader information';	
-}
+}*/
 
-/* Post order message */
+/* Post order message 
 #base_page\:orderedpan:after {
 	content: 'We have received your inquiry for Rhythm Japan – Platinum Service. Please note that this is not a confirmed reservation. An automated email with your booking ID has been sent to you, and you will be contacted by one of our specialists within 48 hours to confirm your booking.';
 	display: block;
 	margin: 1rem 0;
 	font-weight: normal;
 	font-size: 1em;
-}
-/* Post order message 2 */
+}*/
+/* Post order message 2 
 .rb-content:after {
 	content: 'Our Platinum Service fitting service is available from 8am – 9pm. For any inquiries, please contact info@rhythmjapan.com.';
 	display: block;
 	margin: 1rem 0;
 	font-weight: normal;
 	font-size: 1em;
-}
+}*/
 	
-/* Post total message */
+/* Post total message 
 #base_page\:neworderform\:totaltb\:0\:totamts:after {
 	content: "(Please note the equipment rental fee is not yet added to this total.)";
 	font-size: 90%;
-}
+}*/
 	
-/* Hide Category */
+/* Hide Category 
 #base_page\:neworderform\:categorymenu_input > option:nth-child(1) {
 	display: none;
-}
+}*/
 	
-/* Hide Quantity */
+/* Hide Quantity 
 .rbn-quantity {
 	display: none;
-}	
+}	*/
