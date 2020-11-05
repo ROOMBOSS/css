@@ -14,12 +14,10 @@
 
 /*add logo*/
 .ui-header.ui-bar-inherit {
-	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) no-repeat;
-	background-color: black !important;	
-	background-size:cover;
-	background-position: center;
-	height:200px;
-	border: none;
+	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) 50% no-repeat;
+	background-color: black!important;	
+	background-size: 200px; 	
+	height: 100px;
 }
 @media(max-width:1000px) {
 	.ui-header.ui-bar-inherit {
