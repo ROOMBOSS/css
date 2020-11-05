@@ -1,0 +1,98 @@
+/* @import url('//roomboss.github.io/css/ui/main02.css'); */
+
+/* Custom design */
+
+.rb-header {
+	background: url(https://mk0rhythmjapand741tq.kinstacdn.com/wp-content/uploads/logo-light.png) 25% no-repeat;
+	background-color: black!important;	
+	background-size: 200px; 	
+	height: 100px;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,
+.rb-checkout-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
+  color: #428bca;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
+  color: #428bca;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #535353;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+  color: #535353;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #535353;
+  box-shadow: 2px -1 -1 #535353, -2px -1 -1 #535353;
+}
+
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #72d54a !important;
+  background-color: #535353 !important;
+}
+
+#orderForm\:booknow {
+  background-color: #535353;
+  border: 1px solid #535353;
+}
+#orderForm\:booknow:hover {
+  background-color: #428bca;
+  border: 1px solid #428bca;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: rgb(55, 93, 157);
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget.ui-state-default {
+  background-color: #428bca;
+  border-color: #428bca;
+}
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #428bca;
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #535353 !important;
+}
+
+/*booking today warnings*/
+.rb-warn-guest-booking-today-dt, .rb-warn-guest-booking-today-msg{
+    color:  red !important;
+}
