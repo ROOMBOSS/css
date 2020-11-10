@@ -550,25 +550,25 @@ html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 	text-transform: uppercase;
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(1):after {
-	content: "(Dec 11 – Mar 22)";
+	content: "(Dec 11 – Mar 21)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(1):after,
 [lang*="zh"] .rb-parent-cat-item:nth-of-type(1):after {
-	content: "（12月11日～3月22日）";
+	content: "（12月11日～3月21日）";
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(2):after {
-	content: "(Mar 23 – Apr 5)";
+	content: "(Mar 22 – Apr 4)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(2):after,
 [lang*="zh"] .rb-parent-cat-item:nth-of-type(2):after {
-	content: "（3月23日～4月5日）";
+	content: "（3月22日～4月5日）";
 }
 [lang*="en"] .rb-parent-cat-item:nth-of-type(3):after {
-	content: "(Apr 6 – May 6)";
+	content: "(Apr 5 – May 5)";
 }
 [lang*="ja"] .rb-parent-cat-item:nth-of-type(3):after,
 [lang*="zh"] .rb-parent-cat-item:nth-of-type(3):after {
-	content: "（4月6日～5月6日）";
+	content: "（4月5日～5月5日）";
 }
 
 /* Card Fee */
