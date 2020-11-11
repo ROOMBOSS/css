@@ -50,6 +50,42 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 	padding: 0.5em !important;
 }
 
+/*page white and font*/
+body, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #e0b853!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #e0b853;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #e0b853;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
 /* Select Dates Padding */
 [id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
 	padding: 0.5em !important;
