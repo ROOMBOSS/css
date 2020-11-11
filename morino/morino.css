@@ -9,10 +9,10 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 }
 
 .ui-header.ui-bar-inherit{
-	background: black url(https://dabb7zy6p4b0z.cloudfront.net/morino/morinologo.png) no-repeat 35%;
+	background: black url(https://dabb7zy6p4b0z.cloudfront.net/morino/morinologo.png) no-repeat 28%;
 	background-size:200px;
 	border:none;
-	height: 160px;
+	height: 135px;
 }
 
 .ui-header.ui-bar-inherit h1.ui-title{
