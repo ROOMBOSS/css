@@ -1,4 +1,3 @@
-// Morino css placeholder
 @import url(https://fast.fonts.net/cssapi/aaf65650-9663-4d95-8ef1-5108d077a9a5.css);
 
 body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,
@@ -11,7 +10,7 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 
 .ui-header.ui-bar-inherit{
 	background: black url(https://dabb7zy6p4b0z.cloudfront.net/morino/morinologo.png) no-repeat 35%;
-	background-size:600px;
+	background-size:200px;
 	border:none;
 	height: 160px;
 }
