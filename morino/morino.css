@@ -68,14 +68,14 @@ body, select, textarea, button, .ui-content, .ui-page-theme-a{
 	border-radius: 0px;   	
 }
 
-/*color and square titlebars*/
+/*color and square titlebars
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
 	background-color: #e0b853;
 	color: white;
 	text-shadow: none; 
 	border: none;
 	border-radius: 0px;   	
-}
+}*/
 
 /*your booking bars*/
 #base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
