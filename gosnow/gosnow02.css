@@ -6,10 +6,18 @@
   display: none !important;
 }
 
-/* Winter 20/21 hide unused Child cats */
-.rb-parent-cat-2c98902a57f37ae701580523333b3871 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(2) {
+/* Winter 20/21 hide unused Child cats Family Base (Ski) */
+.rb-parent-cat-2c98902a5bb1610f015bb387560716e9 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(1),
+.rb-parent-cat-2c98902a5bb1610f015bb387560716e9 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(2),
+.rb-parent-cat-2c98902a5bb1610f015bb387560716e9 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(3){
   display: none !important;
 }
+
+/* Winter 20/21 hide unused Child cats Family Base (Board) */
+
+/* Winter 20/21 hide unused Child cats Gondola Base (Ski) */
+
+/* Winter 20/21 hide unused Child cats Gondola Base (Board) */
 
 /* Custom design */
 
