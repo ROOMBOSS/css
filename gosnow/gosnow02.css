@@ -14,10 +14,29 @@
 }
 
 /* Winter 20/21 hide unused Child cats Family Base (Board) */
+.rb-parent-cat-2c98902a5bb1610f015bb39317e61743 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(1),
+.rb-parent-cat-2c98902a5bb1610f015bb39317e61743 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(2){
+  display: none !important;
+}
 
 /* Winter 20/21 hide unused Child cats Gondola Base (Ski) */
+.rb-parent-cat-2c98902a57f37ae701580523b9b93879 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(1),
+.rb-parent-cat-2c98902a57f37ae701580523b9b93879 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(2),
+.rb-parent-cat-2c98902a57f37ae701580523b9b93879 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(3),
+.rb-parent-cat-2c98902a57f37ae701580523b9b93879 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(4),
+.rb-parent-cat-2c98902a57f37ae701580523b9b93879 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(5),
+.rb-parent-cat-2c98902a57f37ae701580523b9b93879 #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(6){
+  display: none !important;
+}
 
 /* Winter 20/21 hide unused Child cats Gondola Base (Board) */
+
+.rb-parent-cat-2c98902a57f37ae701580523f9ac387d #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(1),
+.rb-parent-cat-2c98902a57f37ae701580523f9ac387d #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(2),
+.rb-parent-cat-2c98902a57f37ae701580523f9ac387d #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(3),
+.rb-parent-cat-2c98902a57f37ae701580523f9ac387d #orderForm\:chdcatpnl_content > div.flex-container.rb-child-cat-container > div:nth-child(4){
+  display: none !important;
+}
 
 /* Custom design */
 
