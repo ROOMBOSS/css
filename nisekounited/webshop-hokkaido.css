@@ -1,0 +1,897 @@
+.rb-header, #base_page\:base_header {
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-tr-01.png");
+    background-color: #212121 !important;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    background-size: 150px;
+   	border: none;
+   	border-top: 0px solid #212121;
+    border-bottom: 10px solid #fa5f17;
+    height:60px;
+    padding-bottom: 5px !important;
+}
+
+.rb-header-title, .ui-title {
+    position: relative;
+    top: 4px;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    font-size: 32px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* Mobile viewport */
+.ui-mobile-viewport > .rb-page > #base_page\:base_header {
+	height: 80px;
+}
+
+@media(max-width: 780px) {
+	.rb-header-title, .ui-title {
+		top:92px;
+		font-size: 21px !important;
+		margin: auto !important;
+	}
+    .rb-header, #base_page\:base_header {
+		height:145px !important;
+		background-size: 140px !important;
+		background-position: center 25px !important;
+	}
+}
+
+/* Legacy Passes */
+.legacy-pass {
+	min-width: 100%;
+}
+.skipass-message {
+	font-family: "Open Sans", sans-serif;
+	font-size: 10px;
+	margin: .5em 1em .5em;
+}
+.skipass-message:after {
+	display: block;
+	content: "Please note that only the ski pass types shown below are compatible for being recharged. If you've purchased a new white ski pass then the ID will appear automatically. For older red ski passes please enter the ID.";
+	text-align: center;
+}
+html[lang*=ja] .skipass-message:after {
+	content: "チャージに対応しているのは下記の2種類のリフト券のみです。新しい白色のリフト券にチャージする場合はIDが自動的に表示されます。赤色の旧ニセコインターネットリフト券にチャージする場合はIDを入力してください。";
+}
+html[lang="zh"] .skipass-message:after {
+	content: "請注意，當手動輸入現有滑雪通行證的ID進行充值時，只有先前購買的紅色Niseko United IC卡才能在線充值。 （見下面的例子。）";
+}
+html[lang="zh_cn"] .skipass-message:after {
+	content: "请注意，当手动输入现有滑雪通行证的ID进行充值时，只有先前购买的红色Niseko United IC卡才能在线充值。 （见下面的例子。）";
+}
+html[lang="ko"] .skipass-message:after {
+	content: "아래 표시 된 종류의 스키패스만이 충전 가능 함을 유의해주세요. 새로운 화이트 스키 패스를 구입하셨다면, ID가 자동으로 나타날것입니다. 오래 된 레드 스키패스는 ID를 입력해주세요. ";
+}
+.skipass-image {
+    background-image: url(https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-cards.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 375px;
+    width: auto;
+    margin-bottom: 5px;
+    display: block;
+}
+@media(max-width: 350px) {
+	.skipass-image {
+		height: 50vh;
+	}
+}
+
+/* Mobile header */
+@media(max-width: 780px) {
+	.rb-header-title, .ui-title {
+		top: 60%;
+		font-size: 21px !important;
+		margin: auto !important;
+	}
+    .rb-header, #base_page\:base_header {
+		height:100px;
+	}
+}
+
+#backBtn {
+	top: 7px !important;
+}
+@media(min-width: 780px) {
+		#backBtn {
+		top: 110px !important;
+	}
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title,
+.rb-basket-title-pg,
+.rb-checkout-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
+  color: #212121;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+	
+
+#orderForm\:existglbl,
+#orderForm\:newguestlbl {
+    font-size: 1.4em;
+}
+
+.rb-prod-title::before, .rb-parent-cat-title::before, .rb-child-cat-title::before {
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before {
+    color: #fa5f17;
+    margin-right: 8px;
+    font-weight: normal;
+}
+
+.rb-basket-title-pg:before {
+    margin-right: 13px;
+    margin-top: -10px !important;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+    box-shadow: 0 0 0 7px #21212140;
+    border-radius: 5px;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content>td:nth-child(1) > div.rb-skipass > label{
+    background-color: #212121;
+    box-shadow: 2px -1 -1 #212121, -2px -1 -1 #212121;
+}
+
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+    border-color: #333333 !important;
+    background-color: #fa5f17 !important;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+    color: #fff;
+    overflow: visible;
+    text-align: center !important;
+    border-radius: 2px !important;
+    background-color: #fa5f17 !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+div #locform\:languageSelect,
+div #locform\:currencySelect{
+    min-width: 45px !important;
+    padding-right: 23px;
+}
+
+.ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+    border-radius: 2px !important;
+/*     background-color: #fa5f17 !important; */
+    border-color: transparent;
+}
+/* Keep colour on lang/curr selectors */
+#locform\:currencySelect > .ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#locform\:languageSelect > .ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+    background-color: #fa5f17 !important;
+}
+.ui-btn-right {
+    margin-right: -5px;
+    margin-top: -5px;
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 1
+}
+
+.ui-button.ui-widget.ui-state-default {
+    background-color: #fa5f17;
+    border-color: #fa5f17;
+}
+.ui-button.ui-widget.ui-state-hover {
+    background-color: #fc5000;
+    border-color: #fc5000
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #212121 !important;
+    font-weight: 700 !important;
+}
+
+/*              MORE           */
+
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td [id*="bskitempdtopt_content"], #orderForm\:itemdtchkout_data tr.ui-widget-content > td [id*="bskitempdtopt_content"] {
+    padding-top: 0;
+}
+
+.ui-column-title {
+    font-weight: 600;
+}
+
+#orderForm\:chdcatpnl_content,
+#orderForm\:slctpdtpnl_content {
+    padding-top: 24px;
+}
+
+.rb-scroll-top-panel .ui-panel-content {
+    text-transform: uppercase;
+}
+
+/* .rb-scroll-top-panel label {
+    font-weight: 300 !important;
+    letter-spacing: normal;
+} */
+
+.item.rb-prod-desc-item {
+    padding-bottom: 0 !important;
+}
+
+.ui-selectonemenu .ui-selectonemenu-trigger .ui-icon {
+    margin-top: 8px;
+}
+
+#orderForm\:scrolltop:after {
+    content: "\f148";
+    font-family: "FontAwesome" !important;
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+/* Category Labels */
+.rb-parent-cat-container .rb-parent-cat label,
+.rb-child-cat-container .rb-child-cat label,
+.rb-parent-cat-container .rb-parent-cat-sel label,
+.rb-child-cat-container .rb-child-cat-sel label{
+	color: #333333;
+}
+.rb-scroll-top-panel, #orderForm\:j_idt53_content {
+    border: none;
+	
+}
+.rb-scroll-top-panel .ui-panel-content.ui-widget-content{
+    background-color: #fa5f17 !important;
+    border-radius: 3px !important;
+    border: 1px solid #fa5f17 !important;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+}
+#orderForm\:scrolltop  {
+    color: #fff !important;
+    text-transform: none;
+}
+
+#orderForm\:pdtrpt\:3\:pdtpnl {
+    margin-bottom: 10px !important;
+}
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+    font-size: 16px;
+}
+
+.rb-border {
+    border: 1px solid rgba(119,119,119,.2);
+    padding: .6em .8em 1em;
+    border-radius: 3px;
+    margin: auto;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #eee;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+
+.rb-parent-cat-desc:before {
+    /*content: "Peak Season Dates: ";*/
+    /*font-weight: bold;*/
+    font-size: 16px
+}
+/* .rb-parent-cat-desc:after {
+    content: "Take advantage of everything Niseko United has to offer during Hokkaido's most popular snow season! Experience the world's greatest powder, fantastic snow coverage, and full access to the Niseko resorts.";
+    display: block;
+    margin-top: .5em;
+    text-justify: inter-word;
+    font-size: 14.4px;
+    font-weight: 300;
+} */
+
+/* .rb-child-cat-desc:after {
+    content: "Explore the mountain with Niseko United lift access for a full day, with 1 to 18 day passes available. Passes also include night skiing during applicable periods, and unlimited access to the Niseko United shuttle bus on the day of use.";
+    display: block;
+    margin-top: .5em;
+    text-justify: inter-word;
+    font-size: 14.4px;
+    font-weight: 300;
+} */
+
+.rb-child-cat-item label,
+.rb-child-cat-sel.rb-child-cat-item label{
+    font-size: 16px;
+}
+
+.rb-parent-cat-item {
+    max-width: 150px !important;
+    max-height: 150px !important;
+}
+
+.rb-parent-cat-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.flex-item.rb-parent-cat-item {
+    padding: 32px 32px 80px !important;
+}
+
+.rb-parent-cat-sel.rb-parent-cat-item label,
+.rb-parent-cat-item label {
+    font-size: 16px;
+}
+
+#orderForm\:wzd_content {
+    margin: auto;
+}
+
+.flex-item.rb-child-cat-item {
+    max-width: 175px !important;
+    /* max-height: 175px !important; */
+    padding: 20px !important;
+}
+.rb-child-cat-container img {
+    width: 175px;
+    height: 175px;
+}
+
+#orderForm\:j_idt53_content {
+    display: none;
+}
+
+#orderForm\:bskpnl_content {
+    padding-bottom: 14px
+}
+
+.rb-order-nav {
+    padding-top: .5em;
+}
+
+.rb-total {
+    color: rgb(102, 102, 102) !important;
+}
+
+.checkdesc {
+    font-weight: 300;
+    margin-top: 10px;
+    text-align: left;
+    /*! padding-left: 20px; */
+    padding-bottom: 5px;
+    font-size: 14px
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover {
+padding: 1px;
+}
+
+.ui-dialog-titlebar-close.ui-state-hover {
+    background-color: #fa5f17 !important;
+}
+ 
+.ui-dialog-titlebar-icon .ui-dialog-titlebar-close .ui-corner-all { background: #eee }
+
+/* Highlights */
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: #fa5f17 !important;
+    color: #fff;
+}
+
+/* Center align options */
+.ui-selectonemenu .ui-selectonemenu-label,
+#orderForm\:stdtcal_input {
+    text-align: center;
+}
+
+/* Scroll hover*/
+.rb-scroll-top-panel .ui-panel-content:hover {
+    background-color: #fc5000 !important;
+}
+
+/* description height */
+.rb-parent-cat-container {
+    padding-top: 0;
+    padding-bottom: 2em !important;
+}
+.rb-child-cat-container {
+    padding-top: 12px;
+    padding-bottom: 12px !important;
+}
+
+/* For demo */
+#orderForm\:itemdtchkout\:j_idt284,
+#orderForm\:itemdtbsk\:j_idt76{
+    width: 100px !important;
+}
+
+/* #orderForm\:sendinq, #orderForm\:sendinqcond,*/
+.rb-order-nav label, .rb-order-nav input,
+#orderForm\:usermessage {
+    display: none;
+}
+
+/* Cat Sizing */
+.rb-child-cat-container > div > .rb-cat-box {
+	width: 175px;
+}
+.rb-child-cat-item > .rb-cat-box > .ui-commandlink {
+	height: 175px !important;
+	width: 175px !important;
+}
+
+/* Remove Dietary / Medical */
+div.rb-guest-for-emergencies,
+div.rb-guest-for-emergencies,
+#orderForm\:dietarynew, #guestDialogForm\:dietaryedit,
+#orderForm\:medicalnew, #guestDialogForm\:medicaledit {
+display: none;
+}
+#guestDialogForm\:newguestdlg>div:nth-child(2) > div:nth-child(1) {
+    padding-bottom: .8em;
+}
+#guestDialogForm\:editguestdlg>div:nth-child(2) > div:nth-child(1) {
+	padding-bottom: 0;
+}
+
+/* Hide Title Field */
+.rb-guest-basic-information > .flex-container:nth-child(1) {
+	display: none;
+}
+/* Non-Lead Guest fields */
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(4),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(4),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(5),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(5),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(8),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(8),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(14),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(14) {
+	display: none;
+}
+
+/* YourBooking Lang */
+#base_page\:locform\:languageSelect {
+	padding-top: .5em;
+}
+
+/* YourBooking Hide Notes*/
+body.ui-mobile-viewport div[id*="base_page\:tabview\:vendorMessagePanel"] {
+	display: none;
+}
+
+/* Date formatting */
+.ui-inputfield.hasDatepicker {
+	font-family: "Open Sans", sans-serif;
+}
+#orderForm\:addbskpg > tbody > tr:nth-child(2) > td {
+	padding-bottom: 6px;
+}
+
+/* Hide border booking button */
+.ui-btn-right .ui-state-default {
+	border: none !important;
+}
+
+/* Saving style */
+#orderForm\:gross:after {
+    background: #d11111;
+    border-radius: 4px;
+    color: #fff;
+    content: "~7% OFF!";
+    display: inline-block;
+    font-size: .75em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    margin-left: .75em;
+    padding: .1em .45em .2em;
+    position: relative;
+    top: -2px;
+}
+/* Online shop only */
+.rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+  background: #006634;
+}
+html[lang*="en"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+  content: "ONLINE SHOP ONLY";
+}
+html[lang*="ja"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+  content: "オンラインショップ限定";
+}
+html[lang="zh"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+	content: "僅限線上網路商城";
+}
+html[lang="zh_cn"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+	content: "仅限网路商店";
+}
+html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+	content: "온라인 상점 한정";
+}
+
+.rb-cond-bp-dialog {
+	max-width: 500px !important;
+	max-height: 600px !important;
+}
+
+/* Dates */
+.rb-parent-cat-item:after {
+	display: block;
+	margin-top: .2em;
+	font-size: 0.9em;
+	color: #777;
+	text-transform: uppercase;
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(1):after {
+	content: "(Dec 11 – Mar 21)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(1):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(1):after {
+	content: "（12月11日～3月21日）";
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(2):after {
+	content: "(Mar 22 – Apr 4)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(2):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(2):after {
+	content: "（3月22日～4月5日）";
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(3):after {
+	content: "(Apr 5 – May 5)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(3):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(3):after {
+	content: "（4月5日～5月5日）";
+}
+
+/* Card Fee */
+/* Reg en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg:after,
+/* Spring en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg:after,
+/* Final en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
+/* Hourly en */ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
+	content: "(Price includes 500 yen new card fee.)";
+	display: block;
+}
+/* Reg ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg:after,
+/* Spring ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg:after,
+/* Final ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
+/* Hourly ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
+	content: "（専用キーカード代500円込）";
+	display: block;
+}
+
+/* In resort only */
+#orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	background: #333333;
+	background: #333333ba;
+	border-radius: 1em;
+	color: #ffffff;
+	display: block;
+	font-weight:700;
+	letter-spacing: 0.025em;
+	margin: -1.3em auto 0 auto;
+	max-width: 175px;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transform:rotate(-10deg);
+	    -ms-transform:rotate(-10deg);
+	        transform:rotate(-10deg);
+	top: 87px;
+	-webkit-box-shadow: 3px 2px 2px rgb(0,0,0,.1);
+	        box-shadow: 3px 2px 2px rgb(0,0,0,.1);	
+}
+html[lang*="en"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
+	content: "In-Resort Only";
+}
+html[lang*="ja"] #orderForm\:pdtrpt\:4\:pdtimgpg:before { 
+	content: "スキー場のみで販売";
+}
+html[lang="zh"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	content: "僅限渡假村內";
+}
+html[lang="zh_cn"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	content: "仅限渡假村内";
+}
+html[lang="ko"] #orderForm\:pdtrpt\:4\:pdtimgpg:before {
+	content: "리조트 내 한정";
+}
+
+/* Desktop Custom Order Start Date */
+[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2) .ui-column-title:nth-child(1) {
+	display: none;
+}
+[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "Estimated Start Date";
+}
+html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "利用開始予定日";
+}
+html[lang="zh"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "預計開始日期";
+}
+html[lang="zh_cn"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "预计开始日期";
+}
+/* Mobile Custom Order Start Date*/
+@media (max-width: 35em) {
+[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered > b {
+	display: none;
+}
+[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	content: "Estimated Start Date";
+	font-weight: bold;
+	padding: .4em;
+    min-width: 30%;
+    max-width: 30%;
+    display: inline-block;
+    margin: -.4em 1em -.4em -.4em;
+}
+html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	content: "利用開始予定日";
+}
+	html[lang="zh"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+		content: "預計開始日期";
+	}
+		html[lang="zh_cn"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+		content: "预计开始日期";
+	}
+}
+
+/* Focus Select Group */
+.rb-guest-sel-container:nth-child(1) > .rb-guest-sel-item > div {
+	border: 4px solid #fa5f17 !important;
+	padding-left: .2em;
+	margin-left: -.2em;
+}
+span.rb-guest-sel-item {
+	display: none;
+}
+
+/* Make add group member more visible */
+.ui-datatable-summaryrow [id*=newguestbut] {
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	padding: .3em 1em;
+	background-color: #fa5f17;
+	border-radius: 4px;
+	display: block;
+	width: 210px;
+	margin: .5em auto;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1):hover {
+	background-color: #fc5000;
+}
+@media(max-width: 820px)  {
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	width: calc(100vw - 5em);
+	}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-child(2) {
+	display: none;
+}
+}
+
+#orderForm\:itemdtchkout > .ui-datatable-tablewrapper {
+	overflow: hidden;
+}
+
+/* Product Page */
+/* Non-events - Remove DD*/
+#orderForm\:pdtoptdt\:1\:cbval,
+#orderForm\:pdtoptdt\:2\:cbval,
+#orderForm\:pdtoptdt\:3\:cbval {
+	padding: 0 !important;
+	border: 0 !important;
+	top: 2px;
+	pointer-events: none !important;
+}
+@media screen and (max-width: 480px) {
+	#orderForm\:pdtoptdt\:1\:cbval,
+	#orderForm\:pdtoptdt\:2\:cbval,
+	#orderForm\:pdtoptdt\:3\:cbval {
+		line-height: normal !important;
+	}
+}
+#orderForm\:pdtoptdt\:1\:cbval_label,
+#orderForm\:pdtoptdt\:2\:cbval_label,
+#orderForm\:pdtoptdt\:3\:cbval_label {
+	padding: 0 !important;
+}
+#orderForm\:pdtoptdt\:1\:cbval > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#orderForm\:pdtoptdt\:2\:cbval > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#orderForm\:pdtoptdt\:3\:cbval > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right {
+	display: none !important;
+}
+
+/* --- Your Booking --- */
+
+/* Hide YourBooking form #base_page\:gform {display: none;} */
+
+/* Hide email */
+#base_page\:postab\:posemail,
+#base_page\:postab_data > tr > td:nth-child(2) {
+	display: none;
+}
+
+#base_page\:locform\:languageSelect_input-button,
+.ui-btn[id*="squarePay"] {
+	background-color: #fa5f17;
+	color: #ffffff !important;
+	text-shadow: none !important;
+	border: none !important;
+}
+#base_page\:locform\:languageSelect_input-button:hover,
+.ui-btn[id*="squarePay"]:hover {
+	background-color: #fc5000;
+}
+.ui-btn-icon-left:after {
+	background-color: #fa5f17;
+}
+
+/* Make payment received text more visible */
+#base_page\:txtab [id*="receivedMessageText"] {
+	font-weight: bold;
+	font-size: large;
+}
+#base_page\:txtab [id*="toPDF"] {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* YB Search Form */
+.rbn-yb-searchtext,
+#base_page\:gform {
+	display: none;
+}
+.rbn-yb-h1 {
+	margin-top: .3em;
+}
+
+/* YB Invoice */
+/* Notes */
+#base_page\:txtab\:notesText,
+#base_page\:txtab_data > tr > td:nth-child(4),
+/* Invoice Date */
+#base_page\:txtab\:invoiceDate,
+#base_page\:txtab_data > tr > td:nth-child(5),
+/* Due Date */
+#base_page\:txtab\:dueDate,
+#base_page\:txtab_data > tr > td:nth-child(6),
+/* Payment Amount */
+#base_page\:txtab\:recd,
+#base_page\:txtab_data > tr > td:nth-child(7) {
+	display: none;
+}
+
+/* Support Header */
+.rb-body-content:before {
+	content: "Need assistance? • Online Support: +81 136-55-6068 • Open Mon–Fri, 9am–6pm (JST)";
+	display: block;
+	background: none;
+	border-top: 0px solid #fa5f17;
+	color: #999999;
+	font-size: 10px;
+	font-weight: normal;
+	padding: .5em;
+	text-transform: none;
+	text-align: center;
+	position: relative;
+	width: -moz-available;
+	width: -webkit-fill-available;
+	width: stretch;
+}
+html[lang=ja] .rb-body-content:before {
+	content: "何かお困りですか？ オンラインサポート連絡先 0136-55-6068（月～金、9:00-18:00）";
+}
+html[lang="zh"] .rb-body-content:before {
+	content: "需要協助？ • 線上支援：+81 136-55-6068 • 營業時間週一至週五 9am–6pm (JST)";
+}
+html[lang="zh_cn"] .rb-body-content:before {
+	content: "需要帮助？在线支持：+81 136-55-6068 •  营业时间：周一–周五，日本标准时间 上午 9 点–下午 6 点";
+}
+html[lang="ko"] .rb-body-content:before {
+	content: "도움이 필요하신가요? 온라인 센터: +81 136-55-6068 월요일부터 금요일까지, 오전 9시부터 오후 6시까지 (JST)";
+}
+@media screen and (max-width: 1024px) {
+	.rb-body-content:before {
+		background-color: #fa5f17;
+		border-top: none !important;
+		color: #ffffff;
+	}
+	.rb-header, #base_page\:base_header {
+		border-bottom: 0;
+	}
+}
+
+/* My Group / Booking */
+.rb-my-booking {
+	padding-top: 1em;
+}
+
+#orderForm\:chkoutpnl_content > div:nth-child(1) > div {
+	display: none;
+}
+.rb-my-group-title:before {
+	content: "\f0c0";
+}
+.rb-my-booking-title:before {
+	content: "\f09d";
+}
+.rb-my-group-title,
+.rb-my-booking-title {
+	font-size: 20px;
+}
+.rb-my-group-title:before,
+.rb-my-booking-title:before {
+	color: #fa5f17;
+ 	margin-right: 10px;
+  	font-family: "FontAwesome" !important;
+  	font-weight: normal;
+}
+
+#orderForm\:itemdtchkout\:0\:guestsrpt\:0\:guestslct_label { font-size: 14px;}
+
+/* Recharge formatting */
+[id*="guestsselpg"] > div > div {
+	padding-bottom: 0 !important;
+}
+.rb-order02-dt [id*="guestsselpg"]  {
+	margin-bottom: .6em;
+}
+#orderForm\:itemdtchkout_data > tr.ui-widget-content.ui-datatable-odd > td:nth-child(1) > span.flex-container.rb-guest-sel-container > .rb-guest-sel-item {
+	margin: .6em;
+}
+
+.rb-basket-dt > div > table > thead > tr > th:nth-child(n+1):nth-child(n+2) { width: auto !important; }
+
+/*Hide address fields*/
+.rb-address-1, .rb-city, .rb-postCode .rb-state, .rb-address-2 {
+  display: none !important;
+}
+
+
+/* Email message */
+html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
+  content: "携帯電話のキャリアメール（@docomo.ne.jp、@ezweb.ne.jp 、@softbank.ne.jp、@i.softbank.jpなど）でのご注文は、メールが届かないケースが多くなっております。ドメイン指定をされている場合は、弊社からのメールが受信できるように@roomboss.netを受信指定するか、キャリアメール以外のアドレスをご登録ください。";
+  color: #444;
+  font-size: .6em;
+  max-width: calc(400px + .5em);
+  padding: 1em 0 0 .75em;
+  text-align: left; 
+}
+@media screen and (max-width: 820px) {
+  html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
+    padding: 1em 1em 1em 1.5em;
+    text-align: center; } 
+}
