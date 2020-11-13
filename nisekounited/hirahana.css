@@ -1,0 +1,351 @@
+@charset "UTF-8";
+/* Your Booking */
+/* Custom */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,800&display=swap");
+.rb-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rb-header-title {
+  margin: auto;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 800;
+  text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.ui-dialog-titlebar .ui-state-hover {
+  background-color: transparent;
+}
+
+#orderForm\:itemdtbsk, #orderForm\:itemdtchkout, .rb-guests-dt {
+  border: 1px solid #ddd !important;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Yourbooking */
+/* YourBooking Lang */
+#base_page\:locform\:languageSelect {
+  padding-top: 0.5em;
+}
+
+/* YourBooking Hide Notes*/
+body.ui-mobile-viewport div[id*="base_page:tabview:vendorMessagePanel"] {
+  display: none;
+}
+
+/* --- Your Booking --- */
+/* Hide YourBooking form #base_page\:gform {display: none;} */
+/* Hide email */
+#base_page\:postab\:posemail,
+#base_page\:postab_data > tr > td:nth-child(2) {
+  display: none;
+}
+
+#base_page\:locform\:languageSelect_input-button,
+.ui-btn[id*=squarePay] {
+  background-color: #2c5282;
+  color: #ffffff !important;
+  text-shadow: none !important;
+  border: none !important;
+}
+
+#base_page\:locform\:languageSelect_input-button:hover,
+.ui-btn[id*=squarePay]:hover {
+  background-color: #5083c4;
+}
+
+.ui-btn-icon-left:after {
+  background-color: #63b3ed;
+}
+
+/* Make payment received text more visible */
+#base_page\:txtab [id*=receivedMessageText] {
+  font-weight: bold;
+  font-size: large;
+}
+
+#base_page\:txtab [id*=toPDF] {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: large;
+}
+
+/* YB Search Form */
+.rbn-yb-searchtext,
+#base_page\:gform {
+  display: none;
+}
+
+.rbn-yb-h1 {
+  margin-top: 0.3em;
+}
+
+/* YB Invoice */
+/* Notes */
+#base_page\:txtab\:notesText,
+#base_page\:txtab_data > tr > td:nth-child(4),
+#base_page\:txtab\:invoiceDate,
+#base_page\:txtab_data > tr > td:nth-child(5),
+#base_page\:txtab\:dueDate,
+#base_page\:txtab_data > tr > td:nth-child(6),
+#base_page\:txtab\:recd,
+#base_page\:txtab_data > tr > td:nth-child(7) {
+  display: none;
+}
+
+/* Support Header */
+.rb-body-content:before {
+  content: "Need assistance? • Online Support: +81 136-55-6068 • Open Mon–Fri, 9am–6pm (JST)";
+  display: block;
+  background: none;
+  border-top: 0px solid #63b3ed;
+  color: #999999;
+  font-size: 10px;
+  font-weight: normal;
+  padding: 0.5em;
+  text-transform: none;
+  text-align: center;
+  position: relative;
+  width: -moz-available;
+  width: -webkit-fill-available;
+  width: stretch;
+}
+
+html[lang=ja] .rb-body-content:before {
+  content: "何かお困りですか？ オンラインサポート連絡先 0136-55-6068（月～金、9:00-18:00）";
+}
+
+html[lang=zh] .rb-body-content:before {
+  content: "需要協助？ • 線上支援：+81 136-55-6068 • 營業時間週一至週五 9am–6pm (JST)";
+}
+
+html[lang=zh_cn] .rb-body-content:before {
+  content: "需要帮助？在线支持：+81 136-55-6068 •  营业时间：周一–周五，日本标准时间 上午 9 点–下午 6 点";
+}
+
+html[lang=ko] .rb-body-content:before {
+  content: "도움이 필요하신가요? 온라인 센터: +81 136-55-6068 월요일부터 금요일까지, 오전 9시부터 오후 6시까지 (JST)";
+}
+
+@media screen and (max-width: 1024px) {
+  .rb-body-content:before {
+    background-color: #63b3ed;
+    border-top: none !important;
+    color: #ffffff;
+  }
+
+  .rb-header, #base_page\:base_header {
+    border-bottom: 0;
+  }
+}
+#base_page\:txtab .ui-btn, #scrollToPay {
+  color: #ffffff;
+  text-shadow: none;
+  border: 0px solid transparent;
+  background-color: #30a55d;
+  transition: ease-out 0.25s;
+  font-family: "Noto-sans JP", sans-serif;
+}
+
+#base_page\:txtab .ui-btn:hover, #scrollToPay:hover {
+  background-color: #257d47;
+}
+
+#base_page\:base_header.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/hirahana.png"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.grand-hirafu.jp/winter/common/img/home/news-bg.jpg) !important;
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  background-position: center center, center, center 25% !important;
+  background-size: 300px, cover, cover !important;
+  border: none;
+  height: 150px !important;
+  border-bottom: 20px solid #63b3ed;
+}
+
+.ui-panel-m-titlebar .ui-bar .ui-bar-inherit {
+  color: #ffffff;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.rb-header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www.grand-hirafu.jp/winter/common/img/home/news-bg.jpg");
+  background-color: #fff !important;
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: cover;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0 solid #63b3ed;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Custom Headers */
+.rb-vendor-text, .rb-parent-cat-title > *, .rb-child-cat-title > *, .rb-prod-title > *, .rb-basket-title > *, .rb-basket-title-pg > *, .rb-checkout-title, .rb-my-booking-title > *, .rb-my-group-title > *, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #333;
+  text-transform: none;
+}
+
+/*Custom Icons */
+.rb-vendor-title:before,
+.rb-vendor-text:before,
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #63b3ed;
+}
+
+/* Sel item highlight */
+.rb-vendor-container .rb-vendor-sel a img, .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #2c5282;
+  box-shadow: 0 0 0px 6px #2c5282;
+}
+
+/* Lighter Desc Font */
+.rb-vendor-desc,
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #2c5282;
+  box-shadow: 2px -1 -1 #2c5282, -2px -1 -1 #2c5282;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #fff !important;
+  background-color: #2c5282 !important;
+}
+
+.ui-dialog-title {
+  color: #fff !important;
+}
+
+.ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-state-hover {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #63b3ed !important;
+  border: 1px solid #63b3ed !important;
+  color: #fff !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #359de8 !important;
+  border: 1px solid #359de8 !important;
+  color: #fff !important;
+}
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+/* Custom Button Font */
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #2c5282;
+}
+
+.ui-widget-content .ui-state-highlight {
+  background: #63b3ed;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #63b3ed;
+  border-color: #63b3ed;
+  color: #fff !important;
+  font-weight: 700 !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #91c9f2;
+  border-color: #91c9f2;
+}
+
+.ui-button {
+  text-transform: uppercase;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0 solid #63b3ed;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after,
+.ui-bar-a {
+  background-color: #63b3ed;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #63b3ed;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
+  color: #ffffff !important;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #63b3ed;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #91c9f2;
+  border: none;
+}
