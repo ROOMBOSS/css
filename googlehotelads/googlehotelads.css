@@ -1,0 +1,21 @@
+#base_page{
+  background-color: white;
+}
+
+#base_page\:base_header{
+  display: none;
+}
+
+/*strikethrough before*/
+.rb-rack-unselected{
+	color: red !important;
+	font-size: 0.8em !important;
+	text-shadow: none !important;
+}
+
+/*strikethrough after*/
+.rb-rack-cost{
+	color: red !important;
+	font-size: 1.1em !important;
+	text-shadow: none !important;
+}
