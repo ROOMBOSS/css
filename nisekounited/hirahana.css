@@ -184,6 +184,13 @@ html[lang=ko] .rb-body-content:before {
 [lang*="zh"] .rb-parent-cat-item:nth-of-type(3):after {
 	content: "（4月5日～5月5日）";
 }
+[lang*="en"] .rb-parent-cat-item:nth-of-type(5):after {
+	content: "( ~ Dec 4)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(5):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(5):after {
+	content: "（～12月4日）";
+}
 [lang*="en"] .rb-parent-cat-item:only-of-type:after {
 	content: "(Dec 11 – May 5)";
 }
@@ -191,7 +198,6 @@ html[lang=ko] .rb-body-content:before {
 [lang*="zh"] .rb-parent-cat-item:only-of-type:after {
 	content: "（12月11日～5月5日）";
 }
-
 
 #base_page\:txtab .ui-btn, #scrollToPay {
   color: #ffffff;
