@@ -262,8 +262,8 @@ html[lang=ko] .rb-body-content:before {
 
 /* Sel item highlight */
 .rb-vendor-container .rb-vendor-sel a img, .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  -webkit-box-shadow: 0 0 0px 6px #2c5282;
-  box-shadow: 0 0 0px 6px #2c5282;
+  -webkit-box-shadow: 0 0 0px 6px #21212140;
+  box-shadow: 0 0 0px 6px #21212140;
 }
 
 /* Lighter Desc Font */
