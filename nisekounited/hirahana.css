@@ -400,3 +400,8 @@ html[lang=ko] .rb-body-content:before {
   background-color: #91c9f2;
   border: none;
 }
+
+/* Hide Discount Code */
+#orderForm\:dispnl_content {
+	display: none;
+}
