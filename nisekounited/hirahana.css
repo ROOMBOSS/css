@@ -150,6 +150,49 @@ html[lang=ko] .rb-body-content:before {
   }
 }
 
+.rb-cond-bp-dialog {
+	max-width: 500px !important;
+	max-height: 600px !important;
+}
+
+/* Dates */
+.rb-parent-cat-item:after {
+	display: block;
+	margin-top: .2em;
+	font-size: 0.9em;
+	color: #777;
+	text-transform: uppercase;
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(1):after {
+	content: "(Dec 11 – Mar 21)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(1):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(1):after {
+	content: "（12月11日～3月21日）";
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(2):after {
+	content: "(Mar 22 – Apr 4)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(2):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(2):after {
+	content: "（3月22日～4月4日）";
+}
+[lang*="en"] .rb-parent-cat-item:nth-of-type(3):after {
+	content: "(Apr 5 – May 5)";
+}
+[lang*="ja"] .rb-parent-cat-item:nth-of-type(3):after,
+[lang*="zh"] .rb-parent-cat-item:nth-of-type(3):after {
+	content: "（4月5日～5月5日）";
+}
+[lang*="en"] .rb-parent-cat-item:only-of-type:after {
+	content: "(Dec 11 – May 5)";
+}
+[lang*="ja"] .rb-parent-cat-item:only-of-type:after,
+[lang*="zh"] .rb-parent-cat-item:only-of-type:after {
+	content: "（12月11日～5月5日）";
+}
+
+
 #base_page\:txtab .ui-btn, #scrollToPay {
   color: #ffffff;
   text-shadow: none;
