@@ -14,6 +14,7 @@
   line-height: 2.5rem;
   font-weight: 800;
   text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.4);
+  display: none;
 }
 
 .ui-dialog-titlebar .ui-state-hover {
@@ -133,15 +134,22 @@ html[lang=ko] .rb-body-content:before {
 
 @media screen and (max-width: 1024px) {
   .rb-body-content:before {
-    background-color: #63b3ed;
+    background-color: #0195D9;
     border-top: none !important;
     color: #ffffff;
   }
-
   .rb-header, #base_page\:base_header {
-    border-bottom: 0;
+    border-bottom: 0 !important;
   }
 }
+@media screen and (max-width: 640px) {
+  div.rb-header {
+    background-position: center calc(50% + 20px), center, center 25% !important;
+    background-size: calc(100vw - 2em), cover, cover, cover !important;
+    height: 175px !important;
+  }
+}
+
 #base_page\:txtab .ui-btn, #scrollToPay {
   color: #ffffff;
   text-shadow: none;
@@ -175,14 +183,14 @@ html[lang=ko] .rb-body-content:before {
 }
 
 .rb-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www.grand-hirafu.jp/winter/common/img/home/news-bg.jpg");
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/hirahana-logo.png"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://www.grand-hirafu.jp/winter/common/img/home/news-bg.jpg");
   background-color: #fff !important;
   background-repeat: no-repeat;
-  background-position: center 25%;
-  background-size: cover;
+  background-position: center 20px, center, center 25%;
+  background-size: 500px, cover, cover, cover;
   border: none;
-  height: 150px !important;
-  border-bottom: 0 solid #63b3ed;
+  height: 240px !important;
+  border-bottom: 20px solid #63b3ed;
 }
 
 .rb-header-title {
@@ -308,7 +316,7 @@ html[lang=ko] .rb-body-content:before {
 }
 
 .ui-header.ui-bar-inherit {
-  border-bottom: 0 solid #63b3ed;
+  border-bottom: 0 solid #0195D9;
 }
 
 .ui-title {
