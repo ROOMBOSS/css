@@ -501,7 +501,7 @@ body.ui-mobile-viewport div[id*="base_page\:tabview\:vendorMessagePanel"] {
 	border: none !important;
 }
 
-/* Saving style */
+/* Saving style
 #orderForm\:gross:after {
     background: #d11111;
     border-radius: 4px;
@@ -515,7 +515,7 @@ body.ui-mobile-viewport div[id*="base_page\:tabview\:vendorMessagePanel"] {
     padding: .1em .45em .2em;
     position: relative;
     top: -2px;
-}
+}*/
 /* Online shop only */
 .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
   background: #006634;
@@ -901,4 +901,9 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
     padding: 1em 1em 1em 1.5em;
     text-align: center; } 
+}
+
+/* Hide Discount Code */
+#orderForm\:dispnl_content {
+	display: none;
 }
