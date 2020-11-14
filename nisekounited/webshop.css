@@ -584,6 +584,7 @@ html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 /* Final en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
 /* Hourly en */ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
 	content: "(Incl ￥500 card fee)";
+	font-size: .7em;
 	display: block;
 }
 /* Reg ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg:after,
@@ -591,6 +592,7 @@ html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 /* Final ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
 /* Hourly ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
 	content: "（キーカード代500円込）";
+	font-size: .7em;
 	display: block;
 }
 
