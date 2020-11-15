@@ -571,11 +571,11 @@ html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 	content: "（4月5日～5月5日）";
 }
 [lang*="en"] .rb-parent-cat-item:only-of-type:after {
-	content: "(Dec 11 – May 5)";
+	content: "(Nov 28 – Apr 4)";
 }
 [lang*="ja"] .rb-parent-cat-item:only-of-type:after,
 [lang*="zh"] .rb-parent-cat-item:only-of-type:after {
-	content: "（12月11日～5月5日）";
+	content: "（11月28日～4月4日）";
 }
 
 /* Card Fee */
