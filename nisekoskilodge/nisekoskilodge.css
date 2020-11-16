@@ -9,8 +9,8 @@ body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsib
 }
 
 .ui-header.ui-bar-inherit{
-	background: url(https://dabb7zy6p4b0z.cloudfront.net/nisekoskilodge/back.jpg) no-repeat, url(https://dabb7zy6p4b0z.cloudfront.net/nisekoskilodge/3.png) no-repeat 30%;
-	background-size:1434px, 200px;
+	background: url(https://dabb7zy6p4b0z.cloudfront.net/nisekoskilodge/back.jpg) no-repeat, url(https://dabb7zy6p4b0z.cloudfront.net/nisekoskilodge/3.png) no-repeat 28%;
+	background-size:2000px, 135px;
 	border:none;
 	height: 135px;
 }
