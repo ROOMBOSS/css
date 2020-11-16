@@ -1,0 +1,117 @@
+@import url(https://fast.fonts.net/cssapi/aaf65650-9663-4d95-8ef1-5108d077a9a5.css);
+
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+	font-family: "futura-pt-condensed", Arial, sans-serif !important;
+	background:#333;
+	color:#fff;
+	text-shadow:none;
+}
+
+.ui-header.ui-bar-inherit{
+	background: #FF6161 url(https://dabb7zy6p4b0z.cloudfront.net/nisekoskilodge/3.png) no-repeat 50%;
+	background-size:200px;
+	border:none;
+	height: 135px;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+	display:none;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+	box-shadow: inset 0 0 4px #aaa !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	font-family: "futura-pt-condensed", Arial, sans-serif !important;
+	background:#333;
+	color:#fff;
+	text-shadow:none;
+}
+
+[id*="requestPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+	background-color: #FF6161 !important;
+	color: #fff !important;
+}
+
+/* Enquiry button colour */
+.rbn-sendenquiry-button {
+	background-color: #e26776 !important;
+	color: #fff !important;
+}
+.rbn-sendenquiry-button:hover {
+	background-color: #FF6161 !important;
+}
+
+/* Vendor padding */
+.ui-grid.ui-grid-responsive.rbn-vendor-box {
+	padding: 0.5em !important;
+}
+
+/*page white and font*/
+body, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: 'Oxygen', sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+/*color and square more info button*/
+.rbn-more-info-button.ui-btn.ui-icon-arrow-r.ui-btn-icon-left.ui-btn-inline.ui-shadow.ui-corner-all {
+	background-color: #FF6161!important;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/*color and square titlebars
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+	background-color: #e0b853;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}*/
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: #e0b853;
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+	padding: 0.5em !important;
+	outline: none !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding-right: .5em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding-left: .5em;
+}
+/* Select Dates Mobile */
+@media(max-width: 400px) {
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding: 0.25em;
+	width: 100%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-b  {
+	padding: .25em;
+	width: 60%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding: .25em;
+	width: 40%;
+}
+}
