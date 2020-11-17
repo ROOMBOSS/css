@@ -411,3 +411,41 @@ html[lang=ko] .rb-body-content:before {
 #orderForm\:dispnl_content {
 	display: none;
 }
+
+/* Card Fee */
+/* Reg */.rb-dl-child-cat-2c999018751ec05801751fd1d7481aa9 .rb-prod-gross-value,
+/* Spring */.rb-dl-child-cat-2c999018751ec0580175200ac5522bcd .rb-prod-gross-value,
+/* Final */ .rb-dl-child-cat-2c999018751ec0580175201a04862eff .rb-prod-gross-value,
+/* Hourly */ .rb-dl-child-cat-2c999018751ec05801752029409830f8 .rb-prod-gross-value,
+/* Limited */ .rb-dl-child-cat-2c999018759a56eb0175c017cc101989 .rb-prod-gross-value,
+/* Limited Hokkaido */ .rb-dl-child-cat-2c99901875291d2a017529cc382611c1 .rb-prod-gross-value {
+	width: calc(55% - 4px);
+}
+/* Reg */.rb-dl-child-cat-2c999018751ec05801751fd1d7481aa9 #orderForm\:pricepg,
+/* Spring */.rb-dl-child-cat-2c999018751ec0580175200ac5522bcd #orderForm\:pricepg,
+/* Final */ .rb-dl-child-cat-2c999018751ec0580175201a04862eff #orderForm\:pricepg,
+/* Hourly */ .rb-dl-child-cat-2c999018751ec05801752029409830f8 #orderForm\:pricepg,
+/* Limited */ .rb-dl-child-cat-2c999018759a56eb0175c017cc101989 #orderForm\:pricepg,
+/* Limited Hokkaido */ .rb-dl-child-cat-2c99901875291d2a017529cc382611c1 #orderForm\:pricepg {
+	flex-wrap: wrap;
+}
+/* Reg en*/ html[lang*="en"] .rb-dl-child-cat-2c999018751ec05801751fd1d7481aa9 #orderForm\:pricepg:after,
+/* Spring en*/ html[lang*="en"] .rb-dl-child-cat-2c999018751ec0580175200ac5522bcd #orderForm\:pricepg:after,
+/* Final en*/ html[lang*="en"] .rb-dl-child-cat-2c999018751ec0580175201a04862eff #orderForm\:pricepg:after,
+/* Hourly en */ html[lang*="en"] .rb-dl-child-cat-2c999018751ec05801752029409830f8 #orderForm\:pricepg:after,
+/* Limited en */ html[lang*="en"] .rb-dl-child-cat-2c999018759a56eb0175c017cc101989 #orderForm\:pricepg:after,
+/* Limited Hokkaido en */ html[lang*="en"] .rb-dl-child-cat-2c99901875291d2a017529cc382611c1 #orderForm\:pricepg:after {
+	content: " (Incl ￥500 card fee)";
+	font-size: .7em;
+	display: block;
+}
+/* Reg ja */ html[lang*="ja"] .rb-dl-child-cat-2c999018751ec05801751fd1d7481aa9 #orderForm\:pricepg:after,
+/* Spring ja */ html[lang*="ja"] .rb-dl-child-cat-2c999018751ec0580175200ac5522bcd #orderForm\:pricepg:after,
+/* Final ja */ html[lang*="ja"] .rb-dl-child-cat-2c999018751ec0580175201a04862eff #orderForm\:pricepg:after,
+/* Hourly ja */ html[lang*="ja"] .rb-dl-child-cat-2c999018751ec05801752029409830f8 #orderForm\:pricepg:after,
+/* Limited ja */ html[lang*="ja"] .rb-dl-child-cat-2c999018759a56eb0175c017cc101989 #orderForm\:pricepg:after,
+/* Limited Hokkaido ja */ html[lang*="ja"] .rb-dl-child-cat-2c99901875291d2a017529cc382611c1 #orderForm\:pricepg:after {
+	content: "(キーカード代500円込)";
+	font-size: .7em;
+	display: block;
+}
