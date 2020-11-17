@@ -579,6 +579,18 @@ html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 }
 
 /* Card Fee */
+/* Reg en*/.rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 .rb-prod-gross-value,
+/* Spring en*/.rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd .rb-prod-gross-value,
+/* Final en*/ .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de .rb-prod-gross-value,
+/* Hourly en */ .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 .rb-prod-gross-value {
+	width: calc(55% - 4px);
+}
+/* Reg en*/.rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg,
+/* Spring en*/.rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg,
+/* Final en*/ .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg,
+/* Hourly en */ .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg {
+	flex-wrap: wrap;
+}
 /* Reg en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2c263eaa31f3 #orderForm\:pricepg:after,
 /* Spring en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg:after,
 /* Final en*/ html[lang*="en"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
@@ -591,7 +603,7 @@ html[lang="ko"] .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:g
 /* Spring ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2c269f4a31fd #orderForm\:pricepg:after,
 /* Final ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d0129cb68de #orderForm\:pricepg:after,
 /* Hourly ja */ html[lang*="ja"] .rb-dl-child-cat-2c9890f06c2af60d016c2d021d9968f3 #orderForm\:pricepg:after {
-	content: "（キーカード代500円込）";
+	content: "(キーカード代500円込)";
 	font-size: .7em;
 	display: block;
 }
