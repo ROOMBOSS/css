@@ -449,3 +449,24 @@ html[lang=ko] .rb-body-content:before {
 	font-size: .7em;
 	display: block;
 }
+
+/* Make add group member more visible */
+.ui-datatable-summaryrow [id*=newguestbut] {
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	padding: .3em 1em;
+	background-color: #63b3ed;
+	border-radius: 4px;
+	display: block;
+	width: 210px;
+	margin: .5em auto;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1):hover {
+	background-color: #91c9f2;
+  border-color: #91c9f2;
+}
+  
