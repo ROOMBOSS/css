@@ -505,6 +505,9 @@ display: none;
 	max-width:640px;
 	margin: auto;
 }
+.rb-el-body h2 {
+	margin-top: 0 !important;
+}
 .rb-el-body a {
 	color: #0195D9;
 }
