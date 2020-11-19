@@ -19,8 +19,8 @@
 
 /* Header bar */
 .rb-header, .ui-header.ui-bar-inherit {
-  background: #000 url("https://dabb7zy6p4b0z.cloudfront.net/nms/nlv-white.png") center 30px no-repeat !important;
-  background-size: 350px !important;
+  background: #000 url("https://dabb7zy6p4b0z.cloudfront.net/nms/nlv-white.png") center no-repeat !important;
+  background-size: 250px !important;
   border: none;
   height: 125px;
 }
