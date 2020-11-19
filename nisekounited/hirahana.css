@@ -506,3 +506,8 @@ display: none;
 	max-width: 600px;
 	margin: auto;
 }
+/* Text margins */
+#orderForm\:elintropnl_content p {
+	margin: 1em 0 0 !important; 
+}
+
