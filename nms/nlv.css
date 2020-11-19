@@ -14,7 +14,7 @@
   transition: ease-in-out 200ms;
 }
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
-  background: #72acb7;
+  background: #000;
 }
 
 /* Header bar */
