@@ -155,16 +155,16 @@
 
 #orderForm\:booknow,
 #orderForm\:booknowcond {
-  background-color: #b8d4f7 !important;
-  border: 1px solid #b8d4f7 !important;
-  color: transparent !important;
+  background-color: #8bb8f1 !important;
+  border: 1px solid #8bb8f1 !important;
+  color: #ffffff;
 }
 
 #orderForm\:booknow:hover,
 #orderForm\:booknowcond:hover {
-  background-color: #8bb8f1 !important;
-  border: 1px solid #8bb8f1 !important;
-  color: transparent !important;
+  background-color: #7aaae6 !important;
+  border: 1px solid #7aaae6 !important;
+  color: #ffffff !important;
 }
 
 /* Custom Button Font */
