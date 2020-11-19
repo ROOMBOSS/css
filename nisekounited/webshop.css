@@ -925,3 +925,15 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 #orderForm\:dispnl_content {
 	display: none;
 }
+
+/** Eligibility Formatting **/
+.rb-el-body .ui-panel-content {
+	max-width:640px;
+	margin: auto;
+}
+.rb-el-body a {
+	color: #fa5f17;
+}
+.rb-el-body a:hover {
+	color: #fc5000;
+}
