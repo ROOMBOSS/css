@@ -501,13 +501,14 @@ display: none;
 }
 
 /** Eligibility Formatting **/
-/* Content container width */
-#orderForm\:elintropnl_content {
-	max-width: 600px;
+.rb-el-body .ui-panel-content {
+	max-width:600px;
 	margin: auto;
 }
-/* Text margins */
-#orderForm\:elintropnl_content p {
-	margin: 1em 0 0 !important; 
+.rb-el-body a {
+	color: #0195D9;
+}
+.rb-el-body a:hover {
+	color: #63b3ed;
 }
 
