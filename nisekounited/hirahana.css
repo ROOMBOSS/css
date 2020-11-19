@@ -499,3 +499,10 @@ display: none;
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(10) {
 	display: none;
 }
+
+/** Eligibility Formatting **/
+/* Content container width */
+#orderForm\:elintropnl_content {
+	max-width: 600px;
+	margin: auto;
+}
