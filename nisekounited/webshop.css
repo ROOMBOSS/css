@@ -931,6 +931,9 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 	max-width:640px;
 	margin: auto;
 }
+.rb-el-body h2 {
+	margin-top: 0 !important;
+}
 .rb-el-body a {
 	color: #fa5f17;
 }
