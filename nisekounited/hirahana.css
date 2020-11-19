@@ -502,7 +502,7 @@ display: none;
 
 /** Eligibility Formatting **/
 .rb-el-body .ui-panel-content {
-	max-width:600px;
+	max-width:640px;
 	margin: auto;
 }
 .rb-el-body a {
