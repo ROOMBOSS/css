@@ -935,5 +935,8 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 	color: #fa5f17;
 }
 .rb-el-body a:hover {
-	color: #fc5000;
+	color: #ff7a3c;
+}
+.rb-el-select-country {
+	color: #222;
 }
