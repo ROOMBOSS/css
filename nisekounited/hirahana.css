@@ -470,7 +470,7 @@ html[lang=ko] .rb-body-content:before {
   border-color: #91c9f2;
 }
 
-/* Remove Dietary / Medical */
+/* Remove Dietary / Medical
 div.rb-guest-for-emergencies,
 div.rb-guest-for-emergencies,
 #orderForm\:dietarynew, #guestDialogForm\:dietaryedit,
@@ -482,7 +482,7 @@ display: none;
 }
 #guestDialogForm\:editguestdlg>div:nth-child(2) > div:nth-child(1) {
 	padding-bottom: 0;
-}
+}*/
 
 /* Non-Lead Guest fields */
 /*Email */
