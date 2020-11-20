@@ -943,3 +943,21 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 .rb-el-select-country, .rb-el-select-post-code {
 	color: #222;
 }
+
+
+/* Hide Extraneous Non-Lead Guest fields */
+/*Email */
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(3),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(3),
+/* Phone */
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(4),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(4),
+/* Country */
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(7),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(7),
+/* Language */
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(10),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(10) {
+	display: none;
+}
+
