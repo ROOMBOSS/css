@@ -515,3 +515,10 @@ display: none;
 	color: #63b3ed;
 }
 
+/* Guest Assignment Emphasis */
+.rb-guest-sel-container:nth-child(1) > .rb-guest-sel-item > div {
+    border: 4px solid #63b3ed !important;
+    padding-left: .2em;
+    margin-left: -.2em;
+}
+
