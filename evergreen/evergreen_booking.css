@@ -172,3 +172,10 @@ background-color: #d2d41e;
 [id*=wufooLink]:after {
   content: "  – Yeti Club (3-6) Registration form";
 }
+
+[id*=sqRbForm:squarePay]{
+	color: red;
+	border-color: red;
+    	border-radius: 50px;
+    border-width: 10px;
+}
