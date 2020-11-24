@@ -522,3 +522,32 @@ display: none;
     margin-left: -.2em;
 }
 
+/* Global SALE message */
+#orderForm\:gross:after {
+    background: #d11111;
+    border-radius: 4px;
+    color: #fff;
+    content: "SALE!";
+    display: inline-block;
+    font-size: .75em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    margin-left: .75em;
+    padding: .1em .45em .2em;
+    position: relative;
+    top: -2px;
+}
+html[lang="ja"] #orderForm\:gross:after {
+	    background: #d11111;
+    border-radius: 4px;
+    color: #fff;
+    content: "セール！";
+    display: inline-block;
+    font-size: .75em;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    margin-left: .75em;
+    padding: .1em .1em .2em .45em;
+    position: relative;
+    top: -2px;
+}
