@@ -170,8 +170,5 @@ background-color: #d2d41e;
 
 /*after wufoo*/
 [id*=wufooLink]:after {
-  text-indent: 0;
-  display: block;
-  line-height: initial;
   content: "  – Yeti Club (3-6) Registration form";
 }
