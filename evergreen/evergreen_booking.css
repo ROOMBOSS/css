@@ -174,8 +174,8 @@ background-color: #d2d41e;
 }
 
 [id*=squarePay]{
-	color: red;
-	border-color: red;
-    	border-radius: 50px;
-    border-width: 10px;
+	color: red !important;
+	border-color: red !important;
+    	border-radius: 50px !important;
+    border-width: 10px !important;
 }
