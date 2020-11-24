@@ -147,7 +147,14 @@ background-color: #d2d41e;
 	cursor: pointer;
 }
 
-/*hide wufoo*/
+#scrollToPay{
+	color: red;
+	border-color: red;
+    	border-radius: 50px;
+    border-width: 10px;
+}
+
+/*hide wufoo
 #base_page\:tabview\:wufooLink0,
 #base_page\:tabview\:wufooLink1,
 #base_page\:tabview\:wufooLink2,
@@ -159,4 +166,18 @@ background-color: #d2d41e;
 #base_page\:tabview\:wufooLink8,
 #base_page\:tabview\:wufooLink9{
   display: none !important;
+}*/
+
+/*after wufoo*/
+#base_page\:tabview\:wufooLink0::after,
+#base_page\:tabview\:wufooLink1::after,
+#base_page\:tabview\:wufooLink2::after,
+#base_page\:tabview\:wufooLink3::after,
+#base_page\:tabview\:wufooLink4::after,
+#base_page\:tabview\:wufooLink5::after,
+#base_page\:tabview\:wufooLink6::after,
+#base_page\:tabview\:wufooLink7::after,
+#base_page\:tabview\:wufooLink8::after,
+#base_page\:tabview\:wufooLink9::after{
+  content: "  – Yeti Club (3-6) Registration form",
 }
