@@ -522,7 +522,7 @@ display: none;
     margin-left: -.2em;
 }
 
-/* Global SALE message */
+/* Global SALE message
 #orderForm\:gross:after {
     background: #d11111;
     border-radius: 4px;
@@ -550,4 +550,4 @@ html[lang="ja"] #orderForm\:gross:after {
     padding: .1em .1em .2em .45em;
     position: relative;
     top: -2px;
-}
+}*/
