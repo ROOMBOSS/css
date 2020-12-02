@@ -245,3 +245,39 @@
   background-color: #8bb8f1;
   border: none;
 }
+
+/* Make add group member more visible */
+.ui-datatable-summaryrow [id*=newguestbut] {
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	color: #FFFFFF !important;
+	text-decoration: none;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	padding: .3em 1em;
+	background-color: #5D9CEC;
+	border-radius: 4px;
+	display: block;
+	width: 210px;
+	margin: .5em auto;
+	    -webkit-transition: background-color .2s;
+    -moz-transition: background-color .2s;
+    -o-transition: background-color .2s;
+    transition: background-color .2s;
+}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1):hover {
+	background-color: #8bb8f1;
+}
+/* Mobile */
+@media(max-width: 820px)  {
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-of-type(1) {
+	width: calc(100vw - 7em);
+	margin: .5em 1em;
+	}
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header > td:nth-child(2) {
+	display: none;
+}
+#orderForm\:guestsdt .ui-datatable-tablewrapper {
+  overflow: hidden;
+}
+}
