@@ -1,1 +1,312 @@
+@charset "UTF-8";
+/* Your Booking */
+/* Custom */
+/* Remove Yourbooking */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+#base_page\:gform, .rbn-yb-searchtext, .rbn-yb-h1 {
+  display: none;
+}
+
+html[class=ui-mobile] .ui-content.rb-content {
+  padding-top: 0;
+}
+
+.rb-header {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/*** Sign in replacement ***/
+/* Title, Gender, Dob */
+div.rb-guest-basic-information > div:nth-child(1),
+div.rb-guest-basic-information > div:nth-child(7),
+div.rb-guest-basic-information > div:nth-child(8) {
+  display: none;
+}
+
+/* Country */
+/**** Address Order ***/
+.rb-guest-basic-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.rb-guest-basic-information > .flex-container {
+  order: 1;
+}
+
+html[lang=ja] [id*=postcodepg] {
+  order: 2;
+}
+
+html[lang=ja] [id*=statepg] {
+  order: 3;
+}
+
+html[lang=ja] [id*=citypg] {
+  order: 4;
+}
+
+html[lang=ja] [id*=address1pg] {
+  order: 5;
+}
+
+html[lang=ja] [id*=address2pg] {
+  order: 6;
+}
+
+/************************************/
+/* Address replacement */
+html[lang=ja] [id*=statelbl], html[lang=ja] [id*=citylbl] {
+  display: none;
+}
+
+html[lang=ja] [id*=statepg] > .flex-item:first-of-type:after {
+  content: "都道府県";
+}
+
+html[lang=ja] [id*=citypg] > .flex-item:first-of-type:after {
+  content: "市町村";
+}
+
+/************************************/
+/* For Emergency */
+.rb-guest-for-emergencies > div:nth-child(3),
+.rb-guest-for-emergencies > div:nth-child(4),
+.rb-guest-for-emergencies > div:nth-child(5) {
+  display: none;
+}
+
+/* Romaji only */
+html[lang=ja] [id*=fnmslbl]:after,
+html[lang=ja] [id*=nmlbl]:after,
+html[lang=ja] [for*=nmlbl]:after {
+  content: " (半角ローマ字）";
+  font-size: 0.6em;
+  color: #444;
+}
+
+html[lang=en] [id*=phonelbl]:after {
+  content: "(Numbers only)";
+  font-size: 0.6em;
+  color: #444;
+}
+
+html[lang=ja] [id*=phonelbl]:after,
+html[lang=ja] [id*=postcodelbl]:after {
+  content: "（ハイフンなし）";
+  font-size: 0.6em;
+  color: #444;
+}
+
+/* Hide other languages */
+#locform\:languageSelect_2,
+#locform\:languageSelect_3,
+#locform\:languageSelect_4,
+#locform\:languageSelect_5,
+li[data-label*=Korean], li[data-label*=韓国語],
+li[data-label*=French], li[data-label*=フランス語],
+li[data-label*="Chinese (simplified)"], li[data-label*=中国語（簡体）],
+li[data-label*="Chinese (traditional)"], li[data-label*=中国語（繁体）] {
+  display: none;
+}
+
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+.rb-my-group-title:after,
+.rb-my-booking-title:after {
+  display: block;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+  color: #3ba1af;
+}
+
+/* Yourbooking title */
+.ui-bar h3 {
+  color: #fff;
+}
+
+/* Remove Group Members */
+.rb-my-group, .rb-my-booking, .rb-guests-pg,
+#orderForm\:itemdtchkout_data > tr > td > [id*=member],
+#orderForm\:itemdtchkout_data > tr > td > [id*=guestsselpg] {
+  display: none;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/skystation/skylogo298_75.png");
+  background-color: #FFFFFF !important;
+  background-repeat: no-repeat;
+  background-position: center center, center 0%;
+  background-size: 300px, cover;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Custom Headers */
+.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #000000;
+  text-transform: capitalized;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*Custom Icons */
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
+.rb-checkout-title:before {
+  color: #0F77C8;
+}
+
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #0F77C8;
+  box-shadow: 0 0 0px 6px #0F77C8;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+}
+
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #0F77C8;
+  box-shadow: 2px -1 -1 #0F77C8, -2px -1 -1 #0F77C8;
+}
+
+/* Accent Dialogue Title */
+.ui-dialog .ui-dialog-titlebar {
+  border-color: #FFFFFF !important;
+  background-color: #EFEFEF !important;
+}
+
+.ui-dialog-title {
+  color: #333 !important;
+}
+
+#orderForm\:booknow,
+#orderForm\:booknowcond {
+  background-color: #00cd6f !important;
+  border: 1px solid #00cd6f !important;
+  color: #FFFFFF !important;
+}
+
+#orderForm\:booknow:hover,
+#orderForm\:booknowcond:hover {
+  background-color: #009a54 !important;
+  border: 1px solid #009a54 !important;
+  color: #FFFFFF !important;
+}
+
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: #0F77C8;
+}
+
+.ui-widget-content .ui-state-highlight {
+  background: #0F77C8;
+}
+
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
+.ui-button.ui-widget.ui-state-default {
+  background-color: #0F77C8;
+  border-color: #0F77C8;
+  color: #fff !important;
+}
+
+.ui-button.ui-widget.ui-state-hover,
+.ui-button.ui-widget.ui-state-active {
+  background-color: #3f92d3;
+  border-color: #3f92d3;
+}
+
+.ui-button {
+  text-transform: capitalized;
+}
+
+.ui-header.ui-bar-inherit {
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #0F77C8;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #3f92d3;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #0F77C8;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #3f92d3;
+  border: none;
+}
 
