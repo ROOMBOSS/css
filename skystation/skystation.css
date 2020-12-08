@@ -16,6 +16,13 @@ html[class=ui-mobile] .ui-content.rb-content {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*** Sign in replacement ***/
+/* Title, Gender, Dob */
+div.rb-guest-basic-information > div:nth-child(1),
+div.rb-guest-basic-information > div:nth-child(7),
+div.rb-guest-basic-information > div:nth-child(8) {
+  display: none;
+}
 
 /* Country */
 /**** Address Order ***/
