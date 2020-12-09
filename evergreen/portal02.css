@@ -3,13 +3,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: 360px;
-  background-color: white;
-  color: #00a65c;
+  background-color: white;  
   border: none;
   border-bottom: 10px solid #00a65c;
   height: 120px;
 }
 
+.rb-header-title {
+  color: #00a65c;
+  font-size: 50px;
+}
 
 .rb-parent-cat-title, .rb-child-cat-title,
 .rb-prod-title, .rb-basket-title-pg, .rb-checkout-title {
