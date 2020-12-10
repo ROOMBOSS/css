@@ -4,10 +4,10 @@
 
 #base_page\:base_header{
  background-color: white;
- border-color:white:
+ border-color:white;
 }
 
-#base_page\:base_header{
+#base_page\:base_header > h1{
   display: none;
 }
 
