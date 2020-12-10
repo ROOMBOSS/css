@@ -19,3 +19,9 @@
 	font-size: 1.1em !important;
 	text-shadow: none !important;
 }
+
+#base_page\:locform\:languageSelect{
+ 	visibility: visible;
+ 	z-index: 9999;
+ 	position: relative;
+}
