@@ -3,8 +3,9 @@
 }
 
 #base_page\:base_header{
- background-color: white;
- border-color:white;
+	background-color: white;
+ 	border-color:white;
+	height: 0px;
 }
 
 #base_page\:base_header > h1{
