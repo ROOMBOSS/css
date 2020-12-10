@@ -3,8 +3,14 @@
 }
 
 #base_page\:base_header{
+ background-color: white;
+ border-color:white:
+}
+
+#base_page\:base_header{
   display: none;
 }
+
 
 /*strikethrough before*/
 .rb-rack-unselected{
@@ -20,8 +26,3 @@
 	text-shadow: none !important;
 }
 
-#base_page\:locform\:languageSelect{
- 	visibility: visible;
- 	z-index: 9999;
- 	position: relative;
-}
