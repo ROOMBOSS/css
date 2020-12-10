@@ -320,5 +320,12 @@ a[id*=edit] {
     height: auto;
   }
 }
+#orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(3) > div:nth-child(1) > label
+html[lang=ja] #orderForm\:fnmlblnew:after,
+html[lang=ja] #orderForm\:lnmlblnew:after{
+    content:"（ローマ字でご入力ください)";
+    color:red;
+    font-size: .8em;
+  }
 
 /*# sourceMappingURL=niss03.css.map */
