@@ -96,3 +96,7 @@
 .rb-warn-guest-booking-today-dt, .rb-warn-guest-booking-today-msg{
     color:  red !important;
 }
+
+#orderForm\:booknow{
+	display:none;
+}
