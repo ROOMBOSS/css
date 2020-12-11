@@ -152,7 +152,8 @@ display: none;
 #base_page\3a neworderform\3a aboutMePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > h3 {
 	display: none;	
 }
-	
+
+#scrollToPay,
 #base_page:txtab:0:sqRbForm:squarePay,
 #base_page:txtab:1:sqRbForm:squarePay,
 #base_page:txtab:2:sqRbForm:squarePay,
