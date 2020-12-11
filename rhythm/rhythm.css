@@ -154,10 +154,10 @@ display: none;
 }
 
 #scrollToPay,
-#base_page:txtab:0:sqRbForm:squarePay,
-#base_page:txtab:1:sqRbForm:squarePay,
-#base_page:txtab:2:sqRbForm:squarePay,
-#base_page:txtab:3:sqRbForm:squarePay{
+#base_page\:txtab\:0\:sqRbForm\:squarePay,
+#base_page\:txtab\:1\:sqRbForm\:squarePay,
+#base_page\:txtab\:2\:sqRbForm\:squarePay,
+#base_page\:txtab\:3\:sqRbForm\:squarePay{
 	display:none;
 }
 	
