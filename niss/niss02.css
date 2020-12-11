@@ -321,11 +321,19 @@ a[id*=edit] {
   }
 }
 
+html[lang=ja] #orderForm\:lnmnew:before{
+    content:"（ローマ字でご入力ください)";
+    color:red;
+    font-size: .8em;
+}
+
 html[lang=ja] #orderForm\:fnmlblnew:after,
 html[lang=ja] #orderForm\:lnmlblnew:after{
     content:"（ローマ字でご入力ください)";
     color:red;
     font-size: .8em;
 }
+
+
 
 /*# sourceMappingURL=niss03.css.map */
