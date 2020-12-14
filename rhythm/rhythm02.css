@@ -97,6 +97,23 @@
     color:  red !important;
 }
 
-#orderForm\:booknow{
+#orderForm\:booknow {
+	    padding: .4em 1.5em;
+}
+
+#orderForm\:booknow > span{
 	display:none;
+}
+
+#orderForm\:booknow:after{
+	content:"Book Now";	
+}
+
+
+html[lang=ja] #orderForm\:booknow:after{
+	content:"今すぐ予約";	
+}
+
+html[lang=ja] #orderForm\:booknow {
+	    padding: .3em 1em;
 }
