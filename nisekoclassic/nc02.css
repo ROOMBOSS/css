@@ -21,6 +21,15 @@ html[class="ui-mobile"] .ui-content.rb-content {
 .rb-prod-panel-text {
   display: none; }
 
+/* P dialog */
+#orderForm\:addbskpg > .flex-option:nth-last-child(-4n+4),
+#orderForm\:addbskpg > .flex-option:nth-last-child(-5n+5) {
+  display: none; }
+
+/* P yourbooking
+[id*=pdoptgrd_content] > div:nth-last-child(-n+2) {
+  display: none; } */
+
 /* Event */
 html[lang="en"] .rb-parent-cat-title:after {
   content: "Choose an Event"; }
