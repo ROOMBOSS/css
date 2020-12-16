@@ -66,7 +66,7 @@ html[lang="ja"] #guestDialogForm\:editguestdlg > div.ui-dialog-content.ui-widget
 div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
 html[lang="ja"] #guestDialogForm\:newguestdlg div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after,
 html[lang="ja"] .rb-guest-form > div.rb-guest-basic-information > div:nth-child(8) > div:nth-child(1):after {
-  content: "国籍 *"; }
+  content: "居住国 *"; }
 
 /**** Address Order ***/
 .rb-guest-basic-information {
