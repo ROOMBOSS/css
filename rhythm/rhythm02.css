@@ -118,3 +118,6 @@ html[lang=ja] #orderForm\:booknow {
 	    padding: .3em 1em;
 }
 
+#orderForm\:sendinq{
+	display:none;
+}
