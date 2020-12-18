@@ -13,6 +13,10 @@
   display: none;
 }
 
+.ui-header.ui-bar-inherit h1.ui-title{
+	display:none
+}
+
 .rb-parent-cat-title,
 .rb-child-cat-title,
 .rb-prod-title,
