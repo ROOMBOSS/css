@@ -33,7 +33,17 @@
   color: #003c24;
 }
 
+
+/* Custom Headers */
+.rb-vendor-title, .rb-vendor-text, .rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #32624f;
+  text-transform: uppercase;
+}
+
+
+
 /* Category Image Selected*/
+.rb-vendor-container .rb-vendor-sel a img, 
 .rb-parent-cat-container .rb-parent-cat-sel a img,
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
 .rb-child-cat-container .rb-child-cat-sel a img,
