@@ -179,3 +179,7 @@ background-color: #d2d41e;
     	border-radius: 50px !important;
     border-width: 10px !important;
 }
+/*we are hiding this too add the portal section as if it is not part of the notes*/
+#base_page\:vendorMessagePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  display: none !important;
+}
