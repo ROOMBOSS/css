@@ -115,3 +115,16 @@
 	display:none;
 }
 
+/* Scroll Pay button*/
+#base_page\:txtab .ui-btn, #scrollToPay {
+  color: #ffffff;
+  text-shadow: none;
+  border: 0px solid transparent;
+  background-color: #32624f;
+  transition: ease-out 0.25s;
+  font-family: "Noto-sans JP", sans-serif;
+}
+
+#base_page\:txtab .ui-btn:hover, #scrollToPay:hover {
+  background-color: #257d47;
+}
