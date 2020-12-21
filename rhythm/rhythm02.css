@@ -118,6 +118,19 @@ html[lang=ja] #orderForm\:booknow {
 	    padding: .3em 1em;
 }
 
+/* hide request button*/
 #orderForm\:sendinq{
+	display:none;
+}
+
+/* hide qty selector*/
+#orderForm\:qtypg{
+	display:none;
+}
+
+/* hide guest association*/
+#orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header,
+#orderForm\:itemdtchkout\:0\:member,
+#orderForm\:itemdtchkout\:0\:guestsselpg{
 	display:none;
 }
