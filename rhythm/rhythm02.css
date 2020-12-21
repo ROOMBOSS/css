@@ -131,6 +131,8 @@ html[lang=ja] #orderForm\:booknow {
 /* hide guest association*/
 #orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header,
 #orderForm\:itemdtchkout\:0\:member,
-#orderForm\:itemdtchkout\:0\:guestsselpg{
+#orderForm\:itemdtchkout\:0\:guestsselpg,
+#orderForm\:chkoutpnl_content > div.p-grid.p-justify-center.rb-my-group,
+#orderForm\:guestspg{
 	display:none;
 }
