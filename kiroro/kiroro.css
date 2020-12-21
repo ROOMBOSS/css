@@ -358,3 +358,37 @@ display: none;
 [lang="ja"] #base_page\:neworderform\:customIdTable\:customIdl:after {
   content: "キロカをお持ちの方はIDを入力して下さい";
 }
+
+/* CSS tweaks for #11520 */
+html[lang="ja"] [id*="newguestbut"] {
+  text-indent: -9999px;
+  position: relative;
+}
+html[lang="ja"] [id*="newguestbut"]:before {
+  content: "+ レッスン参加者を追加する";
+  text-indent: 0 !important;
+  display: block !important;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+html[lang=ja] .rb-my-group:after {
+  display: block !important;
+  content: "※お子様がレッスン参加の場合、『+レッスン参加者を追加する』からお子様情報を登録した後、ステップ2にお進みください。";
+  text-align: center;
+  font-size: 14px;
+}
+/*label[id*="member"] {
+  text-indent: -9999px !important;
+  position: relative;
+  display: block;
+}
+label[id*="member"]:before {
+  content: "レッスン参加者を割り当てる";
+  text-indent: 0 !important;
+  display: block !important;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}*/
+
