@@ -1,1 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+.rbn-tab-img {
+  padding-right: 0.5em;
+}
+
+.ui-btn:after {
+  background-color: #969594;
+}
+
+/* Import font */
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  font-family: "Open Sans", sans-serif;
+  background: #434F5B;
+  text-shadow: none;
+  color: #fff;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
+  background: #2d363e;
+}
+
+/* Header bar */
+.rb-header, .ui-header.ui-bar-inherit {
+  background: #292828 url("https://dabb7zy6p4b0z.cloudfront.net/suiboku/footer-logo.png") no-repeat center !important;
+  background-size: 140px, cover;
+  border: none;
+  height: 180px; 
+}
+
+/* Hide Default Header */
+.rb-header h1.ui-title,
+.rb-header .rb-header-title {
+  display: none;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus, html .ui-bar-a .ui-btn:focus, html .ui-body-a .ui-btn:focus, html body .ui-group-theme-a .ui-btn:focus, html head + body .ui-btn.ui-btn-a:focus, .ui-page-theme-a .ui-focus, html .ui-bar-a .ui-focus, html .ui-body-a .ui-focus, html body .ui-group-theme-a .ui-focus, html head + body .ui-btn-a.ui-focus, html head + body .ui-body-a.ui-focus {
+  -webkit-box-shadow: inset 0 0 4px #aaa !important;
+  box-shadow: inset 0 0 4px #aaa !important;
+}
+
+/* Non-Accordion Panels */
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background: #434F5B;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  text-shadow: none;
+}
+
+.ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a {
+  color: #5c5a5a !important;
+}
+
+/* Request Panel */
+[id*=requestPanel] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #e0e0e0 !important;
+  color: #5c5a5a !important;
+}
+
+/* Icon and header colors */
+.rb-avail-roomtype, .ui-column-title, .fa-user:before, .fa-bed:before, .fa-bath:before, #base_page\:vform\:customertable .ui-grid-a {
+  color: #292828 !important;
+}
+
+.fa:before {
+  font-weight: 400;
+}
+
+.rbn-datecontrol-button, select, .ui-btn {
+  font-family: "Open Sans", sans-serif;
+}
+.rbn-datecontrol-button:before, select:before, .ui-btn:before {
+  font-family: "FontAwesome";
+}
+
+/* Date control padding */
+.ui-grid-c {
+  padding: 0 4px !important;
+}
+.ui-grid-c .ui-block-a, .ui-grid-c .ui-block-b, .ui-grid-c .ui-block-c, .ui-grid-c .ui-block-d {
+  padding: 4px 4px;
+}
+
+/* Customer form padding */
+#base_page\:vform\:requestPanel > div > .ui-block-a > div > div.ui-panel-m-content {
+  padding: 0;
+}
+
+#base_page\:vform\:requestPanel div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+  margin-top: 0.5em;
+}
+
+/* About you form padding */
+#base_page\:vform\:customertable .ui-block-a {
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+@media (max-width: 560px) {
+  #base_page\:vform\:customertable .ui-block-a {
+    padding: 0.5em 1em;
+  }
+}
+#base_page\:vform\:customertable .ui-block-b {
+  padding: 0.5em 1em 0.5em 0.5em;
+}
+@media (max-width: 560px) {
+  #base_page\:vform\:customertable .ui-block-b {
+    padding: 0.5em 1em;
+  }
+}
+
+/* Enquiry button colour */
+.rbn-sendenquiry-button, #base_page\:back, .map-button,
+#base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton, #base_page\:vform\:cancelbutt {
+  background-color: #596978 !important;
+  font-family: "Open Sans", sans-serif !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid #fff !important;
+  text-transform: none;
+  font-weight: 700;
+  text-shadow: none !important;
+}
+.rbn-sendenquiry-button:hover, #base_page\:back:hover, .map-button:hover,
+#base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover, #base_page\:vform\:cancelbutt:hover {
+  background-color: #637587 !important;
+}
+
+/* Book and Pay button colour */
+#base_page\:vform\:reservationConditionButt, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
+.ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, #base_page\:vform\:acceptButt, #base_page\:txtab_data .ui-btn {
+  background-color: #434F5B !important;
+  font-family: "Open Sans", sans-serif !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  border: 1px solid #fff !important;
+  text-transform: none;
+  font-weight: 700;
+  text-shadow: none !important;
+}
+#base_page\:vform\:reservationConditionButt:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:vform\:booknpay:hover,
+.ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, #base_page\:vform\:acceptButt:hover, #base_page\:txtab_data .ui-btn:hover {
+  background-color: #4e5c6a !important;
+}
+
+button.ui-btn, #base_page\:locform\:currencySelect_input-button,
+#base_page\:locform\:languageSelect_input-button {
+  text-shadow: none !important;
+  -webkit-transition: ease-in-out 200ms;
+  transition: ease-in-out 200ms;
+}
+
+#base_page\:locform\:currencySelect > .ui-select,
+#base_page\:locform\:languageSelect > .ui-select {
+  margin: 1em 0.175em;
+}
+
+#base_page\:locform > .ui-btn-right {
+  right: -0.2em !important;
+}
+
+/* Vendor padding */
+.ui-grid.ui-grid-responsive.rbn-vendor-box {
+  padding: 0.5em !important;
+}
+
+/* Select Dates Padding */
+[id*=date-select-pan] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  padding: 0.5em !important;
+  outline: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+
+[id*=date-select-pan] > div > div > .ui-block-a {
+  padding-right: 0.5em;
+}
+
+[id*=date-select-pan] > div > div > .ui-block-c {
+  padding-left: 0.5em;
+}
+
+/* Select Dates Mobile */
+@media (max-width: 400px) {
+  [id*=date-select-pan] > div > div > .ui-block-a {
+    padding: 0.25em;
+    width: 100%;
+  }
+
+  [id*=date-select-pan] > div > div > .ui-block-b {
+    padding: 0.25em;
+    width: 60%;
+  }
+
+  [id*=date-select-pan] > div > div > .ui-block-c {
+    padding: 0.25em;
+    width: 40%;
+  }
+}
+.ui-page-theme-a {
+  background-color: #eee;
+}
+
+#base_page\:vform\:avgridpan > div > div > .ui-grid-c .ui-btn-icon-left {
+  padding-left: 1em;
+}
+#base_page\:vform\:avgridpan > div > div > .ui-grid-c .ui-btn-icon-left:after {
+  display: none;
+}
+
+#base_page\:vform\:quickbookingtable_data > tr > td > div > div:nth-child(3) > table > tbody > tr > td {
+  clear: none;
+  display: table-cell;
+  width: auto;
+}
+
+/* Paginator */
+.ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active {
+  background-color: #434F5B;
+  border-color: #38424c;
+}
+
+/* Hide highlights */
+.ui-page-theme-a .ui-btn:focus {
+  box-shadow: none;
+}
+
+.ui-content {
+  max-width: 1200px;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* Align availability table cells */
+#base_page\:vform\:avgridpan\:pdttble td {
+  vertical-align: middle;
+}
+
+.rbn_ven_descr, .qb-2 {
+  text-align: left !important;
+  line-height: 1.5em;
+}
+
+#base_page\:txtab_data td {
+  vertical-align: middle;
+}
+
+.ui-btn-right.ui-btn.ui-icon-minus.ui-btn-icon-notext.ui-shadow.ui-corner-all {
+  background-color: transparent;
+  border: 0;
+}
+
+#base_page\:postab_data,
+#base_page\:ttab_data,
+#base_page\:txtab_data {
+  background-color: #fff;
+}
+
+.rb-header {
+  padding-bottom: 1em;
+}
+
+/* Order02 style button */
+#backBtn, #locform\:currencySelect, #locform\:languageSelect,
+#locform\:languageSelect_label, #locform\:languageSelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+#locform\:currencySelect_label, #locform\:currencySelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
+.ui-state-highlight {
+  background-color: #434F5B !important;
+  font-family: "Open Sans", sans-serif !important;
+  color: #fff;
+  border: 0;
+}
+
+.fa-arrow-left, #backBtn, #locform\:languageSelect, #locform\:currencySelect {
+  font-size: 14px;
+}
+
+.qb-2, .rb-avail-roomtype, th {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+.overlay {
+  z-index: 3;
+}
 
