@@ -310,12 +310,13 @@ html[lang=ja] .rb-my-booking-title:after {
 * {
   font-family: "Noto Sans JP", sans-serif; }
 
+
 .rb-header {
-  background-image: url("https://nisekoclassic.com/assets/svg/niseko-classic-logo-white.svg"), url("https://dabb7zy6p4b0z.cloudfront.net/nisekoclassic/niseko-classic.jpg");
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekoclassic/analogo.png"), url("https://dabb7zy6p4b0z.cloudfront.net/nisekoclassic/niseko-classic.jpg");
   background-color: #fff !important;
   background-repeat: no-repeat;
   background-position: center center, center 25%;
-  background-size: 50%, cover;
+  background-size:40%, cover;
   border: none;
   height: 150px !important;
   border-bottom: 0; }
