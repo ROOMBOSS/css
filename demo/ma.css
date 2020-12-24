@@ -101,3 +101,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.rb-rack-cost, 
+.rb-rack-unselected{
+color: red !important;
+}
