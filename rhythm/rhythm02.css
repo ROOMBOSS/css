@@ -110,3 +110,13 @@
 #orderForm\:guestspg{
 	display:none;
 }
+
+/*please use romaji for jp guests
+html[lang=ja] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div > div:nth-child(1) > div:nth-child(1):after,
+html[lang=ja] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(2) > div:nth-child(1):after,
+html[lang=ja] #orderForm\:pdtoptnm_1:after,
+html[lang=ja] #orderForm\:pdtoptnm_2:after{
+    content:"（ローマ字でご入力ください)";
+    color:red;
+    font-size: .7em;
+}*/
