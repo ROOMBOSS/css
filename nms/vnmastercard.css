@@ -758,13 +758,12 @@ body {
 }
 
 #base_page\:base_header {
-  height: 200px;
+  height: 220px;
   display: block;
   background: url(https://dabb7zy6p4b0z.cloudfront.net/nms/mc-vn.png);
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: 320px;
-  margin-bottom: 2rem;
+  background-size: 350px;
 }
 
 #base_page\:base_header > h1{
