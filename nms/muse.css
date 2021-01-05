@@ -20,7 +20,7 @@
 /* Header bar */
 .rb-header, .ui-header.ui-bar-inherit {
   background: #000 url("https://dabb7zy6p4b0z.cloudfront.net/nms/muse.png") center no-repeat !important;
-  background-size: 250px !important;
+  background-size: 150px !important;
   border: none;
   height: 125px;
 }
