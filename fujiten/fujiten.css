@@ -281,3 +281,7 @@
   overflow: hidden;
 }
 }
+
+.rb-user-message {
+	display: none;	
+}
