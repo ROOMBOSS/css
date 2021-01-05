@@ -522,6 +522,11 @@ display: none;
     margin-left: -.2em;
 }
 
+/* Hide guest comments/requests */
+.rb-user-message {
+	display: none;	
+}
+
 /* Global SALE message
 #orderForm\:gross:after {
     background: #d11111;
