@@ -16,15 +16,11 @@ https://h2life.bookfast.jp/ui/owner/index.jsf?id=2c98902a5ddd8b12015de8cab0f9352
 }
 
 /*add logos*/
-.ui-header.ui-bar-inherit {
-	background: url(https://res.cloudinary.com/dwimmitvm/image/upload/v1584582309/ht-lightlogo_te214j.png) 50% no-repeat;
-    	height: 140px;
-      	background-color: white;
-    	background-size: 250px;
-    	border-top-width: 0px;
-	border-bottom-color: black;
-    	border-bottom-width: 0px;
-    	padding-bottom: 20px;
+.ui-header.ui-bar-inherit{
+  background:white url('https://dabb7zy6p4b0z.cloudfront.net/htrp/H2-Badge-Icon-Logo_Blk%20(1).jpg') no-repeat center;
+  background-size:200px;
+  border:none;
+  height:145px;
 }
 
 #base_page{
@@ -184,12 +180,7 @@ html head+body .ui-body-a.ui-focus{
 }
 
 
-.ui-header.ui-bar-inherit{
-  background:#1E252B url('https://res.cloudinary.com/dwimmitvm/image/upload/v1584582309/ht-lightlogo_te214j.png') no-repeat center;
-  background-size:220px;
-  border:none;
-  height:145px;
-}
+
 
 .ui-header.ui-bar-inherit h1.ui-title{
 display:none;
