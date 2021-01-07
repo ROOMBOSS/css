@@ -1,10 +1,13 @@
 /*for https://www.hokkaidotracksaccommodation.com/
-https://hokkaidotracks.bookfast.jp/cw/gen/ins/bpay1.jsf?vid=2c98902a57f37ae70157ff50de81451a
-https://hokkaidotracks.bookfast.jp/cw/gen/ins/bpay2.jsf?vid=2c98902a5ce0fba2015ce3764b511d22
-https://hokkaidotracks.bookfast.jp/public/yourbooking.jsf?id=415120&em=john%40test.com
-https://hokkaidotracks.bookfast.jp/cw/gen/ins/ma.jsf
-https://hokkaidotracks.bookfast.jp/ui/owner/index.jsf?id=2c98902a5ddd8b12015de8cab0f9352c183
+https://h2life.bookfast.jp/cw/gen/ins/bpay1.jsf?vid=2c98902a57f37ae70157ff50de81451a
+https://h2life.bookfast.jp/cw/gen/ins/bpay2.jsf?vid=2c98902a5ce0fba2015ce3764b511d22
+https://h2life.bookfast.jp/public/yourbooking.jsf?id=415120&em=john%40test.com
+https://h2life.bookfast.jp/cw/gen/ins/ma.jsf
+https://h2life.bookfast.jp/ui/owner/index.jsf?id=2c98902a5ddd8b12015de8cab0f9352c183
 */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Oswald&display=swap');
 
 /*remove title*/
 .ui-title{
@@ -14,24 +17,26 @@ https://hokkaidotracks.bookfast.jp/ui/owner/index.jsf?id=2c98902a5ddd8b12015de8c
 
 /*add logos*/
 .ui-header.ui-bar-inherit {
-	background: url(HT-logo-black-horiz.png) 10% 50% no-repeat;
-    	height: 120px;
+	background: url(https://res.cloudinary.com/dwimmitvm/image/upload/v1584582309/ht-lightlogo_te214j.png) 50% no-repeat;
+    	height: 140px;
       	background-color: white;
     	background-size: 250px;
     	border-top-width: 0px;
 	border-bottom-color: black;
-    	border-bottom-width: 2px;
+    	border-bottom-width: 0px;
+    	padding-bottom: 20px;
 }
 
 #base_page{
-  	background: url(bg-new.jpg);
+  	background-color: #ffffff ;
 	background-size: cover;
 }
 
 /*page white and font*/
 body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
-  	font-family: 'Open Sans',sans-serif;
+  	font-family: 'Karla',sans-serif;
 	font-weight: 100;
+	line-height: 150%;
  	color: black;
 	text-shadow: none;
 	background-color: white;
@@ -46,11 +51,10 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   	 	background:#38c!important;	
 }
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Merriweather:400,700');
 
 * {
   text-shadow: none !important;
-  font-family: "Open Sans"
+  font-family: "Karla"
 }
 
 .ui-page-theme-a .ui-btn:not(.ui-btn-icon-notext) {
@@ -60,46 +64,46 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 /* Button Uppercase */
 .ui-btn .ui-btn-shadow .ui-corner-all	{
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 [id*="sortSuitable"],[id*="sortName"],[id*="sortPrice"],[id*="mapViewTab"],
 [id*="searchButton"],[id*="listViewTab"],
 .ui-link.ui-btn, [id*=":gbutt"] {
-	text-transform: uppercase !important;
-	font-family: "Merriweather" !important;
+	text-transform: capitalize !important;
+	font-family: "Karla" !important;
 }
 
 /* Input border radius*/
 .ui-input-text {
-	border-radius: 0 !important;
+	border-radius: 1 !important;
 }
 
 /* Active filters / paginator */
 .ui-btn.ui-btn-active, 
 .ui-paginator-page .ui-btn.ui-btn-active,
 .ui-state-disabled.rbn-gotobutt{
-  background-color: #b2b2b2 !important;
-  border-color: #b2b2b2 !important;
+  background-color: #1d1d1d !important;
+  border-color: #1f1f1f !important;
 }
 
 /* Main Tab Headings */
 .ui-corner-all .ui-panel-m-titlebar:first-child,
 .ui-collapsible-heading .ui-btn, .rbn-yb-h1 {
-  color: #444 !important;
-  background-color: #fff !important;
-  font-family: "Libre Baskerville" !important;
+  color: #fffcfc !important;
+  background-color: #1f1f1f !important;
+  font-family: "Karla" !important;
   font-weight: bold;
   letter-spacing: 0.02em;
-  font-style: italic;
+  font-style: normal;
 }
 
 .ui-collapsible-themed-content > .ui-collapsible-heading .ui-btn {
-	letter-spacing: 0.01em;
+	letter-spacing: normal;
 }
 
 .ui-corner-all .ui-panel-m-titlebar h3 {
 	font-size: 1.25em;
-	font-family: "Merriweather"
+	font-family: "Oswald"
 }
 /* Headings background */
 .ui-block-a > [id*="vendorGrid"] > .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
@@ -115,7 +119,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 .rbn-offers-panel h3,
 [id*="vendorMessagePanel"] h3,
 .rbn-accom-opt-panel h3 {
-  color: #999;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -125,7 +129,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
   background-color: #000 !important;
   text-transform: uppercase !important;
   font-weight: 400;
-	font-family: "Merriweather" !important;
+	font-family: "Oswald" !important;
 }
 .rbn-more-info-button:hover {
   color: #d1d1d1 !important;
@@ -137,7 +141,8 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 	background-color: #000 !important;
 	color: #fff !important;
   text-transform: uppercase !important;
-	font-family: "Merriweather" !important;
+    font-weight: bold;
+	font-family: "Karla" !important;
 }
 #base_page\3a locform\3a currencySelect .ui-btn:hover,
 #base_page\3a locform\3a languageSelect .ui-btn:hover, .ui-btn-inline:hover {
@@ -156,7 +161,7 @@ html head+body .ui-body-a.ui-focus{
 }
 
 .rbn-gotobutt {
-	font-family: "Merriweather" !important;
+	font-family: "Oswald" !important;
 }
 
 /* single owner report Hide property*/
@@ -176,4 +181,119 @@ html head+body .ui-body-a.ui-focus{
 #base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(9) > i,
 #base_page\3a messagePanel2 > div.ui-panel-m-content.ui-body.ui-body-inherit > ul > li:nth-child(10) > i{
 	display: none;
+}
+
+
+.ui-header.ui-bar-inherit{
+  background:#1E252B url('https://res.cloudinary.com/dwimmitvm/image/upload/v1584582309/ht-lightlogo_te214j.png') no-repeat center;
+  background-size:220px;
+  border:none;
+  height:145px;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+display:none;
+}
+
+/* Input highlights */
+.ui-page-theme-a .ui-btn:focus,html .ui-bar-a .ui-btn:focus,html .ui-body-a .ui-btn:focus,html body .ui-group-theme-a .ui-btn:focus,html head+body .ui-btn.ui-btn-a:focus,.ui-page-theme-a .ui-focus,html .ui-bar-a .ui-focus,html .ui-body-a .ui-focus,html body .ui-group-theme-a .ui-focus,html head+body .ui-btn-a.ui-focus,html head+body .ui-body-a.ui-focus{
+box-shadow: inset 0 0 4px #aaa !important;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+  background:#d5b476;
+  text-shadow:none;
+}
+
+[id*="requestPanel"] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+  background-color: #ededed !important;
+  color: #666 !important;
+}
+
+/* Enquiry button colour */
+.rbn-sendenquiry-button {
+  background-color: #f6f6f6 !important;
+  color: #000 !important;
+}
+.rbn-sendenquiry-button:hover {
+background-color: #ededed !important;
+}
+
+/* Vendor padding */
+.ui-grid.ui-grid-responsive.rbn-vendor-box {
+  padding: 0.5em !important;
+}
+
+/* Select Dates Padding */
+[id*="date-select-pan"] > div.ui-panel-m-content.ui-body.ui-body-inherit {
+  	padding: 0.5em !important;
+	outline: none !important;
+	text-shadow: none !important;
+  	box-shadow: none !important;
+}
+
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding-right: .5em;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding-left: .5em;
+}
+/* Select Dates Mobile */
+@media(max-width: 400px) {
+[id*="date-select-pan"] > div > div > .ui-block-a  {
+	padding: 0.25em;
+  	width: 100%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-b  {
+	padding: .25em;
+  	width: 60%;
+}
+[id*="date-select-pan"] > div > div > .ui-block-c  {
+	padding: .25em;
+	width: 40%;
+}
+}
+
+/* Image and gallery */
+div.gallery {
+  width: 100% !important;
+  height: auto !important;
+  padding-top: 56% !important;
+	z-index: 0;
+}
+[id*="fadeEffectImages"] {
+  width: 100% !important;
+  height: auto !important;
+	z-index: 0;
+}
+
+/* About you resizing */
+@media(min-width:561px) {
+  #base_page\:vform\:customertable .ui-block-a {
+    padding-right: 1em;
+  }
+}
+@media(max-width:560px) {
+  #base_page\:vform\:customertable .ui-block-a,
+  #base_page\:vform\:customertable .ui-block-b:not(:last-of-type){
+    padding-bottom: .5em;
+  }
+}
+
+/* Reference number */
+html[lang=en] #base_page\:neworderform\:customIdTable\:customIdl,
+html[lang=ja] #base_page\:neworderform\:customIdTable\:customIdl,
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td > b, 
+html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td > b {
+	display: none;
+}
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td:before,
+html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td:before {
+	font-weight: bold;
+}
+html[lang=en] #base_page\:neworderform\:customIdTable_data > tr > td:before {
+	content: "Please enter your 6 digit reference number *";
+}
+html[lang=ja] #base_page\:neworderform\:customIdTable_data > tr > td:before {
+	content: "6æ¡ã®å‚ç…§ç•ªå·ã‚’å…¥åŠ›ã—ã¦ãã ã•ã„ *";
 }
