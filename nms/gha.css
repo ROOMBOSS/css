@@ -366,6 +366,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 
+/*selcted room type
 .rb-selected-rt-sr {
   background-color: #D4E6EA;
   border: #4f5050;
@@ -390,4 +391,4 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 /* rack unselected */
 .rb-selected-rt-sr .rb-rack-unselected {
   color: #888888;
-}
+}*/
