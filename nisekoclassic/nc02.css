@@ -190,10 +190,15 @@ html[lang="ja"] div.rb-guest-for-emergencies > div:nth-child(1):after {
 /* Romaji only */
 html[lang="ja"] [id*=fnmslbl]:after,
 html[lang="ja"] [id*=nmlbl]:after,
-html[lang="ja"] [for*=nmlbl]:after {
+html[lang="ja"] [for*=nmlbl]:after,
+html[lang="ja"] [id*=lnmlbl]:after,
+html[lang="ja"] [id*=lnmlbl]:after,
+html[lang="ja"] [for*=lnm]:after
+ {
   content: " (半角ローマ字）";
   font-size: .6em;
-  color: #444; }
+  color: #444;
+}
 
 html[lang="en"] [id*=phonelbl]:after {
   content: "(Numbers only)";
@@ -451,3 +456,30 @@ html[lang=ja] .rb-my-booking-title:after {
 #base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
   background-color: #57b9c6;
   border: none; }
+
+/* Age category text changes #11449 */
+#orderForm\:pdtrpt\:0\:pdtpnl {
+  margin-top: .5em !important;
+}
+html[lang=en] #orderForm\:pdtrpt\:0\:pdtpnl:before {
+  content: "*Age as of December 31st, 2021";
+  display: block;
+  margin-bottom: 1em;
+}
+html[lang=ja] #orderForm\:pdtrpt\:0\:pdtpnl:before {
+  content: "※2021年12月31日時点での年齢を基準としますのでご注意ください。";
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* Emergency order tweak #11449 */ 
+.rb-guest-for-emergencies {
+  display: flex;
+  flex-direction: column;
+}
+.rb-guest-for-emergencies > .flex-container:nth-child(3) {
+  order: 2 !important;
+}
+.rb-guest-for-emergencies > .flex-container {
+  order: 1 !important;
+}
