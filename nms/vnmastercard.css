@@ -848,3 +848,21 @@ div[id*="quickbookingtable"][id$="sgrd"] table td {
   font-size: 1em;
   text-indent: unset;
 }
+
+#base_page > div.ui-content.rb-content:before{
+  content:"This exclusive discount offer on Niseko accommodation is available to Mastercard Taste of Premium members only. To take advantage of this offer, you must make payment with a valid Mastercard.";
+  color:  #666666;
+     display: block;
+    font-size: 1.17em;
+
+}
+
+html[lang=ja] #base_page > div.ui-content.rb-content:before{
+  content:"Mastercard Taste of Premium 会員様向け限定の特別割引にてニセコの宿泊施設にお泊りいただけます。お支払いの際はお手持ちの有効なマスターカードをお利用ください。";
+  color:  #666666;
+     display: block;
+    font-size: 1.17em;
+
+}
+
+
