@@ -42,6 +42,10 @@
 #orderForm\:pdtoptdt_content > table > tbody > tr:nth-child(n+2):nth-child(-n+3) {
   display: none; }
 
+#orderForm\:addbskpg > div:nth-child(4),
+#orderForm\:addbskpg > div:nth-child(5){
+  display: none; }
+
 /* P basket */
 [id*=bskitempdtopt_content] > div:nth-child(n+2):nth-child(-n+3) > div {
   display: none; }
