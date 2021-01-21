@@ -536,7 +536,7 @@ html[lang="ja"] #orderForm\:gross:after {
 	    background: #d11111;
     border-radius: 4px;
     color: #fff;
-    content: "セール！";
+    content: "割引！";
     display: inline-block;
     font-size: .75em;
     font-weight: bold;
@@ -990,5 +990,10 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(10),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(10) {
 	display: none;
+}
+
+/* Remove "Sale" tag from  hourly passes */
+.rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
+	display: none !important;
 }
 
