@@ -1,0 +1,61 @@
+/* Customizable styling */
+
+.search-logo {
+  margin-right: 1rem;
+  width: 62px;
+  height: 52px;
+  background: url('/assets/images/hhg-logo.png');
+  background-size: contain;
+}
+
+button.main{
+  background-color: black !important;
+  color:red !important;
+}
+
+.search-bar-container{
+  background: #90bbff;
+}
+
+.search-bar{
+  background: #90bbff !important;
+}
+
+.search-card{
+  background: #90bbff !important;
+}
+.search-card-content{
+  background: #90bbff !important;
+}
+
+.search-card-button{
+  background: #a0aec0 !important;
+}
+
+.vendor-description{
+  background: #a0aec0 !important;
+}
+
+.product-card{
+  background: #90bbff !important;
+}
+.product-card-content{
+  background: #90bbff !important;
+}
+
+.cart{
+  background: #90bbff !important;
+}
+
+.mini-cart-item{
+  background: #90bbff !important;
+}
+
+.cart-item{
+  background: #90bbff !important;
+}
+
+.customer-form{
+  background: #90bbff !important;
+}
+/* ENDS */
