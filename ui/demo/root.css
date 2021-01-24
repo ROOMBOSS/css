@@ -1,4 +1,6 @@
 :root {
   --primary-color: #351f39;
   --accent-color: #726a95;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
 }
