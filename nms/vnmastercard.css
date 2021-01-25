@@ -858,7 +858,7 @@ div[id*="quickbookingtable"][id$="sgrd"] table td {
 }
 
 html[lang=ja] #base_page > div.ui-content.rb-content:before{
-  content:"Mastercard ® Taste of Premium 会員様限定の特別割引にてニセコの宿泊施設にお泊りいただけます。お支払いは対象のmastercardをご利用ください。";
+  content:"Mastercard® Taste of Premium® 会員様限定の特別割引にてニセコの宿泊施設にお泊りいただけます。お支払いは対象のMastercardをご利用ください。";
   color:  #666666;
      display: block;
     font-size: 1.17em;
