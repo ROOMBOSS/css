@@ -865,4 +865,6 @@ html[lang=ja] #base_page > div.ui-content.rb-content:before{
 
 }
 
-
+#base_page\:resultsform\:filterPanelPriceRange > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+   display: none;
+}
