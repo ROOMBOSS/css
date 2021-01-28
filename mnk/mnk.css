@@ -110,12 +110,15 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 /*your booking logos*/
-#base_page\3a messages {
-	background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat,
-	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/5614c8682f5f81153fba2507_theorchards_logo.jpg') no-repeat,
-	url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
-	background-position: 5%, 50%, 93%;
-	height: 123px;
+@media only screen and (min-width: 800px) {
+	#base_page\3a messages {
+		background: url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/58215dc0274480cb21cae2ed_Countryresort_landscape.png') no-repeat,
+		url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/5614c8682f5f81153fba2507_theorchards_logo.jpg') no-repeat,
+		url('https://daks2k3a4ib2z.cloudfront.net/55b094b5ba59036467ba7b63/561f569ea91d51093c4ca136_Akazora_logo.jpg') no-repeat;
+		background-position: 5%, 50%, 93%;
+		background-size:30%,30%,30%;
+		height: 123px;
+	}
 }
 
 /*your booking bars*/
