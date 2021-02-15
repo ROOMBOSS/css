@@ -167,10 +167,12 @@ background-color: #d2d41e;
 
 html[lang=en] [id*=wufooLink]:after {
   content: "Activities Waiver – please complete prior to your arrival";
+  color: red;
 }
 
 html[lang=ja] [id*=wufooLink]:after {
   content: "アクティビティ参加同意書 - ご到着の前にご入力をお願いします";
+color: red;
 }
 
 [id*=squarePay]{
