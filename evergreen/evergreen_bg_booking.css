@@ -157,12 +157,14 @@ background-color: #d2d41e;
 [id*=wufooLink] {
   text-indent: -9999px;
   line-height: 0;
+	color: red;
 }
 
 [id*=wufooLink]:after {
   text-indent: 0;
   display: block;
   line-height: initial;
+	color: red;
 }
 
 html[lang=en] [id*=wufooLink]:after {
