@@ -728,11 +728,7 @@ html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
 }
 html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
 html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
-  content: "Adjusted Gross Rental Revenue";調整後グロスレンタル収入
-}
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
-html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
-  content: "調整後グロスレンタル収入";
+  content: "Adjusted Gross Rental Revenue";
 }
 
 /* Mobile */
@@ -779,10 +775,6 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
   content: "グロスレンタル収入";
 }
 
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
-html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
-  content: "調整後グロスレンタル収入";
-}
 
 /* Mobile */
 @media (max-width: 35em) {
@@ -794,14 +786,6 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
   html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(6):before{
     content: "グロスレンタル収入";
     float: left;
-  }
-
-
-  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before,
-  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
-    content: "調整後グロスレンタル収入";
-    float: left;
-    margin-right: .5em;
   }
 }
 
