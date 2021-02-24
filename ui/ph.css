@@ -779,15 +779,6 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
   content: "グロスレンタル収入";
 }
 
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7) span,
-html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8) span {
-  display: none;
-}
-
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
-html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
-  display: none;
-}
 html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8):before,
 html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9):before {
   content: "調整後グロスレンタル収入";
@@ -810,10 +801,6 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
     display: none;
   }
 
-  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b,
-  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b {
-    display: none;
-  }
   html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8):before,
   html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(8):before{
     content: "調整後グロスレンタル収入";
