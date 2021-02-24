@@ -721,10 +721,6 @@ html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7
 html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
   content: "Rental-Based Expenses";
 }
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before,
-html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
-  content: "レンタルプログラムにおける支出";
-}
 
 html[lang=en] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
 html[lang=en] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
@@ -787,10 +783,6 @@ html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7
 html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8) span {
   display: none;
 }
-html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(7):before,
-html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(8):before {
-  content: "レンタルプログラムにおける支出";
-}
 
 html[lang=ja] #base_page\:statementExtentMenu\:allocTable_head tr > :nth-child(8) span,
 html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-child(9) span {
@@ -816,11 +808,6 @@ html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_head tr > :nth-ch
   html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b,
   html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(7) > b{
     display: none;
-  }
-  html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(7):before,
-  html[lang=ja] #base_page\:multiStatementExtentMenu\:allocTable_data > tr > td:nth-child(7):before{
-    content: "レンタルプログラムにおける支出";
-    float: left;
   }
 
   html[lang=ja] #base_page\:statementExtentMenu\:allocTable_data > tr > td:nth-child(8) > b,
