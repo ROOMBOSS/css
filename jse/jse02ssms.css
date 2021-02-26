@@ -298,37 +298,11 @@ a[id*=edit] {
   -webkit-box-shadow: 0 0 5px #F34C5B;
   box-shadow: 0 0 5px #F34C5B; }
 
-xxinput {
+
+input + label + .content {
     display: none;
 }
 
-xxlabel {
-    display: block;    
-    padding: 8px 22px;
-    margin: 0 0 1px 0;
-    cursor: pointer;
-    background: #6AAB95;
-    border-radius: 3px;
-    color: #FFF;
-    transition: ease .5s;
-}
-
-xxlabel:hover {
-    background: #4E8774;
-}
-
-.xxcontent {
-    background: #E2E5F6;
-    padding: 10px 25px;
-    border: 1px solid #A7A7A7;
-    margin: 0 0 1px 0;
-    border-radius: 3px;
-}
-
-xxinput + xxlabel + .xxcontent {
-    display: none;
-}
-
-xxinput:checked + xxlabel + .xxcontent {
+input:checked + label + .content {
     display: block;
 }
