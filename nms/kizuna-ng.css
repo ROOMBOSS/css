@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #329bc3;
+  --accent-color: #329bc3;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 62px;
+  height: 52px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/nms/kizuna-logo.png');
+  background-size: contain;
+}
