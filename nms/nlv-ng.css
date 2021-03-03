@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #4f5050;
+  --accent-color: #4f5050;
+  --primary-contrast-color: #5c5a5a;
+  --accent-contrast-color: #5c5a5a;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 62px;
+  height: 52px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/nms/nlv-white.png');
+  background-size: contain;
+}
