@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #5390c8;
+  --accent-color: #5390c8;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 62px;
+  height: 52px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/wow/Niseko-Wow-Logo.png');
+  background-size: contain;
+}
