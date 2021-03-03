@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #CB7C86;
+  --accent-color: #CB7C86;
+  --primary-contrast-color: #717071;
+  --accent-contrast-color: #717071;
+}
+
+.search-logo {
+  margin-right: 1rem; 
+  height: 52px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/nms/vacation-niseko.svg');
+  background-size: contain;
+}
