@@ -8,7 +8,7 @@
 .search-logo {
   margin-right: 1rem;
   width: 62px;
-  height: 52px;
+  width: auto;
   background: url('https://dabb7zy6p4b0z.cloudfront.net/nms/loft-logo.png');
   background-size: contain;
 }
