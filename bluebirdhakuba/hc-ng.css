@@ -6,11 +6,12 @@
 }
 
 .search-logo {
-  margin-right: 1rem;  
-  height: 50px;
-  width: 180px;
-  background: url('https://thehakubacollection.com/assets/img/logo-stay.jpg');
-  background-size: contain;
+ margin-right: 1rem;  
+ height: 36px;
+ width: 150px;
+ background: url('https://thehakubacollection.com/assets/img/logo-stay.jpg');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: 10px center;
 }
-
 
