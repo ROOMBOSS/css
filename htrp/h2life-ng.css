@@ -7,10 +7,9 @@
 
 .search-logo {
  margin-right: 1rem;  
- height: 75px;
- width: 150px;
+ height: 80px;
+ width: 200px;
  background: url('https://dabb7zy6p4b0z.cloudfront.net/htrp/H2-Life-Wide-Blk_jikdt5.png');
  background-size: contain;
- background-repeat: no-repeat;
- background-position: 10px center;
+ background-repeat: no-repeat; 
 }
