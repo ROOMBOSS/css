@@ -6,9 +6,16 @@
 }
 
 .search-logo {
-  margin-right: 1rem;
-  width: auto;
-  height: 52px;
-  background: url('https://dabb7zy6p4b0z.cloudfront.net/wow/Niseko-Wow-Logo.png');
+  margin-right: 1rem; 
+  width: 165px;
+  height: 70px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/wow/Niseko-Wow-Logo.png');  
   background-size: contain;
+  background-repeat: no-repeat;
+  background-color:#5390c8;
+  background-position:center;
+  border: 5px solid #5390c8;
+  box-sizing: border-box;
+  width: 170px;
+  height: 75px;
 }
