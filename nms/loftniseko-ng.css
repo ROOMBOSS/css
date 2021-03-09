@@ -1,14 +1,20 @@
 :root {
-  --primary-color: #329bc3;
-  --accent-color: #329bc3;
+  --primary-color: grey;
+  --accent-color: black;
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
 
 .search-logo {
   margin-right: 1rem;
-  width: 62px;
-  width: auto;
+  width: 100px;
+  height: 140px;
   background: url('https://dabb7zy6p4b0z.cloudfront.net/nms/loft-logo.png');
   background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-position:center;
+  border: 5px solid #black;
+  box-sizing: border-box;
 }
