@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #b8152d;
+  --accent-color:#72acb7;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+ margin-right: 1rem;  
+ height: 100px;
+ width: 300px;
+ background: url('https://dabb7zy6p4b0z.cloudfront.net/snowdog/snowdog-logo.png');
+ background-size: contain;
+ background-repeat: no-repeat; 
+}
+
