@@ -102,14 +102,14 @@
 	display:none;
 }
 
-/* hide guest association*/
+/* hide guest association
 #orderForm\:guestsdt_data > tr.ui-datatable-summaryrow.ui-widget-header,
 #orderForm\:itemdtchkout\:0\:member,
 #orderForm\:itemdtchkout\:0\:guestsselpg,
 #orderForm\:chkoutpnl_content > div.p-grid.p-justify-center.rb-my-group,
 #orderForm\:guestspg{
 	display:none;
-}
+}*/
 
 /*please use romaji for jp guests
 html[lang=ja] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div > div:nth-child(1) > div:nth-child(1):after,
