@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #b69b7d;
+  --accent-color: #b69b7d
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 180px;
+  height: 60px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/grand-phenix.png');
+  background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+}
