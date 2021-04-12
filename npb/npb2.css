@@ -1,26 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,600,700&display=swap);
 .rbn-tab-img {
   padding-right: 0.5em;
 }
 
-/* MA */
+.ui-btn:after {
+  background-color: #0055a6;
+}
+
 /* Import font */
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: "Noto Sans JP", sans-serif;
-  background: #141618;
+  background: #0055a6;
   text-shadow: none;
-  color: #888888;
+  color: #fff;
   -webkit-transition: ease-in-out 200ms;
   transition: ease-in-out 200ms;
 }
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
-  background: black;
+  background: #003b73;
 }
 
 /* Header bar */
 .rb-header, .ui-header.ui-bar-inherit {
-  background: url("https://nisekotourism.com/wp-content/uploads/white-npb-logo-reverse-s2.png") center center no-repeat, url("https://nisekotourism.com/wp-content/uploads/Hilton-Niseko-Village-Winter-Onsen.jpg") center 42% no-repeat !important;
-  background-size: 160px, cover !important;
+  background: url("https://nisekotourism.com/wp-content/uploads/white-npb-logo-reverse-s2.png") center center no-repeat, linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://nisekotourism.com/wp-content/uploads/Hilton-Niseko-Village-Winter-Onsen.jpg") center 42% no-repeat !important;
+  background-size: 175px, cover, cover !important;
   border: none;
   height: 200px;
 }
@@ -39,8 +42,8 @@
 
 /* Non-Accordion Panels */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background: #141618;
-  color: #888888;
+  background: #0055a6;
+  color: #fff;
   font-family: "Noto Sans JP", sans-serif;
   text-shadow: none;
 }
@@ -109,35 +112,35 @@
 /* Enquiry button colour */
 .rbn-sendenquiry-button, #base_page\:back, .map-button,
 #base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton, #base_page\:vform\:cancelbutt, #base_page\:vform\:searchButton {
-  background-color: #0055a6 !important;
+  background-color: #006fd9 !important;
   font-family: "Noto Sans JP", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
   border: 1px solid rgba(0, 0, 0, 0) !important;
-  text-transform: uppercase;
-  font-weight: 600;
+  text-transform: none;
+  font-weight: 700;
   text-shadow: none !important;
 }
 .rbn-sendenquiry-button:hover, #base_page\:back:hover, .map-button:hover,
 #base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover, #base_page\:vform\:cancelbutt:hover, #base_page\:vform\:searchButton:hover {
-  background-color: #00488d !important;
+  background-color: #007cf3 !important;
 }
 
 /* Book and Pay button colour */
 #base_page\:vform\:reservationConditionButt, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:searchform\:searchButton, #base_page\:resultsform\:vform\:booknpay, #base_page\:vform\:booknpay,
 .ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button, #base_page\:vform\:acceptButt, #base_page\:txtab_data .ui-btn {
-  background-color: #141618 !important;
+  background-color: #0055a6 !important;
   font-family: "Noto Sans JP", sans-serif !important;
   color: #fff !important;
   border-radius: 5px !important;
   border: 1px solid rgba(0, 0, 0, 0) !important;
-  text-transform: uppercase;
-  font-weight: 600;
+  text-transform: none;
+  font-weight: 700;
   text-shadow: none !important;
 }
 #base_page\:vform\:reservationConditionButt:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover, #base_page\:searchform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover, #base_page\:vform\:booknpay:hover,
 .ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover, #base_page\:vform\:acceptButt:hover, #base_page\:txtab_data .ui-btn:hover {
-  background-color: #08090a !important;
+  background-color: #0062c0 !important;
 }
 
 button.ui-btn, #base_page\:locform\:currencySelect_input-button,
@@ -195,7 +198,7 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   }
 }
 .ui-page-theme-a {
-  background-color: #f7f7f7;
+  background-color: #eee;
 }
 
 #base_page\:vform\:avgridpan > div > div > .ui-grid-c .ui-btn-icon-left {
@@ -213,51 +216,8 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 
 /* Paginator */
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active {
-  background-color: #6D6D6D;
-  border-color: #606060;
-}
-
-* {
-  text-shadow: none !important;
-}
-
-/* MA */
-#base_page\:resultsform\:listViewTab,
-#base_page\:resultsform\:mapViewTab {
-  text-shadow: none;
-}
-
-#base_page\:resultsform\:vendorGrid_paginator_top {
-  display: none;
-}
-
-#base_page\:resultsform\:filterPanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit > a,
-.ui-panel-m-titlebar > .ui-icon-plus {
-  border: 0 !important;
-}
-
-#base_page\:vform\:quickbookingtable_data tr:last-of-type {
-  border-bottom: 0px;
-}
-
-#base_page\:searchform > div > div > .ui-block-a > div > div,
-#base_page\:searchform > div > div > .ui-block-d > div {
-  height: 42px;
-}
-
-/* === */
-.ui-collapsible-heading > a {
-  font-size: 1em;
-}
-
-@media screen and (max-width: 500px) {
-  .ui-collapsible-heading > a {
-    font-size: 1em;
-  }
-}
-.ui-collapsible-heading > a {
-  text-transform: uppercase;
-  font-weight: 700;
+  background-color: #0055a6;
+  border-color: #00488d;
 }
 
 /* Hide highlights */
@@ -265,39 +225,24 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   box-shadow: none;
 }
 
-/* About you */
-[id*=requestPanel] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #5a636b !important;
-  color: #ffffff !important;
-  font-size: 1em;
-}
-
-[id*=requestPanel] h3,
-#base_page\:vform\:date-select-pan h3 {
-  font-weight: 600 !important;
-}
-
-#base_page\:vform {
-  z-index: 500 !important;
-}
-
 .ui-content {
   max-width: 1200px;
 }
 
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  background-color: #0055a6;
   text-shadow: none;
   color: #fff;
   transition: ease-in-out 0.2s !important;
 }
 
 .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
+  background-color: #006fd9;
   color: #fff;
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #333;
+  background-color: #0055a6;
   color: #ffffff;
 }
 
@@ -320,6 +265,12 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   border: 0;
 }
 
+#base_page\:postab_data,
+#base_page\:ttab_data,
+#base_page\:txtab_data {
+  background-color: #fff;
+}
+
 .rb-header {
   padding-bottom: 1em;
 }
@@ -329,37 +280,36 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
 #locform\:languageSelect_label, #locform\:languageSelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
 #locform\:currencySelect_label, #locform\:currencySelect > div.ui-selectonemenu-trigger.ui-state-default.ui-corner-right,
 .ui-state-highlight {
-  background-color: #141618 !important;
+  background-color: #0055a6 !important;
   font-family: "Noto Sans JP", sans-serif !important;
   color: #fff;
   border: 0;
 }
 
-#base_page\:vform\:customertable {
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 400;
-  font-size: 1em;
+.fa-arrow-left, #backBtn, #locform\:languageSelect, #locform\:currencySelect {
+  font-size: 14px;
 }
 
-#base_page\:locform .ui-btn {
-  font-size: 16px;
-  padding: 8px 36px 8px 12px;
+#form\:sqtitle .ui-widget {
+  font-family: "Noto Sans JP", sans-serif;
+  text-transform: capitalize;
   font-weight: 600;
 }
 
-.qb-2, .qb-3, .rb-avail-roomtype, th, .ui-grid-c input {
+#base_page\:tabview\:vendorMessagePanel0 > div.ui-panel-m-content.ui-body.ui-body-inherit > div.myloc {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/ui/demo/demo-map.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#base_page\:tabview\:vendorMessagePanel0 > div.ui-panel-m-content.ui-body.ui-body-inherit > div.myloc > img {
+  display: none !important;
+}
+
+.qb-2, .rb-avail-roomtype, th {
   font-family: "Noto Sans JP", sans-serif !important;
-  font-weight: 400;
-}
-
-.qb-3 {
-  font-size: 1em;
-  padding-top: 10px !important;
-}
-
-.ui-grid-c input {
-  height: 42.38px !important;
-  font-size: 1em;
 }
 
 .overlay {
@@ -370,106 +320,71 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   margin-top: 20px;
 }
 
-#base_page\:vform\:disCode {
-  padding-right: 0;
-}
-
-#base_page\:vform\:but {
-  background-color: #0055a6 !important;
-}
-
-#base_page\:vform\:but:hover {
-  background-color: #002140 !important;
-}
-
-#base_page\:vform\:rqpnl, .ui-panel-m-titlebar,
-.ui-collapsible-heading-toggle,
-.ui-collapsible-content,
-.ui-panel-m-content {
-  border: 0 !important;
-}
-
-.ui-panel-m-content, #base_page\:vform\:date-select-pan, .ui-accordion {
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
-}
-
-.rb-avail-roomtype {
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.rbn-ven-grid-txt-col,
-.qb-2 [id*=description] {
-  font-family: Noto Sans JP, sans-serif;
-  font-size: 1em;
-  line-height: 1.3em;
-}
-
-.qb-4 span {
-  font-family: Noto Sans JP, sans-serif;
-  font-weight: 600 !important;
-}
-
-.qb-2 .ui-block-a:last-of-type {
-  padding-top: 0.5em;
-}
-
-[src*=spacer] {
+#base_page\:gform, .rbn-yb-searchtext, #locform\:currencySelect {
   display: none;
 }
 
-.ui-grid-solo:last-of-type .ui-block-a:last-of-type {
-  margin-top: 4px;
+button#form\:pay span {
+  display: none;
 }
 
-.ui-grid-solo:last-of-type .ui-block-a:last-of-type button:first-of-type:not(:last-of-type) {
-  margin-right: 12px;
+#base_page\:vform\:reservationConditionsbox {
+  overflow: visible !important;
 }
 
-.ui-grid-solo:last-of-type .ui-block-a:first-of-type .ui-panel-m-content p:first-of-type {
-  margin: 0;
+button#form\:pay:after {
+  display: block;
+  font-family: "Noto Sans JP", sans-serif;
+  content: "Proceed to Payment";
+  background-color: #0055a6 !important;
+  padding: 0.3em 1em !important;
 }
 
-.ui-content.rb-content {
-  margin-top: 8px;
-  padding-bottom: 2px;
+/* MA */
+.ui-grid.ui-grid-responsive.rbn-vendor-box {
+  padding: 0 !important;
 }
 
-#base_page\:vform\:searchButton {
-  background-color: #0055a6;
+.rbn-filter-panel > .ui-panel-m-titlebar .ui-panel-m-titlebar-icon, .rbn-offers-panel > .ui-panel-m-titlebar .ui-panel-m-titlebar-icon {
+  border: 0;
 }
 
-/* Yourbooking */
-#base_page\:postab_data, #base_page\:ttab_data, #base_page\:txtab_data {
-  background: #ffffff;
+.rbn-cat-panel {
+  font-weight: 400;
 }
 
-#base_page\:messages, .rbn-yb-h1, #base_page\:tabview\:vnddesc,
-#base_page\:gform\:gid_input, #base_page\:gform\:gem_input {
-  font-family: "Noto Sans JP", sans-serif !important;
+#base_page\:locform\:currencySelect > .ui-select, #base_page\:locform\:languageSelect > .ui-select {
+  margin: 0.4em 0.175em;
 }
 
-.rbn-yb-searchtext, .ui-field-contain > label {
-  font-family: "Noto Sans JP", sans-serif !important;
-  font-size: 1em;
+#base_page\:back {
+  background-color: #0055a6 !important;
 }
 
-#base_page\:tabview\:vnddesc, #base_page\:tabview\:vndname {
-  font-family: Noto Sans JP, sans-serif;
-  font-size: 1em;
-  line-height: 1.3em;
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+  background-color: #141618;
+  text-shadow: none;
+  color: #fff;
+  transition: ease-in-out 0.2s !important;
 }
 
-.rb-footer.ui-footer.ui-bar-inherit {
-  margin-top: 40px;
-  background-color: transparent;
-  color: #666666;
+.ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a:hover, .ui-collapsible-inset .ui-collapsible-heading .ui-btn:hover {
+  background-color: #424950;
 }
 
-#base_page\:tabview .ui-panel-m-titlebar,
-#base_page\:vendorMessagePanel .ui-panel-m-titlebar {
-  background-color: #00070d !important;
+#base_page\:vform\:vcpnl .ui-panel-m-titlebar {
+  display: none;
+}
+#base_page\:vform\:vcpnl .ui-panel-m-content {
+  border-width: 1px;
+  border-top-width: 1px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+#base_page\:vform\:vercodepg {
+  max-width: 50%;
+  margin: auto;
 }
 
 .rb-guest-basic-information .flex-item {
@@ -491,11 +406,19 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
     margin-right: 0 !important;
     flex: 0 100%;
   }
+
+  #base_page\:vform\:vercodepg {
+    max-width: 100%;
+  }
 }
-[action*="ma.jsf"] #base_page\:searchform\:searchButton {
-  margin-top: 1.7em;
+/* Ma vendor bar */
+.rbn-vendor-panel .ui-panel-m-titlebar {
+  background: #141618 !important;
+}
+.rbn-vendor-panel .ui-panel-m-titlebar:hover {
+  background: #424950 !important;
 }
 
-#base_page\:back {
-  top: 1em;
+#base_page\:vform\:btnPanel button {
+  margin-right: 0.5em !important;
 }
