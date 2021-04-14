@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #329bc3;
-  --accent-color: #329bc3;
+  --primary-color: #013B63;
+  --accent-color: #013B63;
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
@@ -9,6 +9,7 @@
   margin-right: 1rem;
   width: 62px;
   height: 52px;
-  background: url('https://dabb7zy6p4b0z.cloudfront.net/hhg/hhg-logo.png');
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/hhg/hhg_new.png');
   background-size: contain;
+  background-repeat: no-repeat;
 }
