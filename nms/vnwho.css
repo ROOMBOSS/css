@@ -850,7 +850,7 @@ div[id*="quickbookingtable"][id$="sgrd"] table td {
 }
 
 #base_page > div.ui-content.rb-content:before{
-  content:"We would like to extend this special discount offer to visit us in Niseko with your dog as valued W.H.C customers. The 5% discount is applied to the pricing below. If you are looking to stay 20 nights or more, please email us at yoyaku@vacationniseko.com and mention the discount code WHCNISEKO to receive 10% off your long stay rate.
+  content:"We would like to extend this special discount offer to visit us in Niseko with your dog as valued W.H.C.Y customers. The 5% discount is applied to the pricing below. If you are looking to stay 20 nights or more, please email us at yoyaku@vacationniseko.com and mention the discount code WHCYNISEKO to receive 10% off your long stay rate.
 Come and enjoy a paw latte with us at SnowDog Village.";
   color:  #666666;
      display: block;
@@ -859,7 +859,7 @@ Come and enjoy a paw latte with us at SnowDog Village.";
 }
 
 html[lang=ja] #base_page > div.ui-content.rb-content:before{
-  content:"この夏さわやかな北海道にあるスノードッグビレッジへ、W.H.Cの大切なお客様＆愛犬を特別価格にてニセコ旅をお招きいたします。以下の価格では通常料金より5％の割引が適用されます。 20泊以上の滞在をご希望の場合は、yoyaku@vacationniseko.comまでメールでご連絡ください。長期滞在料金（1泊お1人1,100円～）をご案内させていただきますその際、割引コードWHCNISEKOをお知らせください、さらに10％の割引をご提供させていただきます。
+  content:"この夏さわやかな北海道にあるスノードッグビレッジへ、W.H.C.Yの大切なお客様＆愛犬を特別価格にてニセコ旅をお招きいたします。以下の価格では通常料金より5％の割引が適用されます。 20泊以上の滞在をご希望の場合は、yoyaku@vacationniseko.comまでメールでご連絡ください。長期滞在料金（1泊お1人1,100円～）をご案内させていただきますその際、割引コードWHCYNISEKOをお知らせください、さらに10％の割引をご提供させていただきます。
 愛犬とのリゾートステイそしてパウラテでのひと時を心ゆくまでお楽しみください。";
   color:  #666666;
      display: block;
