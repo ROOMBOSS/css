@@ -1,0 +1,23 @@
+/*logo update needed*/
+
+:root {
+  --primary-color: #bf8f45;
+  --accent-color: #bf8f45;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 180px;
+  height: 60px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/jade-chalet.png');
+  background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:black;
+  background-position: 8px center;
+  border: 5px solid #black;
+  box-sizing: border-box;
+  border-radius: .33rem;
+}
