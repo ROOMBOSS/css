@@ -1,0 +1,19 @@
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+	font-family: "futura-pt-condensed", Arial, sans-serif !important;
+	background:#333;
+	color:#fff;
+	text-shadow:none;
+}
+
+.ui-header.ui-bar-inherit{
+	background: #bf8f45 url(https://dabb7zy6p4b0z.cloudfront.net/jadegroup/grand-phenix.png) no-repeat center;
+	background-size:220px;
+	border:none;
+	height: 160px;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+	display:none;
+}
+
