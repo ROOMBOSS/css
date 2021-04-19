@@ -423,3 +423,7 @@ button#form\:pay:after {
 .ui-grid-a li > a {
   text-shadow: none !important;
 }
+
+#base_page\:selectvendorform\:searchButton {
+  margin-left: 0.5em;
+}
