@@ -22,7 +22,7 @@
 
 /* Header bar */
 .rb-header, .ui-header.ui-bar-inherit {
-  background: url("https://32uz1d25j0sirwbij26e9q7l-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/nh1.png") center center no-repeat, linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://32uz1d25j0sirwbij26e9q7l-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/7156481950_2706a1717c_k-e14334707377262.jpg") center 50% no-repeat !important;
+  background: url("https://dabb7zy6p4b0z.cloudfront.net/nisekohostel/nh-logo.png") center center no-repeat, linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dabb7zy6p4b0z.cloudfront.net/nisekohostel/nh-bg.jpg") center 50% no-repeat !important;
   background-size: 100px, cover, cover !important;
   border: none;
   height: 180px;
@@ -410,9 +410,6 @@ button#form\:pay:after {
 /* Ma vendor bar */
 .rbn-vendor-panel .ui-panel-m-titlebar {
   background: #272727 !important;
-}
-.rbn-vendor-panel .ui-panel-m-titlebar:hover {
-  background: #5a5a5a !important;
 }
 
 #base_page\:vform\:btnPanel button {
