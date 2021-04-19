@@ -4,9 +4,10 @@
 /* Custom design */
 
 .rb-header {
-  background-image: url("https://rusutsu.co.jp/images/common/logoL.png"), url("https://image.ibb.co/iQRbRd/logoLol.png");
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/rusutsu/logo-wh.png");
   background-repeat: no-repeat, no-repeat;
-  background-position: 33% 50%, 66% 50%;
+  background-size: 350px !important;
+  background-position: center;
   background-color: #0f69b5 !important;
   height:150px;
 }
