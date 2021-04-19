@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #a8a6a1;
+  --accent-color: #a8a6a1;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 62px;
+  height: 52px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/alpmyoko/alp-myoko_color.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
