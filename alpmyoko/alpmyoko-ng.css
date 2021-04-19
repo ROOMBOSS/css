@@ -6,10 +6,13 @@
 }
 
 .search-logo {
-  margin-right: 1rem;
-  width: 62px;
+  width: 80px;
   height: 52px;
-  background: url('https://dabb7zy6p4b0z.cloudfront.net/alpmyoko/alp-myoko_color.jpg');
+  background: url('https://images.squarespace-cdn.com/content/5fd4a25267ebfc29b091f7c5/1607772820927-9FY10K5Z0ZN9DMEUZOHH/logo.png?format=1500w&content-type=image%2Fpng');
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center center;
+}
+.date-range {
+  margin: auto !important;
 }
