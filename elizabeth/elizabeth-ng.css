@@ -1,0 +1,16 @@
+:root {
+  --primary-color: grey;
+  --accent-color: black;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+ margin-right: 1rem;  
+ height: 100px;
+ width: 300px;
+ background: url('https://dabb7zy6p4b0z.cloudfront.net/elizabeth/Elizabeth_Logo_trans-300x138.png');
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: 10px center;
+}
