@@ -11,7 +11,7 @@
 	url(https://dabb7zy6p4b0z.cloudfront.net/elizabeth/IMG_0093-1920x850.jpg) no-repeat;
     	height: 130px;
 	border: none;
-    	background-size: 160px, 1999px; 
+    	background-size: 160px, cover; 
 }
 /*remove vendor image and description*/
 .ui-panel-m.ui-corner-all.rbn-vendor-panel{
