@@ -1,21 +1,15 @@
 :root {
-  --primary-color: #bf8f45;
-  --accent-color: #bf8f45;
+  --primary-color: #004D0D;
+  --accent-color: #004D0D;
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
 
 .search-logo {
   margin-right: 1rem;
-  width: 180px;
-  height: 60px;
-  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/jade-chalet.png');
+  width: 200px;
+  height: 80px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/jade-chalet-green.png');
   background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color:black;
-  background-position: 8px center;
-  border: 5px solid #black;
-  box-sizing: border-box;
-  border-radius: .33rem;
+  background-repeat: no-repeat; 
 }
