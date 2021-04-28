@@ -9,15 +9,10 @@
 
 .search-logo {
   margin-right: 1rem;
-  width: 180px;
-  height: 60px;
-  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/jade-chalet.png');
+  width: 200px;
+  height: 80px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/amber-resort.png');
   background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color:black;
-  background-position: 8px center;
-  border: 5px solid #black;
-  box-sizing: border-box;
-  border-radius: .33rem;
+ background-repeat: no-repeat; 
+
 }
