@@ -6,8 +6,21 @@
 }
 
 .search-logo {
-  margin-right: 1rem;  
+  margin-right: 1rem;
+  width: 150px;
   height: 52px;
-  background: url('https://s3-ap-northeast-1.amazonaws.com/mgroup-niseko/general/m-group-header-logo.png');
+  background: url('https://mgroupniseko.com/assets/svg/m-group-header-logo.svg');
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+  .search-logo {
+  width: 52px;
+  height: 52px;
+  background: url('https://mgroupniseko.com/assets/svg/m-group-m.svg');    
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
 }
