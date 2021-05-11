@@ -1,7 +1,7 @@
  
 :root {
-  --primary-color: #linear-gradient(to top,#213357,#3585ac);
-  --accent-color: #3585ac;
+  --primary-color: #3585ac;
+  --accent-color: #213357;
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
@@ -9,9 +9,9 @@
 .search-logo {
     margin-right: 1rem;
     height: 80px;
-    width: 120px;
-    background: url(https://dabb7zy6p4b0z.cloudfront.net/taigaprojects/logo.png);    
-    background-size: contain;
+    width: 200px;
+    background: url('https://dabb7zy6p4b0z.cloudfront.net/taigaprojects/logo.png'), linear-gradient(to top,#213357,#3585ac);    
+    background-size: contain;    
     background-repeat: no-repeat;
     background-position: center;   
 }
