@@ -133,15 +133,15 @@ div #locform\:languageSelect, div #locform\:currencySelect {
 
 #orderForm\:booknow,
 #orderForm\:booknowcond {
-  background-color: #409ae4 !important;
-  border: 1px solid #409ae4 !important;
-  color: #333 !important; }
+  background-color: #186ba0 !important;
+  border: 1px solid #186ba0 !important;
+  color: #fff !important; }
 
 #orderForm\:booknow:hover,
 #orderForm\:booknowcond:hover {
-  background-color: #1e82d2 !important;
-  border: 1px solid #1e82d2 !important;
-  color: #333 !important; }
+  background-color: #5699c3 !important;
+  border: 1px solid #5699c3 !important;
+  color: #fff !important; }
 
 /* Custom Button Font */
 .ui-button-text {
