@@ -1013,6 +1013,6 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 width: 100% !important; padding-top: 20px !important; padding-bottom: 5px !important;
 	}
 }
-html .vendor-card > vc-image {
+html .vendor-card > .vc-image {
 	border: 4px solid #ddd !important;
 }
