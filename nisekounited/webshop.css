@@ -999,11 +999,6 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 
 /* Feedback update #12023 */
 
-@media screen and (min-width: 780px) {
-	html .rb-header {
-width: 100% !important; padding-top: 20px !important; padding-bottom: 5px !important;
-	}
-}
 :root {
 	--primary: #444 !important;
 	--primary-light: #444444 !important;
@@ -1013,4 +1008,11 @@ width: 100% !important; padding-top: 20px !important; padding-bottom: 5px !impor
 	--button: rgb(250 95 23) !important;
 	--button-hover: #fc5000 !important; 
 }
+@media screen and (min-width: 780px) {
+	html .rb-header {
+width: 100% !important; padding-top: 20px !important; padding-bottom: 5px !important;
+	}
+}
+html .vendor-card > vc-image {
+	border: 4px solid #ddd !important;
 
