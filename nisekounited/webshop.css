@@ -1019,3 +1019,6 @@ html .vendor-card > .vc-image {
 #fform\:vendrating {
 	display: none;
 }
+.heading-content > p:first-of-type {
+    margin: .8rem 0;
+}
