@@ -1016,3 +1016,6 @@ width: 100% !important; padding-top: 20px !important; padding-bottom: 5px !impor
 html .vendor-card > .vc-image {
 	border: 4px solid #ddd !important;
 }
+#fform\:vendrating {
+	display: none;
+}
