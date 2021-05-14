@@ -97,3 +97,12 @@
 .rb-prod-desc-item:nth-child(1) label {
     color: #004D0D !important;
 }
+
+/* Sign in up title*/
+.rb-vendor-title, .rb-parent-cat-title,
+.rb-prod-title, .rb-basket-title-pg, 
+.rb-checkout-title, .rb-child-cat-title, 
+ #orderForm\:snslbl, #orderForm\:existglbl,
+ #orderForm\:newguestlbl {
+   color: #004D0D;
+ }
