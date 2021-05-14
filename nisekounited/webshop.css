@@ -1,3 +1,13 @@
+:root {
+	--primary: #444 !important;
+	--primary-light: #444444 !important;
+	--primary-dark: #fa5f17 !important;
+	--primary-text: #444444;
+	--secondary-text: #777777;
+	--button: rgb(250 95 23) !important;
+	--button-hover: #fc5000 !important; 
+}
+
 .rb-header, #base_page\:base_header {
     background-image: url("https://dabb7zy6p4b0z.cloudfront.net/nisekounited/nfp-tr-01.png");
     background-color: #212121 !important;
@@ -995,5 +1005,13 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 /* Remove "Sale" tag from  hourly passes */
 .rb-dl-parent-cat-2c9890f06c2af60d016c2d01f4fb68ed #orderForm\:gross:after {
 	display: none !important;
+}
+
+/* Feedback update */
+
+@media screen and (min-width: 780px) {
+	html .rb-header {
+width: 100% !important; padding-top: 20px !important; padding-bottom: 5px !important;
+	}
 }
 
