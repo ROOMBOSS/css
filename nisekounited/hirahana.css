@@ -556,3 +556,30 @@ html[lang="ja"] #orderForm\:gross:after {
     position: relative;
     top: -2px;
 }*/
+
+/* Feedback update #12023 */
+html:root {
+	--primary: #0195D9; !important;
+	--primary-light:#0195D9 !important;
+	--primary-dark: #0195D9; !important;
+	--primary-text: #444444;
+	--secondary-text: #777777;
+	--button: #0195D9; !important;
+	--button-hover: #0195D9; !important; 
+}
+@media screen and (min-width: 780px) {
+	html .rb-header {
+        width: 100% !important;
+        padding-top: 20px !important;
+        padding-bottom: 5px !important;
+	}
+}
+html .vendor-card > .vc-image {
+	border: 4px solid #ddd !important;
+}
+#fform\:vendrating {
+	display: none;
+}
+.heading-content > p:first-of-type {
+    margin: .8rem 0 !important;
+}
