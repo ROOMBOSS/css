@@ -84,7 +84,10 @@ div #locform\:languageSelect, div #locform\:currencySelect {
   font-family: "Noto Sans JP", sans-serif; }
 
 /* Custom Headers */
-.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, 
+.rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, 
+#orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, 
+#orderForm\:welclbl, #orderForm\:foremlbl, h3, #orderForm\:snslbl {
   color: #333;
   text-transform: uppercase;
   font-family: "Noto Sans JP", sans-serif; }
@@ -97,6 +100,7 @@ div #locform\:languageSelect, div #locform\:currencySelect {
 .rb-checkout-title:before,
 #orderForm\:existglbl:before,
 #orderForm\:newguestlbl:before,
+#orderForm\:snslbl:before,
 .rb-checkout-title:before {
   color: #409ae4; }
 
