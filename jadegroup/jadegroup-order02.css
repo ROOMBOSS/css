@@ -1,4 +1,53 @@
-/* @import url('//roomboss.github.io/css/ui/main02.css'); */
+@charset "UTF-8";
+/* Your Booking */
+/* Custom */
+/* Remove Yourbooking */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+#base_page\:gform, .rbn-yb-searchtext, .rbn-yb-h1 {
+  display: none;
+}
+
+html[class=ui-mobile] .ui-content.rb-content {
+  padding-top: 0;
+}
+
+.rb-header {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Hide other languages */
+#locform\:languageSelect_2,
+#locform\:languageSelect_3,
+#locform\:languageSelect_4,
+#locform\:languageSelect_5,
+li[data-label*=Korean], li[data-label*=韓国語],
+li[data-label*=French], li[data-label*=フランス語],
+li[data-label*="Chinese (simplified)"], li[data-label*=中国語（簡体）],
+li[data-label*="Chinese (traditional)"], li[data-label*=中国語（繁体）] {
+  display: none;
+}
+
+/* Dialog close icon hotfix */
+.ui-dialog-titlebar-close {
+  padding: 1px !important;
+  margin: 1px !important;
+}
+
+.rb-my-group-title:after,
+.rb-my-booking-title:after {
+  display: block;
+  font-size: 1em;
+  text-transform: none;
+  font-weight: normal;
+  color: #3ba1af;
+}
+
+/* Yourbooking title */
+.ui-bar h3 {
+  color: #fff;
+}
 
 /* Remove Group Members */
 .rb-my-group, .rb-my-booking, .rb-guests-pg,
@@ -7,43 +56,51 @@
   display: none;
 }
 
-/* Custom design */
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
 
 .rb-header {
   background-image: url("https://dabb7zy6p4b0z.cloudfront.net/jadegroup/jade-group.png");
-  background-repeat: no-repeat, no-repeat;
-  background-size: 280px !important;
-  background-position: center;
-  background-color: #fff !important;
-  height:130px;
+  background-color: #FFFFFF !important;
+  background-repeat: no-repeat;
+  background-position: center center, center 30%;
+  background-size: 280px, cover;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0;
 }
 
 .rb-header-title {
   display: none;
 }
 
-.rb-parent-cat-title,
-.rb-child-cat-title,
-.rb-prod-title,
-.rb-basket-title-pg,
-.rb-checkout-title{
-  color: #004D0D;
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
 }
 
+/* Custom Headers */
+.rb-parent-cat-title, .rb-child-cat-title, .rb-prod-title, .rb-basket-title, .rb-checkout-title, .rb-my-booking-title, .rb-my-group-title, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
+  color: #004D0D;
+  text-transform: capitalized;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/*Custom Icons */
 .rb-parent-cat-title:before,
 .rb-child-cat-title:before,
 .rb-prod-title:before,
 .rb-basket-title-pg:before,
+.rb-checkout-title:before,
+#orderForm\:existglbl:before,
+#orderForm\:newguestlbl:before,
 .rb-checkout-title:before {
   color: #53A867;
 }
 
-
-/* Category Image Selected*/
-.rb-parent-cat-container .rb-parent-cat-sel a img,
-.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
-.rb-child-cat-container .rb-child-cat-sel a img,
-.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+/* Sel item highlight */
+.rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  -webkit-box-shadow: 0 0 0px 6px #53A867;
   box-shadow: 0 0 0px 6px #53A867;
 }
 
@@ -54,6 +111,15 @@
   color: #004D0D;
 }
 
+/* Hide Icon */
+.rb-parent-cat-desc:before {
+  display: none;
+}
+
+#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
+  text-align: left;
+}
+
 /* Basket Item Highlights */
 #orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
 #orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
@@ -61,12 +127,12 @@
   box-shadow: 2px -1 -1 #004D0D, -2px -1 -1 #004D0D;
 }
 
-
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
   border-color: #53A867 !important;
   background-color: #004D0D !important;
 }
+
 
 #orderForm\:booknow {
   background-color: #004D0D
@@ -77,14 +143,26 @@
   border: 1px solid #53A867;
 }
 
+/* Custom Button Font */
+.ui-button-text {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
+
 /* Lang and currency */
 #locform\:currencySelect_label,
 #locform\:languageSelect_label {
   color: #004D0D;
 }
 
-/* Default Buttons */
 
+/* CHECKOUT */
+.rb-checkout-title:before {
+  content: "";
+  margin-right: 10px;
+  font-family: "FontAwesome" !important;
+}
+
+/* Default Buttons */
 .ui-button.ui-widget.ui-state-default {
   background-color: #53A867;
   border-color: #53A867;
@@ -93,16 +171,43 @@
   background-color: #53A867;
 }
 
+
+/* Panels*/
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
+.ui-btn .ui-panel-collapsible-heading-toggle,
+.ui-icon-minus:after, .ui-icon-plus:after {
+  background-color: #004D0D;
+  border: none;
+  color: #fff;
+  text-shadow: none;
+}
+
+.ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
+.ui-btn .ui-panel-collapsible-heading-toggle:hover {
+  background-color: #009a54;
+}
+
+/* Buttons */
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
+  background-color: #004D0D;
+  border: none;
+  color: #fff !important;
+  text-shadow: none !important;
+}
+
+#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
+  background-color: #53A867;
+  border: none;
+}
+
+.ui-title {
+  display: none !important;
+}
+
+
 /* Card title*/
 .rb-prod-desc-item:nth-child(1) label {
     color: #004D0D !important;
 }
-
-/* Sign in up title*/
-.rb-vendor-title, .rb-parent-cat-title,
-.rb-prod-title, .rb-basket-title-pg, 
-.rb-checkout-title, .rb-child-cat-title, 
- #orderForm\:snslbl, #orderForm\:existglbl,
- #orderForm\:newguestlbl {
-   color: #004D0D;
- }
