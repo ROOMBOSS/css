@@ -1,0 +1,16 @@
+
+:root {
+  --primary-color: grey;
+  --accent-color: black;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+ margin-right: 1rem;  
+ height: 100px;
+ width: 200px;
+ background: url('https://dabb7zy6p4b0z.cloudfront.net/nrholdings/hana-ridge-logo-square-300x300.png');
+ background-size: contain;
+ background-repeat: no-repeat; 
+}
