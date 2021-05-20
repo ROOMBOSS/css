@@ -1,0 +1,159 @@
+
+/*remove title*/
+.ui-title{
+	display: none;
+	visibility: hidden;
+}
+
+/*change header colour and size*/
+.ui-header.ui-bar-inherit {
+	background:url(https://dabb7zy6p4b0z.cloudfront.net/wapura/Jackalope.jpg) center no-repeat;
+	background-size: 100px;
+	background-color:rgba(86, 148, 205, 1);
+	height: 70px;
+	border-bottom-width:1px;
+	border-top-width:0px;
+	border-color:black;    	
+}
+
+/*page white and font*/
+body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
+  	font-family: Yu 'Open Sans',sans-serif;
+	font-weight: 100;
+ 	background: white!important;
+	color: black;
+	text-shadow: none;
+}
+
+
+/*expanadble areas on bpay and yourbooking*/
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-minus{
+	background-color: white;
+	color: black;
+	text-shadow: none; 
+	border-color: black;
+	border-radius: 0px;
+	border-width: 2px;
+}
+
+.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-icon-plus{
+	background-color: white;
+	color: rgba(86, 148, 205, 1);
+	text-shadow: none; 
+	border-color: rgba(86, 148, 205, 1);
+	border-radius: 0px; 
+	border-width: 2px;
+}
+
+/*your booking page footer*/
+.ui-footer.ui-bar-inherit{
+	background-color: rgba(86, 148, 205, 1)!important;
+	color: white!important;
+	text-shadow: none!important;
+	border:none!important;
+}
+
+/*ma page selector*/
+.ui-paginator-page.ui-btn-active.ui-btn{
+	color: #333!important;
+	text-shadow: none!important;
+	border:none!important;
+}
+
+/*your booking bars*/
+#base_page\3a postab_head > tr, #base_page\3a ttab_head > tr{
+	background-color: rgba(86, 148, 205, 1);
+	color: white;
+	text-shadow: none; 
+	border: none;
+	border-radius: 0px;   	
+}
+
+.ui-button-text.ui-c{
+	color: black !important;  	
+}
+
+.rb-header {
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/wow/Niseko-Wow-Logo.png");
+  background-color:rgba(86, 148, 205, 1);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+	background-size: 20vh;
+  border: none;  
+    height:100px;
+}
+
+/*order02*/
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-parent-cat-title,
+.rb-child-cat-title,
+.rb-prod-title,
+.rb-basket-title-pg,
+.rb-checkout-title{
+  color: #375d9d;
+}
+
+.rb-parent-cat-title:before,
+.rb-child-cat-title:before,
+.rb-prod-title:before,
+.rb-basket-title-pg:before,
+.rb-checkout-title:before {
+  color: #72d54a;
+}
+
+/* Category Image Selected*/
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+  box-shadow: 0 0 0px 6px #375d9d;
+}
+
+/* Lighter Desc Font */
+.rb-parent-cat-desc,
+.rb-child-cat-desc {
+  font-weight: normal;
+  color: #375d9d;
+}
+
+/* Basket Item Highlights */
+#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
+  background-color: #375d9d;
+  box-shadow: 2px -1 -1 #375d9d, -2px -1 -1 #375d9d;
+}
+
+
+#orderForm\:booknow {
+  background-color: #375d9d;
+  border: 1px solid #375d9d;
+}
+#orderForm\:booknow:hover {
+  background-color: #2a4777;
+  border: 1px solid #2a4777;
+}
+
+/* Lang and currency */
+#locform\:currencySelect_label,
+#locform\:languageSelect_label {
+  color: rgb(55, 93, 157);
+}
+
+/* Default Buttons */
+
+.ui-button.ui-widget.ui-state-default {
+  background-color: #72d54a;
+  border-color: #72d54a;
+}
+.ui-button.ui-widget.ui-state-hover {
+  background-color: #62d035;
+}
+
+/* Card title*/
+.rb-prod-desc-item:nth-child(1) label {
+    color:  #375d9d !important;
+}
