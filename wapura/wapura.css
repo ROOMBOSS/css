@@ -7,7 +7,7 @@
 
 /*change header colour and size*/
 .ui-header.ui-bar-inherit {
-	background:url(https://dabb7zy6p4b0z.cloudfront.net/wapura/Jackalope.jpg) center no-repeat;
+	background:url(https://dabb7zy6p4b0z.cloudfront.net/wapura/cropped-WapuraRusutsu_logo_Big_White.png) center no-repeat;
 	background-size: 100px;
 	background-color:rgba(86, 148, 205, 1);
 	height: 70px;
@@ -74,7 +74,7 @@ body, input, select, textarea, button, .ui-content, .ui-page-theme-a{
 }
 
 .rb-header {
-  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/wapura/Jackalope.jpg");
+  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/wapura/cropped-WapuraRusutsu_logo_Big_White.png");
   background-color:rgba(86, 148, 205, 1);
   background-repeat: no-repeat;
   background-position: 50% 50%;
