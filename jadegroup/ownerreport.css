@@ -18,6 +18,9 @@
     height: 120px !important;
   }
 }
+
+
+
 .rb-footer:before {
   background: linear-gradient(to bottom, #f9faf9, rgba(0, 0, 0, 0)), url(https://c1.staticflickr.com/2/1589/25491089481_ce179e5b14_b.jpg) 50% 50% no-repeat, linear-gradient(to bottom, #f9faf9, rgba(0, 0, 0, 0));
   background-size: cover;
@@ -76,17 +79,16 @@ a, .ui-select {
   width: 100%;
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  font-family: "EB Garamond", serif !important;
-  font-size: 1.5rem !important;
-  font-weight: 300 !important;
-  background-color: #fff !important;
+#base_page\:messagePanel > div.ui-panel-m-titlebar.ui-bar.ui-bar-inherit{
+    font-family: "EB Garamond", serif !important;
+    color: #f9f9f9 !important;
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+    text-align: center;
+    background-color:black
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
-  color: #333 !important;
-  font-weight: 600 !important;
-}
+
 
 /* Import font */
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
@@ -228,5 +230,3 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   background-color: #5c5a5a;
   border-color: #4f4d4d;
 }
-
-
