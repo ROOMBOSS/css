@@ -1,1 +1,18 @@
+/*logo update needed*/
 
+:root {
+  --primary-color: #9dcb41;
+  --accent-color: #777777;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 200px;
+  height: 100px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/hokkaidoeventsaccom/hokkaido-events-logo.png');
+  background-size: contain;
+ background-repeat: no-repeat; 
+
+}
