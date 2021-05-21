@@ -1,0 +1,16 @@
+:root {
+  --primary-color: #087ead   ;
+  --accent-color: #eebd29     ;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 200px;
+  height: 50px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/kailani/logo_color01.png');
+  background-size: contain;
+ background-repeat: no-repeat; 
+
+}
