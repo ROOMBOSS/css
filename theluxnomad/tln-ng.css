@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #ff9a00;
+  --accent-color: #625956;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  width: 180px;
+  height: 80px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/theluxnomad/TLNLogo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.date-range {
+  margin: auto !important;
+}
