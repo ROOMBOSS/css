@@ -4,7 +4,7 @@
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
-.search-bar-container,
+/*.search-bar-container,
 body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div{
  background-color: #000!important;
 }
@@ -15,7 +15,7 @@ body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-searc
   background-color: white!important;
   padding:5px;
   border-radius:5px;
-}
+}*/
 
 .search-logo {
  margin-right: 1rem;  
