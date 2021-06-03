@@ -19,9 +19,9 @@ body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-searc
 
 .search-logo {
  margin-right: 1rem;  
- height: 100px;
- width: 200px;
- background: url('http://www.morinolodge.com/wp-content/themes/morino/library/img/elements/morinologo.png');
+ height: 120px;
+ width: 100px;
+ background: url('https://dabb7zy6p4b0z.cloudfront.net/morino/morino_cropped.jpg');
  background-size: contain;
  background-repeat: no-repeat; 
 }
