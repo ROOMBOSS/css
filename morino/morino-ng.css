@@ -4,12 +4,23 @@
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
+.search-bar-container,
+body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div{
+ background-color: #000!important;
+}
+
+body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div > mat-form-field.mat-form-field.search-guests.ng-tns-c53-2.mat-primary.ng-tns-c82-0.mat-form-field-type-mat-select.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-has-label.ng-pristine.ng-valid.ng-star-inserted.mat-form-field-should-float.ng-touched > div,
+body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div > mat-form-field.mat-form-field.search-dates.ng-tns-c53-1.mat-primary.ng-tns-c82-0.mat-form-field-type-mat-date-range-input.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float.mat-form-field-has-label.mat-form-field-disabled.ng-pristine.ng-valid.ng-star-inserted.ng-touched > div{
+  background-color: white!important;
+  padding:5px;
+  border-radius:5px;
+}
 
 .search-logo {
  margin-right: 1rem;  
- height: 80px;
+ height: 100px;
  width: 200px;
- background: url('https://dabb7zy6p4b0z.cloudfront.net/morino/morino_cropped.jpg');
+ background: url('http://www.morinolodge.com/wp-content/themes/morino/library/img/elements/morinologo.png');
  background-size: contain;
  background-repeat: no-repeat; 
 }
