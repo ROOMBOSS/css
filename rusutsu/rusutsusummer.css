@@ -28,7 +28,7 @@ html[lang="ja"] [id*=address2lbl] {
   display: none; }
 
 html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:before {
-  content: "フリガナ（姓名）"; }
+  content: "フリガナ（姓名）*"; }
 
 html[lang="en"] [id*=address2pg]{
   display: none; }
