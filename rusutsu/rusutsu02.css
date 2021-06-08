@@ -32,32 +32,6 @@
   color: #9e8053;
 }
 
-/* Furigana_address2 */
-.rb-guest-basic-information {
-  display: flex;
-  flex-direction: column; }
-
-.rb-guest-basic-information > .flex-container {
-  order: 1; }
-
-html[lang="ja"] .rb-guest-basic-information > div:nth-child(1) {
-  order: 0; }
-
-html[lang="ja"] .rb-guest-basic-information > div:nth-child(2) {
-  order: 0; }
-
-html[lang="ja"] [id*=address2pg] {
-  order: 0; }
-
-html[lang="ja"] [id*=address2lbl] {
-  display: none; }
-
-html[lang="ja"] [id*=address2pg] > .flex-item:first-of-type:before {
-  content: "フリガナ（姓名）*"; }
-
-html[lang="en"] [id*=address2pg]{
-  display: none; }
-
 /* Category Image Selected*/
 .rb-parent-cat-container .rb-parent-cat-sel a img,
 .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
