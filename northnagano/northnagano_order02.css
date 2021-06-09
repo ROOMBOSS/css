@@ -91,3 +91,32 @@
     color: #555555 !important;
 }
 
+/* Remove Group Members */
+.rb-my-group, .rb-my-booking, .rb-guests-pg,
+#orderForm\:itemdtchkout_data > tr > td > [id*=member],
+#orderForm\:itemdtchkout_data > tr > td > [id*=guestsselpg] {
+  display: none;
+}
+
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.rb-header {
+  background-image: url("https://nisekogreenfarm.com/assets/img/ngf-logo-green.png"), url("https://dabb7zy6p4b0z.cloudfront.net/greenfarm/veggies2.jpg");
+  background-color: #FFFFFF !important;
+  background-repeat: no-repeat;
+  background-position: center center, center 30%;
+  background-size: 200px, cover;
+  border: none;
+  height: 150px !important;
+  border-bottom: 0;
+}
+
+.rb-header-title {
+  display: none;
+}
+
+.rb-header-title {
+  font-family: "Noto Sans JP", sans-serif;
+}
