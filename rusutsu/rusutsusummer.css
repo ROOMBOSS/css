@@ -123,3 +123,7 @@ html[lang="en"] [id*=address2pg]{
 .rb-prod-desc-item:nth-child(1) label {
     color: #0f69b5 !important;
 }
+
+.ui-header.ui-bar-inherit h1.ui-title{
+	display:none;
+}
