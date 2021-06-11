@@ -16,3 +16,11 @@
     background-position: center;
     border-radius: 12px;
 }
+.mobile-search-logo {
+  display: block !important;
+  background: url(https://dabb7zy6p4b0z.cloudfront.net/ui/demo/demologo.png); 
+  background-color: #1e73be;
+  background-position: center 1px;
+  background-size: 54px !important;
+  border-radius: 6px;
+}
