@@ -1,6 +1,6 @@
 :root {
   --primary-color: #3388cc;
-  --accent-color: #3388cc;
+  --accent-color: #8BC6EC;
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
@@ -8,11 +8,11 @@
 .search-logo {
     margin-right: 1rem;
     height: 80px;
-    width: 120px;
+    width: 81px;
     background: url(https://dabb7zy6p4b0z.cloudfront.net/ui/demo/demologo.png);
     background-color: #1e73be;
-    background-size: contain;
+    background-size: 66px;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 20px
+    border-radius: 12px;
 }
