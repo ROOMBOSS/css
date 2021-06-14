@@ -409,8 +409,6 @@ tbody > tr > td li {
 }
 
 
-
-
 #base_page\:statementExtentMenu > div.ui-navbar,
 #base_page\:statementExtentMenu\:overviewPanel,
 #base_page\:statementExtentMenu\:otherIncomePanel,
@@ -420,7 +418,23 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:ownerDepositsPanel,
 #base_page\:statementExtentMenu\:ownerWithdrawalsPanel,
 #base_page\:statementExtentMenu\:allocTable\:0\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td:nth-child(7){
-  display:NONE;
+#base_page\:statementExtentMenu\:allocTable\:0\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:1\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:1\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:2\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:2\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:3\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:3\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:4\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:4\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:5\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:5\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:6\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:6\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:7\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:7\:allocExpenseList
+{
+display:NONE;
 
 }
+
