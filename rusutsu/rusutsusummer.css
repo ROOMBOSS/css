@@ -48,6 +48,7 @@ html[lang="en"] [id*=address2pg]{
   display: none;
 }
 
+.rb-vendor-title,
 .rb-parent-cat-title,
 .rb-child-cat-title,
 .rb-prod-title,
