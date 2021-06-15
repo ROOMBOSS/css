@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #009EE8 ;
+  --accent-color: #27AA3B  ;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+  margin-right: 1rem;
+  width: 200px;
+  height: 80px;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/midtown/midtown-niseko-logo.png');
+  background-size: 90px;
+  background-repeat: no-repeat; 
+}
