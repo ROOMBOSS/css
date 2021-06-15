@@ -295,13 +295,13 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 }
 /* Paginator */
 .ui-page-theme-a .ui-btn.ui-btn-active, html .ui-bar-a .ui-btn.ui-btn-active {
-  background-color: #663333;
-  border-color: #663333;
+  background-color: #625956;
+  border-color: #625956;
   color: #fff !important;
 }
 
 .fa-file-excel-o.ui-btn, #base_page\:periodselectorform\:gotobutt {
-  background-color: #663333 !important;
+  background-color: #625956 !important;
   color: #fff;
   border: none !important;
 }
