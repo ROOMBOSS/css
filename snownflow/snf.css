@@ -298,36 +298,44 @@ div.ui-block-a:nth-child(9) {
 }
 
 /* CN Only Hide */
-[lang="zh"]	#base_page\:neworderform\:customerTable\:gfnl > span:nth-child(1),
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:gfnl > span:nth-child(1),
+[lang="zh"]	#base_page\:neworderform\:customerTable\:gfnl_s > span:nth-child(1),
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:gfnl_s > span:nth-child(1),
 [lang="zh"]	#base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:glnl > span:nth-child(1){
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
+[lang="zh"] #base_page\:neworderform\:customerTable\:geml > span:nth-child(1),
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:geml > span:nth-child(1){
 	display: none;
 }
 @media(max-width:561px) {
 [lang="zh"]	#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
-[lang="zh_cn"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
+[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
 [lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1),
-[lang="zh_cn"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1) {
+[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1),
+[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3) > b:nth-child(1),
+[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3) > b:nth-child(1) {
 		display: none;
 	}
 }
 /* ---- Trad CN ---- */
-/* Fname */
-[lang="zh"] #base_page\:neworderform\:customerTable\:gfnl:after {
-	content: "名字";
+/* Fname --> Mobile */
+[lang="zh"] #base_page\:neworderform\:customerTable\:gfnl_s:after {
+	content: "手機號碼";
 }
 /* Sname */
 [lang="zh"] #base_page\:neworderform\:customerTable\:glnl:after {
-	content: "姓氏";
+	content: "姓名";
 }
-/* Tel */
+/* Email */
+[lang="zh"] #base_page\:neworderform\:customerTable\:geml:after {
+	content: "電郵信箱";
+}
+/* Tel --> Contact ID*/
 [lang="zh"] #base_page\:neworderform\:customerTable\:gphl:after {
-	content: "即時聯絡ID 或 手提號碼";
+	content: "通訊軟體帳號 ID";
 }
 /* Ref */
 [lang="zh"] #base_page\:neworderform\:customIdTable\:customIdl:after {
-	content: "請問您是從那裡找到我們的？";
+	content: "請問您從什麼管道知道雪浪的呢?";
 }
 
 [lang="zh"] #base_page\:orderedpan > p:nth-child(2):after{
@@ -341,74 +349,94 @@ div.ui-block-a:nth-child(9) {
 }
 /* -- Mobile -- */
 @media(max-width:561px) {
-/* Fname */
-	[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1):before {
-	content: "名字";
-	font-weight: bold;
-}
 /* Sname */
-	[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2):before {
-	content: "姓氏";
+	[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "姓名";
 	font-weight: bold;
 }
-/* Tel */
+/* Fname -> Mobile */
+	[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2):before {
+	content: "手機號碼";
+	font-weight: bold;
+}
+/* Email */
+    [lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3):before {
+	content: "電郵信箱";
+	font-weight: bold;    	
+}
+/* Tel --> contact ID*/
 	[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
-	content: "即時聯絡ID 或 手提號碼";
+	content: "通訊軟體帳號 ID";
 	font-weight: bold;
 }
 /* Ref */
 	[lang="zh"] #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
-	content: "請問您是從那裡找到我們的？";
+	content: "請問您從什麼管道知道雪浪的呢?";
 	font-weight: bold;
 }
 }
 
 /* ---- Simp CN ---- */
-/* Fname */
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:gfnl:after {
-	content: "名字";
+/* Fname -> Mobile */
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:gfnl_s:after {
+	content: "手机号码";
 }
 /* Sname */
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:glnl:after {
-	content: "姓氏";
-}
-/* Tel */
-[lang="zh_cn"] #base_page\:neworderform\:customerTable\:gphl:after {
-	content: "即时联络帐号 或 手提号码";
-}
-/* Ref */
-[lang="zh_cn"] #base_page\:neworderform\:customIdTable\:customIdl:after {
-	content: "请问您是从那里找到我们的？";
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:glnl:after {
+	content: "姓名";
 }
 
-[lang="zh_cn"] #base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
+/* Email */
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:geml:after {
+	content: "电邮信箱";
+}
+
+/* Tel -> contact ID */
+[lang="zh_CN"] #base_page\:neworderform\:customerTable\:gphl:after {
+	content: "通讯软件帐号 ID";
+}
+/* Ref */
+[lang="zh_CN"] #base_page\:neworderform\:customIdTable\:customIdl:after {
+	content: "请问您从什么管道得知雪浪的呢?";
+}
+
+[lang="zh_CN"] #base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
 	content: "謝謝您聯繫雪浪！我們已收到您的詢問，並會依造詢問順序在48小時內與您電郵回覆聯繫預約內容是否可以為您安排。同時我們已寄出一封系統自動信至您的信箱，若是您在五分鐘內沒有收到的話也請確認您的垃圾信件夾，謝謝您！";
 }
 
 /* Req */
-[lang="zh_cn"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
+[lang="zh_CN"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
 	content: "请告诉雪浪您的滑雪经验，目标或兴趣範围，例如黑线／松雪等。另外对旅程有问题也欢迎提出。";
 }
 /* -- Mobile -- */
 @media(max-width:561px) {
-/* Fname */
-	[lang="zh_cn"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1):before {
-	content: "名字";
-	font-weight: bold;
-}
 /* Sname */
-	[lang="zh_cn"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2):before {
-	content: "姓氏";
+	[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "姓名";
 	font-weight: bold;
 }
-/* Tel */
-	[lang="zh_cn"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
-	content: "即时联络帐号 或 手提号码";
+
+/* Fname --> Mobile  */
+	[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2):before {
+	content: "手机号码";
+	font-weight: bold;
+}
+
+/* Email */
+    [lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3):before {
+	content: "电邮信箱";
+	font-weight: bold;    	
+}
+
+
+/* Tel --> Contact ID*/
+	[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
+	content: "通讯软件帐号 ID";
 	font-weight: bold;
 }
 /* Ref */
-[lang="zh_cn"] #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
-	content: "请问您是从那里找到我们的？";
+[lang="zh_CN"] #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "请问您从什么管道得知雪浪的呢?";
 	font-weight: bold;
 }
 }
