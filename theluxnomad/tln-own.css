@@ -413,7 +413,7 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:allocTable\:j_idt606,
 #base_page\:statementExtentMenu\:allocTable_foot > tr > td:nth-child(7),
 #base_page\:statementExtentMenu\:allocTable_foot > tr > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable\:0\:checkOutNotTransferredPanel,
+/*#base_page\:statementExtentMenu\:allocTable\:0\:checkOutNotTransferredPanel,
 #base_page\:statementExtentMenu\:allocTable\:1\:checkOutNotTransferredPanel,
 #base_page\:statementExtentMenu\:allocTable\:2\:checkOutNotTransferredPanel,
 #base_page\:statementExtentMenu\:allocTable\:3\:checkOutNotTransferredPanel,
@@ -444,7 +444,7 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:allocTable\:28\:checkOutNotTransferredPanel,
 #base_page\:statementExtentMenu\:allocTable\:29\:checkOutNotTransferredPanel,
 #base_page\:statementExtentMenu\:allocTable\:30\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:31\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:31\:checkOutNotTransferredPanel,*/
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td:nth-child(7),
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td:nth-child(8),
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(2) > td:nth-child(7),
@@ -508,7 +508,7 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(31) > td:nth-child(7),
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(31) > td:nth-child(8)
 {
-display:NONE;
+display:none;
 
 }
 
@@ -520,10 +520,10 @@ display:NONE;
 #base_page\:statementExtentMenu\:allocTable\:j_idt587 > span{
  display:none;
 }
-
+/*
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td.centered,
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(2) > td.centered,
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(3) > td.centered,
 #base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(4) > td.centered{
   display:none;
-}
+}*/
