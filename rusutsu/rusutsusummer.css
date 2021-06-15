@@ -56,6 +56,7 @@ html[lang="en"] [id*=address2pg]{
   color: #0f69b5;
 }
 
+.rb-vendor-title:before,
 .rb-parent-cat-title:before,
 .rb-child-cat-title:before,
 .rb-prod-title:before,
