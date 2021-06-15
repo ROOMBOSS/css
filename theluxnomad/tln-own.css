@@ -325,6 +325,17 @@ tbody > tr > td li {
   display: none;
 }
 
+#base_page\:statementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit{
+  padding:0!important;
+}
+
+#base_page\:statementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit > p:nth-child(1){
+  display:none;
+}
+
+#base_page\:statementExtentMenu\:futureAllocationsPanel\:disclaimerNote{
+  padding-left:10px;
+}
 
 #base_page\:statementExtentMenu > div.ui-navbar,
 #base_page\:statementExtentMenu\:overviewPanel,
@@ -349,10 +360,101 @@ tbody > tr > td li {
 #base_page\:statementExtentMenu\:allocTable\:6\:allocIncomeList,
 #base_page\:statementExtentMenu\:allocTable\:6\:allocExpenseList,
 #base_page\:statementExtentMenu\:allocTable\:7\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:7\:allocExpenseList
+#base_page\:statementExtentMenu\:allocTable\:7\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:8\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:8\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:9\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:9\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:10\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:10\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:11\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:11\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:12\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:12\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:13\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:13\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:14\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:14\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:15\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:15\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:16\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:16\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:17\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:17\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:18\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:18\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:19\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:19\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:20\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:20\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:21\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:21\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:22\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:22\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:23\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:23\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:24\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:24\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:25\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:25\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:26\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:26\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:27\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:27\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:28\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:28\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:29\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:29\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:30\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:30\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:31\:allocIncomeList,
+#base_page\:statementExtentMenu\:allocTable\:31\:allocExpenseList,
+#base_page\:statementExtentMenu\:allocTable\:j_idt598,
+#base_page\:statementExtentMenu\:allocTable\:j_idt606,
+#base_page\:statementExtentMenu\:allocTable_foot > tr > td:nth-child(7),
+#base_page\:statementExtentMenu\:allocTable_foot > tr > td:nth-child(8),
+#base_page\:statementExtentMenu\:allocTable\:0\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:1\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:2\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:3\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:4\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:5\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:6\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:7\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:8\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:9\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:10\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:11\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:12\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:13\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:14\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:15\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:16\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:17\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:18\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:19\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:20\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:21\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:22\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:23\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:24\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:25\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:26\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:27\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:28\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:29\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:30\:checkOutNotTransferredPanel,
+#base_page\:statementExtentMenu\:allocTable\:31\:checkOutNotTransferredPanel
 {
 display:NONE;
 
 }
 
 
+#base_page\:statementExtentMenu\:allocTable\:j_idt587::before{
+  content:"Gross";  
+}
+
+#base_page\:statementExtentMenu\:allocTable\:j_idt587 > span{
+ display:none;
+}
