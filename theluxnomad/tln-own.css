@@ -3,20 +3,17 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.rb-header:before {
-  content: "Demo Company | Demo Location";
-  color: #fff;
-  text-shadow: none;
-  text-align: center;
-  text-transform: uppercase;
-  width: 100%;
-  display: block;
-  position: relative;
-  top: calc(50% - 12px);
-  font-family: "EB Garamond", serif;
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.125em;
+.ui-header.ui-bar-inherit {
+	background-color: #625956;
+   	border-width: 0;
+    	margin-bottom: 0;
+    	min-height: 100px;
+    	padding-top: 1em;
+	background: #625956
+		url("https://dabb7zy6p4b0z.cloudfront.net/theluxnomad/TLNLogo.jpg")
+		no-repeat;
+	background-position: 22%;
+	background-size: 220px;
 }
 
 @media (max-width: 600px) {
@@ -47,19 +44,7 @@
 }
 
 #base_page\:locform\:languageSelect_input-button {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-
-#base_page\:locform\:languageSelect_input-button span {
-  color: #b6b6b6 !important;
-  -webkit-transition: ease-in-out 200ms;
-  transition: ease-in-out 200ms;
-}
-
-#base_page\:locform\:languageSelect_input-button:hover span {
-  color: #fff !important;
+display:none;
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3, a, .ui-select div, button {
@@ -79,35 +64,34 @@ a, .ui-select {
   font-weight: 300;
 }
 
-.ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #282828 !important;
-}
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
   font-family: "EB Garamond", serif !important;
   color: #f9f9f9 !important;
+  background-color :#625956;
   font-size: 1.5rem !important;
   font-weight: 300 !important;
   text-align: center;
   width: 100%;
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
+#base_page\:messagePanel ui-panel-m-titlebar ui-bar ui-bar-inherit {
   font-family: "EB Garamond", serif !important;
   font-size: 1.5rem !important;
   font-weight: 300 !important;
   background-color: #fff !important;
 }
 
-#base_page\:messagePanel .ui-panel-m-titlebar.ui-bar.ui-bar-inherit h3 {
-  color: #333 !important;
+.ui-panel-m-titlebar ui-bar ui-bar-inherit {
+  color: #fff !important;
+  background-color:#625956!important;
   font-weight: 600 !important;
 }
 
 /* Import font */
 body, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-collapsible-heading a, .ui-collapsible-inset .ui-collapsible-heading .ui-btn {
   font-family: "Open Sans", sans-serif;
-  background: #aaa;
+  background: #625956;
   text-shadow: none;
   color: #fff;
   -webkit-transition: ease-in-out 200ms;
@@ -118,13 +102,6 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 }
 
 
-/* Header bar */
-.ui-header.ui-bar-inherit {
-  background: #282828 no-repeat center;
-  background-size: 100px, cover, cover;
-  border: none;
-  height: 54px;
-}
 
 @media (max-width: 600px) {
   .ui-header.ui-bar-inherit {
@@ -145,7 +122,7 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
 
 /* Non-Accordion Panels */
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background: #aaa;
+  background: #625956;
   color: #fff;
   font-family: "Open Sans", sans-serif;
   text-shadow: none;
@@ -155,16 +132,8 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   color: #5c5a5a !important;
 }
 
-/* Request Panel */
-[id*=requestPanel] .ui-panel-m-titlebar.ui-bar.ui-bar-inherit {
-  background-color: #e0e0e0 !important;
-  color: #5c5a5a !important;
-}
 
-/* Icon and header colors */
-.rb-avail-roomtype, .ui-column-title, .fa-user:before, .fa-bed:before, .fa-bath:before, #base_page\:vform\:customertable .ui-grid-a {
-  color: #292828 !important;
-}
+
 
 .fa:before {
   font-weight: 400;
@@ -212,51 +181,6 @@ body:hover, .ui-collapsible-themed-content:not(.ui-collapsible-collapsed) > .ui-
   }
 }
 
-/* Enquiry button colour */
-.rbn-sendenquiry-button, #base_page\:locform\:currencySelect_input-button, #base_page\:locform\:languageSelect_input-button, #base_page\:back,
-#base_page\:backButton, #base_page\:neworderform\:saveorderbutt, #base_page\:resultsform\:vform\:but, #base_page\:neworderform\:addItemsLink, #base_page\:selectvendorform\:searchButton {
-  background-color: #282828 !important;
-  font-family: "Open Sans", sans-serif !important;
-  color: #fff !important;
-  border-radius: 5px !important;
-  border: 1px solid rgba(0, 0, 0, 0) !important;
-  text-transform: none;
-  font-weight: 400 !important;
-  text-shadow: none !important;
-}
-.rbn-sendenquiry-button:hover, #base_page\:locform\:currencySelect_input-button:hover, #base_page\:locform\:languageSelect_input-button:hover, #base_page\:back:hover,
-#base_page\:backButton:hover, #base_page\:neworderform\:saveorderbutt:hover, #base_page\:resultsform\:vform\:but:hover, #base_page\:neworderform\:addItemsLink:hover, #base_page\:selectvendorform\:searchButton:hover {
-  background-color: #353535 !important;
-}
-
-/* Book and Pay button colour */
-#base_page\:vform\:reservationConditionButt, #base_page\:searchform\:searchButton, #base_page\:vform\:searchButton, #base_page\:resultsform\:vform\:booknpay,
-.ui-btn.ui-input-btn, .fa-file-excel-o.ui-btn, .rbn-more-info-button {
-  background-color: #282828 !important;
-  font-family: "Open Sans", sans-serif !important;
-  color: #fff !important;
-  border-radius: 5px !important;
-  border: 1px solid rgba(0, 0, 0, 0) !important;
-  text-transform: none;
-  font-weight: 400 !important;
-  text-shadow: none !important;
-}
-#base_page\:vform\:reservationConditionButt:hover, #base_page\:searchform\:searchButton:hover, #base_page\:vform\:searchButton:hover, #base_page\:resultsform\:vform\:booknpay:hover,
-.ui-btn.ui-input-btn:hover, .fa-file-excel-o.ui-btn:hover, .rbn-more-info-button:hover {
-  background-color: #353535 !important;
-}
-
-button.ui-btn, #base_page\:locform\:currencySelect_input-button,
-#base_page\:locform\:languageSelect_input-button {
-  text-shadow: none !important;
-  -webkit-transition: ease-in-out 200ms;
-  transition: ease-in-out 200ms;
-}
-
-#base_page\:locform\:currencySelect > .ui-select,
-#base_page\:locform\:languageSelect > .ui-select {
-  margin: 1em 0.175em;
-}
 
 #base_page\:locform > .ui-btn-right {
   right: -0.2em !important;
@@ -267,13 +191,6 @@ button.ui-btn, #base_page\:locform\:currencySelect_input-button,
   padding: 0.5em !important;
 }
 
-/* Select Dates Padding */
-[id*=date-select-pan] > div.ui-panel-m-content.ui-body.ui-body-inherit {
-  padding: 0.5em !important;
-  outline: none !important;
-  text-shadow: none !important;
-  box-shadow: none !important;
-}
 
 [id*=date-select-pan] > div > div > .ui-block-a {
   padding-right: 0.5em;
@@ -437,4 +354,5 @@ tbody > tr > td li {
 display:NONE;
 
 }
+
 
