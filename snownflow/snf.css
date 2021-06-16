@@ -272,7 +272,7 @@ div.ui-block-a:nth-child(9) {
 }
 
 #base_page\:orderedpan > p:nth-child(2):after{
-	content: "Thank you for contacting SnF! We've received your enquiry and we'll get back to you within the next 48 hours by email. Thank you for your patience as we take time to reply each email by the order we've received them. There should also be another automatic email to your account and if it hasn't arrived within the next 5 minutes, please also check your junk mail box. Otherwise, please contact us again. Thank you!";
+	content: "Thank you for contacting SnF! We've received your enquiry and sent an automatic email to your account. If it hasn't arrived within the next 5 minutes please check your spam folder or email us directly at lesson@snowandflow.com. We look forward to seeing you soon in Niseko!";
 	    font-size: 12px;
 }
 
@@ -339,7 +339,7 @@ div.ui-block-a:nth-child(9) {
 }
 
 [lang="zh"] #base_page\:orderedpan > p:nth-child(2):after{
-	content: "謝謝您聯繫雪浪！我們已收到您的詢問，並會依造詢問順序在48小時內與您電郵回覆聯繫預約內容是否可以為您安排。同時我們已寄出一封系統自動信至您的信箱，若是您在五分鐘內沒有收到的話也請確認您的垃圾信件夾，謝謝您！";
+	content: "謝謝您聯繫雪浪！我們已收到您的詢問，並已寄出一封系統自動信至您的信箱，若您在五分鐘內沒有收到的話請協助確認您的垃圾信件夾，若還是未收到請直接電郵至lesson@snowandflow.com，我們期待很快可以在二世古與您見面！";
 }
 
 
@@ -401,7 +401,7 @@ div.ui-block-a:nth-child(9) {
 }
 
 [lang="zh_CN"] #base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
-	content: "謝謝您聯繫雪浪！我們已收到您的詢問，並會依造詢問順序在48小時內與您電郵回覆聯繫預約內容是否可以為您安排。同時我們已寄出一封系統自動信至您的信箱，若是您在五分鐘內沒有收到的話也請確認您的垃圾信件夾，謝謝您！";
+	content: "谢谢您联系雪浪！我们已收到您的询问，并已寄出一封系统自动信至您的信箱，若您在五分钟内没有收到的话请协助确认您的垃圾信件夹，若还是未收到请直接电邮至lesson@snowandflow.com，我们期待很快可以在二世古与您见面！";
 }
 
 /* Req */
