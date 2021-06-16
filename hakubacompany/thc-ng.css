@@ -9,7 +9,14 @@
  margin-right: 1rem;  
  height: 80px;
  width: 200px;
- background: url('https://thehakubacompany.com/assets/svg/thc-logo.svg');
+ background: url('https://dabb7zy6p4b0z.cloudfront.net/hakubacompany/thc-logo.png');
  background-size: contain;
  background-repeat: no-repeat; 
 }
+
+
+.mobile-search-logo {
+  display: block !important;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/hakubacompany/thc-logo.png');  
+}
+
