@@ -76,6 +76,7 @@ html[lang="en"] [id*=address2pg]{
 }
 
 /* Lighter Desc Font */
+.rb-vendor-desc,
 .rb-parent-cat-desc,
 .rb-child-cat-desc {
   font-weight: normal;
