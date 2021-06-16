@@ -16,3 +16,8 @@
  background-repeat: no-repeat; 
 
 }
+
+.mobile-search-logo {
+  display: block !important;
+  background: url('https://dabb7zy6p4b0z.cloudfront.net/jadegroup/amber-resort.png');  
+}
