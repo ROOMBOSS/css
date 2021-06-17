@@ -345,7 +345,7 @@ tbody > tr > td li {
 
 /*account overview*/
 [id*="overviewPanel"]{
-	display:none;
+	display:none!important;
 }
 
 
@@ -362,27 +362,36 @@ tbody > tr > td li {
 [id*="otherExpensesPanel"],
 [id*="ownerWithdrawalsPanel"],
 [id*="ownerDepositsPanel"]{
-	display:none;
+	display:none!important;
 }
 
 /*Download Link*/
 [id*="downloadForm"]{
-  display:none;
+  display:none!important;
 } 
 
 /*SINGLE PROPERTY HIDE ITEMS*/
 
-/*MULTI PROPERTY HIDE ITEMS*/
+/*single multi month selector*/
+#base_page\:statementExtentMenu > div.ui-navbar{
+	display:none!important;
+}
 
+/*bookings columns*/
+#base_page\:statementExtentMenu\:allocTable_data > tr > td.centered{
+	display:none!important;
+}
+
+/*MULTI PROPERTY HIDE ITEMS*/
 
 /*links to child reports */
 [id*="ownerStatementLink"]{
-  display:none;
+  display:none!important;
 } 
 
 /*single multi month selector*/
 #base_page\:multiStatementExtentMenu > div.ui-navbar{
-	display:none;
+	display:none!important;
 }
 
 /*bookings columns*/
