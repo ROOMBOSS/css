@@ -325,15 +325,18 @@ tbody > tr > td li {
   display: none;
 }
 
-#base_page\:statementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit{
+#base_page\:statementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit,
+#base_page\:multiStatementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit{
   padding:0!important;
 }
 
-#base_page\:statementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit > p:nth-child(1){
+#base_page\:statementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit > p:nth-child(1),
+#base_page\:multiStatementExtentMenu\:futureAllocationsPanel\:futureHeldDatesHeader > div.ui-collapsible-content.ui-body-inherit > p:nth-child(1){
   display:none;
 }
 
-#base_page\:statementExtentMenu\:futureAllocationsPanel\:disclaimerNote{
+#base_page\:statementExtentMenu\:futureAllocationsPanel\:disclaimerNote,
+#base_page\:multiStatementExtentMenu\:futureAllocationsPanel\:disclaimerNote{
   padding-left:10px;
 }
 
@@ -343,6 +346,15 @@ tbody > tr > td li {
 /*account overview*/
 [id*="overviewPanel"]{
 	display:none;
+}
+
+
+/*bookings area*/
+[id*="nextPeriodPanel"],
+[id*="checkOutNotTransferredPanel"],
+[id*="allocTable_foot"],
+[class*="ui-column-header monetaryColumn"]{
+	display:none!important;
 }
 
 /*Account entries*/
@@ -361,6 +373,8 @@ tbody > tr > td li {
 /*SINGLE PROPERTY HIDE ITEMS*/
 
 /*MULTI PROPERTY HIDE ITEMS*/
+
+
 /*links to child reports */
 [id*="ownerStatementLink"]{
   display:none;
@@ -369,4 +383,9 @@ tbody > tr > td li {
 /*single multi month selector*/
 #base_page\:multiStatementExtentMenu > div.ui-navbar{
 	display:none;
+}
+
+/*bookings columns*/
+#base_page\:multiStatementExtentMenu\:allocTable_data > tr > td.centered{
+	display:none!important;
 }
