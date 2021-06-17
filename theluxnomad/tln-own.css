@@ -337,199 +337,36 @@ tbody > tr > td li {
   padding-left:10px;
 }
 
-#base_page\:statementExtentMenu > div.ui-navbar,
-#base_page\:statementExtentMenu\:overviewPanel,
-#base_page\:statementExtentMenu\:otherIncomePanel,
-#base_page\:statementExtentMenu\:otherExpensesPanel,
-#base_page\:statementExtentMenu\:rollingBalance1AccountPanel,
-#base_page\:statementExtentMenu\:downloadForm\:j_idt718,
-#base_page\:statementExtentMenu\:ownerDepositsPanel,
-#base_page\:statementExtentMenu\:ownerWithdrawalsPanel,
-#base_page\:statementExtentMenu\:allocTable\:0\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:0\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:1\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:1\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:2\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:2\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:3\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:3\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:4\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:4\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:5\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:5\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:6\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:6\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:7\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:7\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:8\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:8\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:9\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:9\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:10\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:10\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:11\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:11\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:12\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:12\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:13\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:13\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:14\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:14\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:15\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:15\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:16\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:16\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:17\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:17\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:18\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:18\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:19\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:19\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:20\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:20\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:21\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:21\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:22\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:22\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:23\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:23\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:24\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:24\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:25\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:25\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:26\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:26\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:27\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:27\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:28\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:28\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:29\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:29\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:30\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:30\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:31\:allocIncomeList,
-#base_page\:statementExtentMenu\:allocTable\:31\:allocExpenseList,
-#base_page\:statementExtentMenu\:allocTable\:j_idt598,
-#base_page\:statementExtentMenu\:allocTable\:j_idt606,
-#base_page\:statementExtentMenu\:allocTable\:j_idt547,
-#base_page\:statementExtentMenu\:allocTable\:j_idt558,
-#base_page\:statementExtentMenu\:allocTable\:j_idt566,
-#base_page\:statementExtentMenu\:allocTable_foot,
-#base_page\:statementExtentMenu\:allocTable\:0\:j_idt550,
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td:nth-child(6),
-#base_page\:statementExtentMenu\:allocTable_foot > tr > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_foot > tr > td:nth-child(8),
-*#base_page\:statementExtentMenu\:allocTable\:0\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:1\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:2\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:3\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:4\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:5\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:6\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:7\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:8\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:9\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:10\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:11\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:12\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:13\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:14\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:15\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:16\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:17\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:18\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:19\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:20\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:21\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:22\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:23\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:24\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:25\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:26\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:27\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:28\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:29\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:30\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable\:31\:checkOutNotTransferredPanel,
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(2) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(2) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(3) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(3) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(4) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(4) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(5) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(5) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(6) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(6) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(7) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(7) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(8) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(8) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(9) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(9) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(10) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(10) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(11) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(11) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(12) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(12) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(13) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(13) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(14) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(14) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(15) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(15) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(16) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(16) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(17) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(17) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(18) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(18) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(19) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(19) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(20) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(20) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(21) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(21) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(22) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(22) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(23) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(23) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(24) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(24) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(25) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(25) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(26) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(26) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(27) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(27) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(28) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(28) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(29) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(29) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(30) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(30) > td:nth-child(8),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(31) > td:nth-child(7),
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(31) > td:nth-child(8)
-{
-display:none;
 
+/*BOTH REPORTS HIDE ITEMS*/
+
+/*account overview*/
+[id*="overviewPanel"]{
+	display:none;
 }
 
-
-#base_page\:statementExtentMenu\:allocTable\:j_idt587::before{
-  content:"Gross";    
+/*Account entries*/
+[id*="otherIncomePanel"],
+[id*="otherExpensesPanel"],
+[id*="ownerWithdrawalsPanel"],
+[id*="ownerDepositsPanel"]{
+	display:none;
 }
 
-#base_page\:statementExtentMenu\:allocTable\:j_idt587 > span{
- display:none;
-}
-
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(1) > td.centered,
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(2) > td.centered,
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(3) > td.centered,
-#base_page\:statementExtentMenu\:allocTable_data > tr:nth-child(4) > td.centered{
+/*Download Link*/
+[id*="downloadForm"]{
   display:none;
+} 
+
+/*SINGLE PROPERTY HIDE ITEMS*/
+
+/*MULTI PROPERTY HIDE ITEMS*/
+/*links to child reports */
+[id*="ownerStatementLink"]{
+  display:none;
+} 
+
+/*single multi month selector*/
+#base_page\:multiStatementExtentMenu > div.ui-navbar{
+	display:none;
 }
