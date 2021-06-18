@@ -254,14 +254,8 @@ div.ui-block-a:nth-child(9) {
 	display: none;
 }
 /* ---- EN ---- */
-/* Tel */
-#base_page\:neworderform\:customerTable\:gphl:after {
-	content: "Contact ID or Mobile";
-}
-/* Ref */
-#base_page\:neworderform\:customIdTable\:customIdl:after {
-	content: "How did you hear about us?";
-}
+
+
 /* Req */
 #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
 	content: "Please tell SnF your ski/board experience and your goals or areas of interests.";
@@ -273,7 +267,32 @@ div.ui-block-a:nth-child(9) {
 
 #base_page\:orderedpan > p:nth-child(2):after{
 	content: "Thank you for contacting SnF! We've received your enquiry and sent an automatic email to your account. If it hasn't arrived within the next 5 minutes please check your spam folder or email us directly at lesson@snowandflow.com. We look forward to seeing you soon in Niseko!";
-	    font-size: 12px;
+	font-size: 12px;
+}
+
+/* Fname --> Mobile */
+[lang="en"] #base_page\:neworderform\:customerTable\:gfnl:after {
+	content: "Mobile";
+}
+/* Sname */
+[lang="en"] #base_page\:neworderform\:customerTable\:glnl:after {
+	content: "Full Name";
+}
+/* Email */
+[lang="en"] #base_page\:neworderform\:customerTable\:geml:after {
+	content: "Email";
+}
+/* Tel --> Contact ID*/
+[lang="en"] #base_page\:neworderform\:customerTable\:gphl:after {
+	content: "Contact ID";
+}
+/* Ref */
+[lang="en"] #base_page\:neworderform\:customIdTable\:customIdl:after {
+	content: "How did you hear about us?";
+}
+
+[lang="en"] #base_page\:orderedpan > p:nth-child(2):after{
+	content: "Please tell SnF your ski/board experience and your goals or areas of interests.";
 }
 
 
@@ -297,22 +316,51 @@ div.ui-block-a:nth-child(9) {
 }
 }
 
+/* -- Mobile -- */
+@media(max-width:561px) {
+/* Sname -> Mobile */
+	[lang="en"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "Mobile";
+	font-weight: bold;
+}
+/* Sname -> Mobile */
+	[lang="en"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2):before {
+	content: "Full Name";
+	font-weight: bold;
+}
+/* Email */
+    [lang="en"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3):before {
+	content: "Email";
+	font-weight: bold;    	
+}
+/* Tel --> contact ID*/
+	[lang="en"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(4):before {
+	content: "Contact ID";
+	font-weight: bold;
+}
+/* Ref */
+	[lang="en"] #base_page\:neworderform\:customIdTable_data > tr:nth-child(1) > td:nth-child(1):before {
+	content: "How did you hear about us?";
+	font-weight: bold;
+}
+}
+
 /* CN Only Hide */
-[lang="zh"]	#base_page\:neworderform\:customerTable\:gfnl_s > span:nth-child(1),
-[lang="zh_CN"] #base_page\:neworderform\:customerTable\:gfnl_s > span:nth-child(1),
-[lang="zh"]	#base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
-[lang="zh_CN"] #base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
-[lang="zh"] #base_page\:neworderform\:customerTable\:geml > span:nth-child(1),
-[lang="zh_CN"] #base_page\:neworderform\:customerTable\:geml > span:nth-child(1){
+#base_page\:neworderform\:customerTable\:gfnl > span:nth-child(1),
+#base_page\:neworderform\:customerTable\:gfnl_s > span:nth-child(1),
+#base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
+#base_page\:neworderform\:customerTable\:glnl > span:nth-child(1),
+#base_page\:neworderform\:customerTable\:geml > span:nth-child(1),
+#base_page\:neworderform\:customerTable\:geml > span:nth-child(1){
 	display: none;
 }
 @media(max-width:561px) {
-[lang="zh"]	#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
-[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
-[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1),
-[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1),
-[lang="zh"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3) > b:nth-child(1),
-[lang="zh_CN"] #base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3) > b:nth-child(1) {
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(1) > b:nth-child(1),
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1),
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(2) > b:nth-child(1),
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3) > b:nth-child(1),
+#base_page\:neworderform\:customerTable_data > tr:nth-child(1) > td:nth-child(3) > b:nth-child(1) {
 		display: none;
 	}
 }
