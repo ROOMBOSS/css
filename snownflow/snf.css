@@ -448,14 +448,15 @@ div.ui-block-a:nth-child(9) {
 	content: "请问您从什么管道得知雪浪的呢?";
 }
 
-[lang="zh_CN"] #base_page\:neworderform\:addOrderPanel > div.ui-panel-m-content.ui-body.ui-body-inherit > p:nth-child(1):after{
-	content: "谢谢您联系雪浪！我们已收到您的询问，并已寄出一封系统自动信至您的信箱，若您在五分钟内没有收到的话请协助确认您的垃圾信件夹，若还是未收到请直接电邮至lesson@snowandflow.com，我们期待很快可以在二世古与您见面！";
-}
-
 /* Req */
 [lang="zh_CN"] #base_page\:neworderform\:questionsPanel > div:nth-child(1):before {
 	content: "请告诉雪浪您的滑雪经验，目标或兴趣範围，例如黑线／松雪等。另外对旅程有问题也欢迎提出。";
 }
+
+[lang="zh_CN"] #base_page\:orderedpan > p:nth-child(2):after{
+	content: "谢谢您联系雪浪！我们已收到您的询问，并已寄出一封系统自动信至您的信箱，若您在五分钟内没有收到的话请协助确认您的垃圾信件夹，若还是未收到请直接电邮至lesson@snowandflow.com，我们期待很快可以在二世古与您见面！";
+}
+
 /* -- Mobile -- */
 @media(max-width:561px) {
 /* Sname */
