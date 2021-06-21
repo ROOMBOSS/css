@@ -4,24 +4,69 @@
   --primary-contrast-color: white;
   --accent-contrast-color: white;
 }
-/*.search-bar-container,
-body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div{
- background-color: #000!important;
-}
-
-body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div > mat-form-field.mat-form-field.search-guests.ng-tns-c53-2.mat-primary.ng-tns-c82-0.mat-form-field-type-mat-select.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-has-label.ng-pristine.ng-valid.ng-star-inserted.mat-form-field-should-float.ng-touched > div,
-body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div > mat-form-field.mat-form-field.search-dates.ng-tns-c53-1.mat-primary.ng-tns-c82-0.mat-form-field-type-mat-date-range-input.mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float.mat-form-field-has-label.mat-form-field-disabled.ng-pristine.ng-valid.ng-star-inserted.ng-touched > div,
-body > app-root > app-rb-web-nginer > div > div.search-bar-container > app-search-bar > div > mat-form-field > div{
-  background-color: white!important;
-  padding:5px;
-  border-radius:5px;
-}*/
 
 .search-logo {
  margin-right: 1rem;  
- height: 100px;
+ height: 48px;
  width: 200px;
- background: url('https://dabb7zy6p4b0z.cloudfront.net/morino/morino_cropped.jpg');
+ background: url('http://www.morinolodge.com/wp-content/themes/morino/library/img/elements/morinologo.png');
  background-size: contain;
  background-repeat: no-repeat; 
+}
+
+.mobile-search-logo {
+ display: block !important;
+ background: url('http://www.morinolodge.com/wp-content/themes/morino/library/img/elements/morinologo.png');  
+ background-size: cover !important;
+ background-position: 10px center;
+ background-repeat: no-repeat;
+}
+
+.search-bar-container, .search-bar {
+ background-color: #000!important;
+}
+.mobile-top {
+  background-color: #000 !important;
+}
+
+
+/* Field text */
+.search-bar .mat-form-field-label,
+.search-bar .mat-date-range-input-inner,
+.search-bar .mat-select-value,
+.date-range, .title-cal-search {
+  color: white !important;
+}
+
+/* Outlines */
+.mat-date-range-input-separator,
+.title-cal-search .mat-icon,
+.search-bar .mat-datepicker-toggle-default-icon,
+.mat-select-arrow {
+  color: var(--primary-color, #e0b853) !important;
+}
+
+/* Border width */
+.search-bar .mat-form-field-appearance-outline .mat-form-field-outline-start,
+.search-bar .mat-form-field-appearance-outline .mat-form-field-outline-end,
+.search-bar .mat-form-field-appearance-outline .mat-form-field-outline-gap {
+  color: var(--primary-color, #e0b853) !important;
+  border-width: 2px !important;
+  opacity: .75;
+}
+.search-bar .mat-form-field-label {
+  opacity: .75 !important;  
+}
+
+/* Search Button */
+.search-bar .mat-flat-button.main,
+.mobile-top .mat-flat-button {
+  color: #000;
+}
+
+/* Lang button */
+  #desktopLang {
+  border-color: var(--primary-color, #e0b853) !important;
+  border-width: 2px;
+  opacity: .75;
 }
