@@ -46,10 +46,10 @@ html[lang="ja"] .rb-child-cat-title:after {
 
 /* Product */
 html[lang="en"] .rb-prod-title:after {
-  content: "Choose An Age Category"; }
+  content: "Choose a Course"; }
 
 html[lang="ja"] .rb-prod-title:after {
-  content: "年齢区分を選択してください"; }
+  content: "コースを選択してください"; }
 
 /*** Sign in replacement ***/
 /* Title */
@@ -290,7 +290,7 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   font-size: 1em;
   text-transform: none;
   font-weight: normal;
-  color: #3ba1af; }
+  color: #064B76; }
 
 html[lang=en] .rb-my-group-title:after {
   content: "For groups with multiple riders, please add a group member for each rider taking part."; }
@@ -321,7 +321,7 @@ html[lang=ja] .rb-my-booking-title:after {
   background-color: #fff !important;
   background-repeat: no-repeat;
   background-position: center center, center 30%;
-  background-size:15%, cover;
+  background-size:10%, cover;
   border: none;
   height: 250px !important;
   border-bottom: 0; }
@@ -347,12 +347,12 @@ html[lang=ja] .rb-my-booking-title:after {
 #orderForm\:existglbl:before,
 #orderForm\:newguestlbl:before,
 .rb-checkout-title:before {
-  color: #064B76; }
+  color: #F2BD1E; }
 
 /* Sel item highlight */
 .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  -webkit-box-shadow: 0 0 0px 6px #3ba1af;
-  box-shadow: 0 0 0px 6px #3ba1af; }
+  -webkit-box-shadow: 0 0 0px 6px #008000;
+  box-shadow: 0 0 0px 6px #008000; }
 
 /* Lighter Desc Font */
 .rb-parent-cat-desc,
@@ -412,14 +412,14 @@ html[lang=ja] .rb-my-booking-title:after {
 
 /* Default Buttons */
 .ui-button.ui-widget.ui-state-default {
-  background-color: #3ba1af;
-  border-color: #3ba1af;
+  background-color: #008000;
+  border-color: #008000;
   color: #fff !important; }
 
 .ui-button.ui-widget.ui-state-hover,
 .ui-button.ui-widget.ui-state-active {
-  background-color: #57b9c6;
-  border-color: #57b9c6; }
+  background-color: #509844;
+  border-color: #509844; }
 
 .ui-button {
   text-transform: uppercase; }
