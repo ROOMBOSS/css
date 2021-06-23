@@ -320,10 +320,10 @@ html[lang=ja] .rb-my-booking-title:after {
   background-image: url("https://dabb7zy6p4b0z.cloudfront.net/hokkaidoevents/logo-05.png"), url("https://dabb7zy6p4b0z.cloudfront.net/hokkaidoevents/gravel.JPG");
   background-color: #fff !important;
   background-repeat: no-repeat;
-  background-position: center center, center 25%;
-  background-size:15%, cover;
+  background-position: center center, center 30%;
+  background-size:10%, cover;
   border: none;
-  height: 150px !important;
+  height: 250px !important;
   border-bottom: 0; }
 
 .rb-header-title {
