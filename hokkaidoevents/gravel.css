@@ -435,7 +435,7 @@ html[lang=ja] .rb-my-booking-title:after {
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 .ui-btn .ui-panel-collapsible-heading-toggle,
 .ui-icon-minus:after, .ui-icon-plus:after {
-  background-color: #3ba1af;
+  background-color: #F2BD1E;
   border: none;
   color: #fff;
   text-shadow: none; }
@@ -447,14 +447,14 @@ html[lang=ja] .rb-my-booking-title:after {
 /* Buttons */
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
 #base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
-  background-color: #3ba1af;
+  background-color: #509844;
   border: none;
   color: #fff !important;
   text-shadow: none !important; }
 
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
 #base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
-  background-color: #57b9c6;
+  background-color: #008000;
   border: none; }
 
 /* Age category text changes #11449 */
