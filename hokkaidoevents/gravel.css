@@ -46,10 +46,10 @@ html[lang="ja"] .rb-child-cat-title:after {
 
 /* Product */
 html[lang="en"] .rb-prod-title:after {
-  content: "Choose a Course"; }
+  content: "Choose A Course"; }
 
 html[lang="ja"] .rb-prod-title:after {
-  content: "コースを選択してください"; }
+  content: "年齢区分を選択してください"; }
 
 /*** Sign in replacement ***/
 /* Title */
@@ -290,7 +290,7 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
   font-size: 1em;
   text-transform: none;
   font-weight: normal;
-  color: #064B76; }
+  color: #3ba1af; }
 
 html[lang=en] .rb-my-group-title:after {
   content: "For groups with multiple riders, please add a group member for each rider taking part."; }
@@ -320,10 +320,10 @@ html[lang=ja] .rb-my-booking-title:after {
   background-image: url("https://dabb7zy6p4b0z.cloudfront.net/hokkaidoevents/logo-05.png"), url("https://dabb7zy6p4b0z.cloudfront.net/hokkaidoevents/gravel.JPG");
   background-color: #fff !important;
   background-repeat: no-repeat;
-  background-position: center center, center 30%;
-  background-size:10%, cover;
+  background-position: center center, center 25%;
+  background-size:15%, cover;
   border: none;
-  height: 250px !important;
+  height: 150px !important;
   border-bottom: 0; }
 
 .rb-header-title {
@@ -351,8 +351,8 @@ html[lang=ja] .rb-my-booking-title:after {
 
 /* Sel item highlight */
 .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  -webkit-box-shadow: 0 0 0px 6px #008000;
-  box-shadow: 0 0 0px 6px #008000; }
+  -webkit-box-shadow: 0 0 0px 6px #3ba1af;
+  box-shadow: 0 0 0px 6px #3ba1af; }
 
 /* Lighter Desc Font */
 .rb-parent-cat-desc,
@@ -412,14 +412,14 @@ html[lang=ja] .rb-my-booking-title:after {
 
 /* Default Buttons */
 .ui-button.ui-widget.ui-state-default {
-  background-color: #008000;
-  border-color: #008000;
+  background-color: #3ba1af;
+  border-color: #3ba1af;
   color: #fff !important; }
 
 .ui-button.ui-widget.ui-state-hover,
 .ui-button.ui-widget.ui-state-active {
-  background-color: #509844;
-  border-color: #509844; }
+  background-color: #57b9c6;
+  border-color: #57b9c6; }
 
 .ui-button {
   text-transform: uppercase; }
@@ -435,26 +435,26 @@ html[lang=ja] .rb-my-booking-title:after {
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 .ui-btn .ui-panel-collapsible-heading-toggle,
 .ui-icon-minus:after, .ui-icon-plus:after {
-  background-color: #F2BD1E;
+  background-color: #3ba1af;
   border: none;
   color: #fff;
   text-shadow: none; }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
 .ui-btn .ui-panel-collapsible-heading-toggle:hover {
-  background-color: #086aa7; }
+  background-color: #F2BD1E; }
 
 /* Buttons */
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
 #base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
-  background-color: #509844;
+  background-color: #3ba1af;
   border: none;
   color: #fff !important;
   text-shadow: none !important; }
 
 #base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
 #base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
-  background-color: #008000;
+  background-color: #57b9c6;
   border: none; }
 
 /* Age category text changes #11449 */
