@@ -49,7 +49,7 @@ html[lang="en"] .rb-prod-title:after {
   content: "Choose A Course"; }
 
 html[lang="ja"] .rb-prod-title:after {
-  content: "年齢区分を選択してください"; }
+  content: "コースを選択してください"; }
 
 /*** Sign in replacement ***/
 /* Title */
