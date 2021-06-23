@@ -461,16 +461,6 @@ html[lang=ja] .rb-my-booking-title:after {
 #orderForm\:pdtrpt\:0\:pdtpnl {
   margin-top: .5em !important;
 }
-html[lang=en] #orderForm\:pdtrpt\:0\:pdtpnl:before {
-  content: "*Age as of December 31st, 2021";
-  display: block;
-  margin-bottom: 1em;
-}
-html[lang=ja] #orderForm\:pdtrpt\:0\:pdtpnl:before {
-  content: "※2021年12月31日時点での年齢を基準としますのでご注意ください。";
-  display: block;
-  margin-bottom: 1em;
-}
 
 /* Emergency order tweak #11449 */ 
 .rb-guest-for-emergencies {
