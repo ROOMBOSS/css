@@ -1,5 +1,5 @@
 :root {
-  --primary-color: grey;
+  --primary-color: #757575;
   --accent-color: black;
   --primary-contrast-color: white;
   --accent-contrast-color: white;
@@ -8,9 +8,15 @@
 .search-logo {
  margin-right: 1rem;  
  height: 100px;
- width: 300px;
- background: url('https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/Nozawalogo.jpg');
+ width: 150px;
+ background: url('https://dabb7zy6p4b0z.cloudfront.net/nozawahospitality/nhlogo2.png'); 
  background-size: contain;
  background-repeat: no-repeat;
- background-position: 10px center;
+ background-color:#757575;
+ background-position:center;
+ border: 10px solid #757575;
+ box-sizing: border-box;
+ border-radius:3px;
+
 }
+
