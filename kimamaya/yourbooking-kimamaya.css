@@ -1,1 +1,18 @@
+body,.ui-collapsible-themed-content:not(.ui-collapsible-collapsed)>.ui-collapsible-heading a,
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+	font-family: "futura-pt-condensed", Arial, sans-serif !important;
+	background:#1D1C19;
+	color:#fff;
+	text-shadow:none;
+}
 
+.ui-header.ui-bar-inherit{
+	background: #1D1C19 url(https://dabb7zy6p4b0z.cloudfront.net/kimamaya/kimlo.png) no-repeat center;
+	background-size:300px;
+	border:none;
+	height: 180px;
+}
+
+.ui-header.ui-bar-inherit h1.ui-title{
+	display:none;
+}
