@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #0055a6;
+  --accent-color: #005790;
+  --primary-contrast-color: white;
+  --accent-contrast-color: white;
+}
+
+.search-logo {
+    height: 44px;
+    width: 81px !important;
+    background: url("https://nisekotourism.com/wp-content/uploads/white-npb-logo-reverse-s2.png");
+    background-color:#0055a6;
+    background-size: 64px;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    border-radius: 6px;
+}
