@@ -61,11 +61,11 @@
 }
 
 .rb-header {
-  background-image: url("https://d2smd08xgped62.cloudfront.net/logos/explore-transfers-tours.svg?mtime=20190528104539"), url("explore-niseko-logo.png");
+  background-image: url("https://d2smd08xgped62.cloudfront.net/logos/explore-transfers-tours.svg?mtime=20190528104539");
   background-color: #fff !important;
   background-repeat: no-repeat;
-  background-position: center 25px, 10px;
-  background-size: 250px, 100px;
+  background-position: center 25px;
+  background-size: 250px;
   border: none;
   height: 110px !important;
   border-bottom: 12px solid #477dca;
