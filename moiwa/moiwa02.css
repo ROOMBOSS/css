@@ -208,3 +208,44 @@ div.rb-header {
   border: none;
 }
 
+/* Desktop Custom Order Start Date */
+[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2) .ui-column-title:nth-child(1) {
+	display: none;
+}
+[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "Estimated Start Date";
+}
+html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "利用開始予定日";
+}
+html[lang="zh"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "預計開始日期";
+}
+html[lang="zh_cn"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
+	content: "预计开始日期";
+}
+/* Mobile Custom Order Start Date*/
+@media (max-width: 35em) {
+[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered > b {
+	display: none;
+}
+[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	content: "Estimated Start Date";
+	font-weight: bold;
+	padding: .4em;
+    min-width: 30%;
+    max-width: 30%;
+    display: inline-block;
+    margin: -.4em 1em -.4em -.4em;
+}
+html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+	content: "利用開始予定日";
+}
+	html[lang="zh"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+		content: "預計開始日期";
+	}
+		html[lang="zh_cn"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
+		content: "预计开始日期";
+	}
+}
+
