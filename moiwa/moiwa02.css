@@ -328,3 +328,26 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
     padding: 1em 1em 1em 1.5em;
     text-align: center; } 
 }
+
+
+/* Hide non-lead guest fields
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(3),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(3),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(4),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(4),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(7),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(7),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(8),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(8),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(9),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(9),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(10),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(10),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(11),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(11),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(12),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(12),
+.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(13),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(13) {
+	display: none;
+} */
