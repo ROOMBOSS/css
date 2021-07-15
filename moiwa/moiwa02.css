@@ -208,7 +208,63 @@ div.rb-header {
   border: none;
 }
 
-/* Desktop Custom Order Start Date */
+/* Desktop Custom Order Start Date - Order02 */
+#orderForm\:stdtlbl {
+    text-indent: -9999px;
+    width: 184px !important;
+    position: relative;
+}
+#orderForm\:itemdtbsk_head > tr > th:nth-of-type(2) > span {
+    display: none;
+}
+#orderForm\:stdtlbl:before {
+    display: block !important;
+    position: absolute;
+    text-indent: 0;
+}
+html[lang="en"] #orderForm\:stdtlbl:before, html[lang="en"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+    content: "Estimated Start Date";
+}
+html[lang="ja"] #orderForm\:stdtlbl:before, html[lang="ja"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+    content: "利用開始予定日";
+}
+html[lang="zh"] #orderForm\:stdtlbl:before, html[lang="zh"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+    content: "預計開始日期";
+}
+html[lang="zh_CN"] #orderForm\:stdtlbl:before, html[lang="zh_CN"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+    content: "预计开始日期";
+}
+/* Mobile */
+@media (max-width: 640px) {
+    #orderForm\:itemdtbsk_data > tr > td:nth-child(2) > span ,
+    #orderForm\:itemdtchkout_data > tr > td:nth-child(2) > span {
+        display: none;
+    }
+    #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
+    #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before  {
+        color: #222222;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    html[lang="en"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
+    html[lang="en"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+        content: "Estimated Start Date";
+    }
+    html[lang="ja"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
+    html[lang="ja"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+        content: "利用開始予定日";
+    }
+    html[lang="zh"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
+    html[lang="zh"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+        content: "預計開始日期";
+    }
+    html[lang="zh_CN"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
+    html[lang="zh_CN"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+        content: "预计开始日期";
+    }
+}
+
+/* Desktop Custom Order Start Date - Yourbooking*/
 [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2) .ui-column-title:nth-child(1) {
 	display: none;
 }
