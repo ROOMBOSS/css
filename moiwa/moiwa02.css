@@ -2,60 +2,81 @@
 /* Your Booking */
 /* Custom */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&display=swap");
+
 .rb-loc-cur label {
-  font-weight: 400 !important;
-  color: #666666 !important;
+    font-weight: 400 !important;
+    color: #666666 !important;
 }
 
 .ui-dialog-titlebar .ui-state-hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
-#orderForm\:itemdtbsk, #orderForm\:itemdtchkout, .rb-guests-dt {
-  border: 1px solid #ddd !important;
-  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+#orderForm\:itemdtbsk,
+#orderForm\:itemdtchkout,
+.rb-guests-dt {
+    border: 1px solid #ddd !important;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 div.rb-header {
-  background-color: #ffffff !important;
-  -webkit-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
-  box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 14px;
+    background-color: #ffffff !important;
+    -webkit-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 14px;
 }
 
 #locform\:currencySelect,
 #locform\:languageSelect {
-  border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }
 
 * {
-  font-family: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 .rb-header {
-  background-image: url("https://dabb7zy6p4b0z.cloudfront.net/moiwa/moiwa-logo.png");
-  background-color: #fff !important;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 140px;
-  border: none;
-  height: 140px !important;
-  border-bottom: 0;
+    background-image: url("https://dabb7zy6p4b0z.cloudfront.net/moiwa/moiwa-logo.png");
+    background-color: #fff !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 140px;
+    border: none;
+    height: 140px !important;
+    border-bottom: 0;
 }
 
 .rb-header-title {
-  display: none;
+    display: none;
 }
 
 .rb-header-title {
-  font-family: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
 }
 
 /* Custom Headers */
-.rb-vendor-text, .rb-parent-cat-title > *, .rb-child-cat-title > *, .rb-prod-title > *, .rb-basket-title > *, .rb-basket-title-pg > *, .rb-checkout-title, .rb-my-booking-title > *, .rb-my-group-title > *, .ui-dialog-title, #orderForm\:existglbl, #orderForm\:newguestlbl, #orderForm\:contactinfolbl, #orderForm\:addqlbl, #orderForm\:foremlblnew, #guestDialogForm\:foremlbledit, #orderForm\:welclbl, #orderForm\:foremlbl, h3 {
-  color: #333;
-  text-transform: none;
+.rb-vendor-text,
+.rb-parent-cat-title>*,
+.rb-child-cat-title>*,
+.rb-prod-title>*,
+.rb-basket-title>*,
+.rb-basket-title-pg>*,
+.rb-checkout-title,
+.rb-my-booking-title>*,
+.rb-my-group-title>*,
+.ui-dialog-title,
+#orderForm\:existglbl,
+#orderForm\:newguestlbl,
+#orderForm\:contactinfolbl,
+#orderForm\:addqlbl,
+#orderForm\:foremlblnew,
+#guestDialogForm\:foremlbledit,
+#orderForm\:welclbl,
+#orderForm\:foremlbl,
+h3 {
+    color: #333;
+    text-transform: none;
 }
 
 /*Custom Icons */
@@ -69,143 +90,150 @@ div.rb-header {
 #orderForm\:existglbl:before,
 #orderForm\:newguestlbl:before,
 .rb-checkout-title:before {
-  color: #0786c9;
+    color: #0786c9;
 }
 
 /* Sel item highlight */
-.rb-vendor-container .rb-vendor-sel a img, .rb-parent-cat-container .rb-parent-cat-sel a img, .rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a, .rb-child-cat-container .rb-child-cat-sel a img, .rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
-  -webkit-box-shadow: 0 0 0px 6px #0786c9;
-  box-shadow: 0 0 0px 6px #0786c9;
+.rb-vendor-container .rb-vendor-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel a img,
+.rb-parent-cat-container .rb-parent-cat-sel .rb-cat-box a,
+.rb-child-cat-container .rb-child-cat-sel a img,
+.rb-child-cat-container .rb-child-cat-sel .rb-cat-box a {
+    -webkit-box-shadow: 0 0 0px 6px #0786c9;
+    box-shadow: 0 0 0px 6px #0786c9;
 }
 
 /* Lighter Desc Font */
 .rb-vendor-desc,
 .rb-parent-cat-desc,
 .rb-child-cat-desc {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 /* Hide Icon */
 .rb-parent-cat-desc:before {
-  display: none;
+    display: none;
 }
 
-#orderForm\:addbskpg > tbody:nth-child(1) > tr:nth-child(1) {
-  text-align: left;
+#orderForm\:addbskpg>tbody:nth-child(1)>tr:nth-child(1) {
+    text-align: left;
 }
 
 /* Basket Item Highlights */
-#orderForm\:itemdtbsk_data tr.ui-widget-content > td:nth-child(1) > label,
-#orderForm\:itemdtchkout_data tr.ui-widget-content > td:nth-child(1) > label {
-  background-color: #0786c9;
-  box-shadow: 2px -1 -1 #0786c9, -2px -1 -1 #0786c9;
+#orderForm\:itemdtbsk_data tr.ui-widget-content>td:nth-child(1)>label,
+#orderForm\:itemdtchkout_data tr.ui-widget-content>td:nth-child(1)>label {
+    background-color: #0786c9;
+    box-shadow: 2px -1 -1 #0786c9, -2px -1 -1 #0786c9;
 }
 
 /* Accent Dialogue Title */
 .ui-dialog .ui-dialog-titlebar {
-  border-color: #fff !important;
-  background-color: #0786c9 !important;
+    border-color: #fff !important;
+    background-color: #0786c9 !important;
 }
 
 .ui-dialog-title {
-  color: #fff !important;
+    color: #fff !important;
 }
 
 .ui-dialog-titlebar-icon.ui-dialog-titlebar-close.ui-state-hover {
-  background: rgba(0, 0, 0, 0.08) !important;
+    background: rgba(0, 0, 0, 0.08) !important;
 }
 
 #orderForm\:booknow,
 #orderForm\:booknowcond {
-  background-color: #1b3b77 !important;
-  border: 1px solid #1b3b77 !important;
-  color: #fff !important;
+    background-color: #1b3b77 !important;
+    border: 1px solid #1b3b77 !important;
+    color: #fff !important;
 }
 
 #orderForm\:booknow:hover,
 #orderForm\:booknowcond:hover {
-  background-color: #12264d !important;
-  border: 1px solid #12264d !important;
-  color: #fff !important;
+    background-color: #12264d !important;
+    border: 1px solid #12264d !important;
+    color: #fff !important;
 }
 
 /* Custom Button Font */
 .ui-button-text {
-  font-family: "Noto Sans JP", sans-serif !important;
+    font-family: "Noto Sans JP", sans-serif !important;
 }
 
 /* Custom Button Font */
 /* Lang and currency */
 #locform\:currencySelect_label,
 #locform\:languageSelect_label {
-  color: #0786c9;
+    color: #0786c9;
 }
 
 .ui-widget-content .ui-state-highlight {
-  background: #1b3b77;
+    background: #1b3b77;
 }
 
 /* CHECKOUT */
 .rb-checkout-title:before {
-  content: "";
-  margin-right: 10px;
-  font-family: "FontAwesome" !important;
+    content: "";
+    margin-right: 10px;
+    font-family: "FontAwesome" !important;
 }
 
 /* Default Buttons */
 .ui-button.ui-widget.ui-state-default {
-  background-color: #1b3b77;
-  border-color: #1b3b77;
-  color: #fff !important;
-  font-weight: 600 !important;
+    background-color: #1b3b77;
+    border-color: #1b3b77;
+    color: #fff !important;
+    font-weight: 600 !important;
 }
 
 .ui-button.ui-widget.ui-state-hover,
 .ui-button.ui-widget.ui-state-active {
-  background-color: #2450a1;
-  border-color: #2450a1;
+    background-color: #2450a1;
+    border-color: #2450a1;
 }
 
 .ui-button {
-  text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .ui-header.ui-bar-inherit {
-  border-bottom: 0;
+    border-bottom: 0;
 }
 
 .ui-title {
-  display: none !important;
+    display: none !important;
 }
 
 /* Panels*/
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit,
 .ui-btn .ui-panel-collapsible-heading-toggle,
-.ui-icon-minus:after, .ui-icon-plus:after {
-  background-color: #1b3b77;
-  border: none;
-  color: #fff;
-  text-shadow: none;
+.ui-icon-minus:after,
+.ui-icon-plus:after {
+    background-color: #1b3b77;
+    border: none;
+    color: #fff;
+    text-shadow: none;
 }
 
 .ui-panel-m-titlebar.ui-bar.ui-bar-inherit:hover,
 .ui-btn .ui-panel-collapsible-heading-toggle:hover {
-  background-color: #0ca6f7;
+    background-color: #0ca6f7;
 }
 
 /* Buttons */
-#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
-#base_page\:locform\:languageSelect_input-button, #base_page\:locform\:currencySelect_input-button {
-  background-color: #1b3b77;
-  border: none;
-  color: #fff !important;
-  text-shadow: none !important;
+#base_page\:gform>.ui-btn.ui-input-btn.ui-corner-all.ui-shadow,
+#base_page\:locform\:languageSelect_input-button,
+#base_page\:locform\:currencySelect_input-button {
+    background-color: #1b3b77;
+    border: none;
+    color: #fff !important;
+    text-shadow: none !important;
 }
 
-#base_page\:gform > .ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
-#base_page\:locform\:languageSelect_input-button:hover, #base_page\:locform\:currencySelect_input-button:hover {
-  background-color: #2450a1;
-  border: none;
+#base_page\:gform>.ui-btn.ui-input-btn.ui-corner-all.ui-shadow:hover,
+#base_page\:locform\:languageSelect_input-button:hover,
+#base_page\:locform\:currencySelect_input-button:hover {
+    background-color: #2450a1;
+    border: none;
 }
 
 /* Desktop Custom Order Start Date - Order02 */
@@ -214,108 +242,136 @@ div.rb-header {
     width: 184px !important;
     position: relative;
 }
-#orderForm\:itemdtbsk_head > tr > th:nth-of-type(2) > span {
+
+#orderForm\:itemdtbsk_head>tr>th:nth-of-type(2)>span {
     display: none;
 }
+
 #orderForm\:stdtlbl:before {
     display: block !important;
     position: absolute;
     text-indent: 0;
 }
-html[lang="en"] #orderForm\:stdtlbl:before, html[lang="en"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+
+html[lang="en"] #orderForm\:stdtlbl:before,
+html[lang="en"] #orderForm\:itemdtbsk_head>tr>th:nth-of-type(2):after {
     content: "Estimated Start Date";
 }
-html[lang="ja"] #orderForm\:stdtlbl:before, html[lang="ja"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+
+html[lang="ja"] #orderForm\:stdtlbl:before,
+html[lang="ja"] #orderForm\:itemdtbsk_head>tr>th:nth-of-type(2):after {
     content: "利用開始予定日";
 }
-html[lang="zh"] #orderForm\:stdtlbl:before, html[lang="zh"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+
+html[lang="zh"] #orderForm\:stdtlbl:before,
+html[lang="zh"] #orderForm\:itemdtbsk_head>tr>th:nth-of-type(2):after {
     content: "預計開始日期";
 }
-html[lang="zh_CN"] #orderForm\:stdtlbl:before, html[lang="zh_CN"] #orderForm\:itemdtbsk_head > tr > th:nth-of-type(2):after {
+
+html[lang="zh_CN"] #orderForm\:stdtlbl:before,
+html[lang="zh_CN"] #orderForm\:itemdtbsk_head>tr>th:nth-of-type(2):after {
     content: "预计开始日期";
 }
+
 /* Mobile */
 @media (max-width: 640px) {
-    #orderForm\:itemdtbsk_data > tr > td:nth-child(2) > span ,
-    #orderForm\:itemdtchkout_data > tr > td:nth-child(2) > span {
+
+    #orderForm\:itemdtbsk_data>tr>td:nth-child(2)>span,
+    #orderForm\:itemdtchkout_data>tr>td:nth-child(2)>span {
         display: none;
     }
-    #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
-    #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before  {
+
+    #orderForm\:itemdtbsk_data>tr>td:nth-child(2):before,
+    #orderForm\:itemdtchkout_data>tr>td:nth-child(2):before {
         color: #222222;
         font-size: 0.9em;
         font-weight: bold;
     }
-    html[lang="en"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
-    html[lang="en"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+
+    html[lang="en"] #orderForm\:itemdtbsk_data>tr>td:nth-child(2):before,
+    html[lang="en"] #orderForm\:itemdtchkout_data>tr>td:nth-child(2):before {
         content: "Estimated Start Date";
     }
-    html[lang="ja"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
-    html[lang="ja"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+
+    html[lang="ja"] #orderForm\:itemdtbsk_data>tr>td:nth-child(2):before,
+    html[lang="ja"] #orderForm\:itemdtchkout_data>tr>td:nth-child(2):before {
         content: "利用開始予定日";
     }
-    html[lang="zh"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
-    html[lang="zh"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+
+    html[lang="zh"] #orderForm\:itemdtbsk_data>tr>td:nth-child(2):before,
+    html[lang="zh"] #orderForm\:itemdtchkout_data>tr>td:nth-child(2):before {
         content: "預計開始日期";
     }
-    html[lang="zh_CN"] #orderForm\:itemdtbsk_data > tr > td:nth-child(2):before,
-    html[lang="zh_CN"] #orderForm\:itemdtchkout_data > tr > td:nth-child(2):before {
+
+    html[lang="zh_CN"] #orderForm\:itemdtbsk_data>tr>td:nth-child(2):before,
+    html[lang="zh_CN"] #orderForm\:itemdtchkout_data>tr>td:nth-child(2):before {
         content: "预计开始日期";
     }
 }
 
 /* Desktop Custom Order Start Date - Yourbooking*/
-[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2) .ui-column-title:nth-child(1) {
-	display: none;
+[id*="orderItemTable"]>div>table>thead>tr>th:nth-of-type(2) .ui-column-title:nth-child(1) {
+    display: none;
 }
-[id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
-	content: "Estimated Start Date";
+
+[id*="orderItemTable"]>div>table>thead>tr>th:nth-of-type(2):before {
+    content: "Estimated Start Date";
 }
-html[lang*="ja"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
-	content: "利用開始予定日";
+
+html[lang*="ja"] [id*="orderItemTable"]>div>table>thead>tr>th:nth-of-type(2):before {
+    content: "利用開始予定日";
 }
-html[lang="zh"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
-	content: "預計開始日期";
+
+html[lang="zh"] [id*="orderItemTable"]>div>table>thead>tr>th:nth-of-type(2):before {
+    content: "預計開始日期";
 }
-html[lang="zh_cn"] [id*="orderItemTable"] > div > table > thead > tr > th:nth-of-type(2):before {
-	content: "预计开始日期";
+
+html[lang="zh_cn"] [id*="orderItemTable"]>div>table>thead>tr>th:nth-of-type(2):before {
+    content: "预计开始日期";
 }
+
 /* Mobile Custom Order Start Date*/
 @media (max-width: 35em) {
-[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered > b {
-	display: none;
-}
-[id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
-	content: "Estimated Start Date";
-	font-weight: bold;
-	padding: .4em;
-    min-width: 30%;
-    max-width: 30%;
-    display: inline-block;
-    margin: -.4em 1em -.4em -.4em;
-}
-html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
-	content: "利用開始予定日";
-}
-	html[lang="zh"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
-		content: "預計開始日期";
-	}
-		html[lang="zh_cn"] [id*="base_page\:tabview\:orderItemTable"] > tr > td.centered:before {
-		content: "预计开始日期";
-	}
+    [id*="base_page\:tabview\:orderItemTable"]>tr>td.centered>b {
+        display: none;
+    }
+
+    [id*="base_page\:tabview\:orderItemTable"]>tr>td.centered:before {
+        content: "Estimated Start Date";
+        font-weight: bold;
+        padding: .4em;
+        min-width: 30%;
+        max-width: 30%;
+        display: inline-block;
+        margin: -.4em 1em -.4em -.4em;
+    }
+
+    html[lang*="ja"] [id*="base_page\:tabview\:orderItemTable"]>tr>td.centered:before {
+        content: "利用開始予定日";
+    }
+
+    html[lang="zh"] [id*="base_page\:tabview\:orderItemTable"]>tr>td.centered:before {
+        content: "預計開始日期";
+    }
+
+    html[lang="zh_cn"] [id*="base_page\:tabview\:orderItemTable"]>tr>td.centered:before {
+        content: "预计开始日期";
+    }
 }
 
 /* Email message */
-html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
-  content: "携帯電話のキャリアメール（@docomo.ne.jp、@ezweb.ne.jp 、@softbank.ne.jp、@i.softbank.jpなど）でのご注文は、メールが届かないケースが多くなっております。ドメイン指定をされている場合は、弊社からのメールが受信できるように@roomboss.netを受信指定するか、キャリアメール以外のアドレスをご登録ください。";
-  color: #444;
-  font-size: .6em;
-  max-width: calc(400px + .5em);
-  padding: 1em 0 0 .75em;
-  text-align: left; 
+html[lang="ja"] #orderForm\:newguestpg>div>div.p-col-6.p-offset-3.rb-new-guest-form>div.rb-guest-basic-information>div:nth-child(4):after {
+    content: "携帯電話のキャリアメール（@docomo.ne.jp、@ezweb.ne.jp 、@softbank.ne.jp、@i.softbank.jpなど）でのご注文は、メールが届かないケースが多くなっております。ドメイン指定をされている場合は、弊社からのメールが受信できるように@roomboss.netを受信指定するか、キャリアメール以外のアドレスをご登録ください。";
+    color: #444;
+    font-size: .6em;
+    max-width: calc(400px + .5em);
+    padding: 1em 0 0 .75em;
+    text-align: left;
 }
+
 @media screen and (max-width: 820px) {
-  html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-guest-form > div.rb-guest-basic-information > div:nth-child(4):after {
-    padding: 1em 1em 1em 1.5em;
-    text-align: center; } 
+    html[lang="ja"] #orderForm\:newguestpg>div>div.p-col-6.p-offset-3.rb-new-guest-form>div.rb-guest-basic-information>div:nth-child(4):after {
+        padding: 1em 1em 1em 1.5em;
+        text-align: center;
+    }
 }
