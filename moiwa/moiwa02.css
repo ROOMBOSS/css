@@ -340,20 +340,20 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(7),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(7),
 /* Postcode */
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(8),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(8),
+.rb-new-guest-dialog .rb-guest-basic-information > .rb-postCode,
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .rb-postCode,
 /* Address 1*/
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(9),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(9),
+.rb-new-guest-dialog .rb-guest-basic-information > .rb-address-1,
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .rb-address-1,
 /* Address 2 */
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(10),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(10),
+.rb-new-guest-dialog .rb-guest-basic-information > .rb-address-2,
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .rb-address-2,
 /* City */
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(11),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(11),
+.rb-new-guest-dialog .rb-guest-basic-information > .rb-city,
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .rb-city,
 /* State */
-/* .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(12),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(12), */
+/* .rb-new-guest-dialog .rb-guest-basic-information > .rb-state,
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .rb-state, */
 /* Language */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(13),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(13) {
