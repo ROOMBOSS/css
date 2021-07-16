@@ -329,25 +329,33 @@ html[lang="ja"] #orderForm\:newguestpg > div > div.p-col-6.p-offset-3.rb-new-gue
     text-align: center; } 
 }
 
-
-/* Hide non-lead guest fields
+/* non-lead guest fields */
+/* Email */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(3),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(3),
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(4),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(4),
+/* Phone */
+/* .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(4),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(4), */
+/* Country */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(7),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(7),
+/* Postcode */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(8),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(8),
+/* Address 1*/
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(9),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(9),
+/* Address 2 */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(10),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(10),
+/* City */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(11),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(11),
-.rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(12),
-.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(12),
+/* State */
+/* .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(12),
+.rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(12), */
+/* Language */
 .rb-new-guest-dialog .rb-guest-basic-information > .flex-container:nth-child(13),
 .rb-edit-guest-dialog:not(.rb-edit-lead-guest-dialog) .rb-guest-basic-information > .flex-container:nth-child(13) {
 	display: none;
-} */
+}
